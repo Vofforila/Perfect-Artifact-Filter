@@ -32,6 +32,7 @@ import { useTranslation } from 'react-i18next'
 import { ArtifactRedButtons } from './ArtifactFilter'
 import DupModal from './DupModal'
 import ArtifactInfoDisplay from './InfoDisplay'
+import PerfectArtefactCard from './PerfectArtefactCard'
 import TestArtefacts from './PerfectArtefacts'
 
 const columns = { xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }
@@ -84,7 +85,8 @@ export default function PerfectArtifacts() {
     const allArtifacts = database.arts.values
     // console.log(allArtifacts)
 
-    TestArtefacts(allArtifacts);
+
+    const matchedArtifacts = TestArtefacts(allArtifacts);
 
     const artifactIds = allArtifacts
       .filter(filterFunction(filterOption, filterConfigs))
@@ -201,78 +203,101 @@ export default function PerfectArtifacts() {
           />
         }
       >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <Grid container spacing={2}>
-          {/* Left side - All Artifacts */}
-          <Grid item xs={6}>
-            <CardThemed>
-              <CardContent>
-                <Typography variant="h6">All Artifacts</Typography>
-                <Grid container spacing={1} columns={columns}>
-                  {artifactIdsToShow.map((artId) => (
-                    <Grid item key={artId} xs={1}>
-                      <ArtifactCard
-                        artifactId={artId}
-                        effFilter={effFilterSet}
-                        onDelete={() => database.arts.remove(artId)}
-                        onEdit={() => setArtifactIdToEdit(artId)}
-                        setLocation={(location) =>
-                          database.arts.set(artId, { location })
-                        }
-                        onLockToggle={() =>
-                          database.arts.set(artId, ({ lock }) => ({ lock: !lock }))
-                        }
-                      />
-                    </Grid>
-                  ))}
-                </Grid>
-              </CardContent>
-            </CardThemed>
-          </Grid>
 
-          {/* Right side - Perfect Artifacts */}
-          <Grid item xs={6}>
-            <CardThemed>
-              <CardContent>
-                <Typography variant="h6">Perfect Artifacts</Typography>
-                <Grid container spacing={1} columns={columns}>
-                  {/* You can filter perfect artifacts here */}
-                  {artifactIdsToShow.filter(isPerfectArtifact).map((artId) => (
-                    <Grid item key={artId} xs={1}>
-                      <ArtifactCard
-                        artifactId={artId}
-                        effFilter={effFilterSet}
-                        onDelete={() => database.arts.remove(artId)}
-                        onEdit={() => setArtifactIdToEdit(artId)}
-                        setLocation={(location) =>
-                          database.arts.set(artId, { location })
-                        }
-                        onLockToggle={() =>
-                          database.arts.set(artId, ({ lock }) => ({ lock: !lock }))
-                        }
-                      />
-                    </Grid>
-                  ))}
-                </Grid>
-              </CardContent>
-            </CardThemed>
-          </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          {matchedArtifacts.map((match, index) => (
+            <Grid container item key={index} spacing={2}>
+              {/* Left side - Test Artifact */}
+              <Grid item xs={6}>
+                <CardThemed>
+                  <CardContent>
+                    <ArtifactCard
+                      artifactId={match.test_artefact.id}
+                      effFilter={effFilterSet}
+                      onDelete={() => database.arts.remove(match.test_artefact.id)}
+                      onEdit={() => setArtifactIdToEdit(match.test_artefact.id)}
+                      setLocation={(location) =>
+                        database.arts.set(match.test_artefact.id, { location })
+                      }
+                      onLockToggle={() =>
+                        database.arts.set(match.test_artefact.id, ({ lock }) => ({
+                          lock: !lock,
+                        }))
+                      }
+                    />
+                  </CardContent>
+                </CardThemed>
+              </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              {/* Right side - Perfect Artifact Template */}
+              <Grid item xs={6}>
+                <CardThemed>
+                  <CardContent>
+                    <Box sx={{ position: 'relative' }}>
+                      <PerfectArtefactCard id={perfect_artefacts.findIndex(
+                        pa => pa.setKey === match.perfect_artefact.setKey
+                      )} />
+                      <Typography
+                        variant="h6"
+                        sx={{
+                          position: 'absolute',
+                          top: 8,
+                          right: 8,
+                          bgcolor: 'primary.main',
+                          color: 'white',
+                          px: 2,
+                          py: 1,
+                          borderRadius: 1
+                        }}
+                      >
+                        Match Score: {match.count}
+                      </Typography>
+                    </Box>
+                  </CardContent>
+                </CardThemed>
+              </Grid>
+            </Grid>
+          ))}
         </Grid>
         {artifactIds.length !== artifactIdsToShow.length && (
           <Skeleton
@@ -288,5 +313,5 @@ export default function PerfectArtifacts() {
         )}
       </Suspense>
     </Box>
-
-  )}
+  )
+}

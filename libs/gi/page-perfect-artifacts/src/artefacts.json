@@ -1,16 +1,5 @@
 [
   {
-    "flower": "CRIT + ATK + HP + EC",
-    "plume": "CRIT + ATK + HP + EC",
-    "sands": "ATK + CRIT + ATK + HP + EC",
-    "goblet": "HYDRO + CRIT + ATK + HP + EC",
-    "circlet": "CRIT + CRIT + ATK + HP + EC",
-    "character": "AYATO",
-    "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
-    "setKey": "GladiatorsFinale",
-    "set_image": "seii_76.png"
-  },
-  {
     "flower": "CRIT + ATK + EC",
     "plume": "CRIT + ATK + EC",
     "sands": "ATK/EC/EM + CRIT + ATK + EC",

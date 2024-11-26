@@ -1,25 +1,7 @@
 import perfect_artefacts from './artefacts.json'
 
 export default function testArtefact(_allArtifacts) {
-  //   function fetchData(url) {
-  //     return fetch(url)
-  //       .then((response) => {
-  //         if (!response.ok) {
-  //           throw new Error(`HTTP error! status: ${response.status}`);
-  //         }
-  //         return response.text(); // Fetch the raw text first
-  //       })
-  //       .then((text) => {
-  //         console.log("Fetched text:", text); // Log the text for debugging
-  //         return JSON.parse(text); // Parse the JSON
-  //       })
-  //       .catch((error) => {
-  //         console.error(`Error fetching data from ${url}:`, error);
-  //         throw error;
-  //       });
-  //   }
-  //   }
-
+  const matches = []
   for (const test_artefact of _allArtifacts) {
     for (const perfect_artefact of perfect_artefacts) {
       if (test_artefact.setKey === perfect_artefact.setKey) {
@@ -172,11 +154,12 @@ export default function testArtefact(_allArtifacts) {
             // perfect_artefact_list.innerHTML +=
             //   CreatePerfectArtefact(perfect_artefact)
 
+            matches.push({
+              test_artefact,
+              perfect_artefact,
+              count,
+            })
 
-
-
-
-            
             console.log(test_artefact)
             console.log(perfect_artefact)
             console.log(count)
@@ -187,4 +170,5 @@ export default function testArtefact(_allArtifacts) {
       }
     }
   }
+  return matches;
 }
