@@ -29,7 +29,8 @@ import { Box, Button, CardContent, Grid, Skeleton } from '@mui/material'
 import { Suspense, useDeferredValue, useEffect, useMemo, useState } from 'react'
 import ReactGA from 'react-ga4'
 import { useTranslation } from 'react-i18next'
-import { ArtifactRedButtons } from './ArtifactFilter'
+import perfect_artefacts from './artefacts.json'
+import ArtifactFilter, { ArtifactRedButtons } from './ArtifactFilter'
 import DupModal from './DupModal'
 import ArtifactInfoDisplay from './InfoDisplay'
 import PerfectArtefactCard from './PerfectArtefactCard'
@@ -75,7 +76,7 @@ export default function PerfectArtifacts() {
   )
   const deferredArtifactDisplayState = useDeferredValue(artifactDisplayState)
 
-  const { artifactIds, totalArtNum } = useMemo(() => {
+  const { artifactIds, totalArtNum, matchedArtifacts } = useMemo(() => {
     const {
       sortType = artifactSortKeys[0],
       ascending = false,
@@ -83,10 +84,9 @@ export default function PerfectArtifacts() {
     } = deferredArtifactDisplayState
 
     const allArtifacts = database.arts.values
-    // console.log(allArtifacts)
 
-
-    const matchedArtifacts = TestArtefacts(allArtifacts);
+    
+    const matchedArtifacts = TestArtefacts(allArtifacts)
 
     const artifactIds = allArtifacts
       .filter(filterFunction(filterOption, filterConfigs))
@@ -94,7 +94,13 @@ export default function PerfectArtifacts() {
         sortFunction(artifactSortMap[sortType] ?? [], ascending, sortConfigs)
       )
       .map((art) => art.id)
-    return { artifactIds, totalArtNum: allArtifacts.length, ...dbDirtyDeferred } //use dbDirty to shoo away warnings!
+
+    return {
+      artifactIds,
+      totalArtNum: allArtifacts.length,
+      matchedArtifacts,
+      ...dbDirtyDeferred,
+    }
   }, [
     deferredArtifactDisplayState,
     dbDirtyDeferred,
@@ -129,6 +135,7 @@ export default function PerfectArtifacts() {
     ascending: ascending,
     onChangeAsc: (ascending) => database.displayArtifact.set({ ascending }),
   }
+
   return (
     <Box display="flex" flexDirection="column" gap={1}>
       <Suspense fallback={false}>
@@ -155,6 +162,12 @@ export default function PerfectArtifacts() {
       </InfoComponent>
 
       {noArtifact && <AddArtInfo />}
+
+      <ArtifactFilter
+        numShowing={artifactIds.length}
+        total={totalArtNum}
+        artifactIds={artifactIds}
+      />
 
       <CardThemed>
         <CardContent>
@@ -204,20 +217,6 @@ export default function PerfectArtifacts() {
         }
       >
         <Grid container spacing={2}>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           {matchedArtifacts.map((match, index) => (
             <Grid container item key={index} spacing={2}>
               {/* Left side - Test Artifact */}
@@ -227,71 +226,37 @@ export default function PerfectArtifacts() {
                     <ArtifactCard
                       artifactId={match.test_artefact.id}
                       effFilter={effFilterSet}
-                      onDelete={() => database.arts.remove(match.test_artefact.id)}
+                      onDelete={() =>
+                        database.arts.remove(match.test_artefact.id)
+                      }
                       onEdit={() => setArtifactIdToEdit(match.test_artefact.id)}
                       setLocation={(location) =>
                         database.arts.set(match.test_artefact.id, { location })
                       }
                       onLockToggle={() =>
-                        database.arts.set(match.test_artefact.id, ({ lock }) => ({
-                          lock: !lock,
-                        }))
+                        database.arts.set(
+                          match.test_artefact.id,
+                          ({ lock }) => ({
+                            lock: !lock,
+                          })
+                        )
                       }
                     />
                   </CardContent>
                 </CardThemed>
               </Grid>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               {/* Right side - Perfect Artifact Template */}
               <Grid item xs={6}>
                 <CardThemed>
                   <CardContent>
                     <Box sx={{ position: 'relative' }}>
-                      <PerfectArtefactCard id={perfect_artefacts.findIndex(
-                        pa => pa.setKey === match.perfect_artefact.setKey
-                      )} />
-                      <Typography
-                        variant="h6"
-                        sx={{
-                          position: 'absolute',
-                          top: 8,
-                          right: 8,
-                          bgcolor: 'primary.main',
-                          color: 'white',
-                          px: 2,
-                          py: 1,
-                          borderRadius: 1
-                        }}
-                      >
-                        Match Score: {match.count}
-                      </Typography>
+                      <PerfectArtefactCard
+                        id={perfect_artefacts.findIndex(
+                          (pa) => pa.setKey === match.perfect_artefact.setKey
+                        )}
+                        matchCount={match.count}
+                      />
                     </Box>
                   </CardContent>
                 </CardThemed>

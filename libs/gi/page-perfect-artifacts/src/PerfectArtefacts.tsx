@@ -9,7 +9,7 @@ export default function testArtefact(_allArtifacts) {
         const perfect_substat_types = perfect_artefact[type].split(' + ')
 
         let test_mainstat_type
-        let count = 0
+        let match = 0
 
         switch (test_artefact.mainStatKey) {
           case 'atk':
@@ -135,35 +135,22 @@ export default function testArtefact(_allArtifacts) {
               const perfect_substat = perfect_substat_types[index]
 
               if (index !== 0 && perfect_substat === substat_type) {
-                count++
+                match++
                 break
               }
             }
           })
-          if (count >= 3) {
-            // const artefact_list = document.getElementById('artefact-list')
-            // const perfect_artefact_list = document.getElementById(
-            //   'perfect-artefact-list'
-            // )
-
-            // artefact_list.innerHTML += CreateArtefact(
-            //   test_artefact,
-            //   perfect_artefact
-            // )
-
-            // perfect_artefact_list.innerHTML +=
-            //   CreatePerfectArtefact(perfect_artefact)
-
+          if (match >= 3) {
             matches.push({
               test_artefact,
               perfect_artefact,
-              count,
+              match,
             })
 
             console.log(test_artefact)
             console.log(perfect_artefact)
-            console.log(count)
-            count = 0
+            console.log(match)
+            match = 0
             break
           }
         }

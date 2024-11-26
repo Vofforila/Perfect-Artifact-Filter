@@ -776,7 +776,7 @@
     "sands": "EC",
     "goblet": "HP / FIRE + EC",
     "circlet": "HEAL + EC",
-    "character": "BENNET",
+    "character": "BENNETT",
     "description": "EB SUPP",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png"
@@ -953,7 +953,7 @@
     "sands": "HP + CRIT + HP + EC",
     "goblet": "HYDRO + CRIT + HP + EC",
     "circlet": "CRIT + CRIT + HP + EC",
-    "character": "NUVILETTE",
+    "character": "NEUVILLETTE",
     "description": "BiS",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png"
