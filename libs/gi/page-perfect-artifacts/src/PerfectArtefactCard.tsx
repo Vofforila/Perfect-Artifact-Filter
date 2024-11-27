@@ -12,9 +12,8 @@ export default function PerfectArtefactCard({
 }) {
   const artifact = perfect_artifacts[id]
   const setImagePath = artifactAsset(artifact.setKey, 'flower')
-  const characterKey = (artifact.character.charAt(0).toUpperCase() +
-    artifact.character.slice(1).toLowerCase()) as CharacterKey
-  const characterImagePath = characterAsset(characterKey, 'icon', 'F')
+  const characterKey = artifact.character as CharacterKey
+  const characterImagePath = characterAsset(artifact.character, 'icon')
 
   return (
     <CardContent

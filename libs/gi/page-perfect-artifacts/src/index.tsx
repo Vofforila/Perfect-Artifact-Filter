@@ -76,7 +76,7 @@ export default function PerfectArtifacts() {
   )
   const deferredArtifactDisplayState = useDeferredValue(artifactDisplayState)
 
-  const { artifactIds, totalArtNum } = useMemo(() => {
+  const { artifactIds, totalArtNum, matchedArtifacts } = useMemo(() => {
     const {
       sortType = artifactSortKeys[0],
       ascending = false,
