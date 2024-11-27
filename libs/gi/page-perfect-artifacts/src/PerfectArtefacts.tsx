@@ -1,31 +1,20 @@
 import perfect_artefacts from './artefacts.json'
 
-export default function testArtefact(_allArtifacts) {
+export default function TestArtefact(_allArtifacts) {
   const matches = []
   for (const test_artefact of _allArtifacts) {
-    const perfectMatches = [];
+    const perfectMatches = []
     for (const perfect_artefact of perfect_artefacts) {
       if (test_artefact.setKey === perfect_artefact.setKey) {
+        let checkvalue = 3
         const type = test_artefact.slotKey
         let doubleMainstat
-        let perfect_substat_types
-
-        if (perfect_artefact[type].includes('/')) {
-          doubleMainstat = 1
-          const splitStats = perfect_artefact[type].split(' + ')
-          const mainStats = splitStats[0].split('/')
-          perfect_substat_types = [...mainStats, ...splitStats.slice(1)]
-        } else {
-          doubleMainstat = 0
-          perfect_substat_types = perfect_artefact[type].split(' + ')
-        }
-
-        // console.log(test_artefact)
-
+        let perfect_substat_types: string[] = []
         let test_mainstat_type
         let match = 0
         let critMatch = 0
 
+        // Parser
         switch (test_artefact.mainStatKey) {
           case 'atk':
             test_mainstat_type = 'ATK'
@@ -82,6 +71,53 @@ export default function testArtefact(_allArtifacts) {
             test_mainstat_type = 'GEO'
             break
         }
+
+        // Extracting from +
+        if (perfect_artefact[type].includes('/')) {
+          doubleMainstat = 1
+          const splitStats = perfect_artefact[type].split(' + ')
+          const mainStats = splitStats[0].split('/')
+          perfect_substat_types = [...mainStats, ...splitStats.slice(1)]
+        } else {
+          doubleMainstat = 0
+          perfect_substat_types = perfect_artefact[type].split(' + ')
+        }
+
+        // Special case for 1 mainstat
+        if (
+          perfect_substat_types.length === 1 &&
+          doubleMainstat === 1 &&
+          (perfect_substat_types[0] === test_mainstat_type ||
+            perfect_substat_types[1] === test_mainstat_type ||
+            type === 'flower' ||
+            type === 'plume')
+        ) {
+          match = 1
+          perfectMatches.push({
+            perfect_artefact,
+            match,
+          })
+        } else if (
+          perfect_substat_types.length === 1 &&
+          doubleMainstat === 0 &&
+          (perfect_substat_types[0] === test_mainstat_type ||
+            type === 'flower' ||
+            type === 'plume')
+        ) {
+          match = 1
+          perfectMatches.push({
+            perfect_artefact,
+            match,
+          })
+        }
+
+        // Faruzan Furina Feather 20+
+        console.log(perfect_artefact)
+        console.log(perfect_substat_types)
+        console.log(perfect_substat_types.length)
+        console.log(doubleMainstat)
+        console.log(perfect_substat_types[0])
+        console.log(test_mainstat_type)
 
         let checkMainstat
         if (
@@ -177,26 +213,30 @@ export default function testArtefact(_allArtifacts) {
           })
 
           if (perfect_artefact.critUser && critMatch === 2) {
-            matches.push({
-              test_artefact,
+            perfectMatches.push({
               perfect_artefact,
               match,
             })
-          } else if (perfect_artefact.critUser === false && match >= 3) {
-            matches.push({
-              test_artefact,
+          } else if (
+            perfect_artefact.critUser === false &&
+            match >= checkvalue
+          ) {
+            perfectMatches.push({
               perfect_artefact,
               match,
             })
-
-            // console.log(test_artefact)
-            // console.log(perfect_artefact)
-            // console.log(match)
-            match = 0
-            critMatch = 0
           }
+
+          critMatch = 0
+          match = 0
         }
       }
+    }
+    if (perfectMatches.length > 0) {
+      matches.push({
+        test_artefact,
+        perfectMatches,
+      })
     }
   }
   return matches

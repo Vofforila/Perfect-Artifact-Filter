@@ -1,24 +1,24 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
 import { artifactAsset, characterAsset } from '@genshin-optimizer/gi/assets'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
-import { Box, CardContent, Chip, Typography } from '@mui/material'
-import { useTranslation } from 'react-i18next'
-import perfect_artifacts from './artefacts.json'
+import { ArtifactSetSlotName } from '@genshin-optimizer/gi/ui'
+import { Box, Button, CardContent, Chip, Typography } from '@mui/material'
+import { useState } from 'react'
 
-export default function PerfectArtefactCard({
-  id,
-  matchCount,
-  matchSlotKey,
-}: {
-  id: number
-  matchCount?: number
-  matchSlotKey: string
-}) {
-  const artifact = perfect_artifacts[id]
+export default function PerfectArtefactCard({ match }) {
+  const [currentPerfectIndex, setCurrentPerfectIndex] = useState(0)
+  const currentPerfectMatch = match.perfectMatches[currentPerfectIndex]
+
+  const artifact = currentPerfectMatch.perfect_artefact
   const setImagePath = artifactAsset(artifact.setKey, 'flower')
   const characterImagePath = characterAsset(artifact.character, 'icon')
 
-  const { t } = useTranslation(['artifact', 'ui'])
+  const slotName = (
+    <ArtifactSetSlotName
+      setKey={match.test_artefact.setKey}
+      slotKey={match.test_artefact.slotKey}
+    />
+  )
 
   return (
     <CardContent
@@ -49,10 +49,26 @@ export default function PerfectArtefactCard({
             />
             <Typography variant="h6">{artifact.character}</Typography>
           </Box>
+          {match.perfectMatches.length > 1 && (
+            <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
+              <Button
+                variant="contained"
+                fullWidth
+                onClick={() =>
+                  setCurrentPerfectIndex(
+                    (prev) => (prev + 1) % match.perfectMatches.length
+                  )
+                }
+              >
+                Other Users ({currentPerfectIndex + 1}/
+                {match.perfectMatches.length})
+              </Button>
+            </Box>
+          )}
           <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
-            {matchCount !== undefined && (
+            {currentPerfectMatch.match !== undefined && (
               <Chip
-                label={`Match: ${matchCount}/4`}
+                label={`Match: ${currentPerfectMatch.match}/4`}
                 color="primary"
                 size="small"
                 sx={{ fontWeight: 'bold' }}
@@ -91,11 +107,7 @@ export default function PerfectArtefactCard({
             variant="body2"
             sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}
           >
-            <SlotIcon
-              iconProps={{ fontSize: 'inherit' }}
-              slotKey={matchSlotKey}
-            />
-            {t(`slotName.${matchSlotKey}`)}
+            <strong> {slotName}</strong>
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {artifact.description}
@@ -121,7 +133,8 @@ export default function PerfectArtefactCard({
                 display: 'flex',
                 alignItems: 'center',
                 gap: 1,
-                color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+                color:
+                  piece === match.test_artefact.slotKey ? '#DE79F0' : 'inherit',
               }}
             >
               <SlotIcon iconProps={{ fontSize: 'inherit' }} slotKey={piece} />
@@ -131,14 +144,20 @@ export default function PerfectArtefactCard({
                     textTransform: 'capitalize',
                     fontWeight: 'bold',
                     minWidth: '60px',
-                    color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+                    color:
+                      piece === match.test_artefact.slotKey
+                        ? '#DE79F0'
+                        : 'inherit',
                   }}
                 >
                   {piece}:
                 </span>
                 <span
                   style={{
-                    color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+                    color:
+                      piece === match.test_artefact.slotKey
+                        ? '#DE79F0'
+                        : 'inherit',
                   }}
                 >
                   {artifact[piece]}

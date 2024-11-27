@@ -29,12 +29,11 @@ import { Box, Button, CardContent, Grid, Skeleton } from '@mui/material'
 import { Suspense, useDeferredValue, useEffect, useMemo, useState } from 'react'
 import ReactGA from 'react-ga4'
 import { useTranslation } from 'react-i18next'
-import perfect_artefacts from './artefacts.json'
 import ArtifactFilter, { ArtifactRedButtons } from './ArtifactFilter'
 import DupModal from './DupModal'
 import ArtifactInfoDisplay from './InfoDisplay'
-import PerfectArtefactCard from './PerfectArtefactCard'
 import TestArtefacts from './PerfectArtefacts'
+import PerfectArtefactCard from './PerfectArtefactCard'
 
 const columns = { xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }
 const numToShowMap = { xs: 5, sm: 6, md: 12, lg: 12, xl: 12 }
@@ -256,18 +255,13 @@ export default function PerfectArtifacts() {
                   </CardThemed>
                 </Grid>
 
-                {/* Right side - Perfect Artifact Template */}
                 <Grid item xs={6}>
                   <CardThemed>
                     <CardContent>
                       <Box sx={{ position: 'relative' }}>
-                        <PerfectArtefactCard
-                          id={perfect_artefacts.findIndex(
-                            (pa) => pa.setKey === match.perfect_artefact.setKey
-                          )}
-                          matchCount={match.match}
-                          matchSlotKey={match.test_artefact.slotKey}
-                        />
+                      <PerfectArtefactCard
+                match={match}
+              />
                       </Box>
                     </CardContent>
                   </CardThemed>
