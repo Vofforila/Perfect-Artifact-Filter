@@ -1,9 +1,9 @@
-
 import perfect_artefacts from './artefacts.json'
 
 export default function testArtefact(_allArtifacts) {
   const matches = []
   for (const test_artefact of _allArtifacts) {
+    const perfectMatches = [];
     for (const perfect_artefact of perfect_artefacts) {
       if (test_artefact.setKey === perfect_artefact.setKey) {
         const type = test_artefact.slotKey
@@ -20,9 +20,7 @@ export default function testArtefact(_allArtifacts) {
           perfect_substat_types = perfect_artefact[type].split(' + ')
         }
 
-
-        console.log(test_artefact)
-
+        // console.log(test_artefact)
 
         let test_mainstat_type
         let match = 0
@@ -196,7 +194,6 @@ export default function testArtefact(_allArtifacts) {
             // console.log(match)
             match = 0
             critMatch = 0
-            break
           }
         }
       }

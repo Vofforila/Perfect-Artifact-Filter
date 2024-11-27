@@ -1,19 +1,24 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
 import { artifactAsset, characterAsset } from '@genshin-optimizer/gi/assets'
+import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
 import { Box, CardContent, Chip, Typography } from '@mui/material'
+import { useTranslation } from 'react-i18next'
 import perfect_artifacts from './artefacts.json'
 
 export default function PerfectArtefactCard({
   id,
   matchCount,
+  matchSlotKey,
 }: {
   id: number
   matchCount?: number
+  matchSlotKey: string
 }) {
   const artifact = perfect_artifacts[id]
   const setImagePath = artifactAsset(artifact.setKey, 'flower')
-  const characterKey = artifact.character as CharacterKey
   const characterImagePath = characterAsset(artifact.character, 'icon')
+
+  const { t } = useTranslation(['artifact', 'ui'])
 
   return (
     <CardContent
@@ -81,8 +86,16 @@ export default function PerfectArtefactCard({
           sx={{ width: 48, height: 48, mr: 2 }}
         />
         <Box>
-          <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
-            {artifact.setKey}
+          <Typography
+            color="text.secondary"
+            variant="body2"
+            sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}
+          >
+            <SlotIcon
+              iconProps={{ fontSize: 'inherit' }}
+              slotKey={matchSlotKey}
+            />
+            {t(`slotName.${matchSlotKey}`)}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {artifact.description}
@@ -102,17 +115,35 @@ export default function PerfectArtefactCard({
               '&:hover': { bgcolor: 'rgba(0,0,0,0.1)' },
             }}
           >
-            <Typography variant="subtitle2" sx={{ display: 'flex', gap: 1 }}>
-              <span
-                style={{
-                  textTransform: 'capitalize',
-                  fontWeight: 'bold',
-                  minWidth: '60px',
-                }}
-              >
-                {piece}:
-              </span>
-              <span>{artifact[piece]}</span>
+            <Typography
+              variant="subtitle2"
+              sx={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 1,
+                color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+              }}
+            >
+              <SlotIcon iconProps={{ fontSize: 'inherit' }} slotKey={piece} />
+              <Box sx={{ display: 'flex', gap: 1 }}>
+                <span
+                  style={{
+                    textTransform: 'capitalize',
+                    fontWeight: 'bold',
+                    minWidth: '60px',
+                    color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+                  }}
+                >
+                  {piece}:
+                </span>
+                <span
+                  style={{
+                    color: piece === matchSlotKey ? '#DE79F0' : 'inherit',
+                  }}
+                >
+                  {artifact[piece]}
+                </span>
+              </Box>
             </Typography>
           </Box>
         ))}
