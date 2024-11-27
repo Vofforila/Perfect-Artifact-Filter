@@ -44,14 +44,22 @@ export default function PerfectArtefactCard({
             />
             <Typography variant="h6">{artifact.character}</Typography>
           </Box>
-          {matchCount !== undefined && (
+          <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
+            {matchCount !== undefined && (
+              <Chip
+                label={`Match: ${matchCount}/4`}
+                color="primary"
+                size="small"
+                sx={{ fontWeight: 'bold' }}
+              />
+            )}
             <Chip
-              label={`Match: ${matchCount}/4`}
-              color="primary"
+              label="CRIT"
+              color={artifact.critUser ? 'success' : 'error'}
               size="small"
               sx={{ fontWeight: 'bold' }}
             />
-          )}
+          </Box>
         </Box>
       </Box>
 

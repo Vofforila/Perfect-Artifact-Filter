@@ -85,7 +85,13 @@ export default function PerfectArtifacts() {
 
     const allArtifacts = database.arts.values
 
-    const matchedArtifacts = TestArtefacts(allArtifacts)
+    // Apply filtering before matching
+    const filteredArtifacts = allArtifacts.filter(
+      filterFunction(filterOption, filterConfigs)
+    )
+
+    // Use filtered artifacts for matching
+    const matchedArtifacts = TestArtefacts(filteredArtifacts)
 
     const artifactIds = allArtifacts
       .filter(filterFunction(filterOption, filterConfigs))
@@ -255,7 +261,7 @@ export default function PerfectArtifacts() {
                         id={perfect_artefacts.findIndex(
                           (pa) => pa.setKey === match.perfect_artefact.setKey
                         )}
-                        matchCount={match.count}
+                        matchCount={match.match}
                       />
                     </Box>
                   </CardContent>

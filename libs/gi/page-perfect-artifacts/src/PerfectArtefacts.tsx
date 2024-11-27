@@ -8,6 +8,7 @@ export default function testArtefact(_allArtifacts) {
         const type = test_artefact.slotKey
         const perfect_substat_types = perfect_artefact[type].split(' + ')
 
+
         let test_mainstat_type
         let match = 0
 
