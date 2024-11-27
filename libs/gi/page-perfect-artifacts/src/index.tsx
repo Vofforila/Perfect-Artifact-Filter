@@ -15,6 +15,8 @@ import {
   AddArtInfo,
   ArtifactCard,
   ArtifactEditor,
+  ArtifactSetSlotDesc,
+  ArtifactSetSlotName,
   InfoComponent,
 } from '@genshin-optimizer/gi/ui'
 import {
@@ -223,52 +225,127 @@ export default function PerfectArtifacts() {
         }
       >
         <Grid container spacing={2}>
-          {matchedArtifacts.map((match, index) => (
-            <Grid container item key={index} spacing={2}>
-              {/* Left side - Test Artifact */}
-              <Grid item xs={6}>
-                <CardThemed>
-                  <CardContent>
-                    <ArtifactCard
-                      artifactId={match.test_artefact.id}
-                      effFilter={effFilterSet}
-                      onDelete={() =>
-                        database.arts.remove(match.test_artefact.id)
-                      }
-                      onEdit={() => setArtifactIdToEdit(match.test_artefact.id)}
-                      setLocation={(location) =>
-                        database.arts.set(match.test_artefact.id, { location })
-                      }
-                      onLockToggle={() =>
-                        database.arts.set(
-                          match.test_artefact.id,
-                          ({ lock }) => ({
-                            lock: !lock,
-                          })
-                        )
-                      }
-                    />
-                  </CardContent>
-                </CardThemed>
-              </Grid>
+          {
 
-              {/* Right side - Perfect Artifact Template */}
-              <Grid item xs={6}>
-                <CardThemed>
-                  <CardContent>
-                    <Box sx={{ position: 'relative' }}>
-                      <PerfectArtefactCard
-                        id={perfect_artefacts.findIndex(
-                          (pa) => pa.setKey === match.perfect_artefact.setKey
-                        )}
-                        matchCount={match.match}
-                      />
-                    </Box>
-                  </CardContent>
-                </CardThemed>
-              </Grid>
-            </Grid>
-          ))}
+
+
+
+
+
+            matchedArtifacts.map((match, index) => {
+              const slotName = (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <ArtifactSetSlotName
+                  setKey={match.test_artefact.setKey}
+                  slotKey={match.test_artefact.slotKey}
+                />
+              )
+              const slotDesc = (
+                <ArtifactSetSlotDesc
+                  setKey={match.test_artefact.setKey}
+                  slotKey={match.test_artefact.slotKey}
+                />
+              )
+              return (
+                <Grid container item key={index} spacing={2}>
+                  <Grid item xs={6}>
+                    <CardThemed>
+                      <CardContent>
+                        <ArtifactCard
+                          artifactId={match.test_artefact.id}
+                          effFilter={effFilterSet}
+                          onDelete={() =>
+                            database.arts.remove(match.test_artefact.id)
+                          }
+                          onEdit={() => setArtifactIdToEdit(match.test_artefact.id)}
+                          setLocation={(location) =>
+                            database.arts.set(match.test_artefact.id, { location })
+                          }
+                          onLockToggle={() =>
+                            database.arts.set(
+                              match.test_artefact.id,
+                              ({ lock }) => ({
+                                lock: !lock,
+                              })
+                            )
+                          }
+                        />
+                      </CardContent>
+                    </CardThemed>
+                  </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  {/* Right side - Perfect Artifact Template */}
+                  <Grid item xs={6}>
+                    <CardThemed>
+                      <CardContent>
+                        <Box sx={{ position: 'relative' }}>
+                          <PerfectArtefactCard
+                            id={perfect_artefacts.findIndex(
+                              (pa) => pa.setKey === match.perfect_artefact.setKey
+                            )}
+                            matchCount={match.match}
+                          />
+                        </Box>
+                      </CardContent>
+                    </CardThemed>
+                  </Grid>
+                </Grid>
+              )
+            })}
         </Grid>
         {artifactIds.length !== artifactIdsToShow.length && (
           <Skeleton

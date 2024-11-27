@@ -1,3 +1,4 @@
+
 import perfect_artefacts from './artefacts.json'
 
 export default function testArtefact(_allArtifacts) {
@@ -6,11 +7,26 @@ export default function testArtefact(_allArtifacts) {
     for (const perfect_artefact of perfect_artefacts) {
       if (test_artefact.setKey === perfect_artefact.setKey) {
         const type = test_artefact.slotKey
-        const perfect_substat_types = perfect_artefact[type].split(' + ')
+        let doubleMainstat
+        let perfect_substat_types
+
+        if (perfect_artefact[type].includes('/')) {
+          doubleMainstat = 1
+          const splitStats = perfect_artefact[type].split(' + ')
+          const mainStats = splitStats[0].split('/')
+          perfect_substat_types = [...mainStats, ...splitStats.slice(1)]
+        } else {
+          doubleMainstat = 0
+          perfect_substat_types = perfect_artefact[type].split(' + ')
+        }
+
+
+        console.log(test_artefact)
 
 
         let test_mainstat_type
         let match = 0
+        let critMatch = 0
 
         switch (test_artefact.mainStatKey) {
           case 'atk':
@@ -26,7 +42,7 @@ export default function testArtefact(_allArtifacts) {
             test_mainstat_type = 'HP'
             break
           case 'enerRech_':
-            test_mainstat_type = 'EC'
+            test_mainstat_type = 'ER'
             break
           case 'eleMas':
             test_mainstat_type = 'EM'
@@ -69,11 +85,24 @@ export default function testArtefact(_allArtifacts) {
             break
         }
 
+        let checkMainstat
         if (
-          perfect_substat_types[0] === test_mainstat_type ||
-          type === 'flower' ||
-          type === 'plume'
+          doubleMainstat === 1 &&
+          (perfect_substat_types[0] === test_mainstat_type ||
+            perfect_substat_types[1] === test_mainstat_type ||
+            type === 'flower' ||
+            type === 'plume')
         ) {
+          checkMainstat = true
+        } else if (
+          doubleMainstat === 0 &&
+          (perfect_substat_types[0] === test_mainstat_type ||
+            type === 'flower' ||
+            type === 'plume')
+        ) {
+          checkMainstat = true
+        }
+        if (checkMainstat) {
           test_artefact.substats.forEach((substat) => {
             let substat_type
             switch (substat.key) {
@@ -90,7 +119,7 @@ export default function testArtefact(_allArtifacts) {
                 substat_type = 'HP'
                 break
               case 'enerRech_':
-                substat_type = 'EC'
+                substat_type = 'ER'
                 break
               case 'eleMas':
                 substat_type = 'EM'
@@ -132,16 +161,30 @@ export default function testArtefact(_allArtifacts) {
                 substat_type = 'GEO'
                 break
             }
-            for (let index = 0; index < perfect_substat_types.length; index++) {
+            for (
+              let index = doubleMainstat;
+              index < perfect_substat_types.length;
+              index++
+            ) {
               const perfect_substat = perfect_substat_types[index]
 
-              if (index !== 0 && perfect_substat === substat_type) {
+              if (perfect_artefact.critUser || 'CRIT' === substat_type) {
+                critMatch++
+              }
+              if (perfect_substat === substat_type) {
                 match++
                 break
               }
             }
           })
-          if (match >= 3) {
+
+          if (perfect_artefact.critUser && critMatch === 2) {
+            matches.push({
+              test_artefact,
+              perfect_artefact,
+              match,
+            })
+          } else if (perfect_artefact.critUser === false && match >= 3) {
             matches.push({
               test_artefact,
               perfect_artefact,
@@ -152,6 +195,7 @@ export default function testArtefact(_allArtifacts) {
             // console.log(perfect_artefact)
             // console.log(match)
             match = 0
+            critMatch = 0
             break
           }
         }
