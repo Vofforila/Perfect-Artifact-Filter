@@ -76,7 +76,7 @@ export default function PerfectArtifacts() {
   )
   const deferredArtifactDisplayState = useDeferredValue(artifactDisplayState)
 
-  const { artifactIds, totalArtNum, matchedArtifacts } = useMemo(() => {
+  const { artifactIds, totalArtNum } = useMemo(() => {
     const {
       sortType = artifactSortKeys[0],
       ascending = false,
@@ -85,7 +85,6 @@ export default function PerfectArtifacts() {
 
     const allArtifacts = database.arts.values
 
-    
     const matchedArtifacts = TestArtefacts(allArtifacts)
 
     const artifactIds = allArtifacts
@@ -136,6 +135,7 @@ export default function PerfectArtifacts() {
     onChangeAsc: (ascending) => database.displayArtifact.set({ ascending }),
   }
 
+  // console.log(artifactIdsToShow)
   return (
     <Box display="flex" flexDirection="column" gap={1}>
       <Suspense fallback={false}>

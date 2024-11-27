@@ -147,9 +147,9 @@ export default function testArtefact(_allArtifacts) {
               match,
             })
 
-            console.log(test_artefact)
-            console.log(perfect_artefact)
-            console.log(match)
+            // console.log(test_artefact)
+            // console.log(perfect_artefact)
+            // console.log(match)
             match = 0
             break
           }
@@ -157,5 +157,5 @@ export default function testArtefact(_allArtifacts) {
       }
     }
   }
-  return matches;
+  return matches
 }
