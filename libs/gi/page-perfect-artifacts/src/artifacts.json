@@ -1,7 +1,7 @@
 [
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK + CRIT + ATK + HP + ER",
     "goblet": "HYDRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
@@ -12,8 +12,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER/EM + CRIT + ATK + ER",
     "goblet": "ANEMO/EM + CRIT + ATK + ER",
     "circlet": "CRIT/EM + CRIT + ATK + ER",
@@ -24,8 +24,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "GEO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -36,8 +36,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -48,8 +48,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -60,8 +60,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK/EM + CRIT + ATK + EM",
     "goblet": "ANEMO/EM + CRIT + ATK + EM",
     "circlet": "CRIT/EM + CRIT + ATK + EM",
@@ -72,8 +72,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "ER + ATK",
-    "plume": "ER + ATK",
+    "flower": "HP + ER + ATK",
+    "plume": "ATK + ER + ATK",
     "sands": "ATK/ER + ER + ATK",
     "goblet": "ATK + ER + ATK",
     "circlet": "ATK + ER + ATK",
@@ -84,8 +84,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "EM + CRIT + ATK + ER",
-    "plume": "EM + CRIT + ATK + ER",
+    "flower": "HP + EM + CRIT + ATK + ER",
+    "plume": "ATK + EM + CRIT + ATK + ER",
     "sands": "EM/ATK + EM + CRIT + ATK + ER",
     "goblet": "EM/PHYSICAL + EM + CRIT + ATK + ER",
     "circlet": "EM/CRIT + EM + CRIT + ATK + ER",
@@ -96,8 +96,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "PYRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + MC",
@@ -108,8 +108,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK + CRIT + ATK",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ATK",
@@ -120,8 +120,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ER",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ER",
@@ -132,8 +132,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ER + ATK",
-    "plume": "CRIT + ER + ATK",
+    "flower": "HP + CRIT + ER + ATK",
+    "plume": "ATK + CRIT + ER + ATK",
     "sands": "ER/ATK + CRIT + ER + ATK",
     "goblet": "HYDRO + CRIT + ER + ATK",
     "circlet": "CRIT + CRIT + ER + ATK",
@@ -144,8 +144,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -156,8 +156,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "ER + ATK + CRIT",
-    "plume": "ER + ATK + CRIT",
+    "flower": "HP + ER + ATK + CRIT",
+    "plume": "ATK + ER + ATK + CRIT",
     "sands": "ER/ATK + ER + ATK + CRIT",
     "goblet": "ATK + ER + ATK + CRIT",
     "circlet": "HEAL/ATK + ER + ATK + CRIT",
@@ -168,8 +168,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "ATK + CRIT + ER",
-    "plume": "ATK + CRIT + ER",
+    "flower": "HP + ATK + CRIT + ER",
+    "plume": "ATK + ATK + CRIT + ER",
     "sands": "ATK/ER + CRIT + ER + ATK",
     "goblet": "ATK + CRIT + ER + ATK",
     "circlet": "ATK + CRIT + ER + ATK",
@@ -180,8 +180,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -192,8 +192,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -204,11 +204,11 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "EM + ER",
-    "plume": "EM + ER",
+    "flower": "HP + EM + ER",
+    "plume": "ATK + EM + ER",
     "sands": "EM + ER",
     "goblet": "EM + ER",
-    "circlet": "EM +ER",
+    "circlet": "EM + ER",
     "character": "KaedeharaKazuha",
     "critUser": false,
     "description": "BiS",
@@ -216,8 +216,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "EM + ER",
-    "plume": "EM + ER",
+    "flower": "HP + EM + ER",
+    "plume": "ATK + EM + ER",
     "sands": "EM + ER",
     "goblet": "EM + ER",
     "circlet": "EM +ER",
@@ -228,8 +228,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "ER + ATK",
-    "plume": "ER + ATK",
+    "flower": "HP + ER + ATK",
+    "plume": "ATK + ER + ATK",
     "sands": "ATK/ER + ER + ATK",
     "goblet": "ATK + ER + ATK",
     "circlet": "ATK + ER + ATK",
@@ -240,8 +240,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK/EM + CRIT + ATK + EM",
     "goblet": "ANEMO/EM + CRIT + ATK + EM",
     "circlet": "CRIT/EM + CRIT + ATK + EM",
@@ -252,8 +252,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "EM + ATK + ER",
-    "plume": "EM + ATK + ER",
+    "flower": "HP + EM + ATK + ER",
+    "plume": "ATK + EM + ATK + ER",
     "sands": "ATK/EM + EM + ATK + ER",
     "goblet": "ATK/EM + EM + ATK + ER",
     "circlet": "ATK/EM/CRIT + EM + ATK + ER",
@@ -264,8 +264,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "EM + ER + ATK",
-    "plume": "EM + ER +ATK",
+    "flower": "HP + EM + ER + ATK",
+    "plume": "ATK + EM + ER +ATK",
     "sands": "EM + ER + ATK",
     "goblet": "EM + ER + ATK",
     "circlet": "EM +ER + ATK",
@@ -276,8 +276,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER/EM + CRIT + ATK + ER",
     "goblet": "ANEMO/EM + CRIT + ATK + ER",
     "circlet": "CRIT/EM + CRIT + ATK + ER",
@@ -288,8 +288,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -300,8 +300,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "ER + EM",
-    "plume": "ER + EM",
+    "flower": "HP + ER + EM",
+    "plume": "ATK + ER + EM",
     "sands": "EM + ER",
     "goblet": "EM + ER",
     "circlet": "EM/ER + EM/ER",
@@ -312,8 +312,8 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "CRIT + DEF",
-    "plume": "CRIT + DEF",
+    "flower": "HP + CRIT + DEF",
+    "plume": "ATK + CRIT + DEF",
     "sands": "DEF + CRIT + DEF",
     "goblet": "GEO + CRIT + DEF",
     "circlet": "CRIT + CRIT + DEF",
@@ -324,8 +324,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "CRIT + DEF + ATK + ER",
-    "plume": "CRIT + DEF + ATK + ER",
+    "flower": "HP + CRIT + DEF + ATK + ER",
+    "plume": "ATK + CRIT + DEF + ATK + ER",
     "sands": "DEF + CRIT + DEF + ATK + ER",
     "goblet": "GEO/DEF + CRIT + DEF + ATK + ER",
     "circlet": "CRIT + CRIT + DEF + ATK + ER",
@@ -336,8 +336,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "CRIT + DEF + ER",
-    "plume": "CRIT + DEF + ER",
+    "flower": "HP + CRIT + DEF + ER",
+    "plume": "ATK + CRIT + DEF + ER",
     "sands": "DEF/ER + CRIT + DEF + ER",
     "goblet": "GEO/DEF + CRIT + DEF + ER",
     "circlet": "CRIT + CRIT + DEF + ER",
@@ -348,8 +348,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "CRIT + ER + DEF",
-    "plume": "CRIT + ER + DEF",
+    "flower": "HP + CRIT + ER + DEF",
+    "plume": "ATK + CRIT + ER + DEF",
     "sands": "DEF + CRIT + ER + DEF",
     "goblet": "GEO + CRIT + ER + DEF",
     "circlet": "CRIT + CRIT + ER + DEF",
@@ -360,8 +360,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "CRIT + ER + DEF",
-    "plume": "CRIT + ER + DEF",
+    "flower": "HP + CRIT + ER + DEF",
+    "plume": "ATK + CRIT + ER + DEF",
     "sands": "DEF + CRIT + ER + DEF",
     "goblet": "GEO + CRIT + ER + DEF",
     "circlet": "CRIT + CRIT + ER + DEF",
@@ -372,8 +372,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "DEF + ER",
-    "plume": "DEF + ER",
+    "flower": "HP + DEF + ER",
+    "plume": "ATK + DEF + ER",
     "sands": "ER/DEF + DEF + ER",
     "goblet": "GEO/DEF + DEF + ER",
     "circlet": "DEF + DEF + ER",
@@ -384,8 +384,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "DEF + ER + CRIT",
-    "plume": "DEF + ER + CRIT",
+    "flower": "HP + DEF + ER + CRIT",
+    "plume": "ATK + DEF + ER + CRIT",
     "sands": "DEF/ER + ER + DEF + CRIT",
     "goblet": "DEF + ER + DEF + CRIT",
     "circlet": "DEF + ER + DEF + CRIT",
@@ -396,8 +396,8 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "CRIT + EM + ER",
-    "plume": "CRIT + EM + ER",
+    "flower": "HP + CRIT + EM + ER",
+    "plume": "ATK + CRIT + EM + ER",
     "sands": "EM + CRIT + ER",
     "goblet": "DENDRO + CRIT + EM + ER",
     "circlet": "CRIT + CRIT + EM + ER",
@@ -408,8 +408,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + EM + ATK + ER",
-    "plume": "CRIT + EM + ATK + ER",
+    "flower": "HP + CRIT + EM + ATK + ER",
+    "plume": "ATK + CRIT + EM + ATK + ER",
     "sands": "ATK/EM + CRIT + EM + ATK + ER",
     "goblet": "PYRO + CRIT + EM + ATK + ER",
     "circlet": "CRIT + CRIT + EM + ATK + ER",
@@ -420,8 +420,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + HP + EM + ER",
-    "plume": "CRIT + HP + EM + ER",
+    "flower": "HP + CRIT + HP + EM + ER",
+    "plume": "ATK + CRIT + HP + EM + ER",
     "sands": "HP + CRIT + HP + EM + ER",
     "goblet": "HYDRO + CRIT + HP + EM + ER",
     "circlet": "CRIT + CRIT + HP + EM + ER",
@@ -432,8 +432,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "EM + ER + ATK",
-    "plume": "EM + ER +ATK",
+    "flower": "HP + EM + ER + ATK",
+    "plume": "ATK + EM + ER +ATK",
     "sands": "EM + ER + ATK",
     "goblet": "EM + ER + ATK",
     "circlet": "EM + ER + ATK",
@@ -444,8 +444,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -456,8 +456,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ER/ATK + CRIT + ATK + ER + EM",
     "goblet": "DENDRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -468,8 +468,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -480,8 +480,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "ER + CRIT + ATK + EM",
-    "plume": "E + CRIT + ATK + EM",
+    "flower": "HP + ER + CRIT + ATK + EM",
+    "plume": "ATK + E + CRIT + ATK + EM",
     "sands": "ATK/ER + CRIT + ATK + ER + EM",
     "goblet": "ELECTRO + ER + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ER + ATK + EM",
@@ -492,8 +492,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + EM + ER",
-    "plume": "CRIT + EM + ER",
+    "flower": "HP + CRIT + EM + ER",
+    "plume": "ATK + CRIT + EM + ER",
     "sands": "EM + CRIT + ER",
     "goblet": "DENDRO + CRIT + EM + ER",
     "circlet": "CRIT/EM + CRIT + EM + ER",
@@ -504,8 +504,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "EM + CRIT + ATK + ER",
-    "plume": "EM + CRIT + ATK + ER",
+    "flower": "HP + EM + CRIT + ATK + ER",
+    "plume": "ATK + EM + CRIT + ATK + ER",
     "sands": "EM/ATK + EM + CRIT + ATK + ER",
     "goblet": "EM/PHYSICAL + EM + CRIT + ATK + ER",
     "circlet": "EM/CRIT + EM + CRIT + ATK + ER",
@@ -516,8 +516,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
@@ -528,8 +528,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "ER + EM + CRIT",
-    "plume": "ER + EM + CRIT",
+    "flower": "HP + ER + EM + CRIT",
+    "plume": "ATK + ER + EM + CRIT",
     "sands": "ER/EM + ER + EM + CRIT",
     "goblet": "EM/DENDRO + ER + CRIT + ATK",
     "circlet": "EM/CRIT + ER + CRIT + ATK",
@@ -540,8 +540,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + EM + ER + ATK",
-    "plume": "CRIT + EM + ER + ATK",
+    "flower": "HP + CRIT + EM + ER + ATK",
+    "plume": "ATK + CRIT + EM + ER + ATK",
     "sands": "EM + CRIT + EM + ER + ATK",
     "goblet": "ELECTRO + CRIT + EM + ER + ATK",
     "circlet": "CRIT + CRIT + EM + ER + ATK",
@@ -552,8 +552,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "HP + ER + EM + ATK",
-    "plume": "HP + ER + EM + ATK",
+    "flower": "HP + HP + ER + EM + ATK",
+    "plume": "ATK + HP + ER + EM + ATK",
     "sands": "HP/ER+ ER + EM + ATK",
     "goblet": "HYDRO + HP + ER + EM",
     "circlet": "HEAL + HP + ER + EM",
@@ -564,8 +564,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ER + EM + ATK",
-    "plume": "CRIT + ER + EM + ATK",
+    "flower": "HP + CRIT + ER + EM + ATK",
+    "plume": "ATK + CRIT + ER + EM + ATK",
     "sands": "EM + CRIT + ER + ATK",
     "goblet": "ELECTRO + CRIT + ER + EM + ATK",
     "circlet": "CRIT + CRIT + ER + EM + ATK",
@@ -576,8 +576,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "ER + HP + CRIT + EM",
-    "plume": "ER + HP + CRIT + EM",
+    "flower": "HP + ER + HP + CRIT + EM",
+    "plume": "ATK + ER + HP + CRIT + EM",
     "sands": "ER/EM + ER + HP + CRIT + EM",
     "goblet": "EM + ER + HP + CRIT + EM",
     "circlet": "EM + ER + HP + CRIT + EM",
@@ -588,8 +588,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -600,8 +600,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + EM + ATK",
-    "plume": "CRIT + EM + ATK",
+    "flower": "HP + CRIT + EM + ATK",
+    "plume": "ATK + CRIT + EM + ATK",
     "sands": "EM + CRIT + ATK",
     "goblet": "DENDRO + CRIT + EM + ATK",
     "circlet": "CRIT + CRIT + EM + ATK",
@@ -612,8 +612,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "EM + HP + ATK",
-    "plume": "EM + HP + ATK",
+    "flower": "HP + EM + HP + ATK",
+    "plume": "ATK + EM + HP + ATK",
     "sands": "EM + HP + ATK",
     "goblet": "EM + HP + ATK",
     "circlet": "EM + ER + ATK",
@@ -624,8 +624,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "CRYO + CRIT + ATK + EM",
     "circlet": "CRIT + ATK + EM",
@@ -636,8 +636,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -648,8 +648,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -660,8 +660,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -672,8 +672,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "PHYSICAL/CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -684,8 +684,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + ATK + ER",
@@ -696,8 +696,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -708,8 +708,8 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -720,32 +720,32 @@
     "set_image": "seii_140.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "PYRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + MC",
     "character": "Arlecchino",
     "critUser": true,
     "description": "BiS - DMG AMP WHEN Bond of Life increases/decreases",
-    "setKey": "Fragment of Harmonic Whimsy",
+    "setKey": "FragmentOfHarmonicWhimsy",
     "set_image": "seii_240.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Clorinde",
     "critUser": true,
     "description": "BiS - BEST SET BECAUSE Bond of Life",
-    "setKey": "Fragment of Harmonic Whimsy",
+    "setKey": "FragmentOfHarmonicWhimsy",
     "set_image": "seii_240.png"
   },
   {
-    "flower": "CRIT + DEF",
-    "plume": "CRIT + DEF",
+    "flower": "HP + CRIT + DEF",
+    "plume": "ATK + CRIT + DEF",
     "sands": "DEF + CRIT + DEF",
     "goblet": "GEO + CRIT + DEF",
     "circlet": "CRIT + CRIT + DEF",
@@ -756,8 +756,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "GEO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -768,8 +768,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER + CRIT + ATK",
     "goblet": "ANEMO + ER + CRIT + ATK",
     "circlet": "ER + CRIT + ATK",
@@ -780,8 +780,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + ER + HP",
-    "plume": "CRIT + ER + HP",
+    "flower": "HP + CRIT + ER + HP",
+    "plume": "ATK + CRIT + ER + HP",
     "sands": "HP + CRIT + ER + HP",
     "goblet": "HP + CRIT + ER + HP",
     "circlet": "CRIT + CRIT + ER + HP",
@@ -792,8 +792,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "PHYSICAL/CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -804,8 +804,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + DEF + ER",
-    "plume": "CRIT + DEF + ER",
+    "flower": "HP + CRIT + DEF + ER",
+    "plume": "ATK + CRIT + DEF + ER",
     "sands": "DEF/ER + CRIT + DEF + ER",
     "goblet": "GEO/DEF + CRIT + DEF + ER",
     "circlet": "CRIT + CRIT + DEF + ER",
@@ -816,8 +816,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -828,8 +828,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "ELECTRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + EM",
@@ -840,8 +840,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "CRIT + DEF + ATK + ER",
-    "plume": "CRIT + DEF + ATK + ER",
+    "flower": "HP + CRIT + DEF + ATK + ER",
+    "plume": "ATK + CRIT + DEF + ATK + ER",
     "sands": "DEF + CRIT + DEF + ATK + ER",
     "goblet": "GEO/DEF + CRIT + DEF + ATK + ER",
     "circlet": "CRIT + CRIT + DEF + ATK + ER",
@@ -852,8 +852,8 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER + CRIT + ATK",
     "goblet": "HP/FIRE + ER + CRIT + ATK",
     "circlet": "HEAL + ER  + CRIT + ATK",
@@ -864,8 +864,21 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
+
+    "sands": "ER/HP + CRIT + ER + HP",
+    "goblet": "HP/HYDRO + HP + CRIT + ER",
+    "circlet": "HP/CRIT + HP + CRIT + ER",
+    "character": "Candace",
+    "critUser": false,
+    "description": "GOOD SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png"
+  },
+  {
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -876,8 +889,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ATK",
     "goblet": "ATK/HYDRO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
@@ -888,8 +901,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + ATK",
-    "plume": "ER + ATK",
+    "flower": "HP + ER + ATK",
+    "plume": "ATK + ER + ATK",
     "sands": "ATK/ER + ER + ATK",
     "goblet": "ATK + ER + ATK",
     "circlet": "ATK + ER + ATK",
@@ -900,8 +913,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HP + ER + HP",
@@ -912,8 +925,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + ATK + CRIT",
-    "plume": "ER + ATK + CRIT",
+    "flower": "HP + ER + ATK + CRIT",
+    "plume": "ATK + ER + ATK + CRIT",
     "sands": "ER/ATK + ER + ATK + CRIT",
     "goblet": "ATK + ER + ATK + CRIT",
     "circlet": "HEAL/ATK + ER + ATK + CRIT",
@@ -924,8 +937,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "ER + HP + CRIT + ATK",
     "goblet": "HP/ELECTRO + ER + CRIT + ATK",
     "circlet": "HEAL/CRIT + HP + ER + CRIT",
@@ -936,8 +949,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ER + CRIT + ATK",
     "goblet": "PHYSICAL + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -948,8 +961,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ER",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ER",
@@ -960,8 +973,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "EM/ATK + CRIT + ATK + ER + EM",
     "goblet": "PYRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -972,8 +985,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + HP",
-    "plume": "ER + HP",
+    "flower": "HP + ER + HP",
+    "plume": "ATK + ER + HP",
     "sands": "ER/HP + ER + HP",
     "goblet": "HP + ER + HP",
     "circlet": "HP/HEAL + ER + HP",
@@ -984,8 +997,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -996,8 +1009,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + HP + CRIT + EM",
-    "plume": "ER + HP + CRIT + EM",
+    "flower": "HP + ER + HP + CRIT + EM",
+    "plume": "ATK + ER + HP + CRIT + EM",
     "sands": "ER/EM + ER + HP + CRIT + EM",
     "goblet": "EM + ER + HP + CRIT + EM",
     "circlet": "EM + ER + HP + CRIT + EM",
@@ -1008,8 +1021,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "CRIT + ATK + HP + EM",
-    "plume": "CRIT + ATK + HP + EM",
+    "flower": "HP + CRIT + ATK + HP + EM",
+    "plume": "ATK + CRIT + ATK + HP + EM",
     "sands": "HP/ATK + CRIT + ATK + HP + EM",
     "goblet": "HP/PYRO + CRIT + ATK + HP + EM",
     "circlet": "HP/CIRT + CRIT + ATK + HP + EM",
@@ -1020,8 +1033,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER + CRIT + ATK",
     "goblet": "ANEMO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
@@ -1032,20 +1045,8 @@
     "set_image": "seii_82.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
-    "sands": "ER/HP + CRIT + ER + HP",
-    "goblet": "HP/HYDRO + HP + CRIT + ER",
-    "circlet": "HP/CRIT + HP + CRIT + ER",
-    "character": "Candance",
-    "critUser": false,
-    "description": "BEST SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
-    "setKey": "TenacityoftheMillelith",
-    "set_image": "seii_150.png"
-  },
-  {
-    "flower": "CRIT + HP + ER",
-    "plume": "CRIT + HP + ER",
+    "flower": "HP + CRIT + HP + ER",
+    "plume": "ATK + CRIT + HP + ER",
     "sands": "HP + CRIT + HP + ER",
     "goblet": "HYDRO + CRIT + HP + ER",
     "circlet": "CRIT + CRIT + HP + ER",
@@ -1056,8 +1057,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1068,8 +1069,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1080,8 +1081,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ER",
-    "plume": "CRIT + ER",
+    "flower": "HP + CRIT + ER",
+    "plume": "ATK + CRIT + ER",
     "sands": "CRIT + ER",
     "goblet": "ANEMO + CRIT + ER",
     "circlet": "CRIT + ER",
@@ -1092,8 +1093,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1104,8 +1105,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ER + CRIT + ATK + ER + EM",
     "goblet": "ATK/ELECTRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -1116,8 +1117,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "PYRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1128,8 +1129,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK/EM + CRIT + ATK + ER + EM",
     "goblet": "PYRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -1140,8 +1141,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ER + DEF",
-    "plume": "CRIT + ER + DEF",
+    "flower": "HP + CRIT + ER + DEF",
+    "plume": "ATK + CRIT + ER + DEF",
     "sands": "DEF + CRIT + ER + DEF",
     "goblet": "GEO + CRIT + ER + DEF",
     "circlet": "CRIT + CRIT + ER + DEF",
@@ -1152,8 +1153,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK + CRIT + ATK",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ATK",
@@ -1164,8 +1165,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER +EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER +EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK + CRIT + ATK + ER + EM",
     "goblet": "FIRE/ATK + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -1176,8 +1177,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + EM + HP",
-    "plume": "CRIT + EM + HP",
+    "flower": "HP + CRIT + EM + HP",
+    "plume": "ATK + CRIT + EM + HP",
     "sands": "HP/EM + CRIT + EM + HP",
     "goblet": "PYRO + CRIT + EM + HP",
     "circlet": "CRIT + CRIT + EM + HP",
@@ -1188,8 +1189,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "PYRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -1200,8 +1201,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + EM + ATK + ER",
-    "plume": "CRIT + EM + ATK + ER",
+    "flower": "HP + CRIT + EM + ATK + ER",
+    "plume": "ATK + CRIT + EM + ATK + ER",
     "sands": "ATK/EM + CRIT + EM + ATK + ER",
     "goblet": "PYRO + CRIT + EM + ATK + ER",
     "circlet": "CRIT + CRIT + EM + ATK + ER",
@@ -1212,8 +1213,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1224,260 +1225,272 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "HP + CRIT",
-    "plume": "HP + CRIT",
+    "flower": "HP + HP + CRIT",
+    "plume": "ATK + HP + CRIT",
     "sands": "HP + CRIT",
     "goblet": "HP + CRIT",
     "circlet": "HP + CRIT",
     "character": "Zhongli",
     "critUser": false,
     "description": "BiS SUPP SET - CAN COMBINE WITH Vourukasha's Glow FOR BEST SHIELD VALUE",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK/ER + CRIT + ATK + HP + ER",
     "goblet": "PYRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
     "character": "Dehya",
     "critUser": true,
     "description": "BEST BUILD FOR SUPPORT",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + ER + EM",
-    "plume": "HP + ER + EM",
+    "flower": "HP + HP + ER + EM",
+    "plume": "ATK + HP + ER + EM",
     "sands": "HP/ER + HP + ER + EM",
     "goblet": "HP/HYDRO + HP + ER + EM",
     "circlet": "HEAL + HP + ER + EM",
     "character": "SangonomiyaKokomi",
     "critUser": false,
     "description": "BEST SUPPORT BUILD",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HP + ER + HP",
     "character": "Diona",
     "critUser": false,
     "description": "BiS COMBINED WITH Emblem of Severed Fate",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "HP + CRIT + ER + HP",
     "goblet": "HP/CRYO + CRIT + ER + HP",
     "circlet": "HP/CRIT + CRIT + ER + HP",
     "character": "Layla",
     "critUser": false,
     "description": "BiS",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
     "character": "Yaoyao",
     "critUser": false,
     "description": "BEST SET FOR SUPPORTING ALLIES",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "ER/HP + CRIT + ER + HP",
     "goblet": "HP/HYDRO + HP + CRIT + ER",
     "circlet": "HP/CRIT + HP + CRIT + ER",
-    "character": "Candance",
+    "character": "Candace",
     "critUser": false,
     "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "HP/ER + HP + ER + CRIT",
     "goblet": "HP + HP + ER + CRIT",
     "circlet": "HP + HP + ER + CRIT",
     "character": "Kirara",
     "critUser": false,
     "description": "BEST SET COMBINED WITH Vourukasha's Glow",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + ATK + CRIT",
-    "plume": "ER + ATK + CRIT",
+    "flower": "HP + ER + ATK + CRIT",
+    "plume": "ATK + ER + ATK + CRIT",
     "sands": "ER/ATK + ER + ATK + CRIT",
     "goblet": "ATK + ER + ATK + CRIT",
     "circlet": "HEAL/ATK + ER + ATK + CRIT",
     "character": "Charlotte",
     "critUser": true,
     "description": "BEST SET FOR SUPP",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + HP",
-    "plume": "ER + HP",
+    "flower": "HP + ER + HP",
+    "plume": "ATK + ER + HP",
     "sands": "ER/HP + ER + HP",
     "goblet": "HP + ER + HP",
     "circlet": "HP/HEAL + ER + HP",
     "character": "Mika",
     "critUser": false,
     "description": "GOOD SECONDARY COMBINED WITH Emblem of Severed Fate",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "CRIT + DEF",
-    "plume": "CRIT + DEF",
+    "flower": "HP + CRIT + DEF",
+    "plume": "ATK + CRIT + DEF",
     "sands": "DEF + CRIT + DEF",
     "goblet": "GEO + CRIT + DEF",
     "circlet": "CRIT + CRIT + DEF",
     "character": "Albedo",
     "critUser": true,
     "description": "GOOD SECONDARY SUPPORT SET",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "HP + HP + CRIT + ER",
     "goblet": "HYDRO + HP + CRIT + ER",
     "circlet": "CRIT + CRIT + HP + ER",
     "character": "Sigewinne",
     "critUser": true,
     "description": "BEST SUB DPS SET WHEN USED WITH APPLICATORS LIKE FISCHL/YaeMiko CAN ALSO COMBINE WITH Vourukasha's Glow",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + HP + CRIT + EM",
-    "plume": "ER + HP + CRIT + EM",
+    "flower": "HP + ER + HP + CRIT + EM",
+    "plume": "ATK + ER + HP + CRIT + EM",
     "sands": "ER/HP + HP + CRIT + EM",
     "goblet": "HP + ER + HP + CRIT + EM",
     "circlet": "HP + ER + HP + CRIT + EM",
     "character": "Thoma",
     "critUser": false,
     "description": "BEST SET WITH OVERLOAD / BURNING",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + HP + EM",
-    "plume": "ER + HP + EM",
+    "flower": "HP + ER + HP + EM",
+    "plume": "ATK + ER + HP + EM",
     "sands": "ER/HP + ER + HP + EM",
     "goblet": "HP + ER + HP + EM",
     "circlet": "HP + ER + HP + EM",
     "character": "Baizhu",
     "critUser": false,
     "description": "GOOD IF YOU HAVE SOMEONE WITH Deepwood Memories IN YOUR TEAM AND COMBINE IT WITH Emblem of Severed Fate",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "HP + EM",
-    "plume": "HP + EM",
+    "flower": "HP + HP + EM",
+    "plume": "ATK + HP + EM",
     "sands": "HP + HP + EM",
     "goblet": "HP + HP + EM",
     "circlet": "HP + HP + EM",
     "character": "Nilou",
     "critUser": false,
     "description": "BiS - FOR BLOOMING",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER + CRIT + ATK",
     "goblet": "ANEMO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
     "character": "Faruzan",
     "critUser": true,
     "description": "BiS IF YOU HAVE FULL CONVEX ON HER",
-    "setKey": "TenacityoftheMillelith",
+    "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png"
   },
   {
-    "flower": "ER + DEF",
-    "plume": "ER + DEF",
+    "flower": "HP + ER + DEF",
+    "plume": "ATK + ER + DEF",
     "sands": "DEF + ER + DEF",
     "goblet": "DEF + ER + DEF",
     "circlet": "DEF + ER + DEF",
     "character": "Xilonen",
     "critUser": false,
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
-    "setKey": "ScrolloftheHeroofCinderCity",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "ER/HP + CRIT + ER + HP",
     "goblet": "HP/HYDRO + HP + CRIT + ER",
     "circlet": "HP/CRIT + HP + CRIT + ER",
-    "character": "Candance",
+    "character": "Candace",
     "critUser": false,
-    "description": "BEST SET IF USING A NATLAN CHARACTER COMBINED WITH Emblem of Severed Fate",
-    "setKey": "EmblemofSeveredFate",
+    "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
+    "set_image": "seii_250.png"
+  },
+  {
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
+    "sands": "ER/HP + CRIT + ER + HP",
+    "goblet": "HP/HYDRO + HP + CRIT + ER",
+    "circlet": "HP/CRIT + HP + CRIT + ER",
+    "character": "Candace",
+    "critUser": false,
+    "description": "BEST SET IF USING A NATLAN CHARACTER COMBINED WITH Scroll of the Hero of Cinder City",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK/ER + CRIT + ATK + ER + EM",
     "goblet": "ELECTRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Ororon",
     "critUser": true,
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
-    "setKey": "ScrolloftheHeroofCinderCity",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png"
   },
   {
-    "flower": "CRIT + DEF + ER",
-    "plume": "CRIT + DEF + ER",
+    "flower": "HP + CRIT + DEF + ER",
+    "plume": "ATK + CRIT + DEF + ER",
     "sands": "DEF/ER + CRIT + DEF + ER",
     "goblet": "GEO/DEF + CRIT + DEF + ER",
     "circlet": "CRIT + CRIT + DEF + ER",
     "character": "Kachina",
     "critUser": true,
     "description": "BiS BECAUSE OF Nightsoul's Blessing",
-    "setKey": "ScrolloftheHeroofCinderCity",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png"
   },
   {
-    "flower": "CRIT + ER + ATK + EM",
-    "plume": "CRIT + ER + ATK + EM",
+    "flower": "HP + CRIT + ER + ATK + EM",
+    "plume": "ATK + CRIT + ER + ATK + EM",
     "sands": "ER/EM/ATK + CRIT + ER + ATK + EM",
     "goblet": "PYRO + CRIT + ER + ATK + EM",
     "circlet": "CRIT + CRIT +EM + ATK + EM",
     "character": "Xiangling",
     "critUser": true,
     "description": "GOOD WITH EMBLEM IF USING NATLAN CHARACTERS",
-    "setKey": "ScrolloftheHeroofCinderCity",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1488,8 +1501,8 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "CRIT + EM + ER",
-    "plume": "CRIT + EM + ER",
+    "flower": "HP + CRIT + EM + ER",
+    "plume": "ATK + CRIT + EM + ER",
     "sands": "EM + CRIT + ER",
     "goblet": "DENDRO + CRIT + EM + ER",
     "circlet": "CRIT/EM + CRIT + EM + ER",
@@ -1500,8 +1513,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "CRIT + EM + ATK",
-    "plume": "CRIT + EM + ATK",
+    "flower": "HP + CRIT + EM + ATK",
+    "plume": "ATK + CRIT + EM + ATK",
     "sands": "EM + CRIT + ATK",
     "goblet": "DENDRO + CRIT + EM + ATK",
     "circlet": "CRIT + CRIT + EM + ATK",
@@ -1512,8 +1525,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK +ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1524,8 +1537,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ER/ATK + CRIT + ATK + ER + EM",
     "goblet": "DENDRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
@@ -1536,8 +1549,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "ER + EM + CRIT",
-    "plume": "ER + EM + CRIT",
+    "flower": "HP + ER + EM + CRIT",
+    "plume": "ATK + ER + EM + CRIT",
     "sands": "ER/EM + ER + EM + CRIT",
     "goblet": "EM/DENDRO + ER + CRIT + ATK",
     "circlet": "EM/CRIT + ER + CRIT + ATK",
@@ -1548,8 +1561,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "HP/ER + HP + ER + CRIT",
     "goblet": "HP + HP + ER + CRIT",
     "circlet": "HP + HP + ER + CRIT",
@@ -1560,8 +1573,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
@@ -1572,8 +1585,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "EM + CRIT + ER",
-    "plume": "EM + CRIT + ER",
+    "flower": "HP + EM + CRIT + ER",
+    "plume": "ATK + EM + CRIT + ER",
     "sands": "ER + EM + CRIT + ATK",
     "goblet": "DENDRO/EM + EM + CRIT + ER",
     "circlet": "CRIT/EM + EM + CRIT + ER",
@@ -1584,8 +1597,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "ER + HP + EM",
-    "plume": "ER + HP + EM",
+    "flower": "HP + ER + HP + EM",
+    "plume": "ATK + ER + HP + EM",
     "sands": "ER/HP + ER + HP + EM",
     "goblet": "HP + ER + HP + EM",
     "circlet": "HP + ER + HP + EM",
@@ -1596,259 +1609,259 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "CRIT + ER + ATK + EM",
-    "plume": "CRIT + ER + ATK + EM",
+    "flower": "HP + CRIT + ER + ATK + EM",
+    "plume": "ATK + CRIT + ER + ATK + EM",
     "sands": "ER/EM/ATK + CRIT + ER + ATK + EM",
     "goblet": "PYRO + CRIT + ER + ATK + EM",
     "circlet": "CRIT + CRIT +EM + ATK + EM",
     "character": "Xiangling",
     "critUser": true,
     "description": "BiS FOR ROTATION RATE AND FIRE APPLICATION",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + HP + ER",
-    "plume": "CRIT + HP + ER",
+    "flower": "HP + CRIT + HP + ER",
+    "plume": "ATK + CRIT + HP + ER",
     "sands": "HP%/ER + CRIT + ER + HP",
     "goblet": "HYDRO + CRIT + HP + ER",
     "circlet": "CRIT + CRIT + HP + ER",
     "character": "Yelan",
     "critUser": true,
     "description": "BiS - FOR ROTATION AND WATER APPLICATION",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "HYDRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
-    "character": "Xingqui",
+    "character": "Xingqiu",
     "critUser": true,
     "description": "BiS FOR ROTATION AND WATER APPLICATION",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + HP + CRIT + EM",
-    "plume": "ER + HP + CRIT + EM",
+    "flower": "HP + ER + HP + CRIT + EM",
+    "plume": "ATK + ER + HP + CRIT + EM",
     "sands": "ER/HP + HP + CRIT + EM",
     "goblet": "HP + ER + HP + CRIT + EM",
     "circlet": "HP + ER + HP + CRIT + EM",
     "character": "Thoma",
     "critUser": false,
     "description": "BEST SET WITH OVERLOAD / BURNING",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "KamisatoAyaka",
     "critUser": true,
     "description": "BEST SET FOR CRYO APPLICATOR",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
     "character": "Rosaria",
     "critUser": true,
     "description": "BEST SET FOR SUB DPS",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + ATK + CRIT",
-    "plume": "ER + ATK + CRIT",
+    "flower": "HP + ER + ATK + CRIT",
+    "plume": "ATK + ER + ATK + CRIT",
     "sands": "ER/ATK + ER + ATK + CRIT",
     "goblet": "ATK + ER + ATK + CRIT",
     "circlet": "HEAL/ATK + ER + ATK + CRIT",
     "character": "Charlotte",
     "critUser": false,
     "description": "BEST SET FOR SUB DPS COMBINED WITH Gladiator's Finale / Ocean-Hued Clam",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER/ATK + ER + CRIT + ATK",
     "goblet": "ELECTRO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
     "character": "KujouSara",
     "critUser": false,
     "description": "BiS",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "ER + HP + CRIT + ATK",
     "goblet": "HP/ELECTRO + ER + CRIT + ATK",
     "circlet": "HEAL/CRIT + HP + ER + CRIT",
     "character": "Dori",
     "critUser": false,
     "description": "BEST SET IF YOU WANT RECOVERY & DMG COMBINE IT WITH Ocean-Hued Clam",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "ER/HP + CRIT + ER + HP",
     "goblet": "HP/HYDRO + HP + CRIT + ER",
     "circlet": "HP/CRIT + HP + CRIT + ER",
-    "character": "Candance",
+    "character": "Candace",
     "description": "BEST SET COMBINED WITH Tenacity of the Millelith / Scroll of the Hero of Cinder City(IF USING NATLAN CHARACTER)",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER/ATK/EM + CRIT + ATK + EM",
     "goblet": "ELECTRO/EM + ER + CRIT + ATK",
     "circlet": "CRIT/EM + ER + CRIT + ATK + EM",
     "character": "TravelerElectro",
     "critUser": true,
     "description": "BEST SET COMBINED WITH Wanderer's Troupe",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
     "character": "Yaoyao",
     "critUser": false,
     "description": "BEST SET FOR SUB DPS",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + HP",
-    "plume": "ER + HP",
+    "flower": "HP + ER + HP",
+    "plume": "ATK + ER + HP",
     "sands": "ER/HP + ER + HP",
     "goblet": "HP + ER + HP",
     "circlet": "HP/HEAL + ER + HP",
     "character": "Mika",
     "critUser": false,
     "description": "GOOD SECONDARY SET COMBINED WITH Tenacity of the Millelith",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Kaeya",
     "critUser": true,
     "description": "BEST SET FOR SUB DPS",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HP + ER + HP",
     "character": "Diona",
     "critUser": false,
     "description": "BiS COMBINED WITH Tenacity of the Millelith",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "DEF + ER",
-    "plume": "DEF + ER",
+    "flower": "HP + DEF + ER",
+    "plume": "ATK + DEF + ER",
     "sands": "ER/DEF + DEF + ER",
     "goblet": "GEO/DEF + DEF + ER",
     "circlet": "CRIT/DEF + DEF + ER",
     "character": "Gorou",
     "critUser": false,
     "description": "BEST SUB DPS BUILD",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ATK",
     "goblet": "ATK/HYDRO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
     "character": "Mona",
     "critUser": true,
     "description": "BEST SUPPORT SET",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK/ER + CRIT + ATK + HP + ER",
     "goblet": "PYRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
     "character": "Dehya",
     "critUser": true,
     "description": "BEST SUB DPS SET",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "ER + HP + EM",
-    "plume": "ER + HP + EM",
+    "flower": "HP + ER + HP + EM",
+    "plume": "ATK + ER + HP + EM",
     "sands": "ER/HP + ER + HP + EM",
     "goblet": "HP + ER + HP + EM",
     "circlet": "HP + ER + HP + EM",
     "character": "Baizhu",
     "critUser": false,
     "description": "IF YOU HAVE Deepwood Memories IN YOUR TEAM COMBINE THIS SET WITH Tenacity of the Millelith",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ER + CRIT + ATK + ER + EM",
     "goblet": "ATK/ELECTRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "RaidenShogun",
     "critUser": true,
     "description": "GOOD FOR ROTATION AND FIREPOWER",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Beidou",
     "critUser": true,
     "description": "BiS - GOOD FOR ROTATION AND FIREPOWER",
-    "setKey": "EmblemofSeveredFate",
+    "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK +ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1859,8 +1872,8 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "CRIT + HP + EM + ER",
-    "plume": "CRIT + HP + EM + ER",
+    "flower": "HP + CRIT + HP + EM + ER",
+    "plume": "ATK + CRIT + HP + EM + ER",
     "sands": "HP + CRIT + HP + EM + ER",
     "goblet": "HYDRO + CRIT + HP + EM + ER",
     "circlet": "CRIT + CRIT + HP + EM + ER",
@@ -1871,8 +1884,8 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -1883,8 +1896,8 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -1895,8 +1908,8 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "CRYO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -1907,90 +1920,90 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "CRIT + ATK + HP + EM",
-    "plume": "CRIT + ATK + HP + EM",
+    "flower": "HP + CRIT + ATK + HP + EM",
+    "plume": "ATK + CRIT + ATK + HP + EM",
     "sands": "HP/ATK + CRIT + ATK + HP + EM",
     "goblet": "HP/PYRO + CRIT + ATK + HP + EM",
     "circlet": "HP/CIRT + CRIT + ATK + HP + EM",
     "character": "Chevreuse",
     "critUser": true,
     "description": "BiS IF YOU DON'T NEED Noblesse Oblige",
-    "setKey": "SongofDaysPast",
+    "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "HP + HP + CRIT + ER",
     "goblet": "HP + HP + CRIT + ER",
     "circlet": "HP + HP + CRIT + ER",
     "character": "Sigewinne",
     "critUser": false,
     "description": "REQUIRES A STRATEGY THAT ALLOWS BUFFS TO BE USED BY ATTACKERS",
-    "setKey": "SongofDaysPast",
+    "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "HYDRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + EM",
     "character": "Childe",
     "critUser": true,
     "description": "BiS - BUFFS HYDRO DMG AND COMPATIBLE WITH ALL WEAPONS",
-    "setKey": "Nymph's Dream",
+    "setKey": "NymphsDream",
     "set_image": "seii_210.png"
   },
   {
-    "flower": "CRIT + HP + ER",
-    "plume": "CRIT + HP + ER",
+    "flower": "HP + CRIT + HP + ER",
+    "plume": "ATK + CRIT + HP + ER",
     "sands": "HP%/ER + CRIT + ER + HP",
     "goblet": "HYDRO + CRIT + HP + ER",
     "circlet": "CRIT + CRIT + HP + ER",
     "character": "Yelan",
     "critUser": true,
-    "setKey": "Nymph's Dream",
+    "setKey": "NymphsDream",
     "set_image": "seii_210.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK + CRIT + ATK + HP + ER",
     "goblet": "HYDRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
     "character": "KamisatoAyato",
     "critUser": true,
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
-    "setKey": "Nymph's Dream",
+    "setKey": "NymphsDream",
     "set_image": "seii_210.png"
   },
   {
-    "flower": "CRIT + HP + ER",
-    "plume": "CRIT + HP + ER",
+    "flower": "HP + CRIT + HP + ER",
+    "plume": "ATK + CRIT + HP + ER",
     "sands": "HP%/ER + CRIT + ER + HP",
     "goblet": "HYDRO + CRIT + HP + ER",
     "circlet": "CRIT + CRIT + HP + ER",
     "character": "Yelan",
     "critUser": true,
-    "setKey": "Vourukasha's Glow",
+    "setKey": "VourukashasGlow",
     "set_image": "seii_215.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "HP/ER + HP + ER + CRIT",
     "goblet": "HP + HP + ER + CRIT",
     "circlet": "HP + HP + ER + CRIT",
     "character": "Kirara",
     "critUser": false,
     "description": "BEST SET COMBINED WITH Tenacity of the Millelith",
-    "setKey": "Vourukasha's Glow",
+    "setKey": "VourukashasGlow",
     "set_image": "seii_215.png"
   },
   {
-    "flower": "HP + CRIT",
-    "plume": "HP + CRIT",
+    "flower": "HP + HP + CRIT",
+    "plume": "ATK + HP + CRIT",
     "sands": "HP + CRIT",
     "goblet": "HP + CRIT",
     "circlet": "HP + CRIT",
@@ -2001,104 +2014,104 @@
     "set_image": "seii_215.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK/ER + CRIT + ATK + HP + ER",
     "goblet": "PYRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
     "character": "Dehya",
     "critUser": true,
     "description": "BEST DPS BUILD",
-    "setKey": "Vourukasha's Glow",
+    "setKey": "VourukashasGlow",
     "set_image": "seii_215.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "HP + HP + CRIT + ER",
     "goblet": "HYDRO + HP + CRIT + ER",
     "circlet": "CRIT + CRIT + HP + ER",
     "character": "Sigewinne",
     "critUser": true,
     "description": "BiS - BEST OVERALL COMBINED WITH Tenacity of the Millelith",
-    "setKey": "Vourukasha's Glow",
+    "setKey": "VourukashasGlow",
     "set_image": "seii_215.png"
   },
   {
-    "flower": "EM + ER + ATK",
-    "plume": "EM + ER +ATK",
+    "flower": "HP + EM + ER + ATK",
+    "plume": "ATK + EM + ER +ATK",
     "sands": "EM + ER + ATK",
     "goblet": "EM + ER + ATK",
     "circlet": "EM + ER + ATK",
     "character": "RaidenShogun",
     "critUser": false,
     "description": "GOOD WITH BLOOM, HYPERBLOOM, BURGEON",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "ER + EM + CRIT",
-    "plume": "ER + EM + CRIT",
+    "flower": "HP + ER + EM + CRIT",
+    "plume": "ATK + ER + EM + CRIT",
     "sands": "ER/EM + ER + EM + CRIT",
     "goblet": "EM/DENDRO + ER + CRIT + ATK",
     "circlet": "EM/CRIT + ER + CRIT + ATK",
     "character": "Kaveh",
     "critUser": false,
     "description": "BEST SET OVERALL",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
     "character": "Yaoyao",
     "critUser": false,
     "description": "BEST SET FOR BLOOM",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ER/ATK + CRIT + ATK + ER + EM",
     "goblet": "DENDRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Collei",
     "critUser": true,
     "description": "BEST SET OVERALL",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "EM + HP + ATK",
-    "plume": "EM + HP + ATK",
+    "flower": "HP + EM + HP + ATK",
+    "plume": "ATK + EM + HP + ATK",
     "sands": "EM + HP + ATK",
     "goblet": "EM + HP + ATK",
     "circlet": "EM + ER + ATK",
     "character": "KukiShinobu",
     "critUser": false,
     "description": "BiS FOR BLOOM",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "ER + HP + CRIT + EM",
-    "plume": "ER + HP + CRIT + EM",
+    "flower": "HP + ER + HP + CRIT + EM",
+    "plume": "ATK + ER + HP + CRIT + EM",
     "sands": "ER/EM + ER + HP + CRIT + EM",
     "goblet": "EM + ER + HP + CRIT + EM",
     "circlet": "EM + ER + HP + CRIT + EM",
     "character": "Thoma",
     "critUser": false,
     "description": "BEST SET WITH BLOOM/HYPERBLOOM/BURGEON",
-    "setKey": "FlowerofParadiseLost",
+    "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2109,8 +2122,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -2121,8 +2134,8 @@
     "set_image": "seii_76.png"
   },
   {
-    "flower": "CRIT + EM + ER + ATK",
-    "plume": "CRIT + EM + ER + ATK",
+    "flower": "HP + CRIT + EM + ER + ATK",
+    "plume": "ATK + CRIT + EM + ER + ATK",
     "sands": "EM + CRIT + EM + ER + ATK",
     "goblet": "ELECTRO + CRIT + EM + ER + ATK",
     "circlet": "CRIT + CRIT + EM + ER + ATK",
@@ -2133,8 +2146,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "ELECTRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + EM",
@@ -2145,8 +2158,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ER + EM + ATK",
-    "plume": "CRIT + ER + EM + ATK",
+    "flower": "HP + CRIT + ER + EM + ATK",
+    "plume": "ATK + CRIT + ER + EM + ATK",
     "sands": "EM + CRIT + ER + ATK",
     "goblet": "ELECTRO + CRIT + ER + EM + ATK",
     "circlet": "CRIT + CRIT + ER + EM + ATK",
@@ -2157,8 +2170,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "ER + CRIT + ATK + EM",
-    "plume": "E + CRIT + ATK + EM",
+    "flower": "HP + ER + CRIT + ATK + EM",
+    "plume": "ATK + E + CRIT + ATK + EM",
     "sands": "ATK/ER + CRIT + ATK + ER + EM",
     "goblet": "ELECTRO + ER + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ER + ATK + EM",
@@ -2169,8 +2182,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2181,8 +2194,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -2193,8 +2206,8 @@
     "set_image": "seii_80.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2205,140 +2218,140 @@
     "set_image": "seii_185.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "GEO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Navia",
     "critUser": true,
     "description": "BiS",
-    "setKey": "NighttimeWhispersIntheEchoingWoods",
+    "setKey": "NighttimeWhispersInTheEchoingWoods",
     "set_image": "seii_235.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK + CRIT + ATK",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ATK",
     "character": "Ningguang",
     "critUser": true,
     "description": "BiS",
-    "setKey": "NighttimeWhispersIntheEchoingWoods",
+    "setKey": "NighttimeWhispersInTheEchoingWoods",
     "set_image": "seii_235.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "DENDRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Chasca",
     "critUser": true,
     "description": "BiS - EASY TO ACTIVATE USING NIGHTSOUL POINT",
-    "setKey": "Obsidian Codex",
+    "setKey": "ObsidianCodex",
     "set_image": "seii_256.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK + CRIT + CRIT + ATK + ER + EM",
     "goblet": "ATK + CRIT + CRIT + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Kinich",
     "critUser": true,
     "description": "BiS - USES NIGHTSOUL BLESSING",
-    "setKey": "Obsidian Codex",
+    "setKey": "ObsidianCodex",
     "set_image": "seii_256.png"
   },
   {
-    "flower": "CRIT + HP + EM + ER",
-    "plume": "CRIT + HP + EM + ER",
+    "flower": "HP + CRIT + HP + EM + ER",
+    "plume": "ATK + CRIT + HP + EM + ER",
     "sands": "HP + CRIT + HP + EM + ER",
     "goblet": "HYDRO + CRIT + HP + EM + ER",
     "circlet": "CRIT + CRIT + HP + EM + ER",
     "character": "Mualani",
     "critUser": true,
     "description": "BiS - INCREASES DMG BASED ON Nightsoul points",
-    "setKey": "Obsidian Codex",
+    "setKey": "ObsidianCodex",
     "set_image": "seii_256.png"
   },
   {
-    "flower": "CRIT + EM + ATK + ER",
-    "plume": "CRIT + EM + ATK + ER",
+    "flower": "HP + CRIT + EM + ATK + ER",
+    "plume": "ATK + CRIT + EM + ATK + ER",
     "sands": "ATK/EM + CRIT + EM + ATK + ER",
     "goblet": "PYRO + CRIT + EM + ATK + ER",
     "circlet": "CRIT + CRIT + EM + ATK + ER",
     "character": "Diluc",
     "critUser": true,
     "description": "BiS",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "CRIT + ATK + ER + EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER + EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK/EM + CRIT + ATK + ER + EM",
     "goblet": "PYRO + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Gaming",
     "critUser": true,
     "description": "GOOD SECONDARY RECOMMENDED EQUIP WITH CRIT WEAPON",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "CRIT + ATK + ER +EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER +EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK + CRIT + ATK + ER + EM",
     "goblet": "FIRE/ATK + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Yanfei",
     "critUser": true,
     "description": "BEST BUILD FOR OVERALL DMG",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "PYRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
     "character": "Yoimiya",
     "critUser": true,
     "description": "BEST SET WITH DOUBLE ELECTRO APPLICATORS",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "PYRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
     "character": "Klee",
     "critUser": true,
     "description": "BiS - GOOD WITHOUT FURINA",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "CRIT + EM + HP",
-    "plume": "CRIT + EM + HP",
+    "flower": "HP + CRIT + EM + HP",
+    "plume": "ATK + CRIT + EM + HP",
     "sands": "HP/EM + CRIT + EM + HP",
     "goblet": "PYRO + CRIT + EM + HP",
     "circlet": "CRIT + CRIT + EM + HP",
     "character": "HuTao",
     "critUser": true,
     "description": "BiS WITH XINQUI/YILAN",
-    "setKey": "CrimsonWitchofFlames",
+    "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png"
   },
   {
-    "flower": "ATK + CRIT + ER",
-    "plume": "ATK + CRIT + ER",
+    "flower": "HP + ATK + CRIT + ER",
+    "plume": "ATK + ATK + CRIT + ER",
     "sands": "ATK/ER + CRIT + ER + ATK",
     "goblet": "ATK + CRIT + ER + ATK",
     "circlet": "ATK + CRIT + ER + ATK",
@@ -2349,8 +2362,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2361,8 +2374,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK/EM + CRIT + ATK + EM + ER",
     "goblet": "ELECTRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -2373,8 +2386,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2385,8 +2398,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + EM + HP",
-    "plume": "CRIT + EM + HP",
+    "flower": "HP + CRIT + EM + HP",
+    "plume": "ATK + CRIT + EM + HP",
     "sands": "HP/EM + CRIT + EM + HP",
     "goblet": "PYRO + CRIT + EM + HP",
     "circlet": "CRIT + CRIT + EM + HP",
@@ -2397,8 +2410,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "GEO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2409,8 +2422,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "ER + ATK",
-    "plume": "ER + ATK",
+    "flower": "HP + ER + ATK",
+    "plume": "ATK + ER + ATK",
     "sands": "ATK/ER + ER + ATK",
     "goblet": "ATK + ER + ATK",
     "circlet": "ATK + ER + ATK",
@@ -2421,8 +2434,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "PHYSICAL/CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2433,8 +2446,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK/ER + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2445,8 +2458,8 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "PYRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
@@ -2457,152 +2470,152 @@
     "set_image": "seii_165.png"
   },
   {
-    "flower": "CRIT + EM + ATK",
-    "plume": "CRIT + EM + ATK",
+    "flower": "HP + CRIT + EM + ATK",
+    "plume": "ATK + CRIT + EM + ATK",
     "sands": "EM + CRIT + ATK",
     "goblet": "DENDRO + CRIT + EM + ATK",
     "circlet": "CRIT + CRIT + EM + ATK",
     "character": "Tighnari",
     "critUser": true,
     "description": "BEST SET TO USE WITH DENDRO CHRARACTERS",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "CRIT + ATK + ER +EM",
-    "plume": "CRIT + ATK + ER + EM",
+    "flower": "HP + CRIT + ATK + ER +EM",
+    "plume": "ATK + CRIT + ATK + ER + EM",
     "sands": "ATK + CRIT + ATK + ER + EM",
     "goblet": "FIRE/ATK + CRIT + ATK + ER + EM",
     "circlet": "CRIT + CRIT + ATK + ER + EM",
     "character": "Yanfei",
     "critUser": true,
     "description": "BEST SET FOR HEAVY ATTACK DMG",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ER/ATK/EM + CRIT + ATK + EM",
     "goblet": "ELECTRO/EM + ER + CRIT + ATK",
     "circlet": "CRIT/EM + ER + CRIT + ATK + EM",
     "character": "TravelerElectro",
     "critUser": true,
     "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "HP + ER + EM + ATK",
-    "plume": "HP + ER + EM + ATK",
+    "flower": "HP + HP + ER + EM + ATK",
+    "plume": "ATK + HP + ER + EM + ATK",
     "sands": "HP/ER+ ER + EM + ATK",
     "goblet": "HYDRO + HP + ER + EM",
     "circlet": "HEAL + HP + ER + EM",
     "character": "Barbara",
     "critUser": false,
     "description": "BEST SET FOR BLOOM COMBINED WITH Gilded Dreams",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "CRIT + EM + ER + ATK",
-    "plume": "CRIT + EM + ER + ATK",
+    "flower": "HP + CRIT + EM + ER + ATK",
+    "plume": "ATK + CRIT + EM + ER + ATK",
     "sands": "EM + CRIT + EM + ER + ATK",
     "goblet": "ELECTRO + CRIT + EM + ER + ATK",
     "circlet": "CRIT + CRIT + EM + ER + ATK",
     "character": "Sethos",
     "critUser": true,
     "description": "BEST SET WORKS WITH ANYTHING",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "ER + CRIT + ATK",
-    "plume": "ER + CRIT + ATK",
+    "flower": "HP + ER + CRIT + ATK",
+    "plume": "ATK + ER + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ATK",
     "goblet": "ATK/HYDRO + ER + CRIT + ATK",
     "circlet": "CRIT + ER + CRIT + ATK",
     "character": "Mona",
     "critUser": true,
     "description": "BEST SET FOR DPS HEAVY ATTACKS",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Ganyu",
     "critUser": true,
     "description": "GOOD SECONDARY SET",
-    "setKey": "Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
     "set_image": "seii_78.png"
   },
   {
-    "flower": "CRIT + ATK + EM + ER",
-    "plume": "CRIT + ATK + EM + ER",
+    "flower": "HP + CRIT + ATK + EM + ER",
+    "plume": "ATK + CRIT + ATK + EM + ER",
     "sands": "ATK + CRIT + ATK + EM + ER",
     "goblet": "PYRO + CRIT + ATK + EM + ER",
     "circlet": "CRIT + CRIT + ATK + EM + ER",
     "character": "Yoimiya",
     "critUser": true,
     "description": "BiS - FOR NON-ELECTRO COMPS",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Wanderer",
     "critUser": true,
     "description": "GOOD SECONDARY SET",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Xiao",
     "critUser": true,
     "description": "GOOD SECONDARY COMBINED WITH Vermillion Hereafter",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ELECTRO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Clorinde",
     "critUser": true,
     "description": "GOOD SECONDARY SET WITH DMG BUFFERS LIKE FURINA/KaedeharaKazuha",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "HYDRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + EM",
     "character": "Childe",
     "critUser": true,
     "description": "GOOD FOR SECOND SLOT - BUFFS ATTACKS",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK + CRIT + ATK + HP + ER",
     "goblet": "HYDRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
@@ -2613,116 +2626,116 @@
     "set_image": "seii_180.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "PYRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + MC",
     "character": "Arlecchino",
     "critUser": true,
     "description": "GOOD WITH REPEATED NORMAL ATTACKS + THE MORE DMG BUFFS THE CARACTER HAS THE MORE EFFECTIVE IT IS",
-    "setKey": "EchoesofanOffering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
-    "flower": "HP + ER + EM",
-    "plume": "HP + ER + EM",
+    "flower": "HP + HP + ER + EM",
+    "plume": "ATK + HP + ER + EM",
     "sands": "HP/ER + HP + ER + EM",
     "goblet": "HP/HYDRO + HP + ER + EM",
     "circlet": "HEAL + HP + ER + EM",
     "character": "SangonomiyaKokomi",
     "critUser": false,
     "description": "BEST SUB DPS BUILD",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "ER + HP + EM",
-    "plume": "ER + HP + EM",
+    "flower": "HP + ER + HP + EM",
+    "plume": "ATK + ER + HP + EM",
     "sands": "ER/HP + ER + HP + EM",
     "goblet": "HP + ER + HP + EM",
     "circlet": "HP + ER + HP + EM",
     "character": "Baizhu",
     "critUser": false,
     "description": "RECOMMENDED WITH STRONG BURGEON FOR RECOVERY",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "HP + ER + CRIT",
-    "plume": "HP + ER + CRIT",
+    "flower": "HP + HP + ER + CRIT",
+    "plume": "ATK + HP + ER + CRIT",
     "sands": "ER + HP + CRIT + ATK",
     "goblet": "HP/ELECTRO + ER + CRIT + ATK",
     "circlet": "HEAL/CRIT + HP + ER + CRIT",
     "character": "Dori",
     "critUser": false,
     "description": "BEST 4 SET IF YOU WANT HEALING + IF YOU WANT MORE DMG COMBINE IT WITH Emblem of Severed Fate",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "ATK + CRIT + ER",
-    "plume": "ATK + CRIT + ER",
+    "flower": "HP + ATK + CRIT + ER",
+    "plume": "ATK + ATK + CRIT + ER",
     "sands": "ATK + ATK + CRIT + ER",
     "goblet": "ATK + ATK + CRIT + ER",
     "circlet": "HEAL/ATK + ATK + CRIT + ER",
     "character": "Quqi",
     "critUser": false,
     "description": "BiS",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "HP + ER",
-    "plume": "HP + ER",
+    "flower": "HP + HP + ER",
+    "plume": "ATK + HP + ER",
     "sands": "HP/ER + HP + ER",
     "goblet": "HP + ER + HP",
     "circlet": "HEAL/HP + ER + HP",
     "character": "Yaoyao",
     "critUser": false,
     "description": "BEST SET FOR HEALING",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "ER + ATK + CRIT",
-    "plume": "ER + ATK + CRIT",
+    "flower": "HP + ER + ATK + CRIT",
+    "plume": "ATK + ER + ATK + CRIT",
     "sands": "ER/ATK + ER + ATK + CRIT",
     "goblet": "ATK + ER + ATK + CRIT",
     "circlet": "HEAL/ATK + ER + ATK + CRIT",
     "character": "Charlotte",
     "critUser": false,
     "description": "BEST SET FOR SUB DPS COMBINED WITH Emblem of Severed Fate / Gladiator's Finale",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "HP + CRIT + ER",
-    "plume": "HP + CRIT + ER",
+    "flower": "HP + HP + CRIT + ER",
+    "plume": "ATK + HP + CRIT + ER",
     "sands": "HP + HP + CRIT + ER",
     "goblet": "HP + HP + CRIT + ER",
     "circlet": "HP + HP + CRIT + ER",
     "critUser": false,
     "character": "Sigewinne",
     "description": "BEST SET FOR HEAL BUFF",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "HP + ER + EM + ATK",
-    "plume": "HP + ER + EM + ATK",
+    "flower": "HP + HP + ER + EM + ATK",
+    "plume": "ATK + HP + ER + EM + ATK",
     "sands": "HP/ER+ ER + EM + ATK",
     "goblet": "HYDRO + HP + ER + EM",
     "circlet": "HEAL + HP + ER + EM",
     "character": "Barbara",
     "critUser": false,
     "description": "BEST SET FOR NON-BLOOM",
-    "setKey": "Ocean-Hued Clam",
+    "setKey": "OceanHuedClam",
     "set_image": "seii_170.png"
   },
   {
-    "flower": "CRIT + ATK + HP + ER",
-    "plume": "CRIT + ATK + HP + ER",
+    "flower": "HP + CRIT + ATK + HP + ER",
+    "plume": "ATK + CRIT + ATK + HP + ER",
     "sands": "ATK + CRIT + ATK + HP + ER",
     "goblet": "HYDRO + CRIT + ATK + HP + ER",
     "circlet": "CRIT + CRIT + ATK + HP + ER",
@@ -2733,8 +2746,8 @@
     "set_image": "seii_145.png"
   },
   {
-    "flower": "CRIT + HP + EM + ER",
-    "plume": "CRIT + HP + EM + ER",
+    "flower": "HP + CRIT + HP + EM + ER",
+    "plume": "ATK + CRIT + HP + EM + ER",
     "sands": "HP + CRIT + HP + EM + ER",
     "goblet": "HYDRO + CRIT + HP + EM + ER",
     "circlet": "CRIT + CRIT + HP + EM + ER",
@@ -2745,8 +2758,8 @@
     "set_image": "seii_145.png"
   },
   {
-    "flower": "CRIT + ATK + EM",
-    "plume": "CRIT + ATK + EM",
+    "flower": "HP + CRIT + ATK + EM",
+    "plume": "ATK + CRIT + ATK + EM",
     "sands": "ATK + CRIT + ATK + EM",
     "goblet": "HYDRO + CRIT + ATK + EM",
     "circlet": "CRIT + CRIT + ATK + EM",
@@ -2757,8 +2770,8 @@
     "set_image": "seii_145.png"
   },
   {
-    "flower": "CRIT + ER + ATK",
-    "plume": "CRIT + ER + ATK",
+    "flower": "HP + CRIT + ER + ATK",
+    "plume": "ATK + CRIT + ER + ATK",
     "sands": "ER/ATK + CRIT + ER + ATK",
     "goblet": "HYDRO + CRIT + ER + ATK",
     "circlet": "CRIT + CRIT + ER + ATK",
@@ -2769,20 +2782,20 @@
     "set_image": "seii_145.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "ANEMO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
     "character": "Wanderer",
     "critUser": true,
     "description": "BiS SET",
-    "setKey": "Desert Pavilion Chronicle",
+    "setKey": "DesertPavilionChronicle",
     "set_image": "seii_200.png"
   },
   {
-    "flower": "DEF + ER",
-    "plume": "DEF + ER",
+    "flower": "HP + DEF + ER",
+    "plume": "ATK + DEF + ER",
     "sands": "ER/DEF + DEF + ER",
     "goblet": "GEO/DEF + DEF + ER",
     "circlet": "DEF + DEF + ER",
@@ -2793,8 +2806,8 @@
     "set_image": "seii_84.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "GEO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2805,8 +2818,8 @@
     "set_image": "seii_84.png"
   },
   {
-    "flower": "HP + CRIT",
-    "plume": "HP + CRIT",
+    "flower": "HP + HP + CRIT",
+    "plume": "ATK + HP + CRIT",
     "sands": "HP + CRIT",
     "goblet": "HP + CRIT",
     "circlet": "HP + CRIT",
@@ -2817,8 +2830,8 @@
     "set_image": "seii_84.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK/ER + CRIT + ER",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ER",
@@ -2829,8 +2842,8 @@
     "set_image": "seii_84.png"
   },
   {
-    "flower": "CRIT + ATK",
-    "plume": "CRIT + ATK",
+    "flower": "HP + CRIT + ATK",
+    "plume": "ATK + CRIT + ATK",
     "sands": "ATK + CRIT + ATK",
     "goblet": "GEO + CRIT + ATK",
     "circlet": "CRIT + CRIT + ATK",
@@ -2841,8 +2854,8 @@
     "set_image": "seii_84.png"
   },
   {
-    "flower": "CRIT + ER + ATK",
-    "plume": "CRIT + ER + ATK",
+    "flower": "HP + CRIT + ER + ATK",
+    "plume": "ATK + CRIT + ER + ATK",
     "sands": "ATK + CRIT + ER + ATK",
     "goblet": "PHYSICAL + CRIT + ER + ATK",
     "circlet": "CRIT + CRIT + ER + ATK",
@@ -2853,8 +2866,8 @@
     "set_image": "seii_155.png"
   },
   {
-    "flower": "CRIT + ATK + ER",
-    "plume": "CRIT + ATK + ER",
+    "flower": "HP + CRIT + ATK + ER",
+    "plume": "ATK + CRIT + ATK + ER",
     "sands": "ATK + CRIT + ATK + ER",
     "goblet": "PHYSICAL/CRYO + CRIT + ATK + ER",
     "circlet": "CRIT + CRIT + ATK + ER",
@@ -2865,8 +2878,8 @@
     "set_image": "seii_155.png"
   },
   {
-    "flower": "EM + CRIT + ATK + ER",
-    "plume": "EM + CRIT + ATK + ER",
+    "flower": "HP + EM + CRIT + ATK + ER",
+    "plume": "ATK + EM + CRIT + ATK + ER",
     "sands": "EM/ATK + EM + CRIT + ATK + ER",
     "goblet": "EM/PHYSICAL + EM + CRIT + ATK + ER",
     "circlet": "EM/CRIT + EM + CRIT + ATK + ER",
@@ -2877,8 +2890,8 @@
     "set_image": "seii_155.png"
   },
   {
-    "flower": "EM + CRIT + ATK + ER",
-    "plume": "EM + CRIT + ATK + ER",
+    "flower": "HP + EM + CRIT + ATK + ER",
+    "plume": "ATK + EM + CRIT + ATK + ER",
     "sands": "EM/ATK + EM + CRIT + ATK + ER",
     "goblet": "EM/PHYSICAL + EM + CRIT + ATK + ER",
     "circlet": "EM/CRIT + EM + CRIT + ATK + ER",

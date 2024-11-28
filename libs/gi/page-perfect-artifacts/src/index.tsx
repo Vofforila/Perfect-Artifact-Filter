@@ -32,8 +32,12 @@ import { useTranslation } from 'react-i18next'
 import ArtifactFilter, { ArtifactRedButtons } from './ArtifactFilter'
 import DupModal from './DupModal'
 import ArtifactInfoDisplay from './InfoDisplay'
-import TestArtefacts from './PerfectArtefacts'
-import PerfectArtefactCard from './PerfectArtefactCard'
+import PerfectartifactCard from './PerfectArtifactCard'
+import TestArtifacts, {
+  Artifact,
+  PerfectArtifactSet,
+  PerfectMatch,
+} from './TestPerfectArtifacts'
 
 const columns = { xs: 1, sm: 2, md: 3, lg: 3, xl: 4 }
 const numToShowMap = { xs: 5, sm: 6, md: 12, lg: 12, xl: 12 }
@@ -75,7 +79,7 @@ export default function PerfectArtifacts() {
   )
   const deferredArtifactDisplayState = useDeferredValue(artifactDisplayState)
 
-  const { artifactIds, totalArtNum, matchedArtifacts } = useMemo(() => {
+  const { artifactIds, totalArtNum, perfectMatches } = useMemo(() => {
     const {
       sortType = artifactSortKeys[0],
       ascending = false,
@@ -90,7 +94,7 @@ export default function PerfectArtifacts() {
     )
 
     // Use filtered artifacts for matching
-    const matchedArtifacts = TestArtefacts(filteredArtifacts)
+    const perfectMatches: PerfectMatch[] = TestArtifacts(filteredArtifacts)
 
     const artifactIds = allArtifacts
       .filter(filterFunction(filterOption, filterConfigs))
@@ -102,7 +106,7 @@ export default function PerfectArtifacts() {
     return {
       artifactIds,
       totalArtNum: allArtifacts.length,
-      matchedArtifacts,
+      perfectMatches,
       ...dbDirtyDeferred,
     }
   }, [
@@ -222,33 +226,30 @@ export default function PerfectArtifacts() {
         }
       >
         <Grid container spacing={2}>
-          {matchedArtifacts.map((match, index) => {
+          {perfectMatches.map((artifact_matches: PerfectMatch, index) => {
+            const test_artifact: Artifact = artifact_matches.test_artifact
+            const perfect_sets: PerfectArtifactSet[] = artifact_matches.perfect_sets
+
+
             return (
               <Grid container item key={index} spacing={2}>
                 <Grid item xs={6}>
                   <CardThemed>
                     <CardContent>
                       <ArtifactCard
-                        artifactId={match.test_artefact.id}
+                        artifactId={test_artifact.id}
                         effFilter={effFilterSet}
-                        onDelete={() =>
-                          database.arts.remove(match.test_artefact.id)
-                        }
-                        onEdit={() =>
-                          setArtifactIdToEdit(match.test_artefact.id)
-                        }
+                        onDelete={() => database.arts.remove(test_artifact.id)}
+                        onEdit={() => setArtifactIdToEdit(test_artifact.id)}
                         setLocation={(location) =>
-                          database.arts.set(match.test_artefact.id, {
+                          database.arts.set(test_artifact.id, {
                             location,
                           })
                         }
                         onLockToggle={() =>
-                          database.arts.set(
-                            match.test_artefact.id,
-                            ({ lock }) => ({
-                              lock: !lock,
-                            })
-                          )
+                          database.arts.set(test_artifact.id, ({ lock }) => ({
+                            lock: !lock,
+                          }))
                         }
                       />
                     </CardContent>
@@ -259,9 +260,10 @@ export default function PerfectArtifacts() {
                   <CardThemed>
                     <CardContent>
                       <Box sx={{ position: 'relative' }}>
-                      <PerfectArtefactCard
-                match={match}
-              />
+                        <PerfectartifactCard
+                         test_artifact={test_artifact}
+                         perfect_sets={perfect_sets}
+                        />
                       </Box>
                     </CardContent>
                   </CardThemed>
