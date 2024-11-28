@@ -112,12 +112,6 @@ export default function TestArtefact(_allArtifacts) {
         }
 
         // Faruzan Furina Feather 20+
-        console.log(perfect_artefact)
-        console.log(perfect_substat_types)
-        console.log(perfect_substat_types.length)
-        console.log(doubleMainstat)
-        console.log(perfect_substat_types[0])
-        console.log(test_mainstat_type)
 
         let checkMainstat
         if (
@@ -202,34 +196,32 @@ export default function TestArtefact(_allArtifacts) {
             ) {
               const perfect_substat = perfect_substat_types[index]
 
-              if (perfect_artefact.critUser || 'CRIT' === substat_type) {
+              if (perfect_artefact.critUser && 'CRIT' === substat_type) {
                 critMatch++
               }
               if (perfect_substat === substat_type) {
                 match++
+
                 break
               }
             }
           })
-
-          if (perfect_artefact.critUser && critMatch === 2) {
-            perfectMatches.push({
-              perfect_artefact,
-              match,
-            })
-          } else if (
-            perfect_artefact.critUser === false &&
-            match >= checkvalue
-          ) {
-            perfectMatches.push({
-              perfect_artefact,
-              match,
-            })
-          }
-
-          critMatch = 0
-          match = 0
         }
+
+        if (perfect_artefact.critUser && critMatch === 2) {
+          perfectMatches.push({
+            perfect_artefact,
+            match,
+          })
+        } else if (perfect_artefact.critUser === false && match >= checkvalue) {
+          perfectMatches.push({
+            perfect_artefact,
+            match,
+          })
+        }
+
+        critMatch = 0
+        match = 0
       }
     }
     if (perfectMatches.length > 0) {
@@ -239,5 +231,6 @@ export default function TestArtefact(_allArtifacts) {
       })
     }
   }
+  console.log(matches)
   return matches
 }

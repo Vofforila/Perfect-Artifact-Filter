@@ -1,7 +1,7 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
-import { artifactAsset, characterAsset } from '@genshin-optimizer/gi/assets'
+import { artifactAsset } from '@genshin-optimizer/gi/assets'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
-import { ArtifactSetSlotName } from '@genshin-optimizer/gi/ui'
+import { ArtifactSetSlotName, LocationName } from '@genshin-optimizer/gi/ui'
 import { Box, Button, CardContent, Chip, Typography } from '@mui/material'
 import { useState } from 'react'
 
@@ -11,8 +11,8 @@ export default function PerfectArtefactCard({ match }) {
 
   const artifact = currentPerfectMatch.perfect_artefact
   const setImagePath = artifactAsset(artifact.setKey, 'flower')
-  const characterImagePath = characterAsset(artifact.character, 'icon')
 
+  console.log(artifact.character)
   const slotName = (
     <ArtifactSetSlotName
       setKey={match.test_artefact.setKey}
@@ -40,15 +40,9 @@ export default function PerfectArtefactCard({ match }) {
             alignItems: 'center',
           }}
         >
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <Box
-              component={NextImage ? NextImage : 'img'}
-              alt="Character Side Image"
-              src={characterImagePath}
-              sx={{ width: 32, height: 32 }}
-            />
-            <Typography variant="h6">{artifact.character}</Typography>
-          </Box>
+          <Typography variant="h6">
+            {<LocationName location={artifact.character} />}
+          </Typography>
           {match.perfectMatches.length > 1 && (
             <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
               <Button
