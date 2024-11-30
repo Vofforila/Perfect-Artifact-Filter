@@ -234,6 +234,9 @@ function SubstatParser(mainStatKey: any) {
     case 'geo_dmg_':
       substat_type = 'GEO'
       break
+    case 'physical_dmg_':
+      substat_type = 'PHYSICAL'
+      break
   }
   return substat_type
 }
