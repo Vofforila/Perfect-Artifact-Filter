@@ -23,7 +23,7 @@ export default function PerfectartifactCard({
 
   // console.log(currentPerfectMatch.character)
 
-  const setImagePath = artifactAsset(test_artifact.setKey, 'flower')
+  const setImagePath = artifactAsset(currentPerfectMatch.setKey, 'flower')
 
   const slotName = (
     <ArtifactSetSlotName

@@ -261,8 +261,8 @@ export default function PerfectArtifacts() {
                     <CardContent>
                       <Box sx={{ position: 'relative' }}>
                         <PerfectartifactCard
-                         test_artifact={test_artifact}
-                         perfect_sets={perfect_sets}
+                          test_artifact={test_artifact}
+                          perfect_sets={perfect_sets}
                         />
                       </Box>
                     </CardContent>

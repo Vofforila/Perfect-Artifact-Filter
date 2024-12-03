@@ -117,7 +117,11 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
   for (const test_artifact of _allArtifacts as Artifact[]) {
     const perfectMatch: PerfectMatch = new PerfectMatch([], test_artifact)
     for (const perfect_artifact of perfect_sets as PerfectArtifactSet[]) {
-      if (test_artifact.setKey === perfect_artifact.setKey) {
+      console.log(test_artifact.slotKey)
+      if (
+        test_artifact.setKey === perfect_artifact.setKey ||
+        test_artifact.slotKey === 'goblet'
+      ) {
         const perfect_stats: PerfectStats = CheckMainStat(
           perfect_artifact,
           test_artifact
@@ -161,10 +165,7 @@ function CheckMainStat(
   }
 
   if (type !== 'flower' && type !== 'plume') {
-    const test_mainstat_type = SubstatParser({
-      key: _test_artifact.mainStatKey,
-    })
-
+    const test_mainstat_type = _test_artifact.mainStatKey
     for (let index = 0; index < perfect_stats.mainStats.length; index++) {
       if (perfect_stats.mainStats[index] === test_mainstat_type) {
         perfect_stats.checkMainStat = true
@@ -251,13 +252,14 @@ function CheckSubStats(
   const checkvalue = 3
 
   _test_artifact.substats.forEach((substat: any) => {
-    const substat_type = SubstatParser(substat)
-
+    const substat_type = substat.key
     for (let index = 0; index < _perfect_stats.secondaryStats.length; index++) {
       const perfect_substat = _perfect_stats.secondaryStats[index]
-
       if (perfect_substat === substat_type) {
-        if (_perfect_artifact.critUser && 'CRIT' === substat_type) {
+        if (
+          _perfect_artifact.critUser &&
+          ('critDMG_' === substat_type || 'critRate_' === substat_type)
+        ) {
           critMatch++
         }
         matches++
