@@ -1,0 +1,92 @@
+
+// Circlet
+NoMainstats + 4SubStats + 3CorrectSubStats + CritUser
+NoMainstats + 4SubStats + 3CorrectSubStats + NotCritUser
+NoMainstats + 4SubStats + 3IncorrectSubStats + CritUser
+NoMainstats + 4SubStats + 3IncorrectSubStats + NotCritUser
+
+NoMainstats + Under3SubStats + 3CorrectSubStats + CritUser
+NoMainstats + Under3SubStats + 3CorrectSubStats + NotCritUser
+NoMainstats + Under3SubStats + 3IncorrectSubStats + CritUser
+NoMainstats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+Mainstats + 4SubStats + 3CorrectSubStats + CritUser
+Mainstats + 4SubStats + 3CorrectSubStats + NotCritUser
+Mainstats + 4SubStats + 3IncorrectSubStats + CritUser
+Mainstats + 4SubStats + 3IncorrectSubStats + NotCritUser
+
+Mainstats + Under3SubStats + 3CorrectSubStats + CritUser
+Mainstats + Under3SubStats + 3CorrectSubStats + NotCritUser
+Mainstats + Under3SubStats + 3IncorrectSubStats + CritUser
+Mainstats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+// Goblet
+Offset + MainStats + 4SubStats + 3CorrectSubStats + CritUser
+Offset + MainStats + 4SubStats + 3CorrectSubStats + NotCritUser
+Offset + MainStats + 4SubStats + 3IncorrectSubStats + CritUser
+Offset + MainStats + 4SubStats + 3IncorrectSubStats + NotCritUser
+Offset + MainStats + Under3SubStats + 3CorrectSubStats + CritUser
+Offset + MainStats + Under3SubStats + 3CorrectSubStats + NotCritUser
+Offset + MainStats + Under3SubStats + 3IncorrectSubStats + CritUser
+Offset + MainStats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+Offset + NoMainStats + 4SubStats + 3CorrectSubStats + CritUser
+Offset + NoMainStats + 4SubStats + 3CorrectSubStats + NotCritUser
+Offset + NoMainStats + 4SubStats + 3IncorrectSubStats + CritUser
+Offset + NoMainStats + 4SubStats + 3IncorrectSubStats + NotCritUser
+Offset + NoMainStats + Under3SubStats + 3CorrectSubStats + CritUser
+Offset + NoMainStats + Under3SubStats + 3CorrectSubStats + NotCritUser
+Offset + NoMainStats + Under3SubStats + 3IncorrectSubStats + CritUser
+Offset + NoMainStats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+NoOffset + MainStats + 4SubStats + 3CorrectSubStats + CritUser
+NoOffset + MainStats + 4SubStats + 3CorrectSubStats + NotCritUser
+NoOffset + MainStats + 4SubStats + 3IncorrectSubStats + CritUser
+NoOffset + MainStats + 4SubStats + 3IncorrectSubStats + NotCritUser
+NoOffset + MainStats + Under3SubStats + 3CorrectSubStats + CritUser
+NoOffset + MainStats + Under3SubStats + 3CorrectSubStats + NotCritUser
+NoOffset + MainStats + Under3SubStats + 3IncorrectSubStats + CritUser
+NoOffset + MainStats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+NoOffset + NoMainStats + 4SubStats + 3CorrectSubStats + CritUser
+NoOffset + NoMainStats + 4SubStats + 3CorrectSubStats + NotCritUser
+NoOffset + NoMainStats + 4SubStats + 3IncorrectSubStats + CritUser
+NoOffset + NoMainStats + 4SubStats + 3IncorrectSubStats + NotCritUser
+NoOffset + NoMainStats + Under3SubStats + 3CorrectSubStats + CritUser
+NoOffset + NoMainStats + Under3SubStats + 3CorrectSubStats + NotCritUser
+NoOffset + NoMainStats + Under3SubStats + 3IncorrectSubStats + CritUser
+NoOffset + NoMainStats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+// Sands
+NoMainstats + 4SubStats + 3CorrectSubStats + CritUser
+NoMainstats + 4SubStats + 3CorrectSubStats + NotCritUser
+NoMainstats + 4SubStats + 3IncorrectSubStats + CritUser
+NoMainstats + 4SubStats + 3IncorrectSubStats + NotCritUser
+
+NoMainstats + Under3SubStats + 3CorrectSubStats + CritUser
+NoMainstats + Under3SubStats + 3CorrectSubStats + NotCritUser
+NoMainstats + Under3SubStats + 3IncorrectSubStats + CritUser
+NoMainstats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+
+Mainstats + 4SubStats + 3CorrectSubStats + CritUser
+Mainstats + 4SubStats + 3CorrectSubStats + NotCritUser
+Mainstats + 4SubStats + 3IncorrectSubStats + CritUser
+Mainstats + 4SubStats + 3IncorrectSubStats + NotCritUser
+
+Mainstats + Under3SubStats + 3CorrectSubStats + CritUser
+Mainstats + Under3SubStats + 3CorrectSubStats + NotCritUser
+Mainstats + Under3SubStats + 3IncorrectSubStats + CritUser
+Mainstats + Under3SubStats + 3IncorrectSubStats + NotCritUser
+`
+
+
+// Flower / Feather
+4SubStats + 3CorrectSubStats + CritUser
+4SubStats + 3CorrectSubStats + NotCritUser
+4SubStats + 3IncorrectSubStats + CritUser
+4SubStats + 3IncorrectSubStats + NotCritUser
+
+Under3SubStats + 3CorrectSubStats + CritUser
+Under3SubStats + 3CorrectSubStats + NotCritUser
+Under3SubStats + 3IncorrectSubStats + CritUser
+Under3SubStats + 3IncorrectSubStats + NotCritUser

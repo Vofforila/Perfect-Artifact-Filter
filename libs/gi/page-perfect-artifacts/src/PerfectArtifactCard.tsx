@@ -21,7 +21,7 @@ export default function PerfectartifactCard({
   const currentPerfectMatch: PerfectArtifactSet =
     perfect_artifacts[currentPerfectIndex]
 
-  // console.log(currentPerfectMatch.character)
+  // console.log(currentPerfectMatch.)
 
   const setImagePath = artifactAsset(currentPerfectMatch.setKey, 'flower')
 

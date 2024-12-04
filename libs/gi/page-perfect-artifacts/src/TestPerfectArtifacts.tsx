@@ -4,14 +4,17 @@ export class PerfectStats {
   mainStats: string[]
   secondaryStats: string[]
   checkMainStat: boolean
+  crit_mainstat: boolean
   constructor(
     mainStats: string | string[],
     secondaryStats: string[],
-    checkMainStat: boolean
+    checkMainStat: boolean,
+    crit_mainstat = false
   ) {
     this.mainStats = Array.isArray(mainStats) ? mainStats : [mainStats]
     this.secondaryStats = secondaryStats
     this.checkMainStat = checkMainStat
+    this.crit_mainstat = crit_mainstat
   }
 }
 
@@ -117,7 +120,6 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
   for (const test_artifact of _allArtifacts as Artifact[]) {
     const perfectMatch: PerfectMatch = new PerfectMatch([], test_artifact)
     for (const perfect_artifact of perfect_sets as PerfectArtifactSet[]) {
-      console.log(test_artifact.slotKey)
       if (
         test_artifact.setKey === perfect_artifact.setKey ||
         test_artifact.slotKey === 'goblet'
@@ -151,23 +153,18 @@ function CheckMainStat(
   _perfect_artifact: PerfectArtifactSet,
   _test_artifact: Artifact
 ) {
-  let perfect_stats: PerfectStats
   const type = _test_artifact.slotKey
 
-  if (_perfect_artifact[type].includes('/')) {
-    const secondaryStats = _perfect_artifact[type].split(' + ')
-    const mainStats = secondaryStats[0].split('/')
-    perfect_stats = new PerfectStats(mainStats, secondaryStats.slice(1), false)
-  } else {
-    const secondaryStats = _perfect_artifact[type].split(' + ')
-    const mainStats = secondaryStats[0]
-    perfect_stats = new PerfectStats(mainStats, secondaryStats.slice(1), false)
-  }
+  const perfect_stats: PerfectStats =
+    SubstatParserforPerfectArtifact(_perfect_artifact)
 
   if (type !== 'flower' && type !== 'plume') {
     const test_mainstat_type = _test_artifact.mainStatKey
     for (let index = 0; index < perfect_stats.mainStats.length; index++) {
       if (perfect_stats.mainStats[index] === test_mainstat_type) {
+        if (test_mainstat_type === 'critDMG_') {
+          perfect_stats.crit_mainstat = true
+        }
         perfect_stats.checkMainStat = true
         break
       }
@@ -249,7 +246,22 @@ function CheckSubStats(
 ) {
   let matches = 0
   let critMatch = 0
-  const checkvalue = 3
+  let checkvalue = 0
+
+  if (_perfect_stats.secondaryStats.length - 1 <= 3) {
+    checkvalue = _perfect_stats.secondaryStats.length
+  }
+  if (
+    _test_artifact.substats[3].value === 0 &&
+    _perfect_stats.secondaryStats.length - 1 >= 3
+  ) {
+    checkvalue = 3
+  } else if (
+    _test_artifact.substats[3].value !== 0 &&
+    _perfect_stats.secondaryStats.length - 1 > 3
+  ) {
+    checkvalue = 4
+  }
 
   _test_artifact.substats.forEach((substat: any) => {
     const substat_type = substat.key
@@ -275,15 +287,29 @@ function CheckSubStats(
   // console.log(critMatch)
   // console.log(matches)
 
-  if (_perfect_artifact.critUser && critMatch === 2) {
+  if (
+    (_perfect_artifact.critUser && critMatch === 2) ||
+    (_perfect_stats.crit_mainstat === true &&
+      (critMatch === 1 || _test_artifact.substats[3].value === 0)) ||
+    (_perfect_artifact.critUser === false && matches >= checkvalue)
+  ) {
     _perfect_artifact.matches = matches
-
-    return _perfect_artifact
-  } else if (_perfect_artifact.critUser === false && matches >= checkvalue) {
-    _perfect_artifact.matches = matches
-
     return _perfect_artifact
   }
 
   return false
+}
+
+function SubstatParserforPerfectArtifact(
+  _perfect_artifact: PerfectArtifactSet
+) {
+  if (_perfect_artifact[type].includes('/')) {
+    const secondaryStats = _perfect_artifact[type].split(' + ')
+    const mainStats = secondaryStats[0].split('/')
+    return new PerfectStats(mainStats, secondaryStats.slice(1), false)
+  } else {
+    const secondaryStats = _perfect_artifact[type].split(' + ')
+    const mainStats = secondaryStats[0]
+    return new PerfectStats(mainStats, secondaryStats.slice(1), false)
+  }
 }
