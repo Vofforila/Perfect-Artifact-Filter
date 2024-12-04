@@ -156,7 +156,7 @@ function CheckMainStat(
   const type = _test_artifact.slotKey
 
   const perfect_stats: PerfectStats =
-    SubstatParserforPerfectArtifact(_perfect_artifact)
+    SubstatParserforPerfectArtifact(_perfect_artifact,type)
 
   if (type !== 'flower' && type !== 'plume') {
     const test_mainstat_type = _test_artifact.mainStatKey
@@ -302,6 +302,7 @@ function CheckSubStats(
 
 function SubstatParserforPerfectArtifact(
   _perfect_artifact: PerfectArtifactSet
+  type: string
 ) {
   if (_perfect_artifact[type].includes('/')) {
     const secondaryStats = _perfect_artifact[type].split(' + ')
