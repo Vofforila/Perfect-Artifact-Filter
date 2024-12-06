@@ -1,0 +1,8 @@
+{
+  "name": "pando-ui-sheet",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/pando/ui-sheet/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
