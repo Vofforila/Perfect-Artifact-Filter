@@ -3,6 +3,7 @@
   "version": "10.16.0",
   "license": "MIT",
   "private": true,
+  "homepage": "https://github.com/Vofforila/Perfect-Artifact-Filter/",
   "scripts": {
     "frontend": "nx serve frontend",
     "build-all": "nx run-many -t build",
@@ -10,7 +11,10 @@
     "reload-dm": "git submodule update --init",
     "update-dm": "git submodule update --remote",
     "gen-file": "nx run-many -t gen-file",
-    "test": "nx run-many -t test"
+    "test": "nx run-many -t test",
+    "predeploy": "nx build frontend",
+    "deploy": "gh-pages -d dist/apps/frontend",
+    "build": "nx run frontend:serve"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
