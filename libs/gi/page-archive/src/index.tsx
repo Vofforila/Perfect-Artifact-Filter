@@ -13,6 +13,16 @@ import { PerfectArtifactSet } from './TestPerfectArtifacts'
 import type {
   CharacterKey,
 } from '@genshin-optimizer/gi/consts'
+import {
+  CharacterName,
+  SillyContext,
+  iconAsset,
+} from '@genshin-optimizer/gi/ui'
+import { sortFunction } from '@genshin-optimizer/common/util'
+import { i18n } from '@genshin-optimizer/gi/i18n'
+
+
+
 
 type Tab = {
   i18Key: string
@@ -43,6 +53,21 @@ const characters: Tab = {
 const tabs = [artifacts, weapons, characters] as const
 const tabValues = tabs.map(({ value }) => value)
 
+const sortedCharKeys = useMemo(
+  () =>
+    sortFunction([character.sortOrderBy], character.sortOrder === 'asc', {
+      name: (cKey: CharacterKey) =>
+        silly && i18n.exists(`sillyWisher_charNames:${cKey}`)
+          ? i18n.t(`sillyWisher_charNames:${cKey}`)
+          : i18n.t(`charNames_gen:${cKey}`),
+      rarity: (cKey: CharacterKey) => getCharStat(cKey).rarity,
+      element: (cKey: CharacterKey) => getCharEle(cKey),
+      type: (cKey: CharacterKey) => getCharStat(cKey).weaponType,
+    } as SortConfigs<SortKey, CharacterKey>),
+  [character.sortOrder, character.sortOrderBy, silly]
+)
+
+
 export default function PageArchive() {
   const { t } = useTranslation('ui')
 
@@ -61,13 +86,14 @@ export default function PageArchive() {
       <CardContent>
 
  {/* Dropdown to select character, populated from CharacterKeys array */}
- <select onChange={(e) => setCharacterFilter(e.target.value)} value={characterFilter}>
+ {/* <select onChange={(e) => setCharacterFilter(e.target.value)} value={characterFilter}>
         {CharacterKeys.map((character) => (
           <option key={character} value={character}>
             {character}
           </option>
         ))}
-      </select>
+      </select> */}
+  <CharacterName characterKey={cKey} gender={gender} />
 
         <Grid container spacing={2}>
           {(perfect_sets as PerfectArtifactSet[]).map((perfect_set) => {
