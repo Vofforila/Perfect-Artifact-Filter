@@ -2,20 +2,18 @@ import { AnvilIcon } from '@genshin-optimizer/common/svgicons'
 import { CardThemed } from '@genshin-optimizer/common/ui'
 import { FlowerIcon } from '@genshin-optimizer/gi/svgicons'
 import { People } from '@mui/icons-material'
-import { Divider, Skeleton, Tab, Tabs } from '@mui/material'
+import { Box, CardContent, Grid, Tab } from '@mui/material'
 import type { ReactElement } from 'react'
-import { Suspense, useMemo } from 'react'
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import {
-  Navigate,
-  Route,
-  Link as RouterLink,
-  Routes,
-  useMatch,
-} from 'react-router-dom'
-import TabArtifact from './TabArtifact'
-import TabCharacter from './TabCharacter'
-import TabWeapon from './TabWeapon'
+import { useMatch } from 'react-router-dom'
+import perfect_sets from './artifacts.json'
+import PerfectartifactCard from './PerfectArtifactCard'
+import { PerfectArtifactSet } from './TestPerfectArtifacts'
+import type {
+  CharacterKey,
+} from '@genshin-optimizer/gi/consts'
+
 type Tab = {
   i18Key: string
   icon: ReactElement
@@ -44,6 +42,7 @@ const characters: Tab = {
 
 const tabs = [artifacts, weapons, characters] as const
 const tabValues = tabs.map(({ value }) => value)
+
 export default function PageArchive() {
   const { t } = useTranslation('ui')
 
@@ -59,47 +58,34 @@ export default function PageArchive() {
 
   return (
     <CardThemed>
-      <Tabs
-        variant="fullWidth"
-        value={tab}
-        sx={{
-          '& .MuiTab-root:hover': {
-            transition: 'background-color 0.25s ease',
-            backgroundColor: 'rgba(255,255,255,0.1)',
-          },
-          '& .Mui-selected': {
-            color: 'white !important',
-          },
-          '& .MuiTabs-indicator': {
-            height: '4px',
-          },
-        }}
-      >
-        {tabs.map(({ i18Key, icon, value, to }) => {
-          return (
-            <Tab
-              icon={icon}
-              iconPosition="start"
-              value={value}
-              key={value}
-              label={t(i18Key)}
-              component={RouterLink}
-              to={`/archive${to}`}
-            />
-          )
-        })}
-      </Tabs>
-      <Divider />
-      <Suspense
-        fallback={<Skeleton variant="rectangular" width="100%" height={1000} />}
-      >
-        <Routes>
-          <Route path="artifacts" element={<TabArtifact />} />
-          <Route path="weapons" element={<TabWeapon />} />
-          <Route path="characters" element={<TabCharacter />} />
-          <Route path="*" element={<Navigate to="artifacts" replace />} />
-        </Routes>
-      </Suspense>
+      <CardContent>
+
+ {/* Dropdown to select character, populated from CharacterKeys array */}
+ <select onChange={(e) => setCharacterFilter(e.target.value)} value={characterFilter}>
+        {CharacterKeys.map((character) => (
+          <option key={character} value={character}>
+            {character}
+          </option>
+        ))}
+      </select>
+
+        <Grid container spacing={2}>
+          {(perfect_sets as PerfectArtifactSet[]).map((perfect_set) => {
+            let character = perfect_set.character
+            return (
+              <Grid item xs={6}>
+                <CardThemed>
+                  <CardContent>
+                    <Box sx={{ position: 'relative' }}>
+                      <PerfectartifactCard perfect_set={perfect_set} />
+                    </Box>
+                  </CardContent>
+                </CardThemed>
+              </Grid>
+            )
+          })}
+        </Grid>
+      </CardContent>
     </CardThemed>
   )
 }

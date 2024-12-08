@@ -2009,7 +2009,7 @@
     "character": "Zhongli",
     "critUser": true,
     "description": "BEST DPS SET - CAN COMBINE WITH Tenacity of the Millelith FOR BEST SHIELD VALUE ",
-    "setKey": "VourukasSha's Glow",
+    "setKey": "VourukashasGlow",
     "set_image": "seii_215.png"
   },
   {
@@ -2129,7 +2129,7 @@
     "character": "YaeMiko",
     "critUser": true,
     "description": "GOOD SECONDARY SET - COMBINED WITH ",
-    "setKey": "Thundering Fury",
+    "setKey": "ThunderingFury",
     "set_image": "seii_76.png"
   },
   {
@@ -2213,7 +2213,7 @@
     "character": "Xiao",
     "critUser": true,
     "description": "BiS",
-    "setKey": "Vermillion Hereafter",
+    "setKey": "VermillionHereafter",
     "set_image": "seii_185.png"
   },
   {
@@ -2621,7 +2621,7 @@
     "character": "KamisatoAyato",
     "critUser": true,
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
-    "setKey": "Echoesofan Offering",
+    "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png"
   },
   {
@@ -2678,7 +2678,7 @@
     "sands": "atk_ + atk_ + atk + critDMG_ + critRate_ + _enerRech_",
     "goblet": "atk_ + atk_ + atk + critDMG_ + critRate_ + _enerRech_",
     "circlet": "heal_/atk_ + atk_ + atk + critDMG_ + critRate_ + _enerRech_",
-    "character": "Quqi",
+    "character": "Qiqi",
     "critUser": false,
     "description": "BiS",
     "setKey": "OceanHuedClam",
@@ -2741,7 +2741,7 @@
     "character": "KamisatoAyato",
     "critUser": true,
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
-    "setKey": "HeartofDepth",
+    "setKey": "HeartOfDepth",
     "set_image": "seii_145.png"
   },
   {
@@ -2753,7 +2753,7 @@
     "character": "Mualani",
     "critUser": true,
     "description": "GOOD SECOND SET",
-    "setKey": "HeartofDepth",
+    "setKey": "HeartOfDepth",
     "set_image": "seii_145.png"
   },
   {
@@ -2765,7 +2765,7 @@
     "character": "Tartaglia",
     "critUser": true,
     "description": "GOOD SECOND SET WITH WEAPONS: Polar Star / Thundering Pulse",
-    "setKey": "HeartofDepth",
+    "setKey": "HeartOfDepth",
     "set_image": "seii_145.png"
   },
   {
@@ -2777,7 +2777,7 @@
     "character": "TravelerHydro",
     "critUser": true,
     "description": "BiS COMBINED WITH Gladiator's Finale",
-    "setKey": "HeartofDepth",
+    "setKey": "HeartOfDepth",
     "set_image": "seii_145.png"
   },
   {

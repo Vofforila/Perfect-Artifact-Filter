@@ -2,33 +2,24 @@ import { NextImage } from '@genshin-optimizer/common/ui'
 import { artifactAsset } from '@genshin-optimizer/gi/assets'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
 import { ArtifactSetSlotName, LocationName } from '@genshin-optimizer/gi/ui'
-import { Box, Button, CardContent, Chip, Typography } from '@mui/material'
-import { useState } from 'react'
-import { Artifact, PerfectArtifactSet } from './TestPerfectArtifacts'
+import { Box, CardContent, Chip, Typography } from '@mui/material'
+import { PerfectArtifactSet } from './TestPerfectArtifacts'
 
 interface PerfectArtifactCardProps {
-  test_artifact: Artifact
-  perfect_sets: PerfectArtifactSet[]
+  perfect_set: PerfectArtifactSet
 }
 
 export default function PerfectartifactCard({
-  test_artifact,
-  perfect_sets,
+  perfect_set,
 }: PerfectArtifactCardProps) {
-  const perfect_artifacts: PerfectArtifactSet[] = perfect_sets
+  // console.log(perfect_set.setKey)
 
-  const [currentPerfectIndex, setCurrentPerfectIndex] = useState(0)
-  const currentPerfectMatch: PerfectArtifactSet =
-    perfect_artifacts[currentPerfectIndex]
-
-  // console.log(currentPerfectMatch.character)
-
-  const setImagePath = artifactAsset(currentPerfectMatch.setKey, 'flower')
+  const setImagePath = artifactAsset(perfect_set.setKey, 'flower')
 
   const slotName = (
     <ArtifactSetSlotName
-      setKey={test_artifact.setKey}
-      slotKey={test_artifact.slotKey}
+      setKey={perfect_set.setKey}
+      slotKey={perfect_set.slotKey}
     />
   )
 
@@ -53,28 +44,12 @@ export default function PerfectartifactCard({
           }}
         >
           <Typography variant="h6">
-            {<LocationName location={currentPerfectMatch.character} />}
+            {<LocationName location={perfect_set.character} />}
           </Typography>
-          {perfect_artifacts.length > 1 && (
-            <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
-              <Button
-                variant="contained"
-                fullWidth
-                onClick={() =>
-                  setCurrentPerfectIndex(
-                    (prev) => (prev + 1) % perfect_artifacts.length
-                  )
-                }
-              >
-                Other Users ({currentPerfectIndex + 1}/
-                {perfect_artifacts.length})
-              </Button>
-            </Box>
-          )}
           <Box sx={{ display: 'flex', gap: 0.5, marginLeft: 'auto' }}>
-            {currentPerfectMatch.matches !== undefined && (
+            {perfect_set.matches !== undefined && (
               <Chip
-                label={`Match: ${currentPerfectMatch.matches}/4`}
+                label={`Match: ${perfect_set.matches}/4`}
                 color="primary"
                 size="small"
                 sx={{ fontWeight: 'bold' }}
@@ -82,7 +57,7 @@ export default function PerfectartifactCard({
             )}
             <Chip
               label="CRIT"
-              color={currentPerfectMatch.critUser ? 'success' : 'error'}
+              color={perfect_set.critUser ? 'success' : 'error'}
               size="small"
               sx={{ fontWeight: 'bold' }}
             />
@@ -116,12 +91,12 @@ export default function PerfectartifactCard({
             <strong> {slotName}</strong>
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {currentPerfectMatch.description}
+            {perfect_set.description}
           </Typography>
         </Box>
       </Box>
 
-      {/* test_artifact Stats with styled boxes */}
+      {/* perfect_set Stats with styled boxes */}
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
         {['flower', 'plume', 'sands', 'goblet', 'circlet'].map((piece) => (
           <Box
@@ -139,7 +114,7 @@ export default function PerfectartifactCard({
                 display: 'flex',
                 alignItems: 'center',
                 gap: 1,
-                color: piece === test_artifact.slotKey ? '#DE79F0' : 'inherit',
+                color: piece === perfect_set.slotKey ? '#DE79F0' : 'inherit',
               }}
             >
               <SlotIcon iconProps={{ fontSize: 'inherit' }} slotKey={piece} />
@@ -150,7 +125,7 @@ export default function PerfectartifactCard({
                     fontWeight: 'bold',
                     minWidth: '60px',
                     color:
-                      piece === test_artifact.slotKey ? '#DE79F0' : 'inherit',
+                      piece === perfect_set.slotKey ? '#DE79F0' : 'inherit',
                   }}
                 >
                   {piece}:
@@ -158,10 +133,10 @@ export default function PerfectartifactCard({
                 <span
                   style={{
                     color:
-                      piece === test_artifact.slotKey ? '#DE79F0' : 'inherit',
+                      piece === perfect_set.slotKey ? '#DE79F0' : 'inherit',
                   }}
                 >
-                  {currentPerfectMatch[piece].split('+').map((part, index) =>
+                  {perfect_set[piece].split('+').map((part, index) =>
                     index === 0 ? (
                       <span key={index} style={{ color: '#FFA500' }}>
                         {part}
