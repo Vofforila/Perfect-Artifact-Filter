@@ -6,6 +6,8 @@ New features:
 
 Tests if a Artifact is perfect or not.
 
+Changed Archive to Perfect Artifact Archive.
+
 This is the criteria of filtering: 
 
 1. Tests if the Artifact has the same SET or if it's a Goblet. If yes it continues.
