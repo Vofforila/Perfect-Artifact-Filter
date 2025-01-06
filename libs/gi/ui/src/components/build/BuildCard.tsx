@@ -6,7 +6,8 @@ import EditIcon from '@mui/icons-material/Edit'
 import InfoIcon from '@mui/icons-material/Info'
 import ScienceIcon from '@mui/icons-material/Science'
 import {
-  CardActionArea,
+  Box,
+  Button,
   CardActions,
   CardContent,
   CardHeader,
@@ -18,6 +19,7 @@ import type { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export function BuildCard({
+  avatar,
   name,
   description,
   active = false,
@@ -30,6 +32,7 @@ export function BuildCard({
   onRemove,
   hideFooter = false,
 }: {
+  avatar?: ReactNode
   name: ReactNode
   description?: ReactNode
   active?: boolean
@@ -44,8 +47,9 @@ export function BuildCard({
 }) {
   const { t } = useTranslation('build')
   const clickableAreaContent = (
-    <>
+    <Box>
       <CardHeader
+        avatar={avatar}
         title={
           <Typography noWrap gutterBottom variant="h6">
             {name}
@@ -60,7 +64,7 @@ export function BuildCard({
         }
       />
       <CardContent sx={{ pt: 0, pb: 1 }}>{children}</CardContent>
-    </>
+    </Box>
   )
   return (
     <CardThemed
@@ -73,9 +77,14 @@ export function BuildCard({
       }}
     >
       {onActive ? (
-        <CardActionArea onClick={onActive}>
+        <Button
+          color="neutral300"
+          onClick={onActive}
+          variant="outlined"
+          sx={{ p: 0, borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}
+        >
           {clickableAreaContent}
-        </CardActionArea>
+        </Button>
       ) : (
         clickableAreaContent
       )}
@@ -92,72 +101,82 @@ export function BuildCard({
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onEdit}
-              disabled={!onEdit}
-            >
-              <span>
-                <EditIcon />
-              </span>
-            </IconButton>
+            <Box>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onEdit}
+                disabled={!onEdit}
+              >
+                <span>
+                  <EditIcon />
+                </span>
+              </IconButton>
+            </Box>
           </Tooltip>
           <Tooltip
             title={<Typography>{t('buildCardTip.copyTc')}</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onCopyToTc}
-              disabled={!onCopyToTc}
-            >
-              <ScienceIcon />
-            </IconButton>
+            <Box>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onCopyToTc}
+                disabled={!onCopyToTc}
+              >
+                <ScienceIcon />
+              </IconButton>
+            </Box>
           </Tooltip>
           <Tooltip
             title={<Typography>{t('buildCardTip.duplicate')}</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onDupe}
-              disabled={!onDupe}
-            >
-              <ContentCopyIcon />
-            </IconButton>
+            <Box>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onDupe}
+                disabled={!onDupe}
+              >
+                <ContentCopyIcon />
+              </IconButton>
+            </Box>
           </Tooltip>
           <Tooltip
             title={<Typography>{t('buildCardTip.equip')}</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="info"
-              size="small"
-              onClick={onEquip}
-              disabled={!onEquip}
-            >
-              <CheckroomIcon />
-            </IconButton>
+            <Box>
+              <IconButton
+                color="info"
+                size="small"
+                onClick={onEquip}
+                disabled={!onEquip}
+              >
+                <CheckroomIcon />
+              </IconButton>
+            </Box>
           </Tooltip>
           <Tooltip
             title={<Typography>{t('buildCardTip.delete')}</Typography>}
             placement="top"
             arrow
           >
-            <IconButton
-              color="error"
-              size="small"
-              onClick={onRemove}
-              disabled={!onRemove}
-            >
-              <DeleteForeverIcon />
-            </IconButton>
+            <Box>
+              <IconButton
+                color="error"
+                size="small"
+                onClick={onRemove}
+                disabled={!onRemove}
+              >
+                <DeleteForeverIcon />
+              </IconButton>
+            </Box>
           </Tooltip>
         </CardActions>
       )}

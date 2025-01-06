@@ -29,7 +29,7 @@ type characterAssetKey =
   | 'constellation5'
   | 'constellation6'
   | 'sprint'
-  | 'passive' 
+  | 'passive'
 export function characterAsset(
   ck: CharacterKey,
   asset: characterAssetKey,

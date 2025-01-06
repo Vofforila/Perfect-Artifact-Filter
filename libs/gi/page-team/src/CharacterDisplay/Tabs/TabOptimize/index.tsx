@@ -30,6 +30,7 @@ import {
   TeamCharacterContext,
   useDBMeta,
   useDatabase,
+  useGeneratedBuildList,
   useOptConfig,
   useTeammateArtifactIds,
 } from '@genshin-optimizer/gi/db-ui'
@@ -99,6 +100,7 @@ import React, {
 import { Trans, useTranslation } from 'react-i18next'
 import useCompareData from '../../../useCompareData'
 import CompareBtn from '../../CompareBtn'
+import { CustomMultiTargetButton } from '../../CustomMultiTarget/CustomMultiTargetButton'
 import ArtifactSetConfig from './Components/ArtifactSetConfig'
 import AssumeFullLevelToggle from './Components/AssumeFullLevelToggle'
 import BonusStatsCard from './Components/BonusStatsCard'
@@ -141,6 +143,8 @@ export default function TabBuild() {
     failed: 0,
     skipped: 0,
     total: 0,
+    testedPerSecond: 0,
+    skippedPerSecond: 0,
   } as BuildStatus)
   const generatingBuilds = buildStatus.type !== 'inactive'
 
@@ -156,6 +160,8 @@ export default function TabBuild() {
       failed: 0,
       skipped: 0,
       total: 0,
+      testedPerSecond: 0,
+      skippedPerSecond: 0,
     })
   }, [characterKey])
 
@@ -170,10 +176,12 @@ export default function TabBuild() {
     maxBuildsToShow,
     levelLow,
     levelHigh,
-    builds: buildsDb,
-    buildDate,
+    generatedBuildListId,
     useTeammateBuild,
   } = buildSetting
+  const { builds: buildsDb, buildDate } = useGeneratedBuildList(
+    generatedBuildListId ?? ''
+  ) ?? { builds: [] as GeneratedBuild[] }
 
   const builds = useConstObj(buildsDb)
   const optimizationTarget = useConstObj(optimizationTargetDb)
@@ -254,8 +262,8 @@ export default function TabBuild() {
           const { levelLow, levelHigh, excludedLocations, artExclusion } =
             deferredArtsDirty && deferredBuildSetting
           if (level >= levelLow && level <= levelHigh) {
-            ctMap.levelTotal.in.total++
-            if (filteredArtIdMap[id]) ctMap.levelTotal.in.current++
+            ctMap['levelTotal']['in'].total++
+            if (filteredArtIdMap[id]) ctMap['levelTotal']['in'].current++
           }
           const locKey = charKeyToLocCharKey(characterKey)
           if (
@@ -263,16 +271,17 @@ export default function TabBuild() {
             location !== locKey &&
             !excludedLocations.includes(location)
           ) {
-            ctMap.allowListTotal.in.total++
-            if (filteredArtIdMap[id]) ctMap.allowListTotal.in.current++
+            ctMap['allowListTotal']['in'].total++
+            if (filteredArtIdMap[id]) ctMap['allowListTotal']['in'].current++
           }
           if (artExclusion.includes(id)) {
-            ctMap.excludedTotal.in.total++
-            if (filteredArtIdMap[id]) ctMap.excludedTotal.in.current++
+            ctMap['excludedTotal']['in'].total++
+            if (filteredArtIdMap[id]) ctMap['excludedTotal']['in'].current++
           }
           if (teammateArtifactIds.includes(id)) {
-            ctMap.teammateBuildTotal.in.total++
-            if (filteredArtIdMap[id]) ctMap.teammateBuildTotal.in.current++
+            ctMap['teammateBuildTotal']['in'].total++
+            if (filteredArtIdMap[id])
+              ctMap['teammateBuildTotal']['in'].current++
           }
         })
       )
@@ -380,6 +389,8 @@ export default function TabBuild() {
       failed: 0,
       skipped: 0,
       total: 0,
+      testedPerSecond: 0,
+      skippedPerSecond: 0,
       startTime: performance.now(),
     }
     const statusUpdateTimer = setInterval(
@@ -437,7 +448,7 @@ export default function TabBuild() {
       if (process.env['NODE_ENV'] === 'development')
         console.log('Build Result', builds)
 
-      database.optConfigs.set(optConfigId, {
+      database.optConfigs.newOrSetGeneratedBuildList(optConfigId, {
         builds: builds.map((build) => ({
           artifactIds: objKeyMap(allArtifactSlotKeys, (slotKey) =>
             build.artifactIds.find(
@@ -515,7 +526,7 @@ export default function TabBuild() {
       }
       disabled={!!generatingBuilds}
       targetSelectorModalProps={{
-        excludeSections: ['character', 'bounsStats', 'teamBuff'],
+        excludeSections: ['character', 'bonusStats', 'teamBuff'],
       }}
     />
   )
@@ -550,6 +561,7 @@ export default function TabBuild() {
         >
           <OptCharacterCard characterKey={characterKey} />
           <BonusStatsCard />
+          <CustomMultiTargetButton />
         </Grid>
         {/* 2 */}
         <Grid
@@ -563,7 +575,7 @@ export default function TabBuild() {
         >
           {/* Level Filter */}
           <LevelFilter
-            levelTotal={levelTotal.in}
+            levelTotal={levelTotal['in']}
             levelLow={levelLow}
             levelHigh={levelHigh}
             disabled={generatingBuilds}
@@ -652,7 +664,7 @@ export default function TabBuild() {
           {/* use equipped */}
           <UseEquipped
             disabled={generatingBuilds}
-            allowListTotal={allowListTotal.in}
+            allowListTotal={allowListTotal['in']}
           />
 
           {/*Minimum Final Stat Filter */}
@@ -808,7 +820,7 @@ export default function TabBuild() {
                 color="error"
                 onClick={() => {
                   setGraphBuilds(undefined)
-                  database.optConfigs.set(optConfigId, {
+                  database.optConfigs.newOrSetGeneratedBuildList(optConfigId, {
                     builds: [],
                     buildDate: 0,
                   })

@@ -74,7 +74,6 @@ const teams: ITab = {
   value: 'teams',
   textSuffix: <TeamChip key="charAdd" />,
 }
-
 const perfectArtifacts: ITab = {
   i18Key: 'Perfect Artifacts',
   icon: <BookIcon />,
