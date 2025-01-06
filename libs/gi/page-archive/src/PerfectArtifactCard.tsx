@@ -1,7 +1,7 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
 import { artifactAsset } from '@genshin-optimizer/gi/assets'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
-import { ArtifactSetSlotName, LocationName } from '@genshin-optimizer/gi/ui'
+import { LocationName } from '@genshin-optimizer/gi/ui'
 import { Box, CardContent, Chip, Typography } from '@mui/material'
 import { PerfectArtifactSet } from './TestPerfectArtifacts'
 
@@ -12,16 +12,8 @@ interface PerfectArtifactCardProps {
 export default function PerfectartifactCard({
   perfect_set,
 }: PerfectArtifactCardProps) {
-  // console.log(perfect_set.setKey)
-
+  // console.log(perfect_set.character)
   const setImagePath = artifactAsset(perfect_set.setKey, 'flower')
-
-  const slotName = (
-    <ArtifactSetSlotName
-      setKey={perfect_set.setKey}
-      slotKey={perfect_set.slotKey}
-    />
-  )
 
   return (
     <CardContent
@@ -88,7 +80,9 @@ export default function PerfectartifactCard({
             variant="body2"
             sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}
           >
-            <strong> {slotName}</strong>
+            <strong>
+              {perfect_set.setKey.replace(/([a-z])([A-Z])/g, '$1 $2')}
+            </strong>
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {perfect_set.description}
