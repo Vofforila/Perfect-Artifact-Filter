@@ -13,7 +13,7 @@
     "gen-file": "nx run-many -t gen-file",
     "test": "run nx serve frontend",
     "predeploy": "nx build frontend",
-    "deploy": "gh-pages -d dist/apps/frontend"
+    "deploy": "npx gh-pages -d dist/apps/frontend"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
