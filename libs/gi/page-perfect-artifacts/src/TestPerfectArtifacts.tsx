@@ -264,6 +264,8 @@ function CheckSubStats(
   ) {
     checkvalue = 4
   }
+  if(_test_artifact.level >= 3)
+    critMatch++;
 
   _test_artifact.substats.forEach((substat: any) => {
     const substat_type = substat.key

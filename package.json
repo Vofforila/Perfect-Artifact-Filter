@@ -11,10 +11,9 @@
     "reload-dm": "git submodule update --init",
     "update-dm": "git submodule update --remote",
     "gen-file": "nx run-many -t gen-file",
-    "test": "nx run-many -t test",
+    "test": "yarn run nx serve {frontend | sr-frontend}",
     "predeploy": "nx build frontend",
-    "deploy": "gh-pages -d dist/apps/frontend",
-    "build": "nx run frontend:serve"
+    "deploy": "npx gh-pages -d dist/apps/frontend"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
