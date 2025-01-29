@@ -145,7 +145,6 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
       artifact_matches.push(perfectMatch)
     }
   }
-  console.log(artifact_matches)
   return artifact_matches
 }
 
@@ -264,8 +263,6 @@ function CheckSubStats(
   ) {
     checkvalue = 4
   }
-  if(_test_artifact.level >= 3)
-    critMatch++;
 
   _test_artifact.substats.forEach((substat: any) => {
     const substat_type = substat.key
@@ -292,7 +289,9 @@ function CheckSubStats(
   // console.log(matches)
 
   if (
-    (_perfect_artifact.critUser && critMatch === 2) ||
+    (_perfect_artifact.critUser &&
+      (critMatch === 2 ||
+        (_test_artifact.substats[3].value === 0 && critMatch === 1))) ||
     (_perfect_stats.crit_mainstat === true &&
       (critMatch === 1 || _test_artifact.substats[3].value === 0)) ||
     (_perfect_artifact.critUser === false && matches >= checkvalue)

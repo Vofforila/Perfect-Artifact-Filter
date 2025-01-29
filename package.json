@@ -11,7 +11,7 @@
     "reload-dm": "git submodule update --init",
     "update-dm": "git submodule update --remote",
     "gen-file": "nx run-many -t gen-file",
-    "test": "yarn run nx serve {frontend | sr-frontend}",
+    "test": "run nx serve frontend",
     "predeploy": "nx build frontend",
     "deploy": "npx gh-pages -d dist/apps/frontend"
   },
