@@ -1,8 +1,0 @@
-{
-  "name": "gi-page-perfect-artifacts",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/gi/page-perfect-artifacts/src",
-  "projectType": "library",
-  "tags": [],
-  "targets": {}
-}
