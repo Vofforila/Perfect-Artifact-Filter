@@ -61,7 +61,6 @@ export class PerfectArtifactSet {
     this.character = character
     this.description = description
     this.setKey = setKey
-    this.set_image = set_image
     this.matches = matches
   }
 }
