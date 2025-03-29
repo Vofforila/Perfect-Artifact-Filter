@@ -3080,5 +3080,17 @@
     "description": "BiS - Works well with Xianyun",
     "setKey": "LongNightsOath",
     "set_image": "seii_83.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_",
+    "goblet": "anemo + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "character": "Xiao",
+    "critUser": true,
+    "description": "NEW SETT",
+    "setKey": "LongNightsOath",
+    "set_image": "seii_83.png"
   }
 ]
