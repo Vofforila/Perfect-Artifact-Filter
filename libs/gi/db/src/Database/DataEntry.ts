@@ -6,16 +6,16 @@ export class DataEntry<
   Key extends string,
   GOkey extends string,
   CacheValue,
-  StorageValue
+  StorageValue,
 > extends DataEntryBase<Key, GOkey, CacheValue, StorageValue> {
   exportGOOD(go: Partial<IGO & IGOOD>) {
-    go[this.goKey] = this.data
+    go[this.dataKey] = this.data
   }
   importGOOD(
     go: IGO & IGOOD & { [k in GOkey]?: Partial<StorageValue> | never },
     _result: ImportResult
   ) {
-    const data = go[this.goKey]
+    const data = go[this.dataKey]
     if (data) this.set(data)
   }
 }

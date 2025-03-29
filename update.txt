@@ -1,0 +1,11 @@
+To Update:
+assets-data
+assets
+char-cards
+consts
+db-ui
+db
+dm-localization
+dm
+stats
+util

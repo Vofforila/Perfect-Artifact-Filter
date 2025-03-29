@@ -33,6 +33,7 @@ import Gaming from './Character_Gaming_Card.jpg'
 import Ganyu from './Character_Ganyu_Card.png'
 import Gorou from './Character_Gorou_Card.png'
 import HuTao from './Character_Hu_Tao_Card.png'
+import Iansan from './Character_Iansan_Card.jpg'
 import Jean from './Character_Jean_Card.jpg'
 import Kachina from './Character_Kachina_Card.jpg'
 import Kaeya from './Character_Kaeya_Card.jpg'
@@ -46,6 +47,7 @@ import Kirara from './Character_Kirara_Card.jpg'
 import Klee from './Character_Klee_Card.jpg'
 import KujouSara from './Character_Kujou_Sara_Card.jpg'
 import KukiShinobu from './Character_Kuki_Shinobu_Card.jpg'
+import LanYan from './Character_LanYan_Card.jpg'
 import Layla from './Character_Layla_Card.jpeg'
 import Lisa from './Character_Lisa_Card.jpg'
 import Lynette from './Character_Lynette_Card.jpg'
@@ -76,6 +78,7 @@ import Sucrose from './Character_Sucrose_Card.jpg'
 import Tartaglia from './Character_Tartaglia_Card.png'
 import Thoma from './Character_Thoma_Card.jpg'
 import Tighnari from './Character_Tighnari_Card.jpg'
+import Varesa from './Character_Varesa_Card.jpg'
 import Venti from './Character_Venti_Card.jpg'
 import Wanderer from './Character_Wanderer_Card.jpg'
 import Wriothesley from './Character_Wriothesley_Card.jpg'
@@ -90,6 +93,7 @@ import Yanfei from './Character_Yanfei_Card.png'
 import Yaoyao from './Character_Yaoyao_Card.jpg'
 import Yelan from './Character_Yelan_Card.jpg'
 import Yoimiya from './Character_Yoimiya_Card.png'
+import YumemizukiMizuki from './Character_YumemizukiMizuki_Card.jpg'
 import YunJin from './Character_Yun_Jin_Card.jpg'
 import Zhongli from './Character_Zhongli_Card.png'
 import TravelerF from './Traveler_Female_Card.jpg'
@@ -130,6 +134,7 @@ const charCards = {
   Ganyu,
   Gorou,
   HuTao,
+  Iansan,
   Jean,
   Kachina,
   KaedeharaKazuha,
@@ -143,6 +148,7 @@ const charCards = {
   Klee,
   KujouSara,
   KukiShinobu,
+  LanYan,
   Layla,
   Lisa,
   Lyney,
@@ -175,6 +181,7 @@ const charCards = {
   Tighnari,
   TravelerF,
   TravelerM,
+  Varesa,
   Venti,
   Wanderer,
   Wriothesley,
@@ -189,6 +196,7 @@ const charCards = {
   Yaoyao,
   Yelan,
   Yoimiya,
+  YumemizukiMizuki,
   YunJin,
   Zhongli,
 } as const
