@@ -10,3 +10,5 @@ dm
 stats
 util
 Update Perfect Artifacts + check name
+Push with npm run deploy
+Test with yarn test
