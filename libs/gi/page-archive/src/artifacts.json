@@ -1767,7 +1767,7 @@
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
-    "sands": "hp_%/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
+    "sands": "hp_/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Yelan",
@@ -2102,7 +2102,7 @@
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
-    "sands": "hp_%/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
+    "sands": "hp_/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Yelan",
@@ -2125,7 +2125,7 @@
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
-    "sands": "hp_%/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
+    "sands": "hp_/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Yelan",

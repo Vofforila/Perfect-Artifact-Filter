@@ -1,4 +1,4 @@
-import perfect_sets from './artifacts.json'
+import perfect_sets from '../../page-archive/src/artifacts.json'
 
 export class PerfectStats {
   mainStats: string[]
