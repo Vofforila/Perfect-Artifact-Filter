@@ -19,11 +19,13 @@ import Citlali from './Character_Citlali_Card.jpg'
 import Clorinde from './Character_Clorinde_Card.jpg'
 import Collei from './Character_Collei_Card.jpg'
 import Cyno from './Character_Cyno_Card.jpg'
+import Dahlia from './Character_Dahlia_Card.jpg'
 import Dehya from './Character_Dehya_Card.jpg'
 import Diluc from './Character_Diluc_Card.jpg'
 import Diona from './Character_Diona_Card.png'
 import Dori from './Character_Dori_Card.jpg'
 import Emilie from './Character_Emilie_Card.jpg'
+import Escoffier from './Character_Escoffier_Card.jpg'
 import Eula from './Character_Eula_Card.png'
 import Faruzan from './Character_Faruzan_Card.jpg'
 import Fischl from './Character_Fischl_Card.jpg'
@@ -34,6 +36,8 @@ import Ganyu from './Character_Ganyu_Card.png'
 import Gorou from './Character_Gorou_Card.png'
 import HuTao from './Character_Hu_Tao_Card.png'
 import Iansan from './Character_Iansan_Card.jpg'
+import Ifa from './Character_Ifa_Card.jpg'
+import Ineffa from './Character_Ineffa_Card.png'
 import Jean from './Character_Jean_Card.jpg'
 import Kachina from './Character_Kachina_Card.jpg'
 import Kaeya from './Character_Kaeya_Card.jpg'
@@ -73,6 +77,7 @@ import Sethos from './Character_Sethos_Card.jpg'
 import Shenhe from './Character_Shenhe_Card.jpg'
 import ShikanoinHeizou from './Character_Shikanoin_Heizou_Card.png'
 import Sigewinne from './Character_Sigewinne_Card.jpg'
+import Skirk from './Character_Skirk_Card.jpg'
 import Somnia from './Character_Somnia_Card.png'
 import Sucrose from './Character_Sucrose_Card.jpg'
 import Tartaglia from './Character_Tartaglia_Card.png'
@@ -120,11 +125,13 @@ const charCards = {
   Clorinde,
   Collei,
   Cyno,
+  Dahlia,
   Dehya,
   Diluc,
   Diona,
   Dori,
   Emilie,
+  Escoffier,
   Eula,
   Faruzan,
   Fischl,
@@ -135,6 +142,8 @@ const charCards = {
   Gorou,
   HuTao,
   Iansan,
+  Ifa,
+  Ineffa,
   Jean,
   Kachina,
   KaedeharaKazuha,
@@ -174,6 +183,7 @@ const charCards = {
   Shenhe,
   ShikanoinHeizou,
   Sigewinne,
+  Skirk,
   Somnia,
   Sucrose,
   Tartaglia,

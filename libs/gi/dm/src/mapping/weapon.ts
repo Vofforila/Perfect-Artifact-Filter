@@ -55,6 +55,7 @@ export const weaponIdMap: Record<number | string, WeaponKey> = {
   11514: 'UrakuMisugiri',
   11515: 'Absolution',
   11516: 'PeakPatrolSong',
+  11517: 'Azurelight',
 
   //claymore
   12101: 'WasterGreatsword',
@@ -89,6 +90,7 @@ export const weaponIdMap: Record<number | string, WeaponKey> = {
   11428: 'SwordOfNarzissenkreuz',
   12430: 'FruitfulHook',
   12431: 'EarthShaker',
+  12432: 'FlameForgedInsight',
   12501: 'SkywardPride',
   12502: 'WolfsGravestone',
   12503: 'SongOfBrokenPines',
@@ -141,6 +143,8 @@ export const weaponIdMap: Record<number | string, WeaponKey> = {
   13511: 'StaffOfTheScarletSands',
   13512: 'CrimsonMoonsSemblance',
   13513: 'LumidouceElegy',
+  13514: 'SymphonistOfScents',
+  13515: 'FracturedHalo',
 
   //catalyst
   14101: 'ApprenticesNotes',
@@ -229,6 +233,7 @@ export const weaponIdMap: Record<number | string, WeaponKey> = {
   15427: 'RangeGauge',
   15430: 'FlowerWreathedFeathers',
   15431: 'ChainBreaker',
+  15432: 'SequenceOfSolitude',
   15501: 'SkywardHarp',
   15502: 'AmosBow',
   15503: 'ElegyForTheEnd',

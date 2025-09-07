@@ -11,6 +11,7 @@ import AquaSimulacra from './AquaSimulacra'
 import AquilaFavonia from './AquilaFavonia'
 import AshGravenDrinkingHorn from './AshGravenDrinkingHorn'
 import AstralVulturesCrimsonPlumage from './AstralVulturesCrimsonPlumage'
+import Azurelight from './Azurelight'
 import BalladOfTheBoundlessBlue from './BalladOfTheBoundlessBlue'
 import BalladOfTheFjords from './BalladOfTheFjords'
 import BeaconOfTheReedSea from './BeaconOfTheReedSea'
@@ -59,12 +60,14 @@ import FerrousShadow from './FerrousShadow'
 import FesteringDesire from './FesteringDesire'
 import FilletBlade from './FilletBlade'
 import FinaleOfTheDeep from './FinaleOfTheDeep'
+import FlameForgedInsight from './FlameForgedInsight'
 import FleuveCendreFerryman from './FleuveCendreFerryman'
 import FlowerWreathedFeathers from './FlowerWreathedFeathers'
 import FlowingPurity from './FlowingPurity'
 import FluteOfEzpitzal from './FluteOfEzpitzal'
 import FootprintOfTheRainbow from './FootprintOfTheRainbow'
 import ForestRegalia from './ForestRegalia'
+import FracturedHalo from './FracturedHalo'
 import FreedomSworn from './FreedomSworn'
 import Frostbearer from './Frostbearer'
 import FruitOfFulfillment from './FruitOfFulfillment'
@@ -143,6 +146,7 @@ import SacrificialSword from './SacrificialSword'
 import SapwoodBlade from './SapwoodBlade'
 import ScionOfTheBlazingSun from './ScionOfTheBlazingSun'
 import SeasonedHuntersBow from './SeasonedHuntersBow'
+import SequenceOfSolitude from './SequenceOfSolitude'
 import SerpentSpine from './SerpentSpine'
 import SharpshootersOath from './SharpshootersOath'
 import SilverSword from './SilverSword'
@@ -169,6 +173,7 @@ import SunnyMorningSleepIn from './SunnyMorningSleepIn'
 import SurfsUp from './SurfsUp'
 import SwordOfDescension from './SwordOfDescension'
 import SwordOfNarzissenkreuz from './SwordOfNarzissenkreuz'
+import SymphonistOfScents from './SymphonistOfScents'
 import TalkingStick from './TalkingStick'
 import TamayurateiNoOhanashi from './TamayurateiNoOhanashi'
 import TheAlleyFlash from './TheAlleyFlash'
@@ -221,6 +226,7 @@ const data = {
   AquilaFavonia,
   AshGravenDrinkingHorn,
   AstralVulturesCrimsonPlumage,
+  Azurelight,
   BalladOfTheBoundlessBlue,
   BalladOfTheFjords,
   BeaconOfTheReedSea,
@@ -269,12 +275,14 @@ const data = {
   FesteringDesire,
   FilletBlade,
   FinaleOfTheDeep,
+  FlameForgedInsight,
   FleuveCendreFerryman,
   FlowerWreathedFeathers,
   FlowingPurity,
   FluteOfEzpitzal,
   FootprintOfTheRainbow,
   ForestRegalia,
+  FracturedHalo,
   FreedomSworn,
   Frostbearer,
   FruitOfFulfillment,
@@ -353,6 +361,7 @@ const data = {
   SapwoodBlade,
   ScionOfTheBlazingSun,
   SeasonedHuntersBow,
+  SequenceOfSolitude,
   SerpentSpine,
   SharpshootersOath,
   SilverSword,
@@ -379,6 +388,7 @@ const data = {
   SurfsUp,
   SwordOfDescension,
   SwordOfNarzissenkreuz,
+  SymphonistOfScents,
   TalkingStick,
   TamayurateiNoOhanashi,
   TheAlleyFlash,

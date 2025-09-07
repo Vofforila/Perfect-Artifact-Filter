@@ -1,5 +1,29 @@
 [
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Ineffa",
+    "critUser": true,
+    "description": "SECOND BEST SET IF COMBINED WITH GLADIATOR",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "goblet": "cryo/atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Skirk",
+    "critUser": true,
+    "description": "THIRD BEST",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -205,7 +229,7 @@
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk  + eleMas +  enerRech_",
     "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
@@ -216,11 +240,23 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "hp_ + eleMas + enerRech_",
-    "plume": "atk_ + eleMas + enerRech_",
-    "sands": "eleMas + enerRech_",
-    "goblet": "eleMas + enerRech_",
-    "circlet": "eleMas + enerRech_",
+    "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + atk + eleMas + enerRech_",
+    "sands": "atk_ + atk + eleMas + enerRech_",
+    "goblet": "anemo + atk_ + atk + eleMas + enerRech_",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + eleMas + enerRech_",
+    "character": "Ifa",
+    "critUser": false,
+    "description": "BiS IF NO Viridescent Venerer",
+    "setKey": "ViridescentVenerer",
+    "set_image": "seii_77.png"
+  },
+  {
+    "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + atk + eleMas + enerRech_",
+    "sands": "eleMas + atk_ + atk + enerRech_",
+    "goblet": "eleMas + atk_ + atk + enerRech_",
+    "circlet": "eleMas + atk_ + atk + enerRech_",
     "character": "YumemizukiMizuki",
     "critUser": false,
     "description": "BiS",
@@ -336,11 +372,11 @@
     "set_image": "seii_77.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def",
     "character": "Albedo",
     "critUser": true,
     "description": "BEST SET FOR TEAMS THAT INCREASE DEFENCE",
@@ -348,11 +384,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "AratakiItto",
     "critUser": true,
     "description": "BEST SET FOR TEAMS THAT INCREASE DEFENCE",
@@ -360,11 +396,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "sands": "def_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "sands": "def_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
     "character": "Chiori",
     "critUser": true,
     "description": "BEST SET IF YOU HAVE MAXED OUT CHIORI",
@@ -372,11 +408,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "sands": "def_/enerRech_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def + enerRech_",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_",
     "character": "Kachina",
     "critUser": true,
     "description": "GOOD SECONDARY IF YOU RAISE DEFENCE",
@@ -384,11 +420,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Keqing",
     "critUser": true,
     "description": "BiS",
@@ -396,11 +432,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
     "description": "BEST SET OVERALL",
@@ -408,11 +444,11 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + _def + def + enerRech_",
-    "plume": "atk_ + _def + def + enerRech_",
-    "sands": "enerRech_/def_ + _def + def + enerRech_",
-    "goblet": "geo + _def + def + enerRech_",
-    "circlet": "def_ + _def + def + enerRech_",
+    "flower": "hp_ + def_ + def + enerRech_",
+    "plume": "atk_ + def_ + def + enerRech_",
+    "sands": "enerRech_/def_ + def_ + def + enerRech_",
+    "goblet": "geo + def_ + def + enerRech_",
+    "circlet": "def_ + def_ + def + enerRech_",
     "character": "Gorou",
     "critUser": false,
     "description": "BEST SUB DPS BUILD",
@@ -420,16 +456,28 @@
     "set_image": "seii_175.png"
   },
   {
-    "flower": "hp_ + _def + def + enerRech_ + critRate_ + critDMG_",
-    "plume": "atk_ + _def + def + enerRech_ + critRate_ + critDMG_",
-    "sands": "def_/enerRech_ + enerRech_ + _def + def + critRate_ + critDMG_",
-    "goblet": "def_ + enerRech_ + _def + def + critRate_ + critDMG_",
-    "circlet": "def_ + enerRech_ + _def + def + critRate_ + critDMG_",
+    "flower": "hp_ + def_ + def + enerRech_ + critRate_ + critDMG_",
+    "plume": "atk_ + def_ + def + enerRech_ + critRate_ + critDMG_",
+    "sands": "def_/enerRech_ + enerRech_ + def_ + def + critRate_ + critDMG_",
+    "goblet": "def_ + enerRech_ + def_ + def + critRate_ + critDMG_",
+    "circlet": "def_ + enerRech_ + def_ + def + critRate_ + critDMG_",
     "character": "YunJin",
     "critUser": false,
     "description": "BiS",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Ineffa",
+    "critUser": true,
+    "description": "BiS 4 SET IF NOT COMBINED WITH GLADIATOR",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png"
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -456,9 +504,9 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
-    "sands": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "sands": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
@@ -660,6 +708,30 @@
     "set_image": "seii_195.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "goblet": "cryo/atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Skirk",
+    "critUser": true,
+    "description": "SECOND BEST AFTER DEEP GALERIES",
+    "setKey": "BlizzardStrayer",
+    "set_image": "seii_140.png"
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "plume": "atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "sands": "atk_/enerRech_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "goblet": "cryo/atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "circlet": "critDMG_/critRate_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "character": "Escoffier",
+    "critUser": false,
+    "description": "GOOD FOR ENEMIES WHO DON'T FREEZ ( BOSSES )",
+    "setKey": "BlizzardStrayer",
+    "set_image": "seii_140.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -780,11 +852,23 @@
     "set_image": "seii_240.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def",
+    "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "plume": "atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "sands": "atk_/enerRech_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "goblet": "cryo/atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "circlet": "critDMG_/critRate_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "character": "Escoffier",
+    "critUser": false,
+    "description": "BiS",
+    "setKey": "GoldenTroupe",
+    "set_image": "seii_225.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def",
     "character": "Albedo",
     "critUser": true,
     "description": "BEST SET THAT WORKS WITH ANYTHING",
@@ -840,11 +924,11 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "sands": "def_/enerRech_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def + enerRech_",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_",
     "character": "Kachina",
     "critUser": true,
     "description": "BEST SUB DPS BUILD",
@@ -876,16 +960,40 @@
     "set_image": "seii_225.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "sands": "def_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def + atk_ + atk + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "sands": "def_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
     "character": "Chiori",
     "critUser": true,
     "description": "BEST SUB DPS SET FOR OFFFIELD DMG",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png"
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "plume": "atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "sands": "atk_/enerRech_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "goblet": "cryo/atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "circlet": "critDMG_/critRate_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "character": "Escoffier",
+    "critUser": false,
+    "description": "BEST IF NO NOBLESS",
+    "setKey": "GoldenTroupe",
+    "set_image": "seii_82.png"
+  },
+  {
+    "flower": "hp_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "plume": "atk_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "sands": "hp_/enerRech_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "goblet": "hp_ + enerRech_ + hp + critRate_ + critDMG_ + atk_",
+    "circlet": "hp_ + enerRech_ + hp + critRate_ + critDMG_ + atk_",
+    "character": "Dahlia",
+    "critUser": false,
+    "description": "BEST IF NO NOBLESS",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png"
   },
   {
     "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
@@ -901,7 +1009,7 @@
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk  + eleMas +  enerRech_",
     "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
@@ -1105,6 +1213,18 @@
     "set_image": "seii_82.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "goblet": "cryo/atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Skirk",
+    "critUser": true,
+    "description": "BEST WITH FURINA",
+    "setKey": "MarechausseeHunter",
+    "set_image": "seii_220.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -1213,11 +1333,11 @@
     "set_image": "seii_220.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + enerRech_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
     "description": "BEST SET WITH FURINA",
@@ -1295,6 +1415,18 @@
     "description": "BiS - GOOD OVERALL",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png"
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "plume": "atk_ + enerRech_ + critDMG_ + critRate_",
+    "sands": "atk_/enerRech_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "goblet": "cryo/atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "circlet": "critDMG_/critRate_ + enerRech_ + atk_ + critDMG_ + critRate_",
+    "character": "Escoffier",
+    "critUser": false,
+    "description": "SUPP WITH ATTACK BUFF",
+    "setKey": "TenacityOfTheMillelith",
+    "set_image": "seii_150.png"
   },
   {
     "flower": "hp_ + hp_ + hp + critRate_ + critDMG_",
@@ -1429,11 +1561,11 @@
     "set_image": "seii_150.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def",
-    "sands": "def_ + critDMG_ + critRate_ + _def + def",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def",
+    "sands": "def_ + critDMG_ + critRate_ + def_ + def",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def",
     "character": "Albedo",
     "critUser": true,
     "description": "GOOD SECONDARY SUPPORT SET",
@@ -1501,6 +1633,30 @@
     "set_image": "seii_150.png"
   },
   {
+    "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + atk + eleMas + enerRech_",
+    "sands": "atk_ + atk + eleMas + enerRech_",
+    "goblet": "anemo + atk_ + atk + eleMas + enerRech_",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + eleMas + enerRech_",
+    "character": "Ifa",
+    "critUser": false,
+    "description": "BiS IF USING WITH ELECTRO CHARACTER",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
+    "set_image": "seii_250.png"
+  },
+  {
+    "flower": "hp_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "plume": "atk_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "sands": "hp_/enerRech_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
+    "goblet": "hp_ + enerRech_ + hp + critRate_ + critDMG_ + atk_",
+    "circlet": "hp_ + enerRech_ + hp + critRate_ + critDMG_ + atk_",
+    "character": "Dahlia",
+    "critUser": false,
+    "description": "BEST IF NOBLESS",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
+    "set_image": "seii_250.png"
+  },
+  {
     "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
     "plume": "atk_ + atk + enerRech_ + critRate_ + critDMG_",
     "sands": "atk_/enerRech_ + atk + enerRech_ + critRate_ + critDMG_",
@@ -1537,11 +1693,11 @@
     "set_image": "seii_250.png"
   },
   {
-    "flower": "hp_ + enerRech_ + _def + def",
-    "plume": "atk_ + enerRech_ + _def + def",
-    "sands": "def_ + enerRech_ + _def + def",
-    "goblet": "def_ + enerRech_ + _def + def",
-    "circlet": "def_ + enerRech_ + _def + def",
+    "flower": "hp_ + enerRech_ + def_ + def",
+    "plume": "atk_ + enerRech_ + def_ + def",
+    "sands": "def_ + enerRech_ + def",
+    "goblet": "def_ + enerRech_ + def",
+    "circlet": "def_ + enerRech_  + def",
     "character": "Xilonen",
     "critUser": false,
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
@@ -1586,7 +1742,7 @@
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
-    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "goblet": "electro + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1597,11 +1753,11 @@
     "set_image": "seii_250.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "sands": "def_/enerRech_ + critDMG_ + critRate_ + _def + def + enerRech_",
-    "goblet": "geo + critDMG_ + critRate_ + _def + def + enerRech_",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + _def + def + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "goblet": "geo + critDMG_ + critRate_ + def_ + def + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_",
     "character": "Kachina",
     "critUser": true,
     "description": "BiS BECAUSE OF Nightsoul's Blessing",
@@ -1932,11 +2088,11 @@
     "set_image": "seii_160.png"
   },
   {
-    "flower": "hp_ + _def + def + enerRech_",
-    "plume": "atk_ + _def + def + enerRech_",
-    "sands": "enerRech_/def_ + _def + def + enerRech_",
-    "goblet": "geo + _def + def + enerRech_",
-    "circlet": "critDMG_/critRate_/def_ + _def + def + enerRech_",
+    "flower": "hp_ + def_ + def + enerRech_",
+    "plume": "atk_ + def_ + def + enerRech_",
+    "sands": "enerRech_/def_ + def_ + def + enerRech_",
+    "goblet": "geo + def_ + def + enerRech_",
+    "circlet": "critDMG_/critRate_/def_ + def_ + def + enerRech_",
     "character": "Gorou",
     "critUser": false,
     "description": "BEST SUB DPS BUILD",
@@ -2016,9 +2172,9 @@
     "set_image": "seii_245.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
-    "sands": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "sands": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
@@ -2254,6 +2410,18 @@
     "set_image": "seii_205.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ +  critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Ineffa",
+    "critUser": true,
+    "description": "BEST SET USED WITH WEAPON Beacon of the Reed Sea",
+    "setKey": "ThunderingFury",
+    "set_image": "seii_80.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2422,9 +2590,9 @@
     "set_image": "seii_256.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
-    "sands": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "sands": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
@@ -2914,9 +3082,9 @@
     "set_image": "seii_145.png"
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
-    "sands": "hp_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
+    "sands": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
     "goblet": "hydro + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
@@ -2962,11 +3130,11 @@
     "set_image": "seii_200.png"
   },
   {
-    "flower": "hp_ + _def + def + enerRech_",
-    "plume": "atk_ + _def + def + enerRech_",
-    "sands": "enerRech_/def_ + _def + def + enerRech_",
-    "goblet": "geo + _def + def + enerRech_",
-    "circlet": "def_ + _def + def + enerRech_",
+    "flower": "hp_ + def_ + def + enerRech_",
+    "plume": "atk_ + def_ + def + enerRech_",
+    "sands": "enerRech_/def_ + def_ + def + enerRech_",
+    "goblet": "geo + def_ + def + enerRech_",
+    "circlet": "def_ + def_ + def + enerRech_",
     "character": "Gorou",
     "critUser": false,
     "description": "BEST SET IF YOU USE A HIGH-DMG CHRACTER WITH OTHER ELEMENT",
@@ -3092,5 +3260,17 @@
     "description": "NEW SETT",
     "setKey": "LongNightsOath",
     "set_image": "seii_83.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "goblet": "cryo/atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Skirk",
+    "critUser": true,
+    "description": "BiS",
+    "setKey": "FinaleOfTheDeepGalleries",
+    "set_image": "seii_265.png"
   }
 ]
