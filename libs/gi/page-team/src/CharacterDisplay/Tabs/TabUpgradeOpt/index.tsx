@@ -19,7 +19,6 @@ import type { ArtSetExclusionKey } from '@genshin-optimizer/gi/db'
 import { type ICachedArtifact } from '@genshin-optimizer/gi/db'
 import {
   TeamCharacterContext,
-  useBuildArtifacts,
   useDBMeta,
   useDatabase,
   useOptConfig,

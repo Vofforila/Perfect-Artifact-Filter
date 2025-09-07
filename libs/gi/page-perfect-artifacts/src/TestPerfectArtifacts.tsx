@@ -120,15 +120,12 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
   for (const test_artifact of _allArtifacts as Artifact[]) {
     const perfectMatch: PerfectMatch = new PerfectMatch([], test_artifact)
     for (const perfect_artifact of perfect_sets as PerfectArtifactSet[]) {
-      if (
-        test_artifact.setKey === perfect_artifact.setKey ||
-        test_artifact.slotKey === 'goblet'
-      ) {
+      if (test_artifact.setKey === perfect_artifact.setKey ||
+          test_artifact.slotKey === 'goblet') {
         const perfect_stats: PerfectStats = CheckMainStat(
           perfect_artifact,
           test_artifact
         )
-
         if (perfect_stats.checkMainStat) {
           const result = CheckSubStats(
             perfect_stats,

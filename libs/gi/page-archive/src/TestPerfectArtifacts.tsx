@@ -115,9 +115,11 @@ export class Artifact {
 }
 
 export default function TestArtifacts(_allArtifacts: Artifact[]) {
+  console.log("Start")
   const artifact_matches: PerfectMatch[] = []
   for (const test_artifact of _allArtifacts as Artifact[]) {
     const perfectMatch: PerfectMatch = new PerfectMatch([], test_artifact)
+
     for (const perfect_artifact of perfect_sets as PerfectArtifactSet[]) {
       if (
         test_artifact.setKey === perfect_artifact.setKey ||
@@ -144,7 +146,7 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
       artifact_matches.push(perfectMatch)
     }
   }
-  console.log(artifact_matches)
+  // console.log(artifact_matches)
   return artifact_matches
 }
 
@@ -290,6 +292,7 @@ function CheckSubStats(
 
   if (
     (_perfect_artifact.critUser && critMatch === 2) ||
+    (critMatch === 1 && _test_artifact.substats[3].value === 0) ||
     (_perfect_stats.crit_mainstat === true &&
       (critMatch === 1 || _test_artifact.substats[3].value === 0)) ||
     (_perfect_artifact.critUser === false && matches >= checkvalue)
