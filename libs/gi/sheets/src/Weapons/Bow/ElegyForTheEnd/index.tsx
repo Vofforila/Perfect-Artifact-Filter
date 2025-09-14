@@ -1,6 +1,6 @@
 import type { WeaponKey } from '@genshin-optimizer/gi/consts'
-import { equal, equalStr, input, subscript } from '@genshin-optimizer/gi/wr'
-import { cond, nonStackBuff, st, stg, trans } from '../../../SheetUtil'
+import { equal, input, subscript } from '@genshin-optimizer/gi/wr'
+import { cond, st, stg, trans } from '../../../SheetUtil'
 import type { IWeaponSheet } from '../../IWeaponSheet'
 import { WeaponSheet, headerTemplate } from '../../WeaponSheet'
 import { dataObjForWeaponSheet } from '../../util'
@@ -13,18 +13,15 @@ const atk_s = [-1, 0.2, 0.25, 0.3, 0.35, 0.4]
 
 const [condPath, condNode] = cond(key, 'ThePartingRefrain')
 const eleMas = subscript(input.weapon.refinement, eleMasInc, { path: 'eleMas' })
+// TODO: These should not stack, similar to NO. But I don't want to copy NO's
+// solution, since then these nodes won't show in the team buff panel. And it's
+// a bit unlikely people will try to stack this buff
 const eleMas2 = equal(
   condNode,
   'on',
   subscript(input.weapon.refinement, eleMasInc2, { path: 'eleMas' })
 )
-
-const nonstackWrite = equalStr(condNode, 'on', input.charKey)
-const [atk_, atk_inactive] = nonStackBuff(
-  'millenialatk',
-  'atk_',
-  subscript(input.weapon.refinement, atk_s)
-)
+const atk_ = equal(condNode, 'on', subscript(input.weapon.refinement, atk_s))
 
 export const data = dataObjForWeaponSheet(key, {
   premod: {
@@ -34,9 +31,6 @@ export const data = dataObjForWeaponSheet(key, {
     premod: {
       atk_,
       eleMas: eleMas2,
-    },
-    nonStacking: {
-      millenialatk: nonstackWrite,
     },
   },
 })
@@ -64,9 +58,6 @@ const sheet: IWeaponSheet = {
             },
             {
               node: atk_,
-            },
-            {
-              node: atk_inactive,
             },
             {
               text: stg('duration'),

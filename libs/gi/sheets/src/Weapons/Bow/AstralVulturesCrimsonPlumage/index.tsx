@@ -1,4 +1,4 @@
-import { type WeaponKey, allElementKeys } from '@genshin-optimizer/gi/consts'
+import { allElementKeys, type WeaponKey } from '@genshin-optimizer/gi/consts'
 import {
   equal,
   greaterEq,

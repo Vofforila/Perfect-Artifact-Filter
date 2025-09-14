@@ -9,8 +9,6 @@ dm-localization
 dm
 stats
 util
-Sheet
-wr
 Update Perfect Artifacts + check name
 Push with npm run deploy
 Test with yarn test

@@ -1,11 +1,10 @@
 import type { UIData } from '@genshin-optimizer/gi/uidata'
 import type { NumNode } from '@genshin-optimizer/gi/wr'
-import type { ReactNode } from 'react'
 
 export interface IBasicFieldDisplay {
   canShow?: (data: UIData) => boolean
   text: ReactNode
-  value?: ((data: UIData) => number | ReactNode) | number | ReactNode
+  value?: number | ReactNode | ((data: UIData) => number | ReactNode)
   fixed?: number
   variant?: string | ((data: UIData) => string)
   unit?: ReactNode

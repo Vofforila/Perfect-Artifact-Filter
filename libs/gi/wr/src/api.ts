@@ -20,9 +20,8 @@ import type {
   TeamCharacter,
 } from '@genshin-optimizer/gi/db'
 import type { ICharacter } from '@genshin-optimizer/gi/good'
-import type { EleEnemyResKey } from '@genshin-optimizer/gi/keymap'
 import { getMainStatValue } from '@genshin-optimizer/gi/util'
-import { input } from './formula'
+import { input, tally } from './formula'
 import type { Data, Info, NumNode, ReadNode, StrNode } from './type'
 import { constant, data, infoMut, none, percent, prod, sum } from './utils'
 
@@ -37,10 +36,12 @@ export function inferInfoMut(data: Data, source?: Info['source']): Data {
         if (!x.info) x.info = {}
         x.info.isTeamBuff = true
       }
-      const reference: ReadNode<number> | undefined = objPathValue(input, path)
+      const reference = objPathValue(input, path) as
+        | ReadNode<number>
+        | undefined
       if (reference)
         x.info = { ...x.info, ...reference.info, prefix: undefined, source }
-      else if (path[0] !== 'tally' && path[0] !== 'nonStacking')
+      else if (path[0] !== 'tally')
         console.error(
           `Detect ${source} buff into non-existant key path ${path}`
         )
@@ -159,10 +160,7 @@ export function dataObjForCharacterNew(
       ...objKeyMap(
         allElementWithPhyKeys.map((ele) => `${ele}_res_`),
         (ele) =>
-          percent(
-            (enemyOverride[`${ele.slice(0, -5)}_enemyRes_` as EleEnemyResKey] ??
-              10) / 100
-          )
+          percent((enemyOverride[`${ele.slice(0, -5)}_enemyRes_`] ?? 10) / 100)
       ),
       level: constant(enemyOverride.enemyLevel ?? level),
     },
@@ -191,7 +189,7 @@ export function dataObjForCharacterNew(
   )
 
   if (sheetData?.display) {
-    sheetData.display['custom'] = {}
+    sheetData.display.custom = {}
     customMultiTargets.forEach(({ name, targets }, i) => {
       const targetNodes = targets.map(
         ({ weight, path, hitMode, reaction, infusionAura, bonusStats }) => {
@@ -227,7 +225,7 @@ export function dataObjForCharacterNew(
         name,
         variant: 'invalid',
       })
-      sheetData.display!['custom'][i] = multiTargetNode
+      sheetData.display!.custom[i] = multiTargetNode
     })
   }
   return result
@@ -248,9 +246,10 @@ export function mergeData(data: Data[]): Data {
     if (data.length <= 1) return data[0]
     if (data[0].operation) {
       if (path[0] === 'teamBuff') path = path.slice(1)
+      const base = path[0] === 'tally' ? ((path = path.slice(1)), tally) : input
       /*eslint prefer-const: ["error", {"destructuring": "all"}]*/
       let { accu, type } =
-        (objPathValue(input, path) as ReadNode<number | string> | undefined) ??
+        (objPathValue(base, path) as ReadNode<number | string> | undefined) ??
         {}
       if (accu === undefined) {
         const errMsg = `Multiple entries when merging \`unique\` for key ${path}`

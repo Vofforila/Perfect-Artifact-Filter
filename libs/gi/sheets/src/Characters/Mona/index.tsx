@@ -108,11 +108,6 @@ const electrocharged_dmg_ = greaterEq(
   1,
   equal('on', condPoS, percent(dm.constellation1.electroChargeDmgInc))
 )
-const lunarcharged_dmg_ = greaterEq(
-  input.constellation,
-  1,
-  equal('on', condPoS, percent(dm.constellation1.electroChargeDmgInc))
-)
 const swirl_dmg_ = greaterEq(
   input.constellation,
   1,
@@ -189,7 +184,6 @@ export const data = dataObjForCharacterSheet(key, dmgFormulas, {
     premod: {
       all_dmg_,
       electrocharged_dmg_,
-      lunarcharged_dmg_,
       swirl_dmg_,
       vaporize_dmg_,
       critRate_,
@@ -379,9 +373,6 @@ const sheet: TalentSheet = {
           fields: [
             {
               node: electrocharged_dmg_,
-            },
-            {
-              node: lunarcharged_dmg_,
             },
             {
               node: swirl_dmg_,

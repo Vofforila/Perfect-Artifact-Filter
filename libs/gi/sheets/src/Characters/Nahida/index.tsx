@@ -93,8 +93,6 @@ const dm = {
     critDMG_: 1,
     defDec_: skillParam_gen.constellation2[1],
     duration: skillParam_gen.constellation2[2],
-    lunarbloom_critRate_: skillParam_gen.constellation2[3],
-    lunarbloom_critDMG_: skillParam_gen.constellation2[4],
   },
   constellation4: {
     eleMas: [...skillParam_gen.constellation4],
@@ -242,16 +240,9 @@ const c2Burning_critDMG_ = greaterEq(
   2,
   equal(condC2Bloom, 'on', percent(dm.constellation2.critDMG_))
 )
-const c2Lunarbloom_critRate_ = greaterEq(
-  input.constellation,
-  2,
-  equal(condC2Bloom, 'on', percent(dm.constellation2.lunarbloom_critRate_))
-)
-const c2Lunarbloom_critDMG_ = greaterEq(
-  input.constellation,
-  2,
-  equal(condC2Bloom, 'on', percent(dm.constellation2.lunarbloom_critDMG_))
-)
+const c2Bloom_critDMG_ = { ...c2Burning_critDMG_ }
+const c2Hyperbloom_critDMG_ = { ...c2Burning_critDMG_ }
+const c2Burgeon_critDMG_ = { ...c2Burning_critDMG_ }
 
 const [condC2QSAPath, condC2QSA] = cond(key, 'c2QSA')
 const c2qsa_DefRed_ = greaterEq(
@@ -329,8 +320,9 @@ const data = dataObjForCharacterSheet(key, dmgFormulas, {
       hyperbloom_critRate_: c2Hyperbloom_critRate_,
       burgeon_critRate_: c2Burgeon_critRate_,
       burning_critDMG_: c2Burning_critDMG_,
-      lunarbloom_critRate_: c2Lunarbloom_critRate_,
-      lunarbloom_critDMG_: c2Lunarbloom_critDMG_,
+      bloom_critDMG_: c2Bloom_critDMG_,
+      hyperbloom_critDMG_: c2Hyperbloom_critDMG_,
+      burgeon_critDMG_: c2Burgeon_critDMG_,
       enemyDefRed_: c2qsa_DefRed_,
     },
     total: {
@@ -488,16 +480,19 @@ const sheet: TalentSheet = {
               node: c2Bloom_critRate_,
             },
             {
+              node: c2Bloom_critDMG_,
+            },
+            {
               node: c2Hyperbloom_critRate_,
+            },
+            {
+              node: c2Hyperbloom_critDMG_,
             },
             {
               node: c2Burgeon_critRate_,
             },
             {
-              node: c2Lunarbloom_critRate_,
-            },
-            {
-              node: c2Lunarbloom_critDMG_,
+              node: c2Burgeon_critDMG_,
             },
           ],
         },

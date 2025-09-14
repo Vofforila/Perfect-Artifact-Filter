@@ -260,23 +260,10 @@ const c6Pneuma_plunging_impact_dmgInc = infoMut(
 const dmgFormulas = {
   normal: {
     ...Object.fromEntries(
-      dm.normal.hitArr.map((arr, i) => [
-        i,
-        dmgNode('atk', arr, 'normal', {
-          premod: {
-            normal_dmgInc: sum(c6_normal_dmgInc, c6Pneuma_normal_dmgInc),
-          },
-        }),
-      ])
+      dm.normal.hitArr.map((arr, i) => [i, dmgNode('atk', arr, 'normal')])
     ),
     thornBladeDmg: dmgNode('atk', dm.normal.bladeThornDmg, 'normal', {
-      premod: {
-        normal_dmgInc: c6_normal_dmgInc,
-      },
-      hit: {
-        ele: constant(getCharEle(key)),
-        reaction: constant('none'),
-      },
+      hit: { ele: constant(getCharEle(key)) },
     }),
   },
   charged: {
@@ -341,6 +328,7 @@ export const data = dataObjForCharacterSheet(key, dmgFormulas, {
     skillBoost: skillC5,
     burstBoost: burstC3,
     hp_: c2Overstack_hp_,
+    normal_dmgInc: sum(c6_normal_dmgInc, c6Pneuma_normal_dmgInc),
     charged_dmgInc: sum(c6_charged_dmgInc, c6Pneuma_charged_dmgInc),
     plunging_dmgInc: c6_plunging_dmgInc,
     plunging_impact_dmgInc: c6Pneuma_plunging_impact_dmgInc,
@@ -363,7 +351,7 @@ const sheet: TalentSheet = {
     },
     {
       fields: dm.normal.hitArr.map((_, i) => ({
-        node: infoMut((dmgFormulas.normal as any)[i], {
+        node: infoMut(dmgFormulas.normal[i], {
           name: ct.chg(`auto.skillParams.${i}`),
         }),
       })),

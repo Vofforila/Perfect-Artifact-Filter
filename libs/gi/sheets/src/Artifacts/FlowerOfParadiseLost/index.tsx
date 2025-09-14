@@ -35,12 +35,6 @@ const base_burgeon_dmg_ = {
   ...base_bloom_dmg_,
   info: { path: 'burgeon_dmg_' },
 }
-const base_lunarbloom_dmg_ = greaterEq(
-  input.artSet.FlowerOfParadiseLost,
-  4,
-  percent(0.1),
-  { path: 'lunarbloom_dmg_' }
-)
 
 const [condStacksPath, condStacks] = cond(key, 'stacks')
 const stacksArr = range(1, 4)
@@ -64,18 +58,6 @@ const stack_burgeon_dmg_ = {
   ...stack_bloom_dmg_,
   info: { path: 'burgeon_dmg_' },
 }
-const stack_lunarbloom_dmg_ = greaterEq(
-  input.artSet.FlowerOfParadiseLost,
-  4,
-  lookup(
-    condStacks,
-    Object.fromEntries(
-      stacksArr.map((stack) => [stack, prod(stack, percent(0.025))])
-    ),
-    naught,
-    { path: 'lunarbloom_dmg_' }
-  )
-)
 
 export const data: Data = dataObjForArtifactSheet(key, {
   premod: {
@@ -83,7 +65,6 @@ export const data: Data = dataObjForArtifactSheet(key, {
     bloom_dmg_: sum(base_bloom_dmg_, stack_bloom_dmg_),
     hyperbloom_dmg_: sum(base_hyperbloom_dmg_, stack_hyperbloom_dmg_),
     burgeon_dmg_: sum(base_burgeon_dmg_, stack_burgeon_dmg_),
-    lunarbloom_dmg_: sum(base_lunarbloom_dmg_, stack_lunarbloom_dmg_),
   },
 })
 
@@ -102,9 +83,6 @@ const sheet: SetEffectSheet = {
           },
           {
             node: base_burgeon_dmg_,
-          },
-          {
-            node: base_lunarbloom_dmg_,
           },
         ],
       },
@@ -127,9 +105,6 @@ const sheet: SetEffectSheet = {
                 },
                 {
                   node: stack_burgeon_dmg_,
-                },
-                {
-                  node: stack_lunarbloom_dmg_,
                 },
                 {
                   text: stg('duration'),

@@ -1,13 +1,7 @@
 import type { ArtifactSetKey } from '@genshin-optimizer/gi/consts'
 import type { Data } from '@genshin-optimizer/gi/wr'
-import {
-  equalStr,
-  greaterEq,
-  greaterEqStr,
-  input,
-  percent,
-} from '@genshin-optimizer/gi/wr'
-import { cond, nonStackBuff, st, stg } from '../../SheetUtil'
+import { equal, greaterEq, input } from '@genshin-optimizer/gi/wr'
+import { cond, st, stg } from '../../SheetUtil'
 import { ArtifactSheet, setHeaderTemplate } from '../ArtifactSheet'
 import type { SetEffectSheet } from '../IArtifactSheet'
 import { dataObjForArtifactSheet } from '../dataUtil'
@@ -18,15 +12,10 @@ const setHeader = setHeaderTemplate(key)
 const set2 = greaterEq(input.artSet.DeepwoodMemories, 2, 0.15)
 
 const [condSet4Path, condSet4] = cond(key, 'set4')
-const set4TallyWrite = greaterEqStr(
-  input.artSet[key],
+const set4 = greaterEq(
+  input.artSet.DeepwoodMemories,
   4,
-  equalStr(condSet4, 'on', input.charKey)
-)
-const [set4, set4Inactive] = nonStackBuff(
-  'dm4',
-  'dendro_enemyRes_',
-  percent(-0.3)
+  equal(condSet4, 'on', -0.3)
 )
 
 export const data: Data = dataObjForArtifactSheet(key, {
@@ -36,9 +25,6 @@ export const data: Data = dataObjForArtifactSheet(key, {
   teamBuff: {
     premod: {
       dendro_enemyRes_: set4,
-    },
-    nonStacking: {
-      dm4: set4TallyWrite,
     },
   },
 })
@@ -58,9 +44,6 @@ const sheet: SetEffectSheet = {
             fields: [
               {
                 node: set4,
-              },
-              {
-                node: set4Inactive,
               },
               {
                 text: stg('duration'),

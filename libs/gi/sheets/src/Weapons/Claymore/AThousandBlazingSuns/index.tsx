@@ -75,7 +75,6 @@ const sheet: IWeaponSheet = {
     {
       value: condNightsoul,
       path: condNightsoulPath,
-      header: headerTemplate(key, st('conditional')),
       canShow: equal(condPassive, 'on', 1),
       name: st('nightsoul.blessing'),
       states: {

@@ -54,7 +54,6 @@ export type Info = {
   fixed?: number
   isTeamBuff?: boolean
   multi?: number
-  strikethrough?: boolean
 }
 export type Variant =
   | ElementWithPhyKey
@@ -80,7 +79,7 @@ export interface SmallestNode<Leaf = AnyNode> extends Base<Leaf> {
 export interface LookupNode<
   Output,
   Input extends StrNode = StrNode,
-  Leaf extends Input | Output = AnyNode,
+  Leaf extends Input | Output = AnyNode
 > extends Base<Leaf> {
   operation: 'lookup'
   operands:
@@ -97,7 +96,7 @@ export interface DataNode<Output, Leaf extends Output = AnyNode>
 }
 export interface ComputeNode<
   Input extends NumNode = NumNode,
-  Leaf extends Input = AnyNode,
+  Leaf extends Input = AnyNode
 > extends Base<Leaf> {
   operation: Operation
   operands: readonly Input[]
@@ -105,7 +104,7 @@ export interface ComputeNode<
 export interface ThresholdNode<
   Output,
   Input extends NumNode = NumNode,
-  Leaf extends Input | Output = AnyNode,
+  Leaf extends Input | Output = AnyNode
 > extends Base<Leaf> {
   operation: 'threshold'
   operands: readonly [Input, Input, Output, Output]
@@ -114,7 +113,7 @@ export interface ThresholdNode<
 export interface MatchNode<
   Output,
   Input = AnyNode,
-  Leaf extends Input | Output = AnyNode,
+  Leaf extends Input | Output = AnyNode
 > extends Base<Leaf> {
   operation: 'match'
   operands: readonly [v1: Input, v2: Input, match: Output, unmatch: Output]
@@ -123,7 +122,7 @@ export interface MatchNode<
 export interface SubscriptNode<
   Value,
   Input extends NumNode = NumNode,
-  Leaf extends Input = AnyNode,
+  Leaf extends Input = AnyNode
 > extends Base<Leaf> {
   operation: 'subscript'
   operands: readonly [index: Input]
@@ -137,8 +136,8 @@ export interface ReadNode<Value> extends Base<any> {
   type: Value extends number
     ? 'number'
     : Value extends string
-      ? 'string'
-      : undefined
+    ? 'string'
+    : undefined
 }
 export interface ConstantNode<Value> extends Base<any> {
   operation: 'const'
@@ -147,20 +146,20 @@ export interface ConstantNode<Value> extends Base<any> {
   type: Value extends number
     ? 'number'
     : Value extends string
-      ? 'string'
-      : undefined
+    ? 'string'
+    : undefined
 }
 
 type _StrictInput<T, Num, Str> = T extends ReadNode<number>
   ? Num
   : T extends ReadNode<string>
-    ? Str
-    : { [key in keyof T]: _StrictInput<T[key], Num, Str> }
+  ? Str
+  : { [key in keyof T]: _StrictInput<T[key], Num, Str> }
 type _Input<T, Num, Str> = T extends ReadNode<number>
   ? Num
   : T extends ReadNode<string>
-    ? Str
-    : { [key in keyof T]?: _Input<T[key], Num, Str> }
+  ? Str
+  : { [key in keyof T]?: _Input<T[key], Num, Str> }
 export type StrictInput<Num = NumNode, Str = StrNode> = _StrictInput<
   typeof input,
   Num,
@@ -176,9 +175,11 @@ export type UIInput<Num = NumNode, Str = StrNode> = _Input<
 export type Data = Input & DynamicNumInput
 export type DisplaySub<T = NumNode> = Record<string, T>
 interface DynamicNumInput<T = NumNode> {
-  display?: { [key: string]: DisplaySub }
+  display?: {
+    [key: string]: DisplaySub
+  }
   conditional?: NodeData<T>
-  teamBuff?: Input
+  teamBuff?: Input & { tally?: NodeData }
 }
 export interface NodeData<T = NumNode> {
   [key: string]: typeof key extends 'operation' ? never : NodeData<T> | T
