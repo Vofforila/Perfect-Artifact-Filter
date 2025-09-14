@@ -2,18 +2,12 @@ import {
   DBLocalStorage,
   SandboxStorage,
 } from '@genshin-optimizer/common/database'
-import {
-  AdBlockContextWrapper,
-  ScrollTop,
-  useRefSize,
-  useTitle,
-} from '@genshin-optimizer/common/ui'
+import { ScrollTop, useRefSize, useTitle } from '@genshin-optimizer/common/ui'
 import { ArtCharDatabase } from '@genshin-optimizer/gi/db'
 import { DatabaseContext } from '@genshin-optimizer/gi/db-ui'
 import '@genshin-optimizer/gi/i18n' // import to load translations
 import { theme } from '@genshin-optimizer/gi/theme'
 import {
-  AdWrapper,
   SillyContext,
   SnowContext,
   useSilly,
@@ -36,9 +30,6 @@ import Footer from './Footer'
 import Header from './Header'
 import Snow from './Snow'
 
-const AD_RAIL_MAXWIDTH = 300
-const AD_RAIL_HEIGHT = 600
-
 const PageHome = lazy(() => import('@genshin-optimizer/gi/page-home'))
 const PageArtifacts = lazy(() => import('@genshin-optimizer/gi/page-artifacts'))
 const PageTools = lazy(() => import('@genshin-optimizer/gi/page-tools'))
@@ -46,8 +37,7 @@ const PageSettings = lazy(() => import('@genshin-optimizer/gi/page-settings'))
 const PageWeapons = lazy(() => import('@genshin-optimizer/gi/page-weapons'))
 const PageArchive = lazy(() => import('@genshin-optimizer/gi/page-archive'))
 const PageDocumentation = lazy(() => import('@genshin-optimizer/gi/page-doc'))
-const PageScanner = lazy(() => import('@genshin-optimizer/gi/page-scanner'))
-const PagePerfectArtifacts = lazy(
+const PageScanner = lazy(
   () => import('@genshin-optimizer/gi/page-perfect-artifacts')
 )
 const PageCharacters = lazy(
@@ -100,9 +90,7 @@ function App() {
             <DatabaseContext.Provider value={dbContextObj}>
               <ErrorBoundary>
                 <HashRouter basename="/">
-                  <AdBlockContextWrapper>
-                    <Content />
-                  </AdBlockContextWrapper>
+                  <Content />
                   <ScrollTop />
                 </HashRouter>
               </ErrorBoundary>
@@ -116,7 +104,7 @@ function App() {
 function Content() {
   useTitle()
   const theme = useTheme()
-  const { width, ref } = useRefSize()
+  const { width, ref } = useRefSize(true)
   const adWidth = width - (theme.breakpoints.values.xl + 10) //account for the "full width" of container
   return (
     <Box
@@ -130,20 +118,6 @@ function Content() {
     >
       <Header anchor="back-to-top-anchor" />
       {/* Top banner ad */}
-      <Box m={1}>
-        {!!width && (
-          <AdWrapper
-            fullWidth
-            dataAdSlot="3477080462"
-            sx={{
-              height: 90,
-              minWidth: 300,
-              maxWidth: Math.min(1000, width - 20),
-              width: '100%',
-            }}
-          />
-        )}
-      </Box>
       {/* Main content */}
       <Box
         display="flex"
@@ -151,25 +125,6 @@ function Content() {
         justifyContent="center"
         alignItems="flex-start"
       >
-        {/* left Rail ad */}
-        {/* Adding a padding of 60 ensures that there is at least 60px between ads (from top or bottom) */}
-        <Box sx={{ flexShrink: 1, position: 'sticky', top: 0, py: '60px' }}>
-          {!!width && adWidth >= 160 && (
-            <AdWrapper
-              dataAdSlot="2411728037"
-              sx={{
-                minWidth: 160,
-                maxWidth: Math.min(
-                  adWidth >= 160 && adWidth <= 320 ? adWidth : adWidth * 0.5,
-                  AD_RAIL_MAXWIDTH
-                ),
-                height: AD_RAIL_HEIGHT,
-                width: '100%',
-              }}
-            />
-          )}
-        </Box>
-        {/* Content */}
         <Container
           maxWidth="xl"
           sx={{ px: { xs: 0.5, sm: 1 }, flexGrow: 1, mx: 0 }}
@@ -196,49 +151,16 @@ function Content() {
               <Route path="/setting" element={<PageSettings />} />
               <Route path="/doc/*" element={<PageDocumentation />} />
               <Route path="/scanner" element={<PageScanner />} />
-              <Route
-                path="/perfect-artifacts"
-                element={<PagePerfectArtifacts />}
-              />
             </Routes>
           </Suspense>
         </Container>
         {/* right rail ad */}
-        {/* Adding a padding of 60 ensures that there is at least 60px between ads (from top or bottom) */}
-        <Box sx={{ flexShrink: 1, position: 'sticky', top: 0, py: '60px' }}>
-          {!!width && adWidth > 320 && (
-            <AdWrapper
-              dataAdSlot="2411728037"
-              sx={{
-                minWidth: 160,
-                maxWidth: Math.min(adWidth * 0.5, AD_RAIL_MAXWIDTH),
-                height: AD_RAIL_HEIGHT,
-                width: '100%',
-              }}
-            />
-          )}
-        </Box>
       </Box>
 
       {/* make sure footer is always at bottom */}
       <Box flexGrow={1} />
       <Snow />
       {/* Footer Ad */}
-      <Box m={1}>
-        {width && (
-          <AdWrapper
-            fullWidth
-            dataAdSlot="2396256483"
-            sx={{
-              mx: 'auto',
-              height: 90,
-              minWidth: 300,
-              maxWidth: Math.min(1000, width - 20),
-              width: '100%',
-            }}
-          />
-        )}
-      </Box>
       <Footer />
     </Box>
   )

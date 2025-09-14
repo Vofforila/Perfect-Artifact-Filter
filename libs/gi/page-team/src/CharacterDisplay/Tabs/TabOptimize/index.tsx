@@ -1,6 +1,9 @@
 import {
+  useDataManagerEntries,
+  useDataManagerValues,
+} from '@genshin-optimizer/common/database-ui'
+import {
   useBoolState,
-  useForceUpdate,
   useMediaQueryUp,
 } from '@genshin-optimizer/common/react-util'
 import {
@@ -11,6 +14,7 @@ import {
   ModalWrapper,
   SqBadge,
   useConstObj,
+  usePrev,
 } from '@genshin-optimizer/common/ui'
 import {
   bulkCatTotal,
@@ -24,22 +28,23 @@ import {
   allArtifactSlotKeys,
   charKeyToLocCharKey,
 } from '@genshin-optimizer/gi/consts'
-import type { GeneratedBuild, ICachedArtifact } from '@genshin-optimizer/gi/db'
+import type { GeneratedBuild } from '@genshin-optimizer/gi/db'
 import { maxBuildsToShowList } from '@genshin-optimizer/gi/db'
 import {
   TeamCharacterContext,
+  useArtifacts,
   useDBMeta,
   useDatabase,
   useGeneratedBuildList,
   useOptConfig,
   useTeammateArtifactIds,
+  useWeapon,
 } from '@genshin-optimizer/gi/db-ui'
 import type { OptProblemInput } from '@genshin-optimizer/gi/solver'
 import { GOSolver, mergeBuilds, mergePlot } from '@genshin-optimizer/gi/solver'
 import { compactArtifacts } from '@genshin-optimizer/gi/solver-tc'
 import { getCharStat } from '@genshin-optimizer/gi/stats'
 import {
-  AdResponsive,
   ArtifactLevelSlider,
   BuildDisplayItem,
   CharacterName,
@@ -116,6 +121,17 @@ import UseEquipped from './Components/UseEquipped'
 import { UseTeammateArt } from './Components/UseTeammateArt'
 import ScalesWith from './ScalesWith'
 
+function initBuildStatus(): BuildStatus {
+  return {
+    type: 'inactive',
+    tested: 0,
+    failed: 0,
+    skipped: 0,
+    total: 0,
+    testedPerSecond: 0,
+    skippedPerSecond: 0,
+  }
+}
 const audio = new Audio('assets/notification.mp3')
 export default function TabBuild() {
   const { t } = useTranslation('page_character_optimize')
@@ -132,38 +148,16 @@ export default function TabBuild() {
   const activeCharKey = database.teams.getActiveTeamChar(teamId)!.key
 
   const [notification, setnotification] = useState(false)
-  const notificationRef = useRef(false)
-  useEffect(() => {
-    notificationRef.current = notification
-  }, [notification])
+  const notificationRef = useRef(notification)
+  notificationRef.current = notification
 
-  const [buildStatus, setBuildStatus] = useState({
-    type: 'inactive',
-    tested: 0,
-    failed: 0,
-    skipped: 0,
-    total: 0,
-    testedPerSecond: 0,
-    skippedPerSecond: 0,
-  } as BuildStatus)
+  const [buildStatus, setBuildStatus] = useState(() => initBuildStatus())
   const generatingBuilds = buildStatus.type !== 'inactive'
-
-  const [artsDirty, setArtsDirty] = useForceUpdate()
 
   const [maxWorkers, nativeThreads, setMaxWorkers] = useNumWorkers()
 
   // Clear state when changing characters
-  useEffect(() => {
-    setBuildStatus({
-      type: 'inactive',
-      tested: 0,
-      failed: 0,
-      skipped: 0,
-      total: 0,
-      testedPerSecond: 0,
-      skippedPerSecond: 0,
-    })
-  }, [characterKey])
+  if (usePrev(characterKey) !== characterKey) setBuildStatus(initBuildStatus())
 
   const noArtifact = useMemo(() => !database.arts.values.length, [database])
 
@@ -190,16 +184,9 @@ export default function TabBuild() {
   const optimizationTargetNode =
     optimizationTarget && objPathValue(data?.getDisplay(), optimizationTarget)
   const isSM = ['xs', 'sm'].includes(useMediaQueryUp())
-
-  //register changes in artifact database
-  useEffect(
-    () => database.arts.followAny(setArtsDirty),
-    [setArtsDirty, database]
-  )
-
-  const deferredArtsDirty = useDeferredValue(artsDirty)
   const deferredBuildSetting = useDeferredValue(buildSetting)
   const teammateArtifactIds = useTeammateArtifactIds()
+  const allArts = useDataManagerValues(database.arts)
   const filteredArts = useMemo(() => {
     const {
       mainStatKeys,
@@ -209,9 +196,9 @@ export default function TabBuild() {
       levelHigh,
       useExcludedArts,
       useTeammateBuild,
-    } = deferredArtsDirty && deferredBuildSetting
+    } = deferredBuildSetting
 
-    return database.arts.values.filter((art) => {
+    return allArts.filter((art) => {
       if (!useExcludedArts && artExclusion.includes(art.id)) return false
       if (!useTeammateBuild && teammateArtifactIds.includes(art.id))
         return false
@@ -232,13 +219,7 @@ export default function TabBuild() {
 
       return true
     })
-  }, [
-    deferredArtsDirty,
-    deferredBuildSetting,
-    database,
-    teammateArtifactIds,
-    characterKey,
-  ])
+  }, [deferredBuildSetting, allArts, teammateArtifactIds, characterKey])
 
   const filteredArtIdMap = useMemo(
     () =>
@@ -248,6 +229,7 @@ export default function TabBuild() {
       ),
     [filteredArts]
   )
+  const artEntries = useDataManagerEntries(database.arts)
   const { levelTotal, allowListTotal, excludedTotal, teammateBuildTotal } =
     useMemo(() => {
       const catKeys = {
@@ -257,10 +239,10 @@ export default function TabBuild() {
         teammateBuildTotal: ['in'],
       } as const
       return bulkCatTotal(catKeys, (ctMap) =>
-        database.arts.entries.forEach(([id, art]) => {
+        artEntries.forEach(([id, art]) => {
           const { level, location } = art
           const { levelLow, levelHigh, excludedLocations, artExclusion } =
-            deferredArtsDirty && deferredBuildSetting
+            deferredBuildSetting
           if (level >= levelLow && level <= levelHigh) {
             ctMap['levelTotal']['in'].total++
             if (filteredArtIdMap[id]) ctMap['levelTotal']['in'].current++
@@ -287,8 +269,7 @@ export default function TabBuild() {
       )
     }, [
       characterKey,
-      database,
-      deferredArtsDirty,
+      artEntries,
       deferredBuildSetting,
       filteredArtIdMap,
       teammateArtifactIds,
@@ -669,7 +650,6 @@ export default function TabBuild() {
 
           {/*Minimum Final Stat Filter */}
           <StatFilterCard disabled={generatingBuilds} />
-          <AdResponsive dataAdSlot="7724855772" bgt="light" />
         </Grid>
       </Grid>
       {/* Footer */}
@@ -1177,34 +1157,13 @@ const DataContextWrapper = memo(function DataContextWrapper({
   mainStatAssumptionLevel,
 }: Prop) {
   const { artifactIds, weaponId } = build
-  const database = useDatabase()
-  // Update the build when the build artifacts/weapons are changed.
-  const [dirty, setDirty] = useForceUpdate()
-  useEffect(() => {
-    const unfollowArts = Object.values(artifactIds)
-      .filter(notEmpty)
-      .map((id) => database.arts.follow(id, () => setDirty()))
-    return () => {
-      unfollowArts.forEach((unfollow) => unfollow())
-    }
-  }, [database, artifactIds, setDirty])
-  useEffect(
-    () =>
-      weaponId ? database.weapons.follow(weaponId, () => setDirty()) : () => {},
-    [database, weaponId, setDirty]
-  )
+
+  const artifacts = useArtifacts(artifactIds)
   const buildsArts = useMemo(
-    () =>
-      dirty &&
-      (Object.values(artifactIds)
-        .map((i) => database.arts.get(i))
-        .filter((a) => a) as ICachedArtifact[]),
-    [dirty, artifactIds, database]
+    () => Object.values(artifacts).filter(notEmpty),
+    [artifacts]
   )
-  const buildWeapon = useMemo(
-    () => dirty && database.weapons.get(weaponId),
-    [dirty, weaponId, database]
-  )
+  const buildWeapon = useWeapon(weaponId)
   const teamData = useTeamData(mainStatAssumptionLevel, buildsArts, buildWeapon)
   const providerValue = useMemo(() => {
     const tdc = teamData?.[characterKey]

@@ -35,14 +35,17 @@ export function layeredAssignment<T, Obj>(
   keys: readonly (number | string)[],
   value: T
 ): Obj {
-  keys.reduce((accu, key, i, arr) => {
-    if (i === arr.length - 1) {
-      accu[key] = value
-      return accu
-    }
-    if (!accu[key]) accu[key] = {}
-    return accu[key] as Record<number | string, unknown>
-  }, obj as Record<number | string, unknown>)
+  keys.reduce(
+    (accu, key, i, arr) => {
+      if (i === arr.length - 1) {
+        accu[key] = value
+        return accu
+      }
+      if (!accu[key]) accu[key] = {}
+      return accu[key] as Record<number | string, unknown>
+    },
+    obj as Record<number | string, unknown>
+  )
   return obj
 }
 
@@ -60,6 +63,29 @@ export function objFilterKeys<K extends string, K2 extends string, V>(
   return Object.fromEntries(
     Object.entries(obj).filter(([k]) => keys.includes(k as K2))
   ) as Record<K2, V>
+}
+
+/**
+ * Filter an object's entries based on a predicate function
+ * @param obj The object to filter
+ * @param f Predicate function that takes (value, key, index)
+ * @returns A new object containing only the entries that pass the predicate
+ */
+export function objFilter<K extends string | number, V>(
+  obj: Record<K, V>,
+  f: (v: V, k: K, i: number) => boolean
+): Record<K, V>
+export function objFilter<K extends string | number, V>(
+  obj: Partial<Record<K, V>>,
+  f: (v: V, k: K, i: number) => boolean
+): Partial<Record<K, V>>
+export function objFilter<K extends string | number, V>(
+  obj: Record<K, V>,
+  f: (v: V, k: K, i: number) => boolean
+): Record<K, V> {
+  return Object.fromEntries(
+    Object.entries(obj).filter(([k, v], i) => f(v as V, k as K, i))
+  ) as Record<K, V>
 }
 
 export function objMap<K extends string | number, V, V2>(
@@ -148,8 +174,8 @@ export const getObjectKeysRecursive = (obj: unknown): string[] =>
         .flatMap(getObjectKeysRecursive)
         .concat(Object.keys(obj as Record<string, unknown>))
     : typeof obj === 'string'
-    ? [obj]
-    : []
+      ? [obj]
+      : []
 
 export function deepFreeze<T>(obj: T, layers = 5): T {
   if (layers === 0) return obj
@@ -230,4 +256,54 @@ export function shallowCompareObj<T extends Record<string, any>>(
   for (const key of keys1) if (obj1[key] !== obj2[key]) return false
 
   return true
+}
+
+export function objFindValue<K extends string, V extends string>(
+  obj: Record<K, V>,
+  value: V
+): K | undefined {
+  return Object.keys(obj).find((k) => obj[k as K] === value) as K | undefined
+}
+
+/**
+ * Returns a new object that is the sum of `a` and `b`
+ */
+export function objSum(
+  a: Record<string, number>,
+  b: Record<string, number>
+): Record<string, number> {
+  const sum = { ...a }
+  for (const k in b) sum[k] = (sum[k] ?? 0) + b[k]
+  return sum
+}
+
+/**
+ * Apply obj `add` to the `base` object
+ */
+export function objSumInPlace(
+  base: Record<string, number>,
+  add: Record<string, number>
+): Record<string, number> {
+  for (const k in add) base[k] = (base[k] ?? 0) + add[k]
+  return base
+}
+
+export function prettify(obj: object | undefined) {
+  return JSON.stringify(obj, undefined, 2)
+}
+
+/**
+ * Removes all fields from an object whose values are `undefined`, in place.
+ *
+ * @param obj - The object from which `undefined` fields should be removed.
+ * @returns `obj` with all `undefined` fields removed.
+ */
+
+export function removeUndefinedFields<K extends string, V>(
+  obj: Record<K, V>
+): Record<K, V> {
+  Object.keys(obj).forEach(
+    (key) => obj[key as K] === undefined && delete obj[key as K]
+  )
+  return obj
 }

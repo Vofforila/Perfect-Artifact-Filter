@@ -7,7 +7,7 @@ export class DataManagerBase<
   DataKey extends string,
   CacheValue extends StorageValue,
   StorageValue,
-  DatabaseType extends Database
+  DatabaseType extends Database,
 > {
   database: DatabaseType
   /**
@@ -55,15 +55,30 @@ export class DataManagerBase<
       if (!this.listeners[key]?.length) delete this.listeners[key]
     }
   }
-
+  // Caching and freezing keys, values and entries to be immutable references for useSyncExternalStore
+  cachedKeys: readonly CacheKey[] | undefined = undefined
   get keys() {
-    return Object.keys(this.data) as CacheKey[]
+    if (!this.cachedKeys)
+      this.cachedKeys = Object.freeze(
+        Object.keys(this.data)
+      ) as readonly CacheKey[]
+    return this.cachedKeys
   }
+  cachedValues: readonly CacheValue[] | undefined = undefined
   get values() {
-    return Object.values(this.data) as CacheValue[]
+    if (!this.cachedValues)
+      this.cachedValues = Object.freeze(
+        Object.values(this.data)
+      ) as readonly CacheValue[]
+    return this.cachedValues
   }
+  cachedEntries: readonly [CacheKey, CacheValue][] | undefined = undefined
   get entries() {
-    return Object.entries(this.data) as Array<[CacheKey, CacheValue]>
+    if (!this.cachedEntries)
+      this.cachedEntries = Object.freeze(
+        Object.entries(this.data)
+      ) as readonly [CacheKey, CacheValue][]
+    return this.cachedEntries
   }
   get(key: CacheKey | '' | undefined): CacheValue | undefined {
     return key ? this.data[key] : undefined
@@ -84,7 +99,9 @@ export class DataManagerBase<
       return false
     }
     const value =
-      typeof valueOrFunc === 'function' ? valueOrFunc(old) ?? old : valueOrFunc
+      typeof valueOrFunc === 'function'
+        ? (valueOrFunc(old) ?? old)
+        : valueOrFunc
     if (value === false) return false
     const validated = this.validate({ ...(old ?? {}), ...value }, key)
     if (!validated) {
@@ -108,6 +125,15 @@ export class DataManagerBase<
   }
   /** Trigger update event */
   trigger(key: CacheKey, reason: TriggerString, object?: any) {
+    if (reason === 'new' || reason === 'remove') {
+      this.cachedKeys = undefined
+      this.cachedValues = undefined
+      this.cachedEntries = undefined
+    }
+    if (reason === 'update') {
+      this.cachedValues = undefined
+      this.cachedEntries = undefined
+    }
     this.listeners[key]?.forEach((cb) => cb(key, reason, object))
     this.anyListeners.forEach((cb) => cb(key, reason, object))
   }

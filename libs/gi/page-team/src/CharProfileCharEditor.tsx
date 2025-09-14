@@ -4,6 +4,7 @@ import {
   ImgIcon,
   ModalWrapper,
 } from '@genshin-optimizer/common/ui'
+import { allTravelerKeys } from '@genshin-optimizer/gi/consts'
 import {
   CharacterContext,
   useDBMeta,
@@ -14,9 +15,9 @@ import {
   CharacterCompactConstSelector,
   CharacterConstellationName,
   CharacterCoverArea,
+  CharacterLevelSelect,
   CheckIcon,
   CloseIcon,
-  LevelSelect,
   TalentDropdown,
   UnCheckIcon,
 } from '@genshin-optimizer/gi/ui'
@@ -167,11 +168,11 @@ function Content({ onClose }: { onClose?: () => void }) {
                 ))}
               </Grid>
               <CardThemed bgt="light" sx={{ p: 1 }}>
-                <LevelSelect
+                <CharacterLevelSelect
                   warning={!!buildTc?.character}
                   level={level}
                   ascension={ascension}
-                  setBoth={(data) =>
+                  setBoth={(data) => {
                     buildTc?.character
                       ? setBuildTc((buildTc) => {
                           if (buildTc.character)
@@ -180,8 +181,14 @@ function Content({ onClose }: { onClose?: () => void }) {
                               ...data,
                             }
                         })
-                      : database.chars.set(characterKey, data)
-                  }
+                      : allTravelerKeys.includes(
+                            characterKey as (typeof allTravelerKeys)[number]
+                          )
+                        ? allTravelerKeys.forEach((tkey) => {
+                            database.chars.set(tkey, data)
+                          })
+                        : database.chars.set(characterKey, data)
+                  }}
                 />
               </CardThemed>
               <CardThemed bgt="light" sx={{ p: 1 }}>

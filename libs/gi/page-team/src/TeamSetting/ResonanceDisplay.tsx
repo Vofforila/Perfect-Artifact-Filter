@@ -35,7 +35,7 @@ export function ResonanceDisplay({
         team,
         teamCharId: '', // can be left blank since its only modifying team conditional
         teamChar: {},
-      } as TeamCharacterContextObj),
+      }) as TeamCharacterContextObj,
     [team, teamId]
   )
 
@@ -99,7 +99,7 @@ function Content() {
             />
             {res.canShow(data) && <Divider />}
             {res.canShow(data) && (
-              <DocumentDisplay sections={res.sections} teamBuffOnly hideDesc />
+              <DocumentDisplay sections={res.sections} teamBuffOnly />
             )}
           </CardThemed>
         )

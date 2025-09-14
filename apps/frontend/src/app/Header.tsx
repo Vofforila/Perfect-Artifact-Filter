@@ -1,14 +1,17 @@
-import { useDatabaseTally } from '@genshin-optimizer/common/database-ui'
+import { useDataManagerKeys } from '@genshin-optimizer/common/database-ui'
 import { AnvilIcon } from '@genshin-optimizer/common/svgicons'
 import { Tally } from '@genshin-optimizer/common/ui'
+import { shouldShowDevComponents } from '@genshin-optimizer/common/util'
 import { useDBMeta, useDatabase } from '@genshin-optimizer/gi/db-ui'
 import { FlowerIcon } from '@genshin-optimizer/gi/svgicons'
-import { SillyContext, shouldShowDevComponents } from '@genshin-optimizer/gi/ui'
+import { SillyContext } from '@genshin-optimizer/gi/ui'
 import ArticleIcon from '@mui/icons-material/Article'
 import BookIcon from '@mui/icons-material/Book'
+import ConstructionIcon from '@mui/icons-material/Construction'
 import GroupsIcon from '@mui/icons-material/Groups'
 import MenuIcon from '@mui/icons-material/Menu'
 import PeopleIcon from '@mui/icons-material/People'
+import ScannerIcon from '@mui/icons-material/Scanner'
 import SettingsIcon from '@mui/icons-material/Settings'
 import {
   AppBar,
@@ -74,11 +77,17 @@ const teams: ITab = {
   value: 'teams',
   textSuffix: <TeamChip key="charAdd" />,
 }
-const perfectArtifacts: ITab = {
-  i18Key: 'Perfect Artifacts',
-  icon: <BookIcon />,
-  to: '/perfect-artifacts',
-  value: 'perfect-artifacts',
+const tools: ITab = {
+  i18Key: 'tabs.tools',
+  icon: <ConstructionIcon />,
+  to: '/tools',
+  value: 'tools',
+}
+const scanner: ITab = {
+  i18Key: 'tabs.scanner',
+  icon: <ScannerIcon />,
+  to: '/scanner',
+  value: 'scanner',
 }
 const doc: ITab = {
   i18Key: 'tabs.doc',
@@ -101,19 +110,19 @@ function DBChip() {
 
 function ArtifactChip() {
   const database = useDatabase()
-  return <Tally>{useDatabaseTally(database.arts)}</Tally>
+  return <Tally>{useDataManagerKeys(database.arts).length}</Tally>
 }
 function CharacterChip() {
   const database = useDatabase()
-  return <Tally>{useDatabaseTally(database.chars)}</Tally>
+  return <Tally>{useDataManagerKeys(database.chars).length}</Tally>
 }
 function TeamChip() {
   const database = useDatabase()
-  return <Tally>{useDatabaseTally(database.teams)}</Tally>
+  return <Tally>{useDataManagerKeys(database.teams).length}</Tally>
 }
 function WeaponChip() {
   const database = useDatabase()
-  return <Tally>{useDatabaseTally(database.weapons)}</Tally>
+  return <Tally>{useDataManagerKeys(database.weapons).length}</Tally>
 }
 
 export default function Header({ anchor }: { anchor: string }) {
@@ -130,7 +139,8 @@ const maincontent = [
   characters,
   teams,
   archive,
-  perfectArtifacts,
+  tools,
+  scanner,
   doc,
   setting,
 ] as const
@@ -248,7 +258,8 @@ const mobileContent = [
   characters,
   teams,
   archive,
-  perfectArtifacts,
+  tools,
+  scanner,
   doc,
   setting,
 ] as const

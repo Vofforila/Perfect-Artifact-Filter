@@ -1,3 +1,4 @@
+import { useDataEntryBase } from '@genshin-optimizer/common/database-ui'
 import { CardThemed, ImgIcon } from '@genshin-optimizer/common/ui'
 import { SECOND_MS } from '@genshin-optimizer/common/util'
 import { imgAssets } from '@genshin-optimizer/gi/assets'
@@ -17,13 +18,10 @@ import { Link as RouterLink } from 'react-router-dom'
 
 export default function ResinCard() {
   const database = useDatabase()
-  const [{ timeZoneKey, resin, resinDate }, setState] = useState(() =>
-    database.displayTool.get()
+  const { timeZoneKey, resin, resinDate } = useDataEntryBase(
+    database.displayTool
   )
-  useEffect(
-    () => database.displayTool.follow((r, s) => setState(s)),
-    [database]
-  )
+
   const [time, setTime] = useState(
     new Date(Date.now() + timeZones[timeZoneKey])
   )
@@ -31,9 +29,12 @@ export default function ResinCard() {
   useEffect(() => {
     const setSecondTimeout = () => {
       setTime(new Date(Date.now() + timeZones[timeZoneKey]))
-      return setTimeout(() => {
-        interval = setSecondTimeout()
-      }, SECOND_MS - (Date.now() % SECOND_MS))
+      return setTimeout(
+        () => {
+          interval = setSecondTimeout()
+        },
+        SECOND_MS - (Date.now() % SECOND_MS)
+      )
     }
     let interval = setSecondTimeout()
     return () => clearTimeout(interval)

@@ -21,11 +21,11 @@ import {
   TeamCharacterContext,
   useDBMeta,
   useDatabase,
+  useLoadoutArtifacts,
   useOptConfig,
 } from '@genshin-optimizer/gi/db-ui'
 import type { dataContextObj } from '@genshin-optimizer/gi/ui'
 import {
-  AdResponsive,
   AddArtInfo,
   ArtifactEditor,
   ArtifactSetMultiAutocomplete,
@@ -209,7 +209,7 @@ export default function TabUpopt() {
     )
   }, [database, optConfig, filteredArtIdMap])
 
-  const equippedArts = useBuildArtifacts(loadoutDatum)
+  const equippedArts = useLoadoutArtifacts(loadoutDatum)
 
   const upOptCalc = useMemo(() => {
     const {
@@ -518,7 +518,6 @@ export default function TabUpopt() {
                     onClick={() => setArtifactIdToEdit('new')}
                   />
                   <StatFilterCard disabled={false} />
-                  <AdResponsive bgt="light" dataAdSlot="3955015620" />
                 </Grid>
               </Grid>
             </Box>
