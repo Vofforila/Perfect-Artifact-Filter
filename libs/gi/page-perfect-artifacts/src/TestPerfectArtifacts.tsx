@@ -120,8 +120,10 @@ export default function TestArtifacts(_allArtifacts: Artifact[]) {
   for (const test_artifact of _allArtifacts as Artifact[]) {
     const perfectMatch: PerfectMatch = new PerfectMatch([], test_artifact)
     for (const perfect_artifact of perfect_sets as PerfectArtifactSet[]) {
-      if (test_artifact.setKey === perfect_artifact.setKey ||
-          test_artifact.slotKey === 'goblet') {
+      if (
+        test_artifact.setKey === perfect_artifact.setKey ||
+        test_artifact.slotKey === 'goblet'
+      ) {
         const perfect_stats: PerfectStats = CheckMainStat(
           perfect_artifact,
           test_artifact
@@ -248,18 +250,7 @@ function CheckSubStats(
 
   if (_perfect_stats.secondaryStats.length - 1 <= 3) {
     checkvalue = _perfect_stats.secondaryStats.length
-  }
-  if (
-    _test_artifact.substats[3].value === 0 &&
-    _perfect_stats.secondaryStats.length - 1 >= 3
-  ) {
-    checkvalue = 3
-  } else if (
-    _test_artifact.substats[3].value !== 0 &&
-    _perfect_stats.secondaryStats.length - 1 > 3
-  ) {
-    checkvalue = 4
-  }
+  } else checkvalue = 4
 
   _test_artifact.substats.forEach((substat: any) => {
     const substat_type = substat.key
@@ -272,11 +263,17 @@ function CheckSubStats(
         ) {
           critMatch++
         }
+        if('critDMG_' === substat_type || 'critRate_' === substat_type && !_perfect_artifact.critUser)
         matches++
         break
       }
     }
   })
+
+
+// crit crit ele er
+// crit hp ele er
+// hp hp+ ele er
 
   // console.log(_perfect_artifact.character)
   // console.log(_perfect_stats)
@@ -286,11 +283,8 @@ function CheckSubStats(
   // console.log(matches)
 
   if (
-    (_perfect_artifact.critUser &&
-      (critMatch === 2 ||
-        (_test_artifact.substats[3].value === 0 && critMatch === 1))) ||
-    (_perfect_stats.crit_mainstat === true &&
-      (critMatch === 1 || _test_artifact.substats[3].value === 0)) ||
+    (_perfect_artifact.critUser && critMatch === 2) ||
+    (_perfect_stats.crit_mainstat === true && critMatch === 1) ||
     (_perfect_artifact.critUser === false && matches >= checkvalue)
   ) {
     _perfect_artifact.matches = matches
