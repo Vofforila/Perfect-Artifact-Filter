@@ -1,8 +1,8 @@
 import type { WeaponClaymoreKey } from '@genshin-optimizer/gi/consts'
 import type { WeaponSheet } from '../WeaponSheet'
 
-import Akuoumaru from './Akuoumaru'
 import AThousandBlazingSuns from './AThousandBlazingSuns'
+import Akuoumaru from './Akuoumaru'
 import BeaconOfTheReedSea from './BeaconOfTheReedSea'
 import BlackcliffSlasher from './BlackcliffSlasher'
 import BloodtaintedGreatsword from './BloodtaintedGreatsword'
@@ -11,6 +11,7 @@ import EarthShaker from './EarthShaker'
 import FangOfTheMountainKing from './FangOfTheMountainKing'
 import FavoniusGreatsword from './FavoniusGreatsword'
 import FerrousShadow from './FerrousShadow'
+import FlameForgedInsight from './FlameForgedInsight'
 import ForestRegalia from './ForestRegalia'
 import FruitfulHook from './FruitfulHook'
 import KatsuragikiriNagamasa from './KatsuragikiriNagamasa'
@@ -18,6 +19,7 @@ import LithicBlade from './LithicBlade'
 import LuxuriousSeaLord from './LuxuriousSeaLord'
 import MailedFlower from './MailedFlower'
 import MakhairaAquamarine from './MakhairaAquamarine'
+import MasterKey from './MasterKey'
 import OldMercsPal from './OldMercsPal'
 import PortablePowerSaw from './PortablePowerSaw'
 import PrototypeArchaic from './PrototypeArchaic'
@@ -37,8 +39,8 @@ import TidalShadow from './TidalShadow'
 import UltimateOverlordsMegaMagicSword from './UltimateOverlordsMegaMagicSword'
 import Verdict from './Verdict'
 import WasterGreatsword from './WasterGreatsword'
-import Whiteblind from './Whiteblind'
 import WhiteIronGreatsword from './WhiteIronGreatsword'
+import Whiteblind from './Whiteblind'
 import WolfsGravestone from './WolfsGravestone'
 const claymore: Record<WeaponClaymoreKey, WeaponSheet> = {
   Akuoumaru,
@@ -51,6 +53,7 @@ const claymore: Record<WeaponClaymoreKey, WeaponSheet> = {
   FangOfTheMountainKing,
   FavoniusGreatsword,
   FerrousShadow,
+  FlameForgedInsight,
   ForestRegalia,
   FruitfulHook,
   KatsuragikiriNagamasa,
@@ -58,6 +61,7 @@ const claymore: Record<WeaponClaymoreKey, WeaponSheet> = {
   LuxuriousSeaLord,
   MailedFlower,
   MakhairaAquamarine,
+  MasterKey,
   OldMercsPal,
   PortablePowerSaw,
   PrototypeArchaic,

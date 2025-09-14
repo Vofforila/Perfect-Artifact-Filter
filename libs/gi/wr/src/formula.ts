@@ -7,6 +7,7 @@ import {
   allArtifactSetKeys,
   allArtifactSlotKeys,
   allElementWithPhyKeys,
+  allLunarReactionKeys,
   allRegionKeys,
 } from '@genshin-optimizer/gi/consts'
 import {
@@ -46,6 +47,52 @@ const asConst = true as const,
 
 const allElements = allElementWithPhyKeys
 const allTalents = ['auto', 'skill', 'burst'] as const
+const allNonstackBuffs = [
+  'no4',
+  'totm4',
+  'ap4',
+  'inst4',
+  'vv4pyro',
+  'vv4hydro',
+  'vv4electro',
+  'vv4cryo',
+  'dm4',
+  'scroll4basepyro',
+  'scroll4basehydro',
+  'scroll4baseelectro',
+  'scroll4basecryo',
+  'scroll4baseanemo',
+  'scroll4basegeo',
+  'scroll4basedendro',
+  'scroll4nspyro',
+  'scroll4nshydro',
+  'scroll4nselectro',
+  'scroll4nscryo',
+  'scroll4nsanemo',
+  'scroll4nsgeo',
+  'scroll4nsdendro',
+  'millenialatk',
+  'patrol',
+  'key',
+  'crane',
+  'starcaller',
+  'leafCon',
+  'leafRev',
+  'hakushinpyro',
+  'hakushinhydro',
+  'hakushinelectro',
+  'hakushincryo',
+  'hakushinanemo',
+  'hakushingeo',
+  'hakushindendro',
+  'ttds',
+  'wolf',
+  'symphonist',
+  'gleamingmoonintent',
+  'gleamingmoondevotion',
+  'nightweaver',
+] as const
+export type NonStackBuff = (typeof allNonstackBuffs)[number]
 const allMoves = [
   'normal',
   'charged',
@@ -80,12 +127,14 @@ const allTransformative = [
   'overloaded',
   'shattered',
   'electrocharged',
+  'lunarcharged',
   'superconduct',
   'swirl',
   'burning',
   'bloom',
   'burgeon',
   'hyperbloom',
+  'lunarbloom',
 ] as const
 const allAmplifying = ['vaporize', 'melt'] as const
 const allAdditive = ['spread', 'aggravate'] as const
@@ -136,7 +185,12 @@ const allNonModStats = [
     `${x}_critRate_` as const,
     `${x}_critDMG_` as const,
   ]),
+  ...allTransformative.map((x) => `${x}_dmgInc` as const),
   'all_dmgInc' as const,
+  ...allLunarReactionKeys.flatMap((lr) => [
+    `${lr}_baseDmg_` as const,
+    `${lr}_specialDmg_` as const,
+  ]),
   ...allEleEnemyResKeys,
   'enemyDefRed_' as const,
   'enemyDefIgn_' as const,
@@ -171,6 +225,13 @@ for (const reaction of [
   ...allAdditive,
 ]) {
   allModStatNodes[`${reaction}_dmg_`].info!.variant = reaction
+}
+for (const reaction of allTransformative) {
+  allNonModStatNodes[`${reaction}_dmgInc`].info!.variant = reaction
+}
+for (const reaction of allLunarReactionKeys) {
+  allNonModStatNodes[`${reaction}_baseDmg_`].info!.variant = reaction
+  allNonModStatNodes[`${reaction}_specialDmg_`].info!.variant = reaction
 }
 crittableTransformativeReactions.forEach((reaction) => {
   allNonModStatNodes[`${reaction}_critRate_`].info!.variant = reaction
@@ -223,7 +284,7 @@ const inputBase = {
 
   base: objKeyMap(['atk', 'hp', 'def'], (key) => read('add', info(key))),
   customBonus: withDefaultInfo(
-    { prefix: 'custom', pivot },
+    { prefix: 'custom', pivot, asConst: true },
     {
       ...allModStatNodes,
       ...allNonModStatNodes,
@@ -299,6 +360,14 @@ const inputBase = {
     dmgBonus: read('add', { ...info('dmg_'), pivot }),
     dmgInc: read('add', info('dmgInc')),
     dmg: read(),
+  },
+
+  nonStacking: objKeyMap(allNonstackBuffs, () => stringRead('small')),
+  tally: {
+    ...objKeyMap([...allElements, ...allRegionKeys], (_) => read('add')),
+    maxEleMas: read('max'),
+    moonsign: read('add'),
+    maxMoonsignBuff: read('max'),
   },
 }
 const input = setReadNodeKeys(deepNodeClone(inputBase))
@@ -574,17 +643,9 @@ const common: Data = {
 }
 
 const target = setReadNodeKeys(deepNodeClone(input), ['target'])
-const _tally = setReadNodeKeys(
-  {
-    ...objKeyMap([...allElements, ...allRegionKeys], (_) => read('add')),
-    maxEleMas: read('max'),
-  },
-  ['tally']
-)
 const tally = {
-  ..._tally,
-  // Special handling since it's not a `ReadNode`
-  ele: sum(...allElements.map((ele) => min(_tally[ele], 1))),
+  ...input.tally,
+  ele: sum(...allElements.map((ele) => min(input.tally[ele], 1))),
 }
 
 /**
@@ -604,4 +665,10 @@ export const infusionNode = stringPrio(
   input.infusion.overridableSelf
 )
 
+const selected0 = setReadNodeKeys(deepNodeClone(inputBase), ['selected0'])
+const selected1 = setReadNodeKeys(deepNodeClone(inputBase), ['selected1'])
+const selected2 = setReadNodeKeys(deepNodeClone(inputBase), ['selected2'])
+const selected3 = setReadNodeKeys(deepNodeClone(inputBase), ['selected3'])
+
 export { common, customBonus, input, tally, target, uiInput }
+export { selected0, selected1, selected2, selected3 }

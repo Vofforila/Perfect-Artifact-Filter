@@ -16,6 +16,7 @@ import DefendersWill from './DefendersWill'
 import DesertPavilionChronicle from './DesertPavilionChronicle'
 import EchoesOfAnOffering from './EchoesOfAnOffering'
 import EmblemOfSeveredFate from './EmblemOfSeveredFate'
+import FinaleOfTheDeepGalleries from './FinaleOfTheDeepGalleries'
 import FlowerOfParadiseLost from './FlowerOfParadiseLost'
 import FragmentOfHarmonicWhimsy from './FragmentOfHarmonicWhimsy'
 import Gambler from './Gambler'
@@ -26,10 +27,12 @@ import HeartOfDepth from './HeartOfDepth'
 import HuskOfOpulentDreams from './HuskOfOpulentDreams'
 import Instructor from './Instructor'
 import Lavawalker from './Lavawalker'
+import LongNightsOath from './LongNightsOath'
 import LuckyDog from './LuckyDog'
 import MaidenBeloved from './MaidenBeloved'
 import MarechausseeHunter from './MarechausseeHunter'
 import MartialArtist from './MartialArtist'
+import NightOfTheSkysUnveiling from './NightOfTheSkysUnveiling'
 import NighttimeWhispersInTheEchoingWoods from './NighttimeWhispersInTheEchoingWoods'
 import NoblesseOblige from './NoblesseOblige'
 import NymphsDream from './NymphsDream'
@@ -45,6 +48,7 @@ import RetracingBolide from './RetracingBolide'
 import Scholar from './Scholar'
 import ScrollOfTheHeroOfCinderCity from './ScrollOfTheHeroOfCinderCity'
 import ShimenawasReminiscence from './ShimenawasReminiscence'
+import SilkenMoonsSerenade from './SilkenMoonsSerenade'
 import SongOfDaysPast from './SongOfDaysPast'
 import TenacityOfTheMillelith from './TenacityOfTheMillelith'
 import TheExile from './TheExile'
@@ -71,6 +75,7 @@ export const artifactSheets: Record<ArtifactSetKey, ArtifactSheet> = {
   DesertPavilionChronicle,
   EchoesOfAnOffering,
   EmblemOfSeveredFate,
+  FinaleOfTheDeepGalleries,
   FlowerOfParadiseLost,
   FragmentOfHarmonicWhimsy,
   Gambler,
@@ -81,10 +86,12 @@ export const artifactSheets: Record<ArtifactSetKey, ArtifactSheet> = {
   HuskOfOpulentDreams,
   Instructor,
   Lavawalker,
+  LongNightsOath,
   LuckyDog,
   MaidenBeloved,
   MarechausseeHunter,
   MartialArtist,
+  NightOfTheSkysUnveiling,
   NighttimeWhispersInTheEchoingWoods,
   NoblesseOblige,
   NymphsDream,
@@ -100,6 +107,7 @@ export const artifactSheets: Record<ArtifactSetKey, ArtifactSheet> = {
   Scholar,
   ScrollOfTheHeroOfCinderCity,
   ShimenawasReminiscence,
+  SilkenMoonsSerenade,
   SongOfDaysPast,
   TenacityOfTheMillelith,
   TheExile,

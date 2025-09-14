@@ -14,6 +14,7 @@ import DragonspineSpear from './DragonspineSpear'
 import EngulfingLightning from './EngulfingLightning'
 import FavoniusLance from './FavoniusLance'
 import FootprintOfTheRainbow from './FootprintOfTheRainbow'
+import FracturedHalo from './FracturedHalo'
 import Halberd from './Halberd'
 import IronPoint from './IronPoint'
 import KitainCrossSpear from './KitainCrossSpear'
@@ -24,12 +25,15 @@ import Moonpiercer from './Moonpiercer'
 import MountainBracingBolt from './MountainBracingBolt'
 import PrimordialJadeWingedSpear from './PrimordialJadeWingedSpear'
 import ProspectorsDrill from './ProspectorsDrill'
+import ProspectorsShovel from './ProspectorsShovel'
 import PrototypeStarglitter from './PrototypeStarglitter'
 import RightfulReward from './RightfulReward'
 import RoyalSpear from './RoyalSpear'
 import SkywardSpine from './SkywardSpine'
 import StaffOfHoma from './StaffOfHoma'
 import StaffOfTheScarletSands from './StaffOfTheScarletSands'
+import SymphonistOfScents from './SymphonistOfScents'
+import TamayurateiNoOhanashi from './TamayurateiNoOhanashi'
 import TheCatch from './TheCatch'
 import VortexVanquisher from './VortexVanquisher'
 import WavebreakersFin from './WavebreakersFin'
@@ -49,6 +53,7 @@ const polearm: Record<WeaponPoleArmKey, WeaponSheet> = {
   EngulfingLightning,
   FavoniusLance,
   FootprintOfTheRainbow,
+  FracturedHalo,
   Halberd,
   IronPoint,
   KitainCrossSpear,
@@ -59,12 +64,15 @@ const polearm: Record<WeaponPoleArmKey, WeaponSheet> = {
   MountainBracingBolt,
   PrimordialJadeWingedSpear,
   ProspectorsDrill,
+  ProspectorsShovel,
   PrototypeStarglitter,
   RightfulReward,
   RoyalSpear,
   SkywardSpine,
   StaffOfHoma,
   StaffOfTheScarletSands,
+  SymphonistOfScents,
+  TamayurateiNoOhanashi,
   TheCatch,
   VortexVanquisher,
   WavebreakersFin,
