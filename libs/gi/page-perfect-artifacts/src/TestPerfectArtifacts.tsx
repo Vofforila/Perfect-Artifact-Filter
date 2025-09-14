@@ -263,24 +263,18 @@ function CheckSubStats(
         ) {
           critMatch++
         }
-        if('critDMG_' === substat_type || 'critRate_' === substat_type && !_perfect_artifact.critUser)
         matches++
         break
       }
     }
   })
-
-
-// crit crit ele er
-// crit hp ele er
-// hp hp+ ele er
-
   // console.log(_perfect_artifact.character)
   // console.log(_perfect_stats)
   // console.log(_test_artifact)
   // console.log(_perfect_artifact)
   // console.log(critMatch)
   // console.log(matches)
+  // console.log(checkvalue)
 
   if (
     (_perfect_artifact.critUser && critMatch === 2) ||
