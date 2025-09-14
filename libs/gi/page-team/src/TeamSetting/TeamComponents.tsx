@@ -16,12 +16,8 @@ import {
   useTeamChar,
 } from '@genshin-optimizer/gi/db-ui'
 import type { CharacterSheet } from '@genshin-optimizer/gi/sheets'
-import {
-  MoonsignConditionalSection,
-  dataSetEffects,
-  getArtSheet,
-} from '@genshin-optimizer/gi/sheets'
-import { getCharEle, getCharStat } from '@genshin-optimizer/gi/stats'
+import { dataSetEffects, getArtSheet } from '@genshin-optimizer/gi/sheets'
+import { getCharEle } from '@genshin-optimizer/gi/stats'
 import type { dataContextObj } from '@genshin-optimizer/gi/ui'
 import {
   ArtifactSetName,
@@ -298,11 +294,7 @@ function CharTalentCondDisplay() {
   } = useContext(CharacterContext)
   const { teamData } = useContext(DataContext)
   const characterSheet = teamData[charKey]!.characterSheet as CharacterSheet
-  const charRegion = getCharStat(charKey).region
   const sections = [
-    ...(charRegion === 'nodKrai'
-      ? []
-      : [MoonsignConditionalSection(charKey, characterSheet)]),
     ...Object.values(characterSheet.talent).flatMap((sts) => sts.sections),
   ]
   if (!sections) return null
