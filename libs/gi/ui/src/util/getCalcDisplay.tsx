@@ -13,7 +13,7 @@ import {
 import { Translate } from '@genshin-optimizer/gi/i18n'
 import type { CalcResult } from '@genshin-optimizer/gi/uidata'
 import type { Info, InfoExtra, KeyMapPrefix } from '@genshin-optimizer/gi/wr'
-import { useContext, type ReactNode } from 'react'
+import { type ReactNode, useContext } from 'react'
 import { SillyContext } from '../context'
 import { resolveInfo } from './resolveInfo'
 
@@ -222,7 +222,14 @@ function computeFormulaDisplay(
   result.formula = (
     <>
       {components.map((x, i) => (
-        <span key={i}>{x}</span>
+        <span
+          style={{
+            textDecoration: info.strikethrough ? 'line-through' : undefined,
+          }}
+          key={i}
+        >
+          {x}
+        </span>
       ))}
     </>
   )

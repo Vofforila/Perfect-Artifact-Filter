@@ -9,13 +9,14 @@ import { imgAssets, weaponAsset } from '@genshin-optimizer/gi/assets'
 import type {
   CharacterKey,
   LocationCharacterKey,
+  WeaponTypeKey,
 } from '@genshin-optimizer/gi/consts'
 import type { ICachedWeapon } from '@genshin-optimizer/gi/db'
 import { useDatabase, useWeapon } from '@genshin-optimizer/gi/db-ui'
 import { getWeaponSheet } from '@genshin-optimizer/gi/sheets'
 import { getCharStat, getWeaponStat } from '@genshin-optimizer/gi/stats'
 import { computeUIData } from '@genshin-optimizer/gi/uidata'
-import { ascensionMaxLevel } from '@genshin-optimizer/gi/util'
+import { weaponAscensionMaxLevel } from '@genshin-optimizer/gi/util'
 import { dataObjForWeapon, uiInput as input } from '@genshin-optimizer/gi/wr'
 import { Lock, LockOpen } from '@mui/icons-material'
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever'
@@ -98,7 +99,7 @@ export function WeaponCardObj({
 
   if (!weapon || !weaponSheet || !UIData) return null
   const { level, ascension, refinement, id, location = '', lock } = weapon
-  const weaponTypeKey = UIData.get(input.weapon.type).value!
+  const weaponTypeKey = UIData.get(input.weapon.type).value! as WeaponTypeKey
   const stats = [input.weapon.main, input.weapon.sub, input.weapon.sub2].map(
     (x) => UIData.get(x)
   )
@@ -164,7 +165,7 @@ export function WeaponCardObj({
                 Lv. {level}
               </Typography>
               <Typography component="span" variant="h5" color="text.secondary">
-                /{ascensionMaxLevel[ascension]}
+                /{weaponAscensionMaxLevel[ascension]}
               </Typography>
               <Typography variant="h6">
                 <Trans t={t} i18nKey={'refinement'}>

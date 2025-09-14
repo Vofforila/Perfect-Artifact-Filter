@@ -1,7 +1,7 @@
 import {
   BootstrapTooltip,
-  ColorText,
   type CardBackgroundColor,
+  ColorText,
 } from '@genshin-optimizer/common/ui'
 import { evalIfFunc, valueString } from '@genshin-optimizer/common/util'
 import type { AmpReactionKey } from '@genshin-optimizer/gi/consts'
@@ -129,7 +129,7 @@ export function NodeFieldDisplay({
     [setFormulaData, data, calcRes]
   )
   if (!calcRes && !compareCalcRes) return null
-  const { multi } = calcRes?.info ?? compareCalcRes?.info ?? {}
+  const { multi, strikethrough } = calcRes?.info ?? compareCalcRes?.info ?? {}
 
   const multiDisplay = multi && <span>{multi}&#215;</span>
   const calcValue = calcRes?.value ?? 0
@@ -198,6 +198,7 @@ export function NodeFieldDisplay({
         gap: 1,
         boxShadow: emphasize ? '0px 0px 0px 2px red inset' : undefined,
         py: 0.25,
+        textDecoration: strikethrough ? 'line-through' : undefined,
       }}
       component={component}
     >
@@ -284,8 +285,8 @@ export const FieldDisplayList = styled(List)<FieldDisplayListProps>(
       bgt === 'light'
         ? 'contentLight'
         : bgt === 'dark'
-        ? 'contentDark'
-        : 'contentNormal'
+          ? 'contentDark'
+          : 'contentNormal'
     return {
       borderRadius: theme.shape.borderRadius,
       overflow: 'hidden',

@@ -54,7 +54,7 @@ export function StatEditorList({
               ? `${tk(statKey as MainStatKey | SubstatKey)}${statPercent(
                   statKey as MainStatKey | SubstatKey
                 )}`
-              : KeyMap.getStr(statKey) ?? 'ERROR',
+              : (KeyMap.getStr(statKey) ?? 'ERROR'),
             color: KeyMap.getVariant(statKey),
           })
         )
@@ -92,7 +92,7 @@ export function StatEditorList({
   )
 
   const setFilter = useCallback(
-    (sKey, min) => {
+    (sKey: InputPremodKey, min: number) => {
       const statFilters_ = { ...statFilters }
       statFilters_[sKey] = min
       setStatFilters({ ...statFilters_ })
@@ -101,7 +101,7 @@ export function StatEditorList({
   )
 
   const delKey = useCallback(
-    (statKey) => {
+    (statKey: InputPremodKey) => {
       const statFilters_ = { ...statFilters }
       delete statFilters_[statKey]
       setStatFilters({ ...statFilters_ })
@@ -223,8 +223,8 @@ function StatFilterItem({
               gridTemplateColumns: isOneCol
                 ? '100%'
                 : isThreeCol
-                ? '33% 33% 33%'
-                : '50% 50%',
+                  ? '33% 33% 33%'
+                  : '50% 50%',
             },
           }}
           // This needs to be done with `style` prop, not `sx` prop, or it doesn't work
@@ -318,12 +318,18 @@ const inputPremodKeyToGroupMap: Record<InputPremodKey, GroupKey> = {
   overloaded_dmg_: 'reaction_dmg_bonus',
   shattered_dmg_: 'reaction_dmg_bonus',
   electrocharged_dmg_: 'reaction_dmg_bonus',
+  lunarcharged_baseDmg_: 'reaction_dmg_bonus',
+  lunarcharged_specialDmg_: 'reaction_dmg_bonus',
+  lunarcharged_dmg_: 'reaction_dmg_bonus',
   superconduct_dmg_: 'reaction_dmg_bonus',
   swirl_dmg_: 'reaction_dmg_bonus',
   burning_dmg_: 'reaction_dmg_bonus',
   bloom_dmg_: 'reaction_dmg_bonus',
   burgeon_dmg_: 'reaction_dmg_bonus',
   hyperbloom_dmg_: 'reaction_dmg_bonus',
+  lunarbloom_baseDmg_: 'reaction_dmg_bonus',
+  lunarbloom_specialDmg_: 'reaction_dmg_bonus',
+  lunarbloom_dmg_: 'reaction_dmg_bonus',
   vaporize_dmg_: 'reaction_dmg_bonus',
   melt_dmg_: 'reaction_dmg_bonus',
   spread_dmg_: 'reaction_dmg_bonus',
@@ -390,12 +396,27 @@ const inputPremodKeyToGroupMap: Record<InputPremodKey, GroupKey> = {
   elemental_critRate_: 'talent_crit',
   burning_critRate_: 'reaction_crit',
   burning_critDMG_: 'reaction_crit',
+  overloaded_dmgInc: 'elem_dmgInc',
+  shattered_dmgInc: 'elem_dmgInc',
+  electrocharged_dmgInc: 'elem_dmgInc',
+  lunarcharged_dmgInc: 'elem_dmgInc',
+  superconduct_dmgInc: 'elem_dmgInc',
+  burning_dmgInc: 'elem_dmgInc',
   bloom_critRate_: 'reaction_crit',
   bloom_critDMG_: 'reaction_crit',
+  bloom_dmgInc: 'elem_dmgInc',
   burgeon_critRate_: 'reaction_crit',
   burgeon_critDMG_: 'reaction_crit',
+  burgeon_dmgInc: 'elem_dmgInc',
   hyperbloom_critRate_: 'reaction_crit',
   hyperbloom_critDMG_: 'reaction_crit',
+  hyperbloom_dmgInc: 'elem_dmgInc',
+  lunarbloom_critRate_: 'reaction_crit',
+  lunarbloom_critDMG_: 'reaction_crit',
+  lunarbloom_dmgInc: 'elem_dmgInc',
+  swirl_critRate_: 'reaction_crit',
+  swirl_critDMG_: 'reaction_crit',
+  swirl_dmgInc: 'elem_dmgInc',
   all_dmgInc: 'elem_dmgInc',
   physical_enemyRes_: 'enemy_debuffs',
   anemo_enemyRes_: 'enemy_debuffs',

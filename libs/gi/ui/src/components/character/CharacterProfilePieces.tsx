@@ -15,13 +15,13 @@ import {
   useDatabase,
 } from '@genshin-optimizer/gi/db-ui'
 import {
-  getCharSheet,
   type TalentSheetElementKey,
+  getCharSheet,
 } from '@genshin-optimizer/gi/sheets'
 import { splash } from '@genshin-optimizer/gi/silly-wisher'
 import { getCharEle, getCharStat } from '@genshin-optimizer/gi/stats'
 import { ElementIcon } from '@genshin-optimizer/gi/svgicons'
-import { getLevelString } from '@genshin-optimizer/gi/util'
+import { getCharLevelString } from '@genshin-optimizer/gi/util'
 import { uiInput as input } from '@genshin-optimizer/gi/wr'
 import FavoriteIcon from '@mui/icons-material/Favorite'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
@@ -35,6 +35,7 @@ import {
   Typography,
 } from '@mui/material'
 import { grey, yellow } from '@mui/material/colors'
+import type { StaticImageData } from 'next/image'
 import { useContext } from 'react'
 import { DataContext, SillyContext } from '../../context'
 import { CharacterName } from './Trans'
@@ -162,7 +163,15 @@ export function CharacterCoverArea() {
     <CoverArea src={card} level={level} ascension={ascension} />
   )
 }
-function SillyCoverArea({ src, level, ascension }) {
+function SillyCoverArea({
+  src,
+  level,
+  ascension,
+}: {
+  src: string | StaticImageData
+  level: number
+  ascension: AscensionKey
+}) {
   const {
     character: { key: characterKey },
   } = useContext(CharacterContext)
@@ -204,7 +213,15 @@ function SillyCoverArea({ src, level, ascension }) {
   )
 }
 
-function CoverArea({ src, level, ascension }) {
+function CoverArea({
+  src,
+  level,
+  ascension,
+}: {
+  src: string | StaticImageData
+  level: number
+  ascension: AscensionKey
+}) {
   const {
     character: { key: characterKey },
   } = useContext(CharacterContext)
@@ -291,7 +308,7 @@ function LevelBadge({
     <Typography
       sx={{ p: 1, position: 'absolute', right: 0, top: 0, opacity: 0.8 }}
     >
-      <SqBadge>{getLevelString(level, ascension)}</SqBadge>
+      <SqBadge>{getCharLevelString(level, ascension)}</SqBadge>
     </Typography>
   )
 }

@@ -1,8 +1,9 @@
-import { useForceUpdate } from '@genshin-optimizer/common/react-util'
+import { useDataManagerEntries } from '@genshin-optimizer/common/database-ui'
 import { CardThemed, ImgIcon } from '@genshin-optimizer/common/ui'
 import { objKeyMap } from '@genshin-optimizer/common/util'
 import {
   allArtifactSlotKeys,
+  allTravelerKeys,
   charKeyToLocCharKey,
   charKeyToLocGenderedCharKey,
 } from '@genshin-optimizer/gi/consts'
@@ -19,12 +20,12 @@ import AddIcon from '@mui/icons-material/Add'
 import CloseIcon from '@mui/icons-material/Close'
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever'
 import { Box, Button, Grid, IconButton, Typography } from '@mui/material'
-import { useCallback, useContext, useEffect, useMemo } from 'react'
+import { useCallback, useContext, useMemo } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router-dom'
 import { BuildEditContext, DataContext, SillyContext } from '../../../context'
 import { AddTeamInfo } from '../../AddTeamInfo'
-import { LevelSelect } from '../../LevelSelect'
+import { CharacterLevelSelect } from '../CharacterLevelSelect'
 import {
   CharacterCompactConstSelector,
   CharacterCoverArea,
@@ -96,10 +97,18 @@ export function Content({ onClose }: { onClose?: () => void }) {
             >
               <CharacterCoverArea />
               <Box sx={{ px: 1 }}>
-                <LevelSelect
+                <CharacterLevelSelect
                   level={character.level}
                   ascension={character.ascension}
-                  setBoth={(data) => database.chars.set(characterKey, data)}
+                  setBoth={(data) => {
+                    allTravelerKeys.includes(
+                      characterKey as (typeof allTravelerKeys)[number]
+                    )
+                      ? allTravelerKeys.forEach((tkey) => {
+                          database.chars.set(tkey, data)
+                        })
+                      : database.chars.set(characterKey, data)
+                  }}
                 />
               </Box>
               <CharacterCardStats bgt="light" />
@@ -210,38 +219,46 @@ function EquipmentSection() {
 function InTeam() {
   const { t } = useTranslation('page_character')
   const navigate = useNavigate()
-
   const {
     character: { key: characterKey },
   } = useContext(CharacterContext)
   const database = useDatabase()
   const { gender } = useDBMeta()
-  const [dbDirty, setDbDirty] = useForceUpdate()
+  const teamCharEntries = useDataManagerEntries(database.teamChars)
+  const teamEntries = useDataManagerEntries(database.teams)
   const loadoutTeamMap = useMemo(() => {
     const loadoutTeamMap: Record<string, string[]> = {}
-    database.teamChars.entries.map(([teamCharId, teamChar]) => {
-      if (teamChar.key !== characterKey) return
-      if (!loadoutTeamMap[teamCharId]) loadoutTeamMap[teamCharId] = []
-    })
-    database.teams.entries.forEach(([teamId, team]) => {
-      const teamCharIdWithCKey = team.loadoutData.find(
-        (loadoutDatum) =>
-          loadoutDatum &&
-          database.teamChars.get(loadoutDatum?.teamCharId)?.key === characterKey
-      )
-      if (teamCharIdWithCKey)
-        loadoutTeamMap[teamCharIdWithCKey?.teamCharId].push(teamId)
-    })
-    return dbDirty && loadoutTeamMap
-  }, [dbDirty, characterKey, database])
-  useEffect(
-    () => database.teams.followAny(() => setDbDirty()),
-    [database, setDbDirty]
-  )
-  useEffect(
-    () => database.teamChars.followAny(() => setDbDirty()),
-    [database, setDbDirty]
-  )
+    const tempTeamCharEntries = [...teamCharEntries]
+    tempTeamCharEntries
+      .sort((a, b) => {
+        const [, ateam] = a
+        const [, bteam] = b
+        return ateam.name.localeCompare(bteam.name)
+      })
+      .map(([teamCharId, teamChar]) => {
+        if (teamChar.key !== characterKey) return
+        if (!loadoutTeamMap[teamCharId]) loadoutTeamMap[teamCharId] = []
+      })
+    const tempTeamEntries = [...teamEntries]
+    tempTeamEntries
+      .sort((a, b) => {
+        const [, ateam] = a
+        const [, bteam] = b
+        return ateam.name.localeCompare(bteam.name)
+      })
+      .forEach(([teamId, team]) => {
+        const teamCharIdWithCKey = team.loadoutData.find(
+          (loadoutDatum) =>
+            loadoutDatum &&
+            database.teamChars.get(loadoutDatum?.teamCharId)?.key ===
+              characterKey
+        )
+        if (teamCharIdWithCKey)
+          loadoutTeamMap[teamCharIdWithCKey?.teamCharId].push(teamId)
+      })
+    return loadoutTeamMap
+  }, [teamCharEntries, teamEntries, characterKey, database.teamChars])
+
   const onAddNewTeam = () => {
     const teamId = database.teams.new()
     const teamCharId = database.teamChars.new(characterKey)

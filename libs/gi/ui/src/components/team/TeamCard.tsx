@@ -33,7 +33,10 @@ import {
   weaponHasRefinement,
 } from '@genshin-optimizer/gi/stats'
 import { ElementIcon, SlotIcon, StatIcon } from '@genshin-optimizer/gi/svgicons'
-import { getLevelString } from '@genshin-optimizer/gi/util'
+import {
+  getCharLevelString,
+  getWeaponLevelString,
+} from '@genshin-optimizer/gi/util'
 import CheckroomIcon from '@mui/icons-material/Checkroom'
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever'
 import InfoIcon from '@mui/icons-material/Info'
@@ -150,6 +153,7 @@ export function TeamCard({
               teamCharId && database.teamChars.get(teamCharId)?.key
             return (
               <Box
+                key={`${i}_${teamCharId}`}
                 className="team-teammate"
                 sx={{
                   border: '1px rgba(200,200,200,0.3) solid',
@@ -358,7 +362,7 @@ function CharacterArea({
                     textShadow: '0 0 5px black',
                   }}
                 >
-                  {getLevelString(character.level, character.ascension)}
+                  {getCharLevelString(character.level, character.ascension)}
                 </Typography>
               )}
               {character && (
@@ -481,7 +485,7 @@ function WeaponCard({ weapon }: { weapon: ICachedWeapon }) {
         }}
       >
         <Typography sx={{}}>
-          {getLevelString(weapon.level, weapon.ascension)}
+          {getWeaponLevelString(weapon.level, weapon.ascension)}
         </Typography>
 
         {weaponHasRefinement(weapon.key) && (
@@ -495,9 +499,9 @@ function WeaponCard({ weapon }: { weapon: ICachedWeapon }) {
 function ArtifactCard({ artifactData }: { artifactData: ArtifactData }) {
   const { setNum = {}, mains = {} } = artifactData
   const { t } = useTranslation('statKey_gen')
-  const processedSetNum = Object.entries(setNum).filter(
-    ([, num]) => num === 2 || num === 4
-  )
+  const processedSetNum: [ArtifactSetKey, number][] = Object.entries(setNum)
+    .filter(([, num]) => num > 1)
+    .map(([set, num]) => [set, num < 4 ? 2 : 4])
   return (
     <CardThemed
       bgt="neutral600"

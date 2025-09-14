@@ -1,5 +1,5 @@
 'use client'
-import { useForceUpdate } from '@genshin-optimizer/common/react-util'
+import { useDataManagerValues } from '@genshin-optimizer/common/database-ui'
 import {
   CardThemed,
   DropdownButton,
@@ -7,7 +7,11 @@ import {
   ModalWrapper,
   NextImage,
 } from '@genshin-optimizer/common/ui'
-import { clamp, deepClone } from '@genshin-optimizer/common/util'
+import {
+  clamp,
+  deepClone,
+  shouldShowDevComponents,
+} from '@genshin-optimizer/common/util'
 import type { Processed } from '@genshin-optimizer/gi/art-scanner'
 import { ScanningQueue } from '@genshin-optimizer/gi/art-scanner'
 import { artifactAsset } from '@genshin-optimizer/gi/assets'
@@ -75,7 +79,6 @@ import {
   useState,
 } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
-import { shouldShowDevComponents } from '../../../util'
 import { CustomNumberTextField } from '../../CustomNumberTextField'
 import { LocationAutocomplete } from '../../character'
 import { ArtifactCardObj } from '../ArtifactCard'
@@ -136,6 +139,8 @@ const InputInvis = styled('input')({
   display: 'none',
 })
 
+const LineBreak = styled('br')()
+
 function getDefaultSlotKey(
   artifactSet?: ArtifactSetKey
 ): Extract<ArtifactSlotKey, 'flower' | 'circlet'> {
@@ -171,12 +176,6 @@ export function ArtifactEditor({
   const database = useDatabase()
 
   const [show, setShow] = useState(false)
-
-  const [dirtyDatabase, setDirtyDatabase] = useForceUpdate()
-  useEffect(
-    () => database.arts.followAny(setDirtyDatabase),
-    [database, setDirtyDatabase]
-  )
 
   const [artifact, artifactDispatch] = useReducer(artifactReducer, undefined)
 
@@ -218,7 +217,7 @@ export function ArtifactEditor({
     },
     [uploadFiles]
   )
-
+  const artValuesDirty = useDataManagerValues(database.arts)
   const {
     old,
     oldType,
@@ -227,16 +226,16 @@ export function ArtifactEditor({
     oldType: 'edit' | 'duplicate' | 'upgrade' | ''
   } = useMemo(() => {
     const databaseArtifact =
-      dirtyDatabase && artifactIdToEdit && database.arts.get(artifactIdToEdit)
+      artValuesDirty && artifactIdToEdit && database.arts.get(artifactIdToEdit)
     if (databaseArtifact) return { old: databaseArtifact, oldType: 'edit' }
     if (artifact === undefined) return { old: undefined, oldType: '' }
     const { duplicated, upgraded } =
-      dirtyDatabase && database.arts.findDups(artifact)
+      artValuesDirty && database.arts.findDups(artifact)
     return {
       old: duplicated[0] ?? upgraded[0],
       oldType: duplicated.length !== 0 ? 'duplicate' : 'upgrade',
     }
-  }, [artifact, artifactIdToEdit, database, dirtyDatabase])
+  }, [artifact, artifactIdToEdit, database, artValuesDirty])
 
   const { artifact: cArtifact, errors } = useMemo(() => {
     if (!artifact) return { artifact: undefined, errors: [] as ReactNode[] }
@@ -262,7 +261,7 @@ export function ArtifactEditor({
       ): T {
         return value && available.includes(value)
           ? value
-          : prefer ?? available[0]
+          : (prefer ?? available[0])
       }
 
       if (newValue.setKey && newStat) {
@@ -322,7 +321,7 @@ export function ArtifactEditor({
     ? getArtifactEfficiency(cArtifact, allSubstatFilter)
     : {}
   const onClose = useCallback(
-    (e) => {
+    (e: React.MouseEvent<HTMLElement>) => {
       if (
         !artifactIdToEdit &&
         (queueTotal || artifact) &&
@@ -344,7 +343,7 @@ export function ArtifactEditor({
   const element = artifact
     ? allElementWithPhyKeys.find((ele) => artifact.mainStatKey.includes(ele))
     : undefined
-  const color = artifact ? element ?? 'success' : 'primary'
+  const color = artifact ? (element ?? 'success') : 'primary'
 
   const updateSetKey = useCallback(
     (setKey: ArtifactSetKey | '') =>
@@ -375,7 +374,7 @@ export function ArtifactEditor({
       artifactDispatch({ type: 'reset' })
     }
     const databaseArtifact =
-      artifactIdToEdit && dirtyDatabase && database.arts.get(artifactIdToEdit)
+      artifactIdToEdit && artValuesDirty && database.arts.get(artifactIdToEdit)
     if (databaseArtifact) {
       setShow(true)
       artifactDispatch({
@@ -383,7 +382,7 @@ export function ArtifactEditor({
         artifact: deepClone(databaseArtifact),
       })
     }
-  }, [artifactIdToEdit, database, dirtyDatabase])
+  }, [artifactIdToEdit, database, artValuesDirty])
 
   // When there is scanned artifacts and no artifact in editor, put latest scanned artifact in editor
   useEffect(() => {
@@ -428,7 +427,7 @@ export function ArtifactEditor({
 
   const removeId = (artifactIdToEdit !== 'new' && artifactIdToEdit) || old?.id
   return (
-    <ModalWrapper open={show} onClose={onClose}>
+    <ModalWrapper open={show} onClose={onClose} data-testid="artifact-editor">
       <CardThemed>
         <UploadExplainationModal
           modalShow={modalShow}
@@ -523,7 +522,9 @@ export function ArtifactEditor({
                     artifact?.setKey?.startsWith('Prayer')
                   }
                   slotKey={slotKey}
-                  onChange={(slotKey) => update({ slotKey })}
+                  onChange={(slotKey) =>
+                    update({ slotKey: slotKey ? slotKey : undefined })
+                  }
                 />
                 <CardThemed bgt="light" sx={{ p: 1, ml: 1, flexGrow: 1 }}>
                   <Suspense fallback={<Skeleton width="60%" />}>
@@ -551,7 +552,12 @@ export function ArtifactEditor({
               </Box>
 
               {/* main stat */}
-              <Box component="div" display="flex" gap={1}>
+              <Box
+                component="div"
+                display="flex"
+                gap={1}
+                data-testid="main-stat"
+              >
                 <DropdownButton
                   startIcon={
                     artifact?.mainStatKey ? (
@@ -644,6 +650,8 @@ export function ArtifactEditor({
                             >
                               {t('editor.uploadBtn')}
                             </Button>
+                            {/* https://github.com/frzyc/genshin-optimizer/pull/2597 */}
+                            <LineBreak />
                           </label>
                         </Grid>
                         {shouldShowDevComponents && debugImgs && (
@@ -713,7 +721,6 @@ export function ArtifactEditor({
                 </CardThemed>
               )}
             </Grid>
-
             {/* Right column */}
             <Grid item xs={1} display="flex" flexDirection="column" gap={1}>
               {/* substat selections */}
@@ -854,7 +861,7 @@ export function ArtifactEditor({
                 onClick={() =>
                   artifactDispatch({
                     type: 'overwrite',
-                    artifact: randomizeArtifact(),
+                    artifact: randomizeArtifact(artifact),
                   })
                 }
               >

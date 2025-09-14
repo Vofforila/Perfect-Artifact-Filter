@@ -8,9 +8,10 @@ import { characterAsset } from '@genshin-optimizer/gi/assets'
 import type { CharacterKey, ElementKey } from '@genshin-optimizer/gi/consts'
 import { useDBMeta } from '@genshin-optimizer/gi/db-ui'
 import { getCharEle, getCharStat } from '@genshin-optimizer/gi/stats'
-import { ascensionMaxLevel } from '@genshin-optimizer/gi/util'
+import { charAscensionMaxLevel } from '@genshin-optimizer/gi/util'
 import { input } from '@genshin-optimizer/gi/wr'
 import { Box, CardActionArea, Chip, Typography } from '@mui/material'
+import type { ReactNode } from 'react'
 import { useCallback, useContext } from 'react'
 import { DataContext, SillyContext } from '../../../context'
 import { iconAsset } from '../../../util/iconAsset'
@@ -31,7 +32,7 @@ export function CharacterCardHeader({
   const charStat = getCharStat(characterKey)
 
   const actionWrapperFunc = useCallback(
-    (children) => (
+    (children: ReactNode) => (
       <CardActionArea
         onClick={onClick}
         sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column' }}
@@ -145,7 +146,7 @@ export function CharacterCardHeaderContent({
             variant="h6"
             color={tcOverride ? 'yellow ' : 'text.secondary'}
           >
-            /{ascensionMaxLevel[ascension]}
+            /{charAscensionMaxLevel[ascension]}
           </Typography>
         </Box>
         <Typography
