@@ -1,4 +1,16 @@
 [
+    {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Flins",
+    "critUser": true,
+    "description": "SECOND BEST WITH Shimenawa's Reminiscence",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png"
+  },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -466,6 +478,18 @@
     "description": "BiS",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Flins",
+    "critUser": true,
+    "description": "THIRD BEST 4 SET",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png"
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -2734,6 +2758,18 @@
     "set_image": "seii_81.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Flins",
+    "critUser": true,
+    "description": "SECOND BEST WITH Gladiator's Finale",
+    "setKey": "ShimenawasReminiscence",
+    "set_image": "seii_165.png"
+  },
+  {
     "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
     "plume": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
@@ -3354,6 +3390,18 @@
     "character": "Lauma",
     "critUser": true,
     "description": "BiS FOR ON-FIELD DPS (IF C6)",
+    "setKey": "NightOfTheSkysUnveiling",
+    "set_image": "seii_270.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Flins",
+    "critUser": true,
+    "description": "BiS ESPECIALLY WITH Silken Moon's Serenade in team",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png"
   }
