@@ -1,5 +1,5 @@
 [
-    {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -648,8 +648,8 @@
     "set_image": "seii_195.png"
   },
   {
-    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_",
-    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_",
+    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
+    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk",
     "sands": "enerRech_/eleMas + enerRech_ + eleMas + critRate_ + critDMG_",
     "goblet": "eleMas/dendro_dmg_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
     "circlet": "eleMas/critDMG_/critRate_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1909,8 +1909,8 @@
     "set_image": "seii_190.png"
   },
   {
-    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_",
-    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_",
+    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
+    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk",
     "sands": "enerRech_/eleMas + enerRech_ + eleMas + critRate_ + critDMG_",
     "goblet": "eleMas/dendro_dmg_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
     "circlet": "eleMas/critDMG_/critRate_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2422,8 +2422,8 @@
     "set_image": "seii_205.png"
   },
   {
-    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_",
-    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_",
+    "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
+    "plume": "atk_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk",
     "sands": "enerRech_/eleMas + enerRech_ + eleMas + critRate_ + critDMG_",
     "goblet": "eleMas/dendro_dmg_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
     "circlet": "eleMas/critDMG_/critRate_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
