@@ -1,6 +1,6 @@
 To Update:
 assets-data +
-assets
+assets +
 char-cards +
 consts +
 db-ui
