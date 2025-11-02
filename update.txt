@@ -1,8 +1,8 @@
 To Update:
-assets-data
+assets-data +
 assets
-char-cards
-consts
+char-cards +
+consts +
 db-ui
 db
 dm-localization
