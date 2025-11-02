@@ -480,6 +480,18 @@
     "set_image": "seii_175.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "sands": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "goblet": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "character": "Nefer",
+    "critUser": true,
+    "description": "SECOND BEST WITH Wanderer's Troupe",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2890,6 +2902,18 @@
     "set_image": "seii_165.png"
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "sands": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "goblet": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "character": "Nefer",
+    "critUser": true,
+    "description": "SECOND BEST WITH Wanderer's Troupe",
+    "setKey": "WanderersTroupe",
+    "set_image": "seii_78.png"
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk",
     "plume": "atk_ + critDMG_ + critRate_ + eleMas + atk_ + atk",
     "sands": "eleMas + critDMG_ + critRate_ + atk_ + atk",
@@ -3402,6 +3426,18 @@
     "character": "Flins",
     "critUser": true,
     "description": "BiS ESPECIALLY WITH Silken Moon's Serenade in team",
+    "setKey": "NightOfTheSkysUnveiling",
+    "set_image": "seii_270.png"
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "sands": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "goblet": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + eleMas",
+    "character": "Nefer",
+    "critUser": true,
+    "description": "BiS",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png"
   }
