@@ -501,7 +501,8 @@
     "critUser": true,
     "description": "THIRD BEST 4 SET",
     "setKey": "GildedDreams",
-    "set_image": "seii_195.png"
+    "set_image": "seii_195.png",
+    "weapons": ["Akuoumaru", "BalladOfTheBoundlessBlue"]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",

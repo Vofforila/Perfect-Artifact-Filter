@@ -1,8 +1,10 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
-import { artifactAsset } from '@genshin-optimizer/gi/assets'
+import { artifactAsset, weaponAsset } from '@genshin-optimizer/gi/assets'
+import { WeaponKey } from '@genshin-optimizer/gi/consts'
+import { i18n } from '@genshin-optimizer/gi/i18n'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
 import { LocationName } from '@genshin-optimizer/gi/ui'
-import { Box, CardContent, Chip, Typography } from '@mui/material'
+import { Box, CardContent, Chip, Tooltip, Typography } from '@mui/material'
 import { PerfectArtifactSet } from './TestPerfectArtifacts'
 
 interface PerfectArtifactCardProps {
@@ -56,7 +58,6 @@ export default function PerfectartifactCard({
           </Box>
         </Box>
       </Box>
-
       {/* Set Info with Image */}
       <Box
         sx={{
@@ -84,12 +85,35 @@ export default function PerfectartifactCard({
               {perfect_set.setKey.replace(/([a-z])([A-Z])/g, '$1 $2')}
             </strong>
           </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {perfect_set.description}
-          </Typography>
         </Box>
       </Box>
-
+      {/* Weapons Row */}
+      {perfect_set.weapons && perfect_set.weapons.length > 0 && (
+        <Box
+          sx={{ display: 'flex', gap: 1, alignItems: 'center', mt: 1, mb: 2 }}
+        >
+          {perfect_set.weapons.map((weaponKey) => {
+            const img = weaponAsset(weaponKey as WeaponKey, true)
+            const name = i18n.t(`weaponNames_gen:${weaponKey}`)
+            return (
+              <Tooltip
+                key={weaponKey}
+                title={<Typography>{name}</Typography>}
+                placement="top"
+                arrow
+              >
+                <Box
+                  component={NextImage ? NextImage : 'img'}
+                  src={img ?? ''}
+                  width="auto"
+                  height={40}
+                  sx={{ cursor: 'default' }}
+                />
+              </Tooltip>
+            )
+          })}
+        </Box>
+      )}
       {/* perfect_set Stats with styled boxes */}
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
         {['flower', 'plume', 'sands', 'goblet', 'circlet'].map((piece) => (
