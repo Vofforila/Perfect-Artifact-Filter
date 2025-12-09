@@ -20,6 +20,37 @@ Test with yarn test
 
 To update:
 Weapons for Every Character
+Add Durin at the end of the new Update
+
+"weapons": ["FlameForgedInsight","FavoniusGreatsword","MailedFlower","Rainslasher"]
+
+ShenHe
+
+
+Event Weapons Always Add:
+EndOfTheLine,Cloudforged,FadingTwilight,Hamayumi,IbisPiercer,Predator,SequenceOfSolitude,
+SnareHook,WindblumeOde,KagotsurubeIsshin,PrototypeRancour,SwordOfDescension,SwordOfNarzissenkreuz,ToukabouShigure
+CinnabarSpindle,FesteringDesire,FleuveCendreFerryman,CalamityOfEshu,MissiveWindspear,TamayurateiNoOhanashi,TheCatch,
+DialoguesOfTheDesertSages,LuxuriousSeaLord,MailedFlower,SnowTombedStarsilver,UltimateOverlordsMegaMagicSword,
+FlameForgedInsight,OathswornEye,BalladOfTheBoundlessBlue,DodocoTales,EtherlightSpindlelute,AshGravenDrinkingHorn
+Starlight:
+BlackcliffWarbow,RoyalBow,RoyalLongsword,BlackcliffLongsword,RoyalSpear,BlackcliffPole,RoyalGreatsword,BlackcliffSlasher,RoyalGrimoire
+BlackcliffAgate
+
+
+BattlePass:
+ScionOfTheBlazingSun,TheViridescentHunt,TheBlackSword,WolfFang,BalladOfTheFjords,Deathmatch,SerpentSpine,TalkingStick,SacrificialJade,
+SolarPearl
+
+Craft:
+CompoundBow,KingsSquire,PrototypeCrescent,SongOfStillness,IronSting,SapwoodBlade,SerenitysCall,FinaleOfTheDeep,FluteOfEzpitzal,AmenomaKageuchi,
+Moonpiercer,ProspectorsShovel,PrototypeStarglitter,RightfulReward,CrescentPike,DragonspineSpear,FootprintOfTheRainbow,KitainCrossSpear,MasterKey,
+PrototypeArchaic,TidalShadow,Whiteblind,EarthShaker,ForestRegalia,KatsuragikiriNagamasa,Frostbearer,FruitOfFulfillment,HakushinRing,MappaMare,PrototypeAmber,
+RingOfYaxche,BlackmarrowLantern,FlowingPurity
+
+TheDaybreakChronicles
+The Daybreak Chronicles - missing Fishel
+
 
 type WeaponKey
   = "AThousandBlazingSuns" //A Thousand Blazing Suns
