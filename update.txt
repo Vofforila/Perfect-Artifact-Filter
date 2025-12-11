@@ -19,12 +19,13 @@ Test with yarn test
 
 
 To update:
-Weapons for Every Character
-Add Durin at the end of the new Update
+Add Durin + Jahoda at the end of the new Update
+TheDaybreakChronicles
+The Daybreak Chronicles - missing Fishel
+Sort out every event weapon
 
-"weapons": ["FlameForgedInsight","FavoniusGreatsword","MailedFlower","Rainslasher"]
+"weapons": ["EngulfingLightning","StaffOfTheScarletSands","FavoniusLance","SkywardSpine","FavoniusSword","KitainCrossSpear","Deathmatch"]
 
-ShenHe
 
 
 Event Weapons Always Add:
@@ -48,8 +49,7 @@ Moonpiercer,ProspectorsShovel,PrototypeStarglitter,RightfulReward,CrescentPike,D
 PrototypeArchaic,TidalShadow,Whiteblind,EarthShaker,ForestRegalia,KatsuragikiriNagamasa,Frostbearer,FruitOfFulfillment,HakushinRing,MappaMare,PrototypeAmber,
 RingOfYaxche,BlackmarrowLantern,FlowingPurity
 
-TheDaybreakChronicles
-The Daybreak Chronicles - missing Fishel
+
 
 
 type WeaponKey
@@ -121,7 +121,7 @@ type WeaponKey
   | "FlameForgedInsight" //Flame-Forged Insight
   | "FleuveCendreFerryman" //Fleuve Cendre Ferryman
   | "FlowerWreathedFeathers" //Flower-Wreathed Feathers
-  | "FlowingPurity" //Flowing Purity
+  | "/" //Flowing Purity
   | "FluteOfEzpitzal" //Flute of Ezpitzal
   | "FootprintOfTheRainbow" //Footprint of the Rainbow
   | "ForestRegalia" //Forest Regalia
