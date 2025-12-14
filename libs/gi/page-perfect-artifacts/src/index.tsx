@@ -144,7 +144,6 @@ export default function PerfectArtifacts() {
     onChangeAsc: (ascending) => database.displayArtifact.set({ ascending }),
   }
 
-  // console.log(artifactIdsToShow)
   return (
     <Box display="flex" flexDirection="column" gap={1}>
       <Suspense fallback={false}>
@@ -228,13 +227,13 @@ export default function PerfectArtifacts() {
         <Grid container spacing={2}>
           {perfectMatches.map((artifact_matches: PerfectMatch, index) => {
             const test_artifact: Artifact = artifact_matches.test_artifact
-            const perfect_sets: PerfectArtifactSet[] = artifact_matches.perfect_sets
-
+            const perfect_sets: PerfectArtifactSet[] =
+              artifact_matches.perfect_sets
 
             return (
               <Grid container item key={index} spacing={2}>
                 <Grid item xs={6}>
-                  <CardThemed>
+                  <CardThemed sx={{ height: '100%' }}>
                     <CardContent>
                       <ArtifactCard
                         artifactId={test_artifact.id}
@@ -257,7 +256,7 @@ export default function PerfectArtifacts() {
                 </Grid>
 
                 <Grid item xs={6}>
-                  <CardThemed>
+                  <CardThemed sx={{ height: '100%' }}>
                     <CardContent>
                       <Box sx={{ position: 'relative' }}>
                         <PerfectartifactCard

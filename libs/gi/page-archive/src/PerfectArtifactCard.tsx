@@ -6,6 +6,7 @@ import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
 import { LocationName } from '@genshin-optimizer/gi/ui'
 import { Box, CardContent, Chip, Tooltip, Typography } from '@mui/material'
 import { PerfectArtifactSet } from './TestPerfectArtifacts'
+import weapons from './weapons.json'
 
 interface PerfectArtifactCardProps {
   perfect_set: PerfectArtifactSet
@@ -93,22 +94,63 @@ export default function PerfectartifactCard({
           sx={{ display: 'flex', gap: 1, alignItems: 'center', mt: 1, mb: 2 }}
         >
           {perfect_set.weapons.map((weaponKey) => {
-            const img = weaponAsset(weaponKey as WeaponKey, true)
+            const img = weaponAsset(weaponKey as WeaponKey, false)
             const name = i18n.t(`weaponNames_gen:${weaponKey}`)
+
+            // Determine weapon category
+            const getWeaponCategory = (key: string) => {
+              if (weapons.event.includes(key as any))
+                return { letter: 'E', label: 'Event', color: '#18484E' }
+              if (weapons.battlepass.includes(key as any))
+                return { letter: 'B', label: 'Battlepass', color: '#47430A' }
+              if (weapons.starlight.includes(key as any))
+                return { letter: 'S', label: 'Starlight', color: '#840D0B' }
+              if (weapons.craftable.includes(key as any))
+                return { letter: 'C', label: 'Craftable', color: '#004D00' }
+              return { letter: 'P', label: 'Primogem', color: '#5411B0' }
+            }
+            const category = getWeaponCategory(weaponKey)
+
             return (
               <Tooltip
                 key={weaponKey}
-                title={<Typography>{name}</Typography>}
+                title={
+                  <Typography>
+                    {name} ({category.label})
+                  </Typography>
+                }
                 placement="top"
                 arrow
               >
-                <Box
-                  component={NextImage ? NextImage : 'img'}
-                  src={img ?? ''}
-                  width="auto"
-                  height={40}
-                  sx={{ cursor: 'default' }}
-                />
+                <Box sx={{ position: 'relative', display: 'inline-block' }}>
+                  <Box
+                    component={NextImage ? NextImage : 'img'}
+                    src={img ?? ''}
+                    width="auto"
+                    height={40}
+                    sx={{ cursor: 'default' }}
+                  />
+                  <Box
+                    sx={{
+                      position: 'absolute',
+                      bottom: -4,
+                      right: -4,
+                      width: 16,
+                      height: 16,
+                      borderRadius: '50%',
+                      bgcolor: category.color,
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      fontSize: '10px',
+                      fontWeight: 'bold',
+                      color: 'white',
+                      border: '1px solid white',
+                    }}
+                  >
+                    {category.letter}
+                  </Box>
+                </Box>
               </Tooltip>
             )
           })}

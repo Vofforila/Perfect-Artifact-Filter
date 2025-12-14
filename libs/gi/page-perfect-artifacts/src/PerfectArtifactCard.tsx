@@ -89,7 +89,6 @@ export default function PerfectartifactCard({
           </Box>
         </Box>
       </Box>
-
       {/* Set Info with Image */}
       <Box
         sx={{
@@ -120,8 +119,8 @@ export default function PerfectartifactCard({
           </Typography>
         </Box>
       </Box>
-
       {/* test_artifact Stats with styled boxes */}
+
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
         {['flower', 'plume', 'sands', 'goblet', 'circlet'].map((piece) => (
           <Box

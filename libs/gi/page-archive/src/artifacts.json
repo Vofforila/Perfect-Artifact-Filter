@@ -1,5 +1,25 @@
 [
   {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "GOOD CAN COMBINE WITH 2 PIECE Noblesse Oblige / Crimson Witch of Flames",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -10,7 +30,14 @@
     "description": "SECOND BEST WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["BloodsoakedRuins","VortexVanquisher","TamayurateiNoOhanashi","ProspectorsDrill","BalladOfTheFjords","MissiveWindspear"]
+    "weapons": [
+      "BloodsoakedRuins",
+      "VortexVanquisher",
+      "TamayurateiNoOhanashi",
+      "ProspectorsDrill",
+      "BalladOfTheFjords",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -23,7 +50,13 @@
     "description": "SECOND BEST SET IF COMBINED WITH GLADIATOR",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["FracturedHalo","MissiveWindspear","ProspectorsDrill","TamayurateiNoOhanashi","FavoniusLance"]
+    "weapons": [
+      "FracturedHalo",
+      "MissiveWindspear",
+      "ProspectorsDrill",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -36,7 +69,18 @@
     "description": "THIRD BEST",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["Azurelight","UrakuMisugiri","Absolution","SummitShaper","FinaleOfTheDeep","TheBlackSword","WolfFang","MistsplitterReforged","HaranGeppakuFutsu","KagotsurubeIsshin"]
+    "weapons": [
+      "Azurelight",
+      "UrakuMisugiri",
+      "Absolution",
+      "SummitShaper",
+      "FinaleOfTheDeep",
+      "TheBlackSword",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu",
+      "KagotsurubeIsshin"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -49,7 +93,14 @@
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["HaranGeppakuFutsu","PrimordialJadeCutter","CalamityOfEshu","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "CalamityOfEshu",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -62,7 +113,17 @@
     "description": "GOOD WITH Viridescent Venerer FOR SUBDPS",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["FreedomSworn","PrimordialJadeCutter","IronSting","SacrificialSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","ToukabouShigure","FesteringDesire","FleuveCendreFerryman"]
+    "weapons": [
+      "FreedomSworn",
+      "PrimordialJadeCutter",
+      "IronSting",
+      "SacrificialSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "ToukabouShigure",
+      "FesteringDesire",
+      "FleuveCendreFerryman"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -75,7 +136,12 @@
     "description": "GOOD SECONDARY WITH Shimenawa's Reminiscence / Archaic Petra",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["Verdict","EarthShaker","TalkingStick","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "Verdict",
+      "EarthShaker",
+      "TalkingStick",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -88,7 +154,14 @@
     "description": "GOOD AS SECONDARY SET",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["Absolution","TheBlackSword","LionsRoar","PrimordialJadeCutter","FinaleOfTheDeep","KagotsurubeIsshin"]
+    "weapons": [
+      "Absolution",
+      "TheBlackSword",
+      "LionsRoar",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "KagotsurubeIsshin"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -101,7 +174,12 @@
     "description": "GOOD SECONDARY SET - COMBINED WITH Shimenawa's Reminiscence / Thundering Fury",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["KagurasVerity","SkywardAtlas","SacrificialJade","OathswornEye"]
+    "weapons": [
+      "KagurasVerity",
+      "SkywardAtlas",
+      "SacrificialJade",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -114,7 +192,13 @@
     "description": "BEST MAIN DPS SET COMBINED WITH Viridescent Venerer",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["TheWidsith","SkywardAtlas","SolarPearl","SacrificialFragments","MappaMare"]
+    "weapons": [
+      "TheWidsith",
+      "SkywardAtlas",
+      "SolarPearl",
+      "SacrificialFragments",
+      "MappaMare"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk",
@@ -127,7 +211,12 @@
     "description": "BiS DPS SET COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["CranesEchoingCall","OathswornEye","PrototypeAmber","WineAndSong"]
+    "weapons": [
+      "CranesEchoingCall",
+      "OathswornEye",
+      "PrototypeAmber",
+      "WineAndSong"
+    ]
   },
   {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -140,7 +229,15 @@
     "description": "GOOD SECONDARY",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["AThousandBlazingSuns","StaffOfTheScarletSands","SongOfBrokenPines","TidalShadow","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "TidalShadow",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -153,7 +250,12 @@
     "description": "GOOD SECOND SET",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["CrimsonMoonsSemblance","VortexVanquisher","MissiveWindspear","PrimordialJadeWingedSpear"]
+    "weapons": [
+      "CrimsonMoonsSemblance",
+      "VortexVanquisher",
+      "MissiveWindspear",
+      "PrimordialJadeWingedSpear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -166,7 +268,13 @@
     "description": "GOOD SECONDARY COMBINED WITH Archaic Petra",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","PrototypeAmber","SolarPearl"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "PrototypeAmber",
+      "SolarPearl"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -179,8 +287,13 @@
     "description": "GOOD SET IF YOU HAVE SOMEONE WITH Nobless Oblige COMBINE IT WITH Archaic Petra",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["PrimordialJadeCutter","WolfFang","AmenomaKageuchi","FleuveCendreFerryman","SwordOfDescension"]
-
+    "weapons": [
+      "PrimordialJadeCutter",
+      "WolfFang",
+      "AmenomaKageuchi",
+      "FleuveCendreFerryman",
+      "SwordOfDescension"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
@@ -193,7 +306,13 @@
     "description": "BiS COMBINED WITH Heart of Depth",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["PrimordialJadeCutter","KeyOfKhajNisut","XiphosMoonlight","ToukabouShigure","IronSting"]
+    "weapons": [
+      "PrimordialJadeCutter",
+      "KeyOfKhajNisut",
+      "XiphosMoonlight",
+      "ToukabouShigure",
+      "IronSting"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -206,7 +325,15 @@
     "description": "GOOD SECONDARY WITH Vermillion Hereafter",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk + critRate_ + critDMG_",
@@ -219,7 +346,13 @@
     "description": "BEST SET FOR SUB DPS COMBINED WITH Emblem of Severed Fate / Ocean-Hued Clam",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["OathswornEye","FavoniusCodex","PrototypeAmber","FlowingPurity","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "OathswornEye",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "FlowingPurity",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
@@ -232,7 +365,16 @@
     "description": "BiS - INCREASES DMG WITH SKILLS COMBINE WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["CalamityQueller","EngulfingLightning","FavoniusLance","StaffOfHoma","PrimordialJadeWingedSpear","WavebreakersFin","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "CalamityQueller",
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "WavebreakersFin",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -245,7 +387,16 @@
     "description": "BEST SET FOR OVERLOAD COMPS COMBINED WITH Thundering Fury",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["MistsplitterReforged","LionsRoar","IronSting","TheBlackSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","ToukabouShigure","CalamityOfEshu"]
+    "weapons": [
+      "MistsplitterReforged",
+      "LionsRoar",
+      "IronSting",
+      "TheBlackSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "ToukabouShigure",
+      "CalamityOfEshu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -258,7 +409,32 @@
     "description": "BEST SET FOR MAIN DPS COMBINED WITH Viridescent Venerer",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
-    "weapons": ["FreedomSworn","PrimordialJadeCutter","SkyriderSword","IronSting"]
+    "weapons": [
+      "FreedomSworn",
+      "PrimordialJadeCutter",
+      "SkyriderSword",
+      "IronSting"
+    ]
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas +",
+    "plume": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "sands": "enerRech_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "goblet": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "circlet": "atk_/heal_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "character": "Jahoda",
+    "critUser": false,
+    "description": "Recc with pyro_dmg_/hydro_dmg_/electro_dmg_/cryo_dmg",
+    "setKey": "ViridescentVenerer",
+    "set_image": "seii_77.png",
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SnareHook",
+      "ChainBreaker",
+      "SacrificialBow",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
@@ -271,7 +447,13 @@
     "description": "Recc with pyro_dmg_/hydro_dmg_/electro_dmg_/ICE",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["SkywardAtlas","MemoryOfDust","StarcallersWatch","WanderingEvenstar","OathswornEye"]
+    "weapons": [
+      "SkywardAtlas",
+      "MemoryOfDust",
+      "StarcallersWatch",
+      "WanderingEvenstar",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
@@ -284,7 +466,13 @@
     "description": "BiS IF NO Viridescent Venerer",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["CashflowSupervision","TulaytullahsRemembrance","SkywardAtlas","BalladOfTheBoundlessBlue","FlowingPurity"]
+    "weapons": [
+      "CashflowSupervision",
+      "TulaytullahsRemembrance",
+      "SkywardAtlas",
+      "BalladOfTheBoundlessBlue",
+      "FlowingPurity"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
@@ -297,7 +485,13 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["SunnyMorningSleepIn","SacrificialFragments","HakushinRing","FavoniusCodex","EtherlightSpindlelute"]
+    "weapons": [
+      "SunnyMorningSleepIn",
+      "SacrificialFragments",
+      "HakushinRing",
+      "FavoniusCodex",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_",
@@ -310,7 +504,12 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["FreedomSworn","XiphosMoonlight","ToukabouShigure","FleuveCendreFerryman"]
+    "weapons": [
+      "FreedomSworn",
+      "XiphosMoonlight",
+      "ToukabouShigure",
+      "FleuveCendreFerryman"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_",
@@ -323,7 +522,15 @@
     "description": "BiS ",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["TheDaybreakChronicles","ThunderingPulse","PolarStar","SongOfStillness","ChainBreaker","EndOfTheLine"]
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "PolarStar",
+      "SongOfStillness",
+      "ChainBreaker",
+      "EndOfTheLine",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk",
@@ -336,7 +543,12 @@
     "description": "BiS SUPP - FOR pyro_dmg_/hydro_dmg_/electro_dmg_/cryo_dmg_ FORMATIONS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["CranesEchoingCall","OathswornEye","PrototypeAmber","WineAndSong"]
+    "weapons": [
+      "CranesEchoingCall",
+      "OathswornEye",
+      "PrototypeAmber",
+      "WineAndSong"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -349,7 +561,13 @@
     "description": "BEST SUB DPS 4 SET + CAN ALSO BE COMBINED WITH Gladiator's Finale IF YOU WANT TO USE HER AS A MAIN DPS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["TheWidsith","SkywardAtlas","SolarPearl","SacrificialFragments","MappaMare"]
+    "weapons": [
+      "TheWidsith",
+      "SkywardAtlas",
+      "SolarPearl",
+      "SacrificialFragments",
+      "MappaMare"
+    ]
   },
   {
     "flower": "hp_ + eleMas + atk_ + atk + enerRech_",
@@ -362,7 +580,13 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["WolfsGravestone","FavoniusGreatsword","SkyriderGreatsword","KeyOfKhajNisut","Rainslasher"]
+    "weapons": [
+      "WolfsGravestone",
+      "FavoniusGreatsword",
+      "SkyriderGreatsword",
+      "KeyOfKhajNisut",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_ + atk_ + atk",
@@ -375,7 +599,7 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["FreedomSworn","SacrificialSword","TheAlleyFlash"]
+    "weapons": ["FreedomSworn", "SacrificialSword", "TheAlleyFlash"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -388,7 +612,16 @@
     "description": "BiS - GOOD DEBUFFER BUILD USE WITH pyro_dmg_/electro_dmg_/cryo_dmg_/hydro_dmg_",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["FreedomSworn","PrimordialJadeCutter","IronSting","SacrificialSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","FesteringDesire","FleuveCendreFerryman"]
+    "weapons": [
+      "FreedomSworn",
+      "PrimordialJadeCutter",
+      "IronSting",
+      "SacrificialSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "FesteringDesire",
+      "FleuveCendreFerryman"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -401,7 +634,12 @@
     "description": "BEST SET FOR SUB DPS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["FreedomSworn","PrimordialJadeCutter","SkyriderSword","IronSting"]
+    "weapons": [
+      "FreedomSworn",
+      "PrimordialJadeCutter",
+      "SkyriderSword",
+      "IronSting"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -414,7 +652,14 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["SunnyMorningSleepIn","AThousandBlazingSuns","HakushinRing","FavoniusCodex","PrototypeAmber","EtherlightSpindlelute"]
+    "weapons": [
+      "SunnyMorningSleepIn",
+      "AThousandBlazingSuns",
+      "HakushinRing",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
@@ -427,7 +672,12 @@
     "description": "BEST SET FOR TEAMS THAT INCREASE DEFENCE",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["UrakuMisugiri","PeakPatrolSong","FluteOfEzpitzal","FesteringDesire"]
+    "weapons": [
+      "UrakuMisugiri",
+      "PeakPatrolSong",
+      "FluteOfEzpitzal",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -440,7 +690,12 @@
     "description": "BEST SET FOR TEAMS THAT INCREASE DEFENCE",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["RedhornStonethresher","SkyriderGreatsword","SacrificialGreatsword","Whiteblind"]
+    "weapons": [
+      "RedhornStonethresher",
+      "SkyriderGreatsword",
+      "SacrificialGreatsword",
+      "Whiteblind"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
@@ -453,7 +708,13 @@
     "description": "BEST SET IF YOU HAVE MAXED OUT CHIORI",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["UrakuMisugiri","PeakPatrolSong","MistsplitterReforged","CinnabarSpindle","FluteOfEzpitzal"]
+    "weapons": [
+      "UrakuMisugiri",
+      "PeakPatrolSong",
+      "MistsplitterReforged",
+      "CinnabarSpindle",
+      "FluteOfEzpitzal"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
@@ -466,7 +727,7 @@
     "description": "GOOD SECONDARY IF YOU RAISE DEFENCE",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["FavoniusLance","KitainCrossSpear"]
+    "weapons": ["FavoniusLance", "KitainCrossSpear"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -479,7 +740,15 @@
     "description": "BiS",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["MistsplitterReforged","LionsRoar","IronSting","TheBlackSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","ToukabouShigure"]
+    "weapons": [
+      "MistsplitterReforged",
+      "LionsRoar",
+      "IronSting",
+      "TheBlackSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -492,7 +761,7 @@
     "description": "BEST SET OVERALL",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["RedhornStonethresher","Whiteblind"]
+    "weapons": ["RedhornStonethresher", "Whiteblind"]
   },
   {
     "flower": "hp_ + def_ + def + enerRech_",
@@ -505,7 +774,7 @@
     "description": "BEST SUB DPS BUILD",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["FavoniusWarbow","FadingTwilight","EndOfTheLine"]
+    "weapons": ["FavoniusWarbow", "FadingTwilight", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + def_ + def + enerRech_ + critRate_ + critDMG_",
@@ -518,7 +787,7 @@
     "description": "BiS",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
-    "weapons": ["FavoniusLance","KitainCrossSpear","PrototypeStarglitter"]
+    "weapons": ["FavoniusLance", "KitainCrossSpear", "PrototypeStarglitter"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -531,7 +800,15 @@
     "description": "SECOND BEST WITH Wanderer's Troupe",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["ReliquaryOfTruth","SunnyMorningSleepIn","StarcallersWatch","AThousandBlazingSuns","BlackmarrowLantern","TheWidsith","SacrificialJade"]
+    "weapons": [
+      "ReliquaryOfTruth",
+      "SunnyMorningSleepIn",
+      "StarcallersWatch",
+      "AThousandBlazingSuns",
+      "BlackmarrowLantern",
+      "TheWidsith",
+      "SacrificialJade"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -544,7 +821,14 @@
     "description": "THIRD BEST 4 SET",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["BloodsoakedRuins","VortexVanquisher","TamayurateiNoOhanashi","ProspectorsDrill","BalladOfTheFjords","MissiveWindspear"]
+    "weapons": [
+      "BloodsoakedRuins",
+      "VortexVanquisher",
+      "TamayurateiNoOhanashi",
+      "ProspectorsDrill",
+      "BalladOfTheFjords",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -557,7 +841,13 @@
     "description": "RECOMMENDED WITH MORE THAN 2 DENDRO",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["NightweaversLookingGlass","SacrificialFragments","BlackmarrowLantern","WanderingEvenstar","EtherlightSpindlelute"]
+    "weapons": [
+      "NightweaversLookingGlass",
+      "SacrificialFragments",
+      "BlackmarrowLantern",
+      "WanderingEvenstar",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -570,7 +860,13 @@
     "description": "BiS 4 SET IF NOT COMBINED WITH GLADIATOR",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["FracturedHalo","MissiveWindspear","ProspectorsDrill","TamayurateiNoOhanashi","FavoniusLance"]
+    "weapons": [
+      "FracturedHalo",
+      "MissiveWindspear",
+      "ProspectorsDrill",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -583,7 +879,14 @@
     "description": "BiS - USE THIS SET WITH FEWER dendro_dmg_ CHRACTERS SO YOU GET MORE ELEMENTAL MASTERY",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["LightOfFoliarIncision","WolfFang","FreedomSworn","IronSting","ToukabouShigure","FesteringDesire"]
+    "weapons": [
+      "LightOfFoliarIncision",
+      "WolfFang",
+      "FreedomSworn",
+      "IronSting",
+      "ToukabouShigure",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
@@ -596,7 +899,14 @@
     "description": "GOOD SECONDARY OPTION RAISES ELEMETAL MASTER TO +230",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["WolfsGravestone","BeaconOfTheReedSea","TidalShadow","UltimateOverlordsMegaMagicSword","LuxuriousSeaLord","MailedFlower"]
+    "weapons": [
+      "WolfsGravestone",
+      "BeaconOfTheReedSea",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "LuxuriousSeaLord",
+      "MailedFlower"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
@@ -609,7 +919,16 @@
     "description": "GOOD SECOND SET IF YOU DON'T HAVE ANY hydro_dmg_ CHARACTERS IN YOUR COMP AND YOU HAVE EM GAINS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["SurfsUp","AThousandBlazingSuns","TomeOfTheEternalFlow","LostPrayerToTheSacredWinds","TheWidsith","RingOfYaxche","TulaytullahsRemembrance","SacrificialJade"]
+    "weapons": [
+      "SurfsUp",
+      "AThousandBlazingSuns",
+      "TomeOfTheEternalFlow",
+      "LostPrayerToTheSacredWinds",
+      "TheWidsith",
+      "RingOfYaxche",
+      "TulaytullahsRemembrance",
+      "SacrificialJade"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_ + atk_ + atk",
@@ -622,7 +941,12 @@
     "description": "GOOD WITH LOTS OF ELEMENTAL REACTIONS (WHEN HAVING 4 DIFFRENT ELEMENTS IN COMP)",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -635,7 +959,14 @@
     "description": "GOOD IN COMPS WITH 4 DIFFRENT ELEMENTS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["StaffOfHoma","PrimordialJadeWingedSpear","StaffOfTheScarletSands","MissiveWindspear","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "StaffOfTheScarletSands",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -648,7 +979,7 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["FreElegyForTheEndedomSworn","TheStringless","EndOfTheLine"]
+    "weapons": ["ElegyForTheEnd", "TheStringless", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -661,7 +992,15 @@
     "description": "BEST SET WITH dendro_dmg_ COMPS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["MistsplitterReforged","LionsRoar","IronSting","TheBlackSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","ToukabouShigure"]
+    "weapons": [
+      "MistsplitterReforged",
+      "LionsRoar",
+      "IronSting",
+      "TheBlackSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -674,7 +1013,7 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["KagurasVerity","AThousandBlazingSuns","SacrificialFragments"]
+    "weapons": ["KagurasVerity", "AThousandBlazingSuns", "SacrificialFragments"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -687,7 +1026,12 @@
     "description": "GOOD IF YOU HAVE SOMEONE WITH Deepwood Memories",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["AThousandBlazingSuns","TheWidsith","PrototypeAmber","EtherlightSpindlelute"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "TheWidsith",
+      "PrototypeAmber",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -700,7 +1044,15 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["AThousandBlazingSuns","StaffOfTheScarletSands","SongOfBrokenPines","TidalShadow","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "TidalShadow",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -713,7 +1065,12 @@
     "description": "BEST SET WHEN USED WITH 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
@@ -726,7 +1083,13 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["FavoniusGreatsword","FlameForgedInsight","SkyriderGreatsword","MakhairaAquamarine","Rainslasher"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "FlameForgedInsight",
+      "SkyriderGreatsword",
+      "MakhairaAquamarine",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_ + atk_ + atk",
@@ -739,7 +1102,7 @@
     "description": "BEST SET WITH 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["HuntersPath","AmosBow","ScionOfTheBlazingSun","Cloudforged"]
+    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
@@ -752,7 +1115,7 @@
     "description": "BEST SET FOR BLOOM COMBINED WITH Wanderer's Troupe",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["PrototypeAmber","TheWidsith","EverlastingMoonglow"]
+    "weapons": ["PrototypeAmber", "TheWidsith", "EverlastingMoonglow"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas + atk_ + atk",
@@ -765,7 +1128,12 @@
     "description": "BEST SET WITH 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["StaffOfTheScarletSands","StaffOfHoma","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "StaffOfHoma",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -778,7 +1146,15 @@
     "description": "GOOD SET IF YOU HAVE 4 DIFFRENT ELEMENTS IN COMP",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","StaffOfHoma","TheCatch","Deathmatch","WavebreakersFin","RightfulReward"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "TheCatch",
+      "Deathmatch",
+      "WavebreakersFin",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -791,7 +1167,12 @@
     "description": "GOOD IF YOU HAVE HIGH ATK AND ELEMENTAL MASTERY",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["KagurasVerity","SkywardAtlas","SacrificialJade","OathswornEye"]
+    "weapons": [
+      "KagurasVerity",
+      "SkywardAtlas",
+      "SacrificialJade",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk",
@@ -804,7 +1185,13 @@
     "description": "GOOD FOR DMG WITH LESS dendro_dmg_ MEMBERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["HuntersPath","ScionOfTheBlazingSun","TheViridescentHunt","Cloudforged","IbisPiercer"]
+    "weapons": [
+      "HuntersPath",
+      "ScionOfTheBlazingSun",
+      "TheViridescentHunt",
+      "Cloudforged",
+      "IbisPiercer"
+    ]
   },
   {
     "flower": "hp_ + eleMas + hp_ + hp + atk_ + atk",
@@ -817,7 +1204,13 @@
     "description": "BiS FOR NON-BLOOM VERY GOOD WITH 4 DIFFRENT ELEMENTS IN COMP",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["FreedomSworn","XiphosMoonlight","PrimordialJadeCutter","FavoniusSword","ToukabouShigure"]
+    "weapons": [
+      "FreedomSworn",
+      "XiphosMoonlight",
+      "PrimordialJadeCutter",
+      "FavoniusSword",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -830,7 +1223,18 @@
     "description": "SECOND BEST AFTER DEEP GALERIES",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["Azurelight","UrakuMisugiri","Absolution","SummitShaper","FinaleOfTheDeep","TheBlackSword","WolfFang","MistsplitterReforged","HaranGeppakuFutsu","KagotsurubeIsshin"]
+    "weapons": [
+      "Azurelight",
+      "UrakuMisugiri",
+      "Absolution",
+      "SummitShaper",
+      "FinaleOfTheDeep",
+      "TheBlackSword",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu",
+      "KagotsurubeIsshin"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
@@ -843,7 +1247,17 @@
     "description": "GOOD FOR ENEMIES WHO DON'T FREEZ ( BOSSES )",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["SymphonistOfScents","EngulfingLightning","SkywardSpine","FavoniusLance","MountainBracingBolt","CalamityQueller","StaffOfHoma","LumidouceElegy","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "EngulfingLightning",
+      "SkywardSpine",
+      "FavoniusLance",
+      "MountainBracingBolt",
+      "CalamityQueller",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -856,7 +1270,15 @@
     "description": "BiS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["SkywardHarp","KagotsurubeIsshin","PolarStar","Hamayumi","SacrificialBow","Predator","FavoniusWarbow"]
+    "weapons": [
+      "SkywardHarp",
+      "KagotsurubeIsshin",
+      "PolarStar",
+      "Hamayumi",
+      "SacrificialBow",
+      "Predator",
+      "FavoniusWarbow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -869,7 +1291,14 @@
     "description": "MAIN DPS SET",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["StaffOfHoma","PrimordialJadeWingedSpear","StaffOfTheScarletSands","MissiveWindspear","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "StaffOfTheScarletSands",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -882,7 +1311,18 @@
     "description": "BEST SET FOR cryo_dmg_ TEAMS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["MistsplitterReforged","PrimordialJadeCutter","MoonweaversDawn","FreedomSworn","FavoniusSword","SacrificialSword","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz","FesteringDesire"]
+    "weapons": [
+      "MistsplitterReforged",
+      "PrimordialJadeCutter",
+      "MoonweaversDawn",
+      "FreedomSworn",
+      "FavoniusSword",
+      "SacrificialSword",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -895,7 +1335,14 @@
     "description": "BEST SET FOR SUB DPS COMBINED WITH Noblesse Oblige",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["StaffOfTheScarletSands","FangOfTheMountainKing","Akuoumaru","LuxuriousSeaLord","FavoniusGreatsword","SacrificialGreatsword"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FangOfTheMountainKing",
+      "Akuoumaru",
+      "LuxuriousSeaLord",
+      "FavoniusGreatsword",
+      "SacrificialGreatsword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -908,7 +1355,13 @@
     "description": "GOOD FOR ICE TEAMS COMBINED WITH Golden Troupe / Blizzard Strayer",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["StaffOfTheScarletSands","SongOfBrokenPines","WolfsGravestone","TidalShadow","SnowTombedStarsilver"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "WolfsGravestone",
+      "TidalShadow",
+      "SnowTombedStarsilver"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -921,7 +1374,17 @@
     "description": "BEST SET FOR DPS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["MistsplitterReforged","PrimordialJadeCutter","FinaleOfTheDeep","WolfFang","AmenomaKageuchi","SkyriderSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","CalamityOfEshu"]
+    "weapons": [
+      "MistsplitterReforged",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "WolfFang",
+      "AmenomaKageuchi",
+      "SkyriderSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "CalamityOfEshu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -934,7 +1397,13 @@
     "description": "BiS - ONLY WORKS WITH CRIO TEAMS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["CashflowSupervision","SkywardAtlas","BalladOfTheBoundlessBlue","FlowingPurity","DodocoTales"]
+    "weapons": [
+      "CashflowSupervision",
+      "SkywardAtlas",
+      "BalladOfTheBoundlessBlue",
+      "FlowingPurity",
+      "DodocoTales"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -947,7 +1416,18 @@
     "description": "BiS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
-    "weapons": ["AstralVulturesCrimsonPlumage","TheFirstGreatMagic","ScionOfTheBlazingSun","PolarStar","SkywardHarp","ElegyForTheEnd","SongOfStillness","Hamayumi","ChainBreaker","IbisPiercer"]
+    "weapons": [
+      "AstralVulturesCrimsonPlumage",
+      "TheFirstGreatMagic",
+      "ScionOfTheBlazingSun",
+      "PolarStar",
+      "SkywardHarp",
+      "ElegyForTheEnd",
+      "SongOfStillness",
+      "Hamayumi",
+      "ChainBreaker",
+      "IbisPiercer"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -960,7 +1440,12 @@
     "description": "BiS - DMG AMP WHEN Bond of Life increases/decreases",
     "setKey": "FragmentOfHarmonicWhimsy",
     "set_image": "seii_240.png",
-    "weapons": ["CrimsonMoonsSemblance","VortexVanquisher","MissiveWindspear","PrimordialJadeWingedSpear"]
+    "weapons": [
+      "CrimsonMoonsSemblance",
+      "VortexVanquisher",
+      "MissiveWindspear",
+      "PrimordialJadeWingedSpear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -973,7 +1458,14 @@
     "description": "BiS - BEST SET BECAUSE Bond of Life",
     "setKey": "FragmentOfHarmonicWhimsy",
     "set_image": "seii_240.png",
-    "weapons": ["Absolution","TheBlackSword","LionsRoar","PrimordialJadeCutter","FinaleOfTheDeep","KagotsurubeIsshin"]
+    "weapons": [
+      "Absolution",
+      "TheBlackSword",
+      "LionsRoar",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "KagotsurubeIsshin"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
@@ -986,7 +1478,17 @@
     "description": "BiS",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["SymphonistOfScents","EngulfingLightning","SkywardSpine","FavoniusLance","MountainBracingBolt","CalamityQueller","StaffOfHoma","LumidouceElegy","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "EngulfingLightning",
+      "SkywardSpine",
+      "FavoniusLance",
+      "MountainBracingBolt",
+      "CalamityQueller",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
@@ -999,7 +1501,7 @@
     "description": "BEST SET THAT WORKS WITH ANYTHING",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["UrakuMisugiri","PeakPatrolSong","FluteOfEzpitzal"]
+    "weapons": ["UrakuMisugiri", "PeakPatrolSong", "FluteOfEzpitzal"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1012,7 +1514,12 @@
     "description": "GOOD FOR OFFFIELD-ROTATION - 2 SECONDS AFTER ENTERING BATTLE +70% DMG SKILL",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["Verdict","EarthShaker","TalkingStick","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "Verdict",
+      "EarthShaker",
+      "TalkingStick",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1025,7 +1532,15 @@
     "description": "GOOD FOR USING HER AS SUB DPS",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["ElegyForTheEnd","FavoniusWarbow","PolarStar","EndOfTheLine","FadingTwilight","EndOfTheLine"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "PolarStar",
+      "EndOfTheLine",
+      "FadingTwilight",
+      "TheDaybreakChronicles",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
@@ -1038,7 +1553,15 @@
     "description": "BiS",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["SplendorOfTranquilWaters","FavoniusSword","KeyOfKhajNisut","FleuveCendreFerryman","UrakuMisugiri","PrimordialJadeCutter","FesteringDesire","WolfFang",""]
+    "weapons": [
+      "SplendorOfTranquilWaters",
+      "FavoniusSword",
+      "KeyOfKhajNisut",
+      "FleuveCendreFerryman",
+      "UrakuMisugiri",
+      "PrimordialJadeCutter",
+      "WolfFang"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1051,7 +1574,13 @@
     "description": "GOOD FOR ICE TEAMS COMBINED WITH Shimenawa's Reminiscence / Blizzard Strayer",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["StaffOfTheScarletSands","SongOfBrokenPines","WolfsGravestone","TidalShadow","SnowTombedStarsilver"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "WolfsGravestone",
+      "TidalShadow",
+      "SnowTombedStarsilver"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
@@ -1064,7 +1593,7 @@
     "description": "BEST SUB DPS BUILD",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["FavoniusLance","KitainCrossSpear"]
+    "weapons": ["FavoniusLance", "KitainCrossSpear"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -1077,7 +1606,12 @@
     "description": "GOOD FOR ELEMENTAL SKILL DMG",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["KagurasVerity","SkywardAtlas","SacrificialJade","OathswornEye"]
+    "weapons": [
+      "KagurasVerity",
+      "SkywardAtlas",
+      "SacrificialJade",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -1090,7 +1624,13 @@
     "description": "4 PIECE BiS FOR OZ DMG - GOOD WITH Thundering Fury IF NOT FULL SET",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["TheDaybreakChronicles","ThunderingPulse","ElegyForTheEnd","TheStringless","AlleyHunter"]
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "ElegyForTheEnd",
+      "TheStringless",
+      "AlleyHunter"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
@@ -1103,7 +1643,13 @@
     "description": "BEST SUB DPS SET FOR OFFFIELD DMG",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
-    "weapons": ["UrakuMisugiri","PeakPatrolSong","MistsplitterReforged","CinnabarSpindle","FluteOfEzpitzal"]
+    "weapons": [
+      "UrakuMisugiri",
+      "PeakPatrolSong",
+      "MistsplitterReforged",
+      "CinnabarSpindle",
+      "FluteOfEzpitzal"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
@@ -1116,7 +1662,37 @@
     "description": "BEST IF NO NOBLESS",
     "setKey": "GoldenTroupe",
     "set_image": "seii_82.png",
-    "weapons": ["SymphonistOfScents","EngulfingLightning","SkywardSpine","FavoniusLance","MountainBracingBolt","CalamityQueller","StaffOfHoma","LumidouceElegy","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "EngulfingLightning",
+      "SkywardSpine",
+      "FavoniusLance",
+      "MountainBracingBolt",
+      "CalamityQueller",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "BEST IF NO NOBLESS CAN ALSO COMBINE WITH 2 PIECE Crimson Witch of Flames / Gladiator's Finale",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -1129,7 +1705,12 @@
     "description": "BiS IF NONOBLESS",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82 .png",
-    "weapons": ["FlameForgedInsight","FavoniusGreatsword","MailedFlower","Rainslasher"]
+    "weapons": [
+      "FlameForgedInsight",
+      "FavoniusGreatsword",
+      "MailedFlower",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
@@ -1142,7 +1723,7 @@
     "description": "BEST IF NO NOBLESS",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusSword","FleuveCendreFerryman"]
+    "weapons": ["FavoniusSword", "FleuveCendreFerryman"]
   },
   {
     "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
@@ -1155,7 +1736,16 @@
     "description": "BiS FOR SUPPORT IF YOU HAVE SOMEONE WITH Scroll Of The Hero Of Cinder City",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["SymphonistOfScents","CalamityQueller","SkywardSpine","FavoniusLance","WavebreakersFin","ProspectorsDrill","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "CalamityQueller",
+      "SkywardSpine",
+      "FavoniusLance",
+      "WavebreakersFin",
+      "ProspectorsDrill",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
@@ -1168,7 +1758,13 @@
     "description": "Rec with anemo_dmg_/geo_dmg_/dendro_dmg_",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["SkywardAtlas","MemoryOfDust","StarcallersWatch","WanderingEvenstar","OathswornEye"]
+    "weapons": [
+      "SkywardAtlas",
+      "MemoryOfDust",
+      "StarcallersWatch",
+      "WanderingEvenstar",
+      "OathswornEye"
+    ]
   },
 
   {
@@ -1182,7 +1778,14 @@
     "description": "EB SUPP",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["SkywardBlade","MistsplitterReforged","FavoniusSword","TheAlleyFlash","FesteringDesire","FleuveCendreFerryman"]
+    "weapons": [
+      "SkywardBlade",
+      "MistsplitterReforged",
+      "FavoniusSword",
+      "TheAlleyFlash",
+      "FesteringDesire",
+      "FleuveCendreFerryman"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1195,7 +1798,12 @@
     "description": "GOOD SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusLance","RightfulReward","LithicSpear","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "RightfulReward",
+      "LithicSpear",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -1208,7 +1816,14 @@
     "description": "BEST SET FOR SUB DPS COMBINED WITH Blizzard Strayer",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["StaffOfTheScarletSands","FangOfTheMountainKing","Akuoumaru","LuxuriousSeaLord","FavoniusGreatsword","SacrificialGreatsword"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FangOfTheMountainKing",
+      "Akuoumaru",
+      "LuxuriousSeaLord",
+      "FavoniusGreatsword",
+      "SacrificialGreatsword"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1221,7 +1836,12 @@
     "description": "GOOD SUPPORT SET IF NO Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusCodex","TheWidsith","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "FavoniusCodex",
+      "TheWidsith",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk",
@@ -1234,7 +1854,12 @@
     "description": "GOOD WITH XIAO OR physical_dmg_ CHARACTER",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["CranesEchoingCall","OathswornEye","PrototypeAmber","WineAndSong"]
+    "weapons": [
+      "CranesEchoingCall",
+      "OathswornEye",
+      "PrototypeAmber",
+      "WineAndSong"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -1247,7 +1872,7 @@
     "description": "GOOD SET IF YOU NEED Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["SacrificialBow","ElegyForTheEnd","SequenceOfSolitude"]
+    "weapons": ["SacrificialBow", "ElegyForTheEnd", "SequenceOfSolitude"]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk + critRate_ + critDMG_",
@@ -1260,7 +1885,13 @@
     "description": "GOOD SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["OathswornEye","FavoniusCodex","PrototypeAmber","FlowingPurity","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "OathswornEye",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "FlowingPurity",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -1273,7 +1904,13 @@
     "description": "GOOD SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusGreatsword","SacrificialGreatsword","TheBell","ForestRegalia","KatsuragikiriNagamasa"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "SacrificialGreatsword",
+      "TheBell",
+      "ForestRegalia",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1286,7 +1923,15 @@
     "description": "BEST SET MAKE SURE YOU DON'T HAVE ANYONE WITH THIS SET IN COMP",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["WolfsGravestone","RedhornStonethresher","AThousandBlazingSuns","SerpentSpine","SkyriderGreatsword","MailedFlower","KatsuragikiriNagamasa"]
+    "weapons": [
+      "WolfsGravestone",
+      "RedhornStonethresher",
+      "AThousandBlazingSuns",
+      "SerpentSpine",
+      "SkyriderGreatsword",
+      "MailedFlower",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1299,8 +1944,13 @@
     "description": "BEST SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["PrimordialJadeCutter","WolfFang","AmenomaKageuchi","FleuveCendreFerryman","SwordOfDescension"]
-
+    "weapons": [
+      "PrimordialJadeCutter",
+      "WolfFang",
+      "AmenomaKageuchi",
+      "FleuveCendreFerryman",
+      "SwordOfDescension"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1313,7 +1963,14 @@
     "description": "BEST SET SINCE SHE IS SO USLESS MAKE SURE TO NOT HAVE ANYONE ELSE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["ElegyForTheEnd","AstralVulturesCrimsonPlumage","HuntersPath","AmosBow","TheStringless","FadingTwilight"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "AstralVulturesCrimsonPlumage",
+      "HuntersPath",
+      "AmosBow",
+      "TheStringless",
+      "FadingTwilight"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp",
@@ -1326,7 +1983,12 @@
     "description": "BEST SET IF YOU DON'T HAVE ANYONE WITH Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","SymphonistOfScents","PrototypeStarglitter"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "SymphonistOfScents",
+      "PrototypeStarglitter"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -1339,7 +2001,14 @@
     "description": "GOOD SET IF YOU NEED Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["StaffOfHoma","PrimordialJadeWingedSpear","StaffOfTheScarletSands","MissiveWindspear","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "StaffOfTheScarletSands",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -1352,7 +2021,15 @@
     "description": "GOOD OPTION IF NO Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","StaffOfHoma","TheCatch","Deathmatch","WavebreakersFin","RightfulReward"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "TheCatch",
+      "Deathmatch",
+      "WavebreakersFin",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
@@ -1365,7 +2042,13 @@
     "description": "BiS IF YOU NEED Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["SymphonistOfScents","FavoniusLance","DialoguesOfTheDesertSages","Deathmatch","RightfulReward"]
+    "weapons": [
+      "SymphonistOfScents",
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "Deathmatch",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1378,7 +2061,14 @@
     "description": "BEST WITH NO OTHER Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["ElegyForTheEnd","FavoniusWarbow","PolarStar","EndOfTheLine","FadingTwilight","EndOfTheLine"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "PolarStar",
+      "EndOfTheLine",
+      "FadingTwilight",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1391,7 +2081,19 @@
     "description": "BEST WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["Azurelight","UrakuMisugiri","Absolution","SummitShaper","FinaleOfTheDeep","TheBlackSword","WolfFang","MistsplitterReforged","HaranGeppakuFutsu","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "Azurelight",
+      "UrakuMisugiri",
+      "Absolution",
+      "SummitShaper",
+      "FinaleOfTheDeep",
+      "TheBlackSword",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -1404,7 +2106,17 @@
     "description": "GOOD WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["VividNotions","CranesEchoingCall","SkywardAtlas","KagurasVerity","TheWidsith","CashflowSupervision","WolfFang","MistsplitterReforged","HaranGeppakuFutsu"]
+    "weapons": [
+      "VividNotions",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "KagurasVerity",
+      "TheWidsith",
+      "CashflowSupervision",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
@@ -1417,7 +2129,14 @@
     "description": "BiS",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["TomeOfTheEternalFlow","PrototypeAmber","LostPrayerToTheSacredWinds","BalladOfTheBoundlessBlue","WaveridingWhirl","AshGravenDrinkingHorn"]
+    "weapons": [
+      "TomeOfTheEternalFlow",
+      "PrototypeAmber",
+      "LostPrayerToTheSacredWinds",
+      "BalladOfTheBoundlessBlue",
+      "WaveridingWhirl",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1430,7 +2149,12 @@
     "description": "BEST SET AS MAIN DPS WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["FreedomSworn","PrimordialJadeCutter","SkyriderSword","IronSting"]
+    "weapons": [
+      "FreedomSworn",
+      "PrimordialJadeCutter",
+      "SkyriderSword",
+      "IronSting"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1443,7 +2167,15 @@
     "description": "GOOD SECONDARY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["AstralVulturesCrimsonPlumage","SkywardHarp","ScionOfTheBlazingSun","WindblumeOde","SongOfStillness","ChainBreaker","AmosBow"]
+    "weapons": [
+      "AstralVulturesCrimsonPlumage",
+      "SkywardHarp",
+      "ScionOfTheBlazingSun",
+      "WindblumeOde",
+      "SongOfStillness",
+      "ChainBreaker",
+      "AmosBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_",
@@ -1456,7 +2188,14 @@
     "description": "DPS SET - GOOD WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["ElegyForTheEnd","FavoniusWarbow","PolarStar","EndOfTheLine","FadingTwilight","EndOfTheLine"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "PolarStar",
+      "EndOfTheLine",
+      "FadingTwilight",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1469,7 +2208,15 @@
     "description": "GOOD SECONDARY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1482,7 +2229,12 @@
     "description": "GOOD AS MAIN DPS WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1495,7 +2247,13 @@
     "description": "BiS Slot - ACTIVATE WITH HEAVY ATTACK TO INCREASE CRIT RATE BY 36%",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["TheFirstGreatMagic","SkywardHarp","PolarStar","ScionOfTheBlazingSun","SongOfStillness"]
+    "weapons": [
+      "TheFirstGreatMagic",
+      "SkywardHarp",
+      "PolarStar",
+      "ScionOfTheBlazingSun",
+      "SongOfStillness"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1508,7 +2266,15 @@
     "description": "BiS",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["SerpentSpine","FruitfulHook","LithicBlade","TidalShadow","UltimateOverlordsMegaMagicSword","MailedFlower","SkyriderGreatsword"]
+    "weapons": [
+      "SerpentSpine",
+      "FruitfulHook",
+      "LithicBlade",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "MailedFlower",
+      "SkyriderGreatsword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -1521,7 +2287,7 @@
     "description": "BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["RedhornStonethresher","Whiteblind"]
+    "weapons": ["RedhornStonethresher", "Whiteblind"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1534,7 +2300,13 @@
     "description": "BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","PrototypeAmber","SolarPearl"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "PrototypeAmber",
+      "SolarPearl"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
@@ -1547,7 +2319,13 @@
     "description": "BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["StaffOfTheScarletSands","CashflowSupervision","TomeOfTheEternalFlow","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
@@ -1560,7 +2338,7 @@
     "description": "BiS - BEST WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["StaffOfHoma","LithicBlade"]
+    "weapons": ["StaffOfHoma", "LithicBlade"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -1573,7 +2351,15 @@
     "description": "BiS - BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","FlowingPurity","DodocoTales","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "FlowingPurity",
+      "DodocoTales",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
@@ -1586,7 +2372,14 @@
     "description": "GOOD SECONDARY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["WolfsGravestone","BeaconOfTheReedSea","TidalShadow","UltimateOverlordsMegaMagicSword","LuxuriousSeaLord","MailedFlower"]
+    "weapons": [
+      "WolfsGravestone",
+      "BeaconOfTheReedSea",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "LuxuriousSeaLord",
+      "MailedFlower"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -1599,7 +2392,33 @@
     "description": "BiS - GOOD OVERALL",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["CashflowSupervision","SkywardAtlas","BalladOfTheBoundlessBlue","FlowingPurity","DodocoTales"]
+    "weapons": [
+      "CashflowSupervision",
+      "SkywardAtlas",
+      "BalladOfTheBoundlessBlue",
+      "FlowingPurity",
+      "DodocoTales"
+    ]
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas +",
+    "plume": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "sands": "enerRech_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "goblet": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "circlet": "atk_/heal_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "character": "Jahoda",
+    "critUser": false,
+    "description": "GOOD TO PROVIDE ATK BUFF",
+    "setKey": "TenacityOfTheMillelith",
+    "set_image": "seii_150.png",
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SnareHook",
+      "ChainBreaker",
+      "SacrificialBow",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
@@ -1612,7 +2431,17 @@
     "description": "SUPP WITH ATTACK BUFF",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["SymphonistOfScents","EngulfingLightning","SkywardSpine","FavoniusLance","MountainBracingBolt","CalamityQueller","StaffOfHoma","LumidouceElegy","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "EngulfingLightning",
+      "SkywardSpine",
+      "FavoniusLance",
+      "MountainBracingBolt",
+      "CalamityQueller",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critRate_ + critDMG_",
@@ -1625,7 +2454,7 @@
     "description": "BiS SUPP SET - CAN COMBINE WITH Vourukasha's Glow FOR BEST SHIELD VALUE",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["StaffOfHoma","FavoniusLance","SkywardSpine","Deathmatch"]
+    "weapons": ["StaffOfHoma", "FavoniusLance", "SkywardSpine", "Deathmatch"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -1638,7 +2467,14 @@
     "description": "BEST BUILD FOR SUPPORT",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["StaffOfTheScarletSands","FavoniusGreatsword","WolfsGravestone","SkyriderGreatsword","EarthShaker","KatsuragikiriNagamasa"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FavoniusGreatsword",
+      "WolfsGravestone",
+      "SkyriderGreatsword",
+      "EarthShaker",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas",
@@ -1651,7 +2487,7 @@
     "description": "BEST SUPPORT BUILD",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["PrototypeAmber","SacrificialFragments","EverlastingMoonglow"]
+    "weapons": ["PrototypeAmber", "SacrificialFragments", "EverlastingMoonglow"]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_",
@@ -1664,7 +2500,15 @@
     "description": "BEST FOR SHIELD USAGE",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["StarcallersWatch","AThousandFloatingDreams","SacrificialFragments","EtherlightSpindlelute","WanderingEvenstar","PrototypeAmber","FavoniusCodex"]
+    "weapons": [
+      "StarcallersWatch",
+      "AThousandFloatingDreams",
+      "SacrificialFragments",
+      "EtherlightSpindlelute",
+      "WanderingEvenstar",
+      "PrototypeAmber",
+      "FavoniusCodex"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -1677,7 +2521,7 @@
     "description": "BiS COMBINED WITH Emblem of Severed Fate",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["SacrificialBow","ElegyForTheEnd","SequenceOfSolitude"]
+    "weapons": ["SacrificialBow", "ElegyForTheEnd", "SequenceOfSolitude"]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1690,7 +2534,7 @@
     "description": "BiS",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["KeyOfKhajNisut","SacrificialSword"]
+    "weapons": ["KeyOfKhajNisut", "SacrificialSword"]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -1703,7 +2547,12 @@
     "description": "BEST SET FOR SUPPORTING ALLIES",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1716,7 +2565,12 @@
     "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["FavoniusLance","RightfulReward","LithicSpear","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "RightfulReward",
+      "LithicSpear",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -1729,7 +2583,7 @@
     "description": "BEST SET COMBINED WITH Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["KeyOfKhajNisut","FavoniusSword","SapwoodBlade"]
+    "weapons": ["KeyOfKhajNisut", "FavoniusSword", "SapwoodBlade"]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk + critRate_ + critDMG_",
@@ -1742,7 +2596,13 @@
     "description": "BEST SET FOR SUPP",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["OathswornEye","FavoniusCodex","PrototypeAmber","FlowingPurity","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "OathswornEye",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "FlowingPurity",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp",
@@ -1755,7 +2615,12 @@
     "description": "GOOD SECONDARY COMBINED WITH Emblem of Severed Fate",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","SymphonistOfScents","PrototypeStarglitter"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "SymphonistOfScents",
+      "PrototypeStarglitter"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
@@ -1768,7 +2633,12 @@
     "description": "GOOD SECONDARY SUPPORT SET",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["UrakuMisugiri","PeakPatrolSong","FluteOfEzpitzal","FesteringDesire","FesteringDesire"]
+    "weapons": [
+      "UrakuMisugiri",
+      "PeakPatrolSong",
+      "FluteOfEzpitzal",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1781,7 +2651,13 @@
     "description": "BEST SUB DPS SET WHEN USED WITH APPLICATORS LIKE FISCHL/YaeMiko CAN ALSO COMBINE WITH Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["SilvershowerHeartstrings","AquaSimulacra","SacrificialBow","FavoniusWarbow","SequenceOfSolitude"]
+    "weapons": [
+      "SilvershowerHeartstrings",
+      "AquaSimulacra",
+      "SacrificialBow",
+      "FavoniusWarbow",
+      "SequenceOfSolitude"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -1794,7 +2670,15 @@
     "description": "BEST SET WITH OVERLOAD / BURNING",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","StaffOfHoma","TheCatch","Deathmatch","WavebreakersFin","RightfulReward"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "TheCatch",
+      "Deathmatch",
+      "WavebreakersFin",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + eleMas",
@@ -1807,7 +2691,12 @@
     "description": "GOOD IF YOU HAVE SOMEONE WITH Deepwood Memories IN YOUR TEAM AND COMBINE IT WITH Emblem of Severed Fate",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["JadefallsSplendor","JadefallsSplendor","HakushinRing","FavoniusCodex","AshGravenDrinkingHorn"]
+    "weapons": [
+      "JadefallsSplendor",
+      "HakushinRing",
+      "FavoniusCodex",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + eleMas",
@@ -1820,7 +2709,7 @@
     "description": "BiS - FOR BLOOMING",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["KeyOfKhajNisut","PrimordialJadeCutter","SacrificialSword"]
+    "weapons": ["KeyOfKhajNisut", "PrimordialJadeCutter", "SacrificialSword"]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -1833,7 +2722,14 @@
     "description": "BiS IF YOU HAVE FULL CONVEX ON HER",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["ElegyForTheEnd","FavoniusWarbow","PolarStar","EndOfTheLine","FadingTwilight","EndOfTheLine"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "PolarStar",
+      "EndOfTheLine",
+      "FadingTwilight",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
@@ -1846,7 +2742,13 @@
     "description": "BiS IF USING WITH electro_dmg_ CHARACTER",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["CashflowSupervision","TulaytullahsRemembrance","SkywardAtlas","BalladOfTheBoundlessBlue","FlowingPurity"]
+    "weapons": [
+      "CashflowSupervision",
+      "TulaytullahsRemembrance",
+      "SkywardAtlas",
+      "BalladOfTheBoundlessBlue",
+      "FlowingPurity"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critRate_ + critDMG_ + atk_",
@@ -1859,7 +2761,7 @@
     "description": "BEST IF NOBLESS",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["FavoniusSword","FleuveCendreFerryman"]
+    "weapons": ["FavoniusSword", "FleuveCendreFerryman"]
   },
   {
     "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
@@ -1872,7 +2774,16 @@
     "description": "BiS FOR SUPPORT",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["SymphonistOfScents","CalamityQueller","SkywardSpine","FavoniusLance","WavebreakersFin","ProspectorsDrill","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "SymphonistOfScents",
+      "CalamityQueller",
+      "SkywardSpine",
+      "FavoniusLance",
+      "WavebreakersFin",
+      "ProspectorsDrill",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_",
@@ -1885,7 +2796,15 @@
     "description": "BEST ELEM DMG INCREASE",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["StarcallersWatch","AThousandFloatingDreams","SacrificialFragments","EtherlightSpindlelute","WanderingEvenstar","PrototypeAmber","FavoniusCodex"]
+    "weapons": [
+      "StarcallersWatch",
+      "AThousandFloatingDreams",
+      "SacrificialFragments",
+      "EtherlightSpindlelute",
+      "WanderingEvenstar",
+      "PrototypeAmber",
+      "FavoniusCodex"
+    ]
   },
   {
     "flower": "hp_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
@@ -1898,7 +2817,13 @@
     "description": "BiS",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["FavoniusSword","FreedomSworn","WolfFang","FesteringDesire","FleuveCendreFerryman"]
+    "weapons": [
+      "FavoniusSword",
+      "FreedomSworn",
+      "WolfFang",
+      "FesteringDesire",
+      "FleuveCendreFerryman"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + def_ + def",
@@ -1911,7 +2836,12 @@
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["PeakPatrolSong","FleuveCendreFerryman","FavoniusSword","FluteOfEzpitzal"]
+    "weapons": [
+      "PeakPatrolSong",
+      "FleuveCendreFerryman",
+      "FavoniusSword",
+      "FluteOfEzpitzal"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -1924,7 +2854,7 @@
     "description": "BEST SECONDARY SET",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["AThousandBlazingSuns","WolfFang","MailedFlower"]
+    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1937,7 +2867,12 @@
     "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["FavoniusLance","RightfulReward","LithicSpear","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "RightfulReward",
+      "LithicSpear",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -1950,7 +2885,12 @@
     "description": "BEST SET IF USING A NATLAN CHARACTER COMBINED WITH Scroll of the Hero of Cinder City",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusLance","RightfulReward","LithicSpear","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "RightfulReward",
+      "LithicSpear",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1963,7 +2903,16 @@
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["ElegyForTheEnd","FavoniusWarbow","TheStringless","FadingTwilight","SacrificialBow","ChainBreaker"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "TheStringless",
+      "FadingTwilight",
+      "SacrificialBow",
+      "ChainBreaker",
+      "TheDaybreakChronicles",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_",
@@ -1976,7 +2925,7 @@
     "description": "BiS BECAUSE OF Nightsoul's Blessing",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["FavoniusLance","KitainCrossSpear"]
+    "weapons": ["FavoniusLance", "KitainCrossSpear"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -1989,7 +2938,17 @@
     "description": "GOOD WITH EMBLEM IF USING NATLAN CHARACTERS",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["EngulfingLightning","StaffOfTheScarletSands","FavoniusLance","SkywardSpine","FavoniusSword","KitainCrossSpear","Deathmatch","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "EngulfingLightning",
+      "StaffOfTheScarletSands",
+      "FavoniusLance",
+      "SkywardSpine",
+      "FavoniusSword",
+      "KitainCrossSpear",
+      "Deathmatch",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2002,7 +2961,15 @@
     "description": "GOOD SECONDARYA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["AstralVulturesCrimsonPlumage","SkywardHarp","ScionOfTheBlazingSun","WindblumeOde","SongOfStillness","ChainBreaker","AmosBow"]
+    "weapons": [
+      "AstralVulturesCrimsonPlumage",
+      "SkywardHarp",
+      "ScionOfTheBlazingSun",
+      "WindblumeOde",
+      "SongOfStillness",
+      "ChainBreaker",
+      "AmosBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2015,7 +2982,7 @@
     "description": "GOOD ONLY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["AThousandBlazingSuns","WolfFang","MailedFlower"]
+    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -2028,7 +2995,13 @@
     "description": "RECOMMENDED IF NO DEEPFOREST",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["NightweaversLookingGlass","SacrificialFragments","BlackmarrowLantern","WanderingEvenstar","EtherlightSpindlelute"]
+    "weapons": [
+      "NightweaversLookingGlass",
+      "SacrificialFragments",
+      "BlackmarrowLantern",
+      "WanderingEvenstar",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -2041,7 +3014,12 @@
     "description": "SUPP SET FOR dendro_dmg_ RES REDUCTION",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["AThousandBlazingSuns","TheWidsith","PrototypeAmber","EtherlightSpindlelute"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "TheWidsith",
+      "PrototypeAmber",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk",
@@ -2054,7 +3032,13 @@
     "description": "GOOD CHOICE IF NO ONE IN COMP WITH Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["HuntersPath","ScionOfTheBlazingSun","TheViridescentHunt","Cloudforged","IbisPiercer"]
+    "weapons": [
+      "HuntersPath",
+      "ScionOfTheBlazingSun",
+      "TheViridescentHunt",
+      "Cloudforged",
+      "IbisPiercer"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2067,7 +3051,13 @@
     "description": "NOT RECOMMENDED ONLY IF YOU DON'T HAVE BiS AND YOUR TEAM DOESN'T HAVE Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["LumidouceElegy","TamayurateiNoOhanashi","FavoniusLance","ProspectorsDrill","MissiveWindspear"]
+    "weapons": [
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance",
+      "ProspectorsDrill",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2080,7 +3070,7 @@
     "description": "BEST SET IF YOU DON'T HAVE Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["FreElegyForTheEndedomSworn","TheStringless","EndOfTheLine"]
+    "weapons": ["ElegyForTheEnd", "TheStringless", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
@@ -2093,7 +3083,13 @@
     "description": "GOOD SET IF YOU DON'T HAVE ANYONE WITH Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["FavoniusGreatsword","FlameForgedInsight","SkyriderGreatsword","MakhairaAquamarine","Rainslasher"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "FlameForgedInsight",
+      "SkyriderGreatsword",
+      "MakhairaAquamarine",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -2106,7 +3102,7 @@
     "description": "BEST SET IF YOU DON'T HAVE ANYONE WITH Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["KeyOfKhajNisut","FavoniusSword","SapwoodBlade"]
+    "weapons": ["KeyOfKhajNisut", "FavoniusSword", "SapwoodBlade"]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -2119,7 +3115,12 @@
     "description": "BEST SET IF YOU DON'T HAVE ANYONE WITH Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + enerRech_",
@@ -2132,7 +3133,7 @@
     "description": "BiS",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["FreedomSworn","FavoniusSword","IronSting","ToukabouShigure"]
+    "weapons": ["FreedomSworn", "FavoniusSword", "IronSting", "ToukabouShigure"]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + eleMas",
@@ -2145,7 +3146,32 @@
     "description": "GOOD IF YOU NEED Deepwood Memories",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["JadefallsSplendor","JadefallsSplendor","HakushinRing","FavoniusCodex","AshGravenDrinkingHorn"]
+    "weapons": [
+      "JadefallsSplendor",
+      "HakushinRing",
+      "FavoniusCodex",
+      "AshGravenDrinkingHorn"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "BiS IF NOBLESS IN TEAM",
+    "setKey": "EmblemOfSeveredFate",
+    "set_image": "seii_160.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -2158,7 +3184,16 @@
     "description": "BiS FOR ROTATION RATE AND pyro_dmg_ APPLICATION",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["EngulfingLightning","StaffOfTheScarletSands","FavoniusLance","SkywardSpine","FavoniusSword","KitainCrossSpear","Deathmatch","TamayurateiNoOhanashi"]
+    "weapons": [
+      "EngulfingLightning",
+      "StaffOfTheScarletSands",
+      "FavoniusLance",
+      "SkywardSpine",
+      "FavoniusSword",
+      "KitainCrossSpear",
+      "Deathmatch",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
@@ -2171,7 +3206,15 @@
     "description": "BiS - FOR ROTATION AND hydro_dmg_ APPLICATION",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["AquaSimulacra","ElegyForTheEnd","FavoniusWarbow","SacrificialBow","TheStringless","SequenceOfSolitude"]
+    "weapons": [
+      "AquaSimulacra",
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SacrificialBow",
+      "TheStringless",
+      "SequenceOfSolitude",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2184,7 +3227,14 @@
     "description": "BiS FOR ROTATION AND hydro_dmg_ APPLICATION",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["SacrificialSword","SkyriderSword","WolfFang","FavoniusSword","FleuveCendreFerryman","FesteringDesire"]
+    "weapons": [
+      "SacrificialSword",
+      "SkyriderSword",
+      "WolfFang",
+      "FavoniusSword",
+      "FleuveCendreFerryman",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -2197,7 +3247,15 @@
     "description": "BEST SET WITH OVERLOAD / BURNING",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","StaffOfHoma","TheCatch","Deathmatch","WavebreakersFin","RightfulReward"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "TheCatch",
+      "Deathmatch",
+      "WavebreakersFin",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2210,7 +3268,16 @@
     "description": "BEST SET FOR cryo_dmg_ APPLICATOR",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["MistsplitterReforged","PrimordialJadeCutter","FinaleOfTheDeep","WolfFang","AmenomaKageuchi","SkyriderSword","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "MistsplitterReforged",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "WolfFang",
+      "AmenomaKageuchi",
+      "SkyriderSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2223,7 +3290,14 @@
     "description": "BEST SET FOR SUB DPS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["StaffOfHoma","PrimordialJadeWingedSpear","StaffOfTheScarletSands","MissiveWindspear","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "StaffOfTheScarletSands",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk + critRate_ + critDMG_",
@@ -2236,7 +3310,13 @@
     "description": "BEST SET FOR SUB DPS COMBINED WITH Gladiator's Finale / Ocean-Hued Clam",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["OathswornEye","FavoniusCodex","PrototypeAmber","FlowingPurity","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "OathswornEye",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "FlowingPurity",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2249,7 +3329,14 @@
     "description": "BiS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["ElegyForTheEnd","SkywardHarp","MouunsMoon","AlleyHunter","FavoniusWarbow","EndOfTheLine"]
+    "weapons": [
+      "ElegyForTheEnd",
+      "SkywardHarp",
+      "MouunsMoon",
+      "AlleyHunter",
+      "FavoniusWarbow",
+      "EndOfTheLine"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -2262,7 +3349,13 @@
     "description": "BEST SET IF YOU WANT RECOVERY & DMG COMBINE IT WITH Ocean-Hued Clam",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusGreatsword","SacrificialGreatsword","TheBell","ForestRegalia","KatsuragikiriNagamasa"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "SacrificialGreatsword",
+      "TheBell",
+      "ForestRegalia",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -2274,7 +3367,12 @@
     "description": "BEST SET COMBINED WITH Tenacity of the Millelith / Scroll of the Hero of Cinder City(IF USING NATLAN CHARACTER)",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusLance","RightfulReward","LithicSpear","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "RightfulReward",
+      "LithicSpear",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2287,7 +3385,12 @@
     "description": "BEST SET COMBINED WITH Wanderer's Troupe",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusSword","FleuveCendreFerryman","AmenomaKageuchi","SapwoodBlade"]
+    "weapons": [
+      "FavoniusSword",
+      "FleuveCendreFerryman",
+      "AmenomaKageuchi",
+      "SapwoodBlade"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -2300,7 +3403,12 @@
     "description": "BEST SET FOR SUB DPS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp",
@@ -2313,7 +3421,12 @@
     "description": "GOOD SECONDARY SET COMBINED WITH Tenacity of the Millelith",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","SymphonistOfScents","PrototypeStarglitter"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "SymphonistOfScents",
+      "PrototypeStarglitter"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2326,7 +3439,18 @@
     "description": "BEST SET FOR SUB DPS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["MistsplitterReforged","PrimordialJadeCutter","MoonweaversDawn","FreedomSworn","FavoniusSword","SacrificialSword","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz","FesteringDesire"]
+    "weapons": [
+      "MistsplitterReforged",
+      "PrimordialJadeCutter",
+      "MoonweaversDawn",
+      "FreedomSworn",
+      "FavoniusSword",
+      "SacrificialSword",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "FesteringDesire"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -2339,7 +3463,7 @@
     "description": "BiS COMBINED WITH Tenacity of the Millelith",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["SacrificialBow","ElegyForTheEnd","SequenceOfSolitude"]
+    "weapons": ["SacrificialBow", "ElegyForTheEnd", "SequenceOfSolitude"]
   },
   {
     "flower": "hp_ + def_ + def + enerRech_",
@@ -2352,7 +3476,7 @@
     "description": "BEST SUB DPS BUILD",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusWarbow","FadingTwilight","EndOfTheLine"]
+    "weapons": ["FavoniusWarbow", "FadingTwilight", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2365,7 +3489,12 @@
     "description": "BEST SUPPORT SET",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusCodex","TheWidsith","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "FavoniusCodex",
+      "TheWidsith",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -2378,7 +3507,14 @@
     "description": "BEST SUB DPS SET",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["StaffOfTheScarletSands","FavoniusGreatsword","WolfsGravestone","SkyriderGreatsword","EarthShaker","KatsuragikiriNagamasa"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FavoniusGreatsword",
+      "WolfsGravestone",
+      "SkyriderGreatsword",
+      "EarthShaker",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + eleMas",
@@ -2391,7 +3527,12 @@
     "description": "IF YOU HAVE Deepwood Memories IN YOUR TEAM COMBINE THIS SET WITH Tenacity of the Millelith",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["JadefallsSplendor","JadefallsSplendor","HakushinRing","FavoniusCodex","AshGravenDrinkingHorn"]
+    "weapons": [
+      "JadefallsSplendor",
+      "HakushinRing",
+      "FavoniusCodex",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2404,7 +3545,12 @@
     "description": "GOOD FOR ROTATION AND FIREPOWER",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2417,7 +3563,14 @@
     "description": "BiS - GOOD FOR ROTATION AND FIREPOWER",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["WolfsGravestone","AmenomaKageuchi","LuxuriousSeaLord","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "WolfsGravestone",
+      "AmenomaKageuchi",
+      "LuxuriousSeaLord",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2430,7 +3583,13 @@
     "description": "BiS FOR BURgeo_dmg_N",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
-    "weapons": ["LumidouceElegy","TamayurateiNoOhanashi","FavoniusLance","ProspectorsDrill","MissiveWindspear"]
+    "weapons": [
+      "LumidouceElegy",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance",
+      "ProspectorsDrill",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
@@ -2443,7 +3602,17 @@
     "description": "GOOD WITH BURNING/EVAPORATION COMP WITH NAHIDA AND Emilie",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
-    "weapons": ["SurfsUp","AThousandBlazingSuns","TomeOfTheEternalFlow","LostPrayerToTheSacredWinds","TheWidsith","RingOfYaxche","TulaytullahsRemembrance","SacrificialJade","AshGravenDrinkingHorn"]
+    "weapons": [
+      "SurfsUp",
+      "AThousandBlazingSuns",
+      "TomeOfTheEternalFlow",
+      "LostPrayerToTheSacredWinds",
+      "TheWidsith",
+      "RingOfYaxche",
+      "TulaytullahsRemembrance",
+      "SacrificialJade",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2456,7 +3625,14 @@
     "description": "BEST SET FOR BURNING/MELTING COMPS",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
-    "weapons": ["StaffOfTheScarletSands","FangOfTheMountainKing","Akuoumaru","LuxuriousSeaLord","FavoniusGreatsword","SacrificialGreatsword"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FangOfTheMountainKing",
+      "Akuoumaru",
+      "LuxuriousSeaLord",
+      "FavoniusGreatsword",
+      "SacrificialGreatsword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2469,7 +3645,12 @@
     "description": "GOOD SECONDARY FOR BURgeo_dmg_N",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
-    "weapons": ["FangOfTheMountainKing","WolfsGravestone","EarthShaker","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "FangOfTheMountainKing",
+      "WolfsGravestone",
+      "EarthShaker",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2482,7 +3663,14 @@
     "description": "GOOD SET WITH MELTING/BURNING",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
-    "weapons": ["StaffOfHoma","PrimordialJadeWingedSpear","StaffOfTheScarletSands","MissiveWindspear","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "StaffOfTheScarletSands",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
@@ -2495,7 +3683,13 @@
     "description": "BiS IF YOU DON'T NEED Noblesse Oblige",
     "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png",
-    "weapons": ["SymphonistOfScents","FavoniusLance","DialoguesOfTheDesertSages","Deathmatch","RightfulReward"]
+    "weapons": [
+      "SymphonistOfScents",
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "Deathmatch",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -2508,7 +3702,13 @@
     "description": "REQUIRES A STRATEGY THAT ALLOWS BUFFS TO BE USED BY ATTACKERS",
     "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png",
-    "weapons": ["SilvershowerHeartstrings","AquaSimulacra","SacrificialBow","FavoniusWarbow","SequenceOfSolitude"]
+    "weapons": [
+      "SilvershowerHeartstrings",
+      "AquaSimulacra",
+      "SacrificialBow",
+      "FavoniusWarbow",
+      "SequenceOfSolitude"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2521,7 +3721,15 @@
     "description": "BiS - BUFFS hydro_dmg_ DMG AND COMPATIBLE WITH ALL WEAPONS",
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
-    "weapons": ["PolarStar","ThunderingPulse","TheViridescentHunt","Rust","AmosBow","IbisPiercer"]
+    "weapons": [
+      "PolarStar",
+      "ThunderingPulse",
+      "TheViridescentHunt",
+      "Rust",
+      "AmosBow",
+      "IbisPiercer",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
@@ -2533,7 +3741,15 @@
     "critUser": true,
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
-    "weapons": ["AquaSimulacra","ElegyForTheEnd","FavoniusWarbow","SacrificialBow","TheStringless","SequenceOfSolitude"]
+    "weapons": [
+      "AquaSimulacra",
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SacrificialBow",
+      "TheStringless",
+      "SequenceOfSolitude",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -2546,7 +3762,14 @@
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
-    "weapons": ["HaranGeppakuFutsu","PrimordialJadeCutter","CalamityOfEshu","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "CalamityOfEshu",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
@@ -2558,7 +3781,15 @@
     "critUser": true,
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
-    "weapons": ["AquaSimulacra","ElegyForTheEnd","FavoniusWarbow","SacrificialBow","TheStringless","SequenceOfSolitude"]
+    "weapons": [
+      "AquaSimulacra",
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SacrificialBow",
+      "TheStringless",
+      "SequenceOfSolitude",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -2571,7 +3802,7 @@
     "description": "BEST SET COMBINED WITH Tenacity of the Millelith",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
-    "weapons": ["KeyOfKhajNisut","FavoniusSword","SapwoodBlade"]
+    "weapons": ["KeyOfKhajNisut", "FavoniusSword", "SapwoodBlade"]
   },
   {
     "flower": "hp_ + hp_ + hp + critRate_ + critDMG_",
@@ -2584,7 +3815,7 @@
     "description": "BEST DPS SET - CAN COMBINE WITH Tenacity of the Millelith FOR BEST SHIELD VALUE ",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
-    "weapons": ["StaffOfHoma","FavoniusLance","SkywardSpine","Deathmatch"]
+    "weapons": ["StaffOfHoma", "FavoniusLance", "SkywardSpine", "Deathmatch"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -2597,7 +3828,14 @@
     "description": "BEST DPS BUILD",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
-    "weapons": ["StaffOfTheScarletSands","FavoniusGreatsword","WolfsGravestone","SkyriderGreatsword","EarthShaker","KatsuragikiriNagamasa"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "FavoniusGreatsword",
+      "WolfsGravestone",
+      "SkyriderGreatsword",
+      "EarthShaker",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -2610,7 +3848,13 @@
     "description": "BiS - BEST OVERALL COMBINED WITH Tenacity of the Millelith",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
-    "weapons": ["SilvershowerHeartstrings","AquaSimulacra","SacrificialBow","FavoniusWarbow","SequenceOfSolitude"]
+    "weapons": [
+      "SilvershowerHeartstrings",
+      "AquaSimulacra",
+      "SacrificialBow",
+      "FavoniusWarbow",
+      "SequenceOfSolitude"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -2623,7 +3867,12 @@
     "description": "BiS IF NONOBLESS",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205 .png",
-    "weapons": ["FlameForgedInsight","FavoniusGreatsword","MailedFlower","Rainslasher"]
+    "weapons": [
+      "FlameForgedInsight",
+      "FavoniusGreatsword",
+      "MailedFlower",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_ + atk_ + atk",
@@ -2636,7 +3885,12 @@
     "description": "GOOD WITH BLOOM, HYPERBLOOM, BURgeo_dmg_N",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","TamayurateiNoOhanashi","TheCatch"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critRate_ + critDMG_ + atk_ + atk",
@@ -2649,7 +3903,13 @@
     "description": "BEST SET OVERALL",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["FavoniusGreatsword","FlameForgedInsight","SkyriderGreatsword","MakhairaAquamarine","Rainslasher"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "FlameForgedInsight",
+      "SkyriderGreatsword",
+      "MakhairaAquamarine",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -2662,7 +3922,12 @@
     "description": "BEST SET FOR BLOOM",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2675,7 +3940,7 @@
     "description": "BEST SET OVERALL",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["FreElegyForTheEndedomSworn","TheStringless","EndOfTheLine"]
+    "weapons": ["ElegyForTheEnd", "TheStringless", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + eleMas + hp_ + hp + atk_ + atk",
@@ -2688,7 +3953,13 @@
     "description": "BiS FOR BLOOM",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["FreedomSworn","XiphosMoonlight","PrimordialJadeCutter","FavoniusSword","ToukabouShigure"]
+    "weapons": [
+      "FreedomSworn",
+      "XiphosMoonlight",
+      "PrimordialJadeCutter",
+      "FavoniusSword",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -2701,7 +3972,15 @@
     "description": "BEST SET WITH BLOOM/HYPERBLOOM/BURgeo_dmg_N",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
-    "weapons": ["EngulfingLightning","FavoniusLance","StaffOfHoma","TheCatch","Deathmatch","WavebreakersFin","RightfulReward"]
+    "weapons": [
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "TheCatch",
+      "Deathmatch",
+      "WavebreakersFin",
+      "RightfulReward"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2714,7 +3993,13 @@
     "description": "BEST SET USED WITH WEAPON Beacon of the Reed Sea",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["FracturedHalo","MissiveWindspear","ProspectorsDrill","TamayurateiNoOhanashi","FavoniusLance"]
+    "weapons": [
+      "FracturedHalo",
+      "MissiveWindspear",
+      "ProspectorsDrill",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2727,7 +4012,15 @@
     "description": "GOOD FOR SECONDARY ESPECIALLY IF LOTS OF INTENSIFIED REACTIONS",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["Absolution","TheBlackSword","LionsRoar","PrimordialJadeCutter","FinaleOfTheDeep","KagotsurubeIsshin","CalamityOfEshu"]
+    "weapons": [
+      "Absolution",
+      "TheBlackSword",
+      "LionsRoar",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "KagotsurubeIsshin",
+      "CalamityOfEshu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2740,7 +4033,12 @@
     "description": "GOOD SECONDARY SET - COMBINED WITH ",
     "setKey": "ThunderingFury",
     "set_image": "seii_76.png",
-    "weapons": ["KagurasVerity","SkywardAtlas","SacrificialJade","OathswornEye"]
+    "weapons": [
+      "KagurasVerity",
+      "SkywardAtlas",
+      "SacrificialJade",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_ + atk_ + atk",
@@ -2753,7 +4051,7 @@
     "description": "GOOD SECONDARY SET WITH electro_dmg_ COMP",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["HuntersPath","AmosBow","ScionOfTheBlazingSun","Cloudforged"]
+    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2766,7 +4064,13 @@
     "description": "GOOD SECONDARY WITH Golden Troupe",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["TheDaybreakChronicles","ThunderingPulse","ElegyForTheEnd","TheStringless","AlleyHunter"]
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "ElegyForTheEnd",
+      "TheStringless",
+      "AlleyHunter"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas + atk_ + atk",
@@ -2779,7 +4083,12 @@
     "description": "BEST SET WITH ANYTHING",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["StaffOfTheScarletSands","StaffOfHoma","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "StaffOfHoma",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2792,7 +4101,7 @@
     "description": "BEST SET IF YOU WANT TO REDUCE electro_dmg_ DMG AND GOOD FOR ATTACKING",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["KagurasVerity","AThousandBlazingSuns","SacrificialFragments"]
+    "weapons": ["KagurasVerity", "AThousandBlazingSuns", "SacrificialFragments"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2805,7 +4114,14 @@
     "description": "GOOD SECONDARY COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["WolfsGravestone","AmenomaKageuchi","LuxuriousSeaLord","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "WolfsGravestone",
+      "AmenomaKageuchi",
+      "LuxuriousSeaLord",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2818,7 +4134,15 @@
     "description": "BEST SET IF YOU DON'T HAVE dendro_dmg_ CHARACTERS",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["MistsplitterReforged","LionsRoar","IronSting","TheBlackSword","KagotsurubeIsshin","SwordOfNarzissenkreuz","ToukabouShigure"]
+    "weapons": [
+      "MistsplitterReforged",
+      "LionsRoar",
+      "IronSting",
+      "TheBlackSword",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2831,7 +4155,15 @@
     "description": "BiS",
     "setKey": "VermillionHereafter",
     "set_image": "seii_185.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2844,7 +4176,12 @@
     "description": "BiS",
     "setKey": "NighttimeWhispersInTheEchoingWoods",
     "set_image": "seii_235.png",
-    "weapons": ["Verdict","EarthShaker","TalkingStick","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "Verdict",
+      "EarthShaker",
+      "TalkingStick",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2857,7 +4194,13 @@
     "description": "BiS",
     "setKey": "NighttimeWhispersInTheEchoingWoods",
     "set_image": "seii_235.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","PrototypeAmber","SolarPearl"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "PrototypeAmber",
+      "SolarPearl"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -2870,7 +4213,17 @@
     "description": "GOOD SECONDARY WITH LOTS OF BUFF SUPP",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["VividNotions","CranesEchoingCall","SkywardAtlas","KagurasVerity","TheWidsith","CashflowSupervision","WolfFang","MistsplitterReforged","HaranGeppakuFutsu"]
+    "weapons": [
+      "VividNotions",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "KagurasVerity",
+      "TheWidsith",
+      "CashflowSupervision",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2883,7 +4236,15 @@
     "description": "BiS - EASY TO ACTIVATE USING NIGHTSOUL POINT",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["AstralVulturesCrimsonPlumage","SkywardHarp","ScionOfTheBlazingSun","WindblumeOde","SongOfStillness","ChainBreaker","AmosBow"]
+    "weapons": [
+      "AstralVulturesCrimsonPlumage",
+      "SkywardHarp",
+      "ScionOfTheBlazingSun",
+      "WindblumeOde",
+      "SongOfStillness",
+      "ChainBreaker",
+      "AmosBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2896,7 +4257,12 @@
     "description": "BiS - USES NIGHTSOUL BLESSING",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["FangOfTheMountainKing","WolfsGravestone","EarthShaker","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "FangOfTheMountainKing",
+      "WolfsGravestone",
+      "EarthShaker",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
@@ -2909,7 +4275,17 @@
     "description": "BiS - INCREASES DMG BASED ON Nightsoul points",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["SurfsUp","AThousandBlazingSuns","TomeOfTheEternalFlow","LostPrayerToTheSacredWinds","TheWidsith","RingOfYaxche","TulaytullahsRemembrance","SacrificialJade","AshGravenDrinkingHorn"]
+    "weapons": [
+      "SurfsUp",
+      "AThousandBlazingSuns",
+      "TomeOfTheEternalFlow",
+      "LostPrayerToTheSacredWinds",
+      "TheWidsith",
+      "RingOfYaxche",
+      "TulaytullahsRemembrance",
+      "SacrificialJade",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2922,7 +4298,27 @@
     "description": "BiS - INCREASES DMG BASED ON Nightsoul points",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["AThousandBlazingSuns","WolfFang","MailedFlower"]
+    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "GOOD CAN COMBINE WITH 2 PIECE Noblesse Oblige / Gladiator's Finale",
+    "setKey": "CrimsonWitchOfFlames",
+    "set_image": "seii_81.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
@@ -2935,7 +4331,14 @@
     "description": "BiS",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["WolfsGravestone","BeaconOfTheReedSea","TidalShadow","UltimateOverlordsMegaMagicSword","LuxuriousSeaLord","MailedFlower"]
+    "weapons": [
+      "WolfsGravestone",
+      "BeaconOfTheReedSea",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "LuxuriousSeaLord",
+      "MailedFlower"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2948,7 +4351,15 @@
     "description": "GOOD SECONDARY RECOMMENDED EQUIP WITH CRIT WEAPON",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["SerpentSpine","FruitfulHook","LithicBlade","TidalShadow","UltimateOverlordsMegaMagicSword","MailedFlower","SkyriderGreatsword"]
+    "weapons": [
+      "SerpentSpine",
+      "FruitfulHook",
+      "LithicBlade",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "MailedFlower",
+      "SkyriderGreatsword"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
@@ -2961,7 +4372,13 @@
     "description": "BEST BUILD FOR OVERALL DMG",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["StaffOfTheScarletSands","CashflowSupervision","TomeOfTheEternalFlow","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2974,7 +4391,7 @@
     "description": "BEST SET WITH DOUBLE electro_dmg_ APPLICATORS",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["ThunderingPulse","SkywardHarp"]
+    "weapons": ["ThunderingPulse", "SkywardHarp"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -2987,7 +4404,15 @@
     "description": "BiS - GOOD WITHOUT FURINA",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","FlowingPurity","DodocoTales","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "FlowingPurity",
+      "DodocoTales",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
@@ -2997,10 +4422,10 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "character": "HuTao",
     "critUser": true,
-    "description": "BiS WITH XINGQUI/YILAN",
+    "description": "BiS WITH XINGQUI/YELAN",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["StaffOfHoma","LithicBlade"]
+    "weapons": ["StaffOfHoma", "LithicBlade"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -3013,7 +4438,14 @@
     "description": "SECOND BEST WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["BloodsoakedRuins","VortexVanquisher","TamayurateiNoOhanashi","ProspectorsDrill","BalladOfTheFjords","MissiveWindspear"]
+    "weapons": [
+      "BloodsoakedRuins",
+      "VortexVanquisher",
+      "TamayurateiNoOhanashi",
+      "ProspectorsDrill",
+      "BalladOfTheFjords",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
@@ -3026,7 +4458,16 @@
     "description": "BiS - INCREASES DMG WITH SKILLS COMBINE WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["CalamityQueller","EngulfingLightning","FavoniusLance","StaffOfHoma","PrimordialJadeWingedSpear","WavebreakersFin","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "CalamityQueller",
+      "EngulfingLightning",
+      "FavoniusLance",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "WavebreakersFin",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3039,7 +4480,15 @@
     "description": "GOOD SECONDARY WITH Vermillion Hereafter",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -3052,7 +4501,12 @@
     "description": "GOOD SECONDARY SET - COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["KagurasVerity","SkywardAtlas","SacrificialJade","OathswornEye"]
+    "weapons": [
+      "KagurasVerity",
+      "SkywardAtlas",
+      "SacrificialJade",
+      "OathswornEye"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3065,7 +4519,14 @@
     "description": "GOOD SECONDARY SET",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["TulaytullahsRemembrance","KagurasVerity","SkywardAtlas","MemoryOfDust","SolarPearl","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "TulaytullahsRemembrance",
+      "KagurasVerity",
+      "SkywardAtlas",
+      "MemoryOfDust",
+      "SolarPearl",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
@@ -3078,7 +4539,7 @@
     "description": "BEST SET FOR HEAVY ATTACK",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["StaffOfHoma","LithicBlade"]
+    "weapons": ["StaffOfHoma", "LithicBlade"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3091,7 +4552,12 @@
     "description": "GOOD SECONDARY WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["Verdict","EarthShaker","TalkingStick","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "Verdict",
+      "EarthShaker",
+      "TalkingStick",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk",
@@ -3104,7 +4570,12 @@
     "description": "BiS DPS SET COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["CranesEchoingCall","OathswornEye","PrototypeAmber","WineAndSong"]
+    "weapons": [
+      "CranesEchoingCall",
+      "OathswornEye",
+      "PrototypeAmber",
+      "WineAndSong"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3117,7 +4588,13 @@
     "description": "GOOD FOR ICE TEAMS COMBINED WITH Golden Troupe / Blizzard Strayer",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["StaffOfTheScarletSands","SongOfBrokenPines","WolfsGravestone","TidalShadow","SnowTombedStarsilver"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "WolfsGravestone",
+      "TidalShadow",
+      "SnowTombedStarsilver"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3130,7 +4607,14 @@
     "description": "GOOD SECONDARY COMBINED WITH Thundering Fury",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["WolfsGravestone","AmenomaKageuchi","LuxuriousSeaLord","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "WolfsGravestone",
+      "AmenomaKageuchi",
+      "LuxuriousSeaLord",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -3143,7 +4627,7 @@
     "description": "BiS - FOR NON-electro_dmg_ COMPS",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["ThunderingPulse","SkywardHarp"]
+    "weapons": ["ThunderingPulse", "SkywardHarp"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -3156,7 +4640,15 @@
     "description": "SECOND BEST WITH Wanderer's Troupe",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["ReliquaryOfTruth","SunnyMorningSleepIn","StarcallersWatch","AThousandBlazingSuns","BlackmarrowLantern","TheWidsith","SacrificialJade"]
+    "weapons": [
+      "ReliquaryOfTruth",
+      "SunnyMorningSleepIn",
+      "StarcallersWatch",
+      "AThousandBlazingSuns",
+      "BlackmarrowLantern",
+      "TheWidsith",
+      "SacrificialJade"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk",
@@ -3169,7 +4661,13 @@
     "description": "BEST SET TO USE WITH dendro_dmg_ CHRARACTERS",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["HuntersPath","ScionOfTheBlazingSun","TheViridescentHunt","Cloudforged","IbisPiercer"]
+    "weapons": [
+      "HuntersPath",
+      "ScionOfTheBlazingSun",
+      "TheViridescentHunt",
+      "Cloudforged",
+      "IbisPiercer"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
@@ -3182,7 +4680,13 @@
     "description": "BEST SET FOR HEAVY ATTACK DMG",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["StaffOfTheScarletSands","CashflowSupervision","TomeOfTheEternalFlow","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -3195,7 +4699,12 @@
     "description": "BEST SET COMBINED WITH Emblem of Severed Fate",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["FavoniusSword","FleuveCendreFerryman","AmenomaKageuchi","SapwoodBlade"]
+    "weapons": [
+      "FavoniusSword",
+      "FleuveCendreFerryman",
+      "AmenomaKageuchi",
+      "SapwoodBlade"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
@@ -3208,7 +4717,7 @@
     "description": "BEST SET FOR BLOOM COMBINED WITH Gilded Dreams",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["PrototypeAmber","TheWidsith","EverlastingMoonglow"]
+    "weapons": ["PrototypeAmber", "TheWidsith", "EverlastingMoonglow"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_ + atk_ + atk",
@@ -3221,7 +4730,7 @@
     "description": "BEST SET WORKS WITH ANYTHING",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["HuntersPath","AmosBow","ScionOfTheBlazingSun","Cloudforged"]
+    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -3234,7 +4743,12 @@
     "description": "BEST SET FOR DPS HEAVY ATTACKS",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["FavoniusCodex","TheWidsith","OathswornEye","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "FavoniusCodex",
+      "TheWidsith",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3247,7 +4761,19 @@
     "description": "GOOD SECONDARY SET",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["AstralVulturesCrimsonPlumage","TheFirstGreatMagic","ScionOfTheBlazingSun","PolarStar","SkywardHarp","ElegyForTheEnd","SongOfStillness","Hamayumi","ChainBreaker","IbisPiercer",""]
+    "weapons": [
+      "AstralVulturesCrimsonPlumage",
+      "TheFirstGreatMagic",
+      "ScionOfTheBlazingSun",
+      "PolarStar",
+      "SkywardHarp",
+      "ElegyForTheEnd",
+      "SongOfStillness",
+      "Hamayumi",
+      "ChainBreaker",
+      "IbisPiercer",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -3260,7 +4786,7 @@
     "description": "BiS - FOR NON-electro_dmg_ COMPS",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["ThunderingPulse","SkywardHarp"]
+    "weapons": ["ThunderingPulse", "SkywardHarp"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3273,8 +4799,14 @@
     "description": "GOOD SECONDARY SET",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["TulaytullahsRemembrance","KagurasVerity","SkywardAtlas","MemoryOfDust","SolarPearl","BalladOfTheBoundlessBlue"]
-
+    "weapons": [
+      "TulaytullahsRemembrance",
+      "KagurasVerity",
+      "SkywardAtlas",
+      "MemoryOfDust",
+      "SolarPearl",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3287,7 +4819,15 @@
     "description": "GOOD SECONDARY COMBINED WITH Vermillion Hereafter",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3300,7 +4840,14 @@
     "description": "GOOD SECONDARY SET WITH DMG BUFFERS LIKE FURINA/KaedeharaKazuha",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["Absolution","TheBlackSword","LionsRoar","PrimordialJadeCutter","FinaleOfTheDeep","KagotsurubeIsshin"]
+    "weapons": [
+      "Absolution",
+      "TheBlackSword",
+      "LionsRoar",
+      "PrimordialJadeCutter",
+      "FinaleOfTheDeep",
+      "KagotsurubeIsshin"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -3313,7 +4860,15 @@
     "description": "GOOD FOR SECOND SLOT - BUFFS ATTACKS",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["PolarStar","ThunderingPulse","TheViridescentHunt","Rust","AmosBow","IbisPiercer"]
+    "weapons": [
+      "PolarStar",
+      "ThunderingPulse",
+      "TheViridescentHunt",
+      "Rust",
+      "AmosBow",
+      "IbisPiercer",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -3326,7 +4881,14 @@
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["HaranGeppakuFutsu","PrimordialJadeCutter","CalamityOfEshu","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "CalamityOfEshu",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -3339,7 +4901,12 @@
     "description": "GOOD WITH REPEATED NORMAL ATTACKS + THE MORE DMG BUFFS THE CARACTER HAS THE MORE EFFECTIVE IT IS",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
-    "weapons": ["CrimsonMoonsSemblance","VortexVanquisher","MissiveWindspear","PrimordialJadeWingedSpear"]
+    "weapons": [
+      "CrimsonMoonsSemblance",
+      "VortexVanquisher",
+      "MissiveWindspear",
+      "PrimordialJadeWingedSpear"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas",
@@ -3352,7 +4919,7 @@
     "description": "BEST SUB DPS BUILD",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["PrototypeAmber","SacrificialFragments","EverlastingMoonglow"]
+    "weapons": ["PrototypeAmber", "SacrificialFragments", "EverlastingMoonglow"]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + eleMas",
@@ -3365,7 +4932,12 @@
     "description": "RECOMMENDED WITH STRONG BURgeo_dmg_N FOR RECOVERY",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["JadefallsSplendor","JadefallsSplendor","HakushinRing","FavoniusCodex","AshGravenDrinkingHorn"]
+    "weapons": [
+      "JadefallsSplendor",
+      "HakushinRing",
+      "FavoniusCodex",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + critRate_ + critDMG_",
@@ -3378,7 +4950,13 @@
     "description": "BEST 4 SET IF YOU WANT HEALING + IF YOU WANT MORE DMG COMBINE IT WITH Emblem of Severed Fate",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["FavoniusGreatsword","SacrificialGreatsword","TheBell","ForestRegalia","KatsuragikiriNagamasa"]
+    "weapons": [
+      "FavoniusGreatsword",
+      "SacrificialGreatsword",
+      "TheBell",
+      "ForestRegalia",
+      "KatsuragikiriNagamasa"
+    ]
   },
   {
     "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
@@ -3391,7 +4969,7 @@
     "description": "BiS",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["SacrificialSword","KagotsurubeIsshin"]
+    "weapons": ["SacrificialSword", "KagotsurubeIsshin"]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -3404,7 +4982,12 @@
     "description": "BEST SET FOR HEALING",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["FavoniusLance","DialoguesOfTheDesertSages","DragonsBane","KitainCrossSpear"]
+    "weapons": [
+      "FavoniusLance",
+      "DialoguesOfTheDesertSages",
+      "DragonsBane",
+      "KitainCrossSpear"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk + critRate_ + critDMG_",
@@ -3417,7 +5000,13 @@
     "description": "BEST SET FOR SUB DPS COMBINED WITH Emblem of Severed Fate / Gladiator's Finale",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["OathswornEye","FavoniusCodex","PrototypeAmber","FlowingPurity","BalladOfTheBoundlessBlue"]
+    "weapons": [
+      "OathswornEye",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "FlowingPurity",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -3430,7 +5019,13 @@
     "description": "BEST SET FOR heal_ BUFF",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["SilvershowerHeartstrings","AquaSimulacra","SacrificialBow","FavoniusWarbow","SequenceOfSolitude"]
+    "weapons": [
+      "SilvershowerHeartstrings",
+      "AquaSimulacra",
+      "SacrificialBow",
+      "FavoniusWarbow",
+      "SequenceOfSolitude"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
@@ -3443,7 +5038,7 @@
     "description": "BEST SET FOR NON-BLOOM",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["PrototypeAmber","TheWidsith","EverlastingMoonglow"]
+    "weapons": ["PrototypeAmber", "TheWidsith", "EverlastingMoonglow"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -3456,7 +5051,14 @@
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
-    "weapons": ["HaranGeppakuFutsu","PrimordialJadeCutter","CalamityOfEshu","AmenomaKageuchi","KagotsurubeIsshin","SwordOfNarzissenkreuz"]
+    "weapons": [
+      "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "CalamityOfEshu",
+      "AmenomaKageuchi",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + hp + eleMas + enerRech_",
@@ -3469,7 +5071,17 @@
     "description": "GOOD SECOND SET",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
-    "weapons": ["SurfsUp","AThousandBlazingSuns","TomeOfTheEternalFlow","LostPrayerToTheSacredWinds","TheWidsith","RingOfYaxche","TulaytullahsRemembrance","SacrificialJade","AshGravenDrinkingHorn"]
+    "weapons": [
+      "SurfsUp",
+      "AThousandBlazingSuns",
+      "TomeOfTheEternalFlow",
+      "LostPrayerToTheSacredWinds",
+      "TheWidsith",
+      "RingOfYaxche",
+      "TulaytullahsRemembrance",
+      "SacrificialJade",
+      "AshGravenDrinkingHorn"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -3482,7 +5094,15 @@
     "description": "GOOD SECOND SET WITH WEAPONS: Polar Star / Thundering Pulse",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
-    "weapons": ["PolarStar","ThunderingPulse","TheViridescentHunt","Rust","AmosBow","IbisPiercer"]
+    "weapons": [
+      "PolarStar",
+      "ThunderingPulse",
+      "TheViridescentHunt",
+      "Rust",
+      "AmosBow",
+      "IbisPiercer",
+      "TheDaybreakChronicles"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
@@ -3495,7 +5115,13 @@
     "description": "BiS COMBINED WITH Gladiator's Finale",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
-    "weapons": ["PrimordialJadeCutter","KeyOfKhajNisut","XiphosMoonlight","ToukabouShigure","IronSting"]
+    "weapons": [
+      "PrimordialJadeCutter",
+      "KeyOfKhajNisut",
+      "XiphosMoonlight",
+      "ToukabouShigure",
+      "IronSting"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3508,8 +5134,14 @@
     "description": "BiS SET",
     "setKey": "DesertPavilionChronicle",
     "set_image": "seii_200.png",
-    "weapons": ["TulaytullahsRemembrance","KagurasVerity","SkywardAtlas","MemoryOfDust","SolarPearl","BalladOfTheBoundlessBlue"]
-
+    "weapons": [
+      "TulaytullahsRemembrance",
+      "KagurasVerity",
+      "SkywardAtlas",
+      "MemoryOfDust",
+      "SolarPearl",
+      "BalladOfTheBoundlessBlue"
+    ]
   },
   {
     "flower": "hp_ + def_ + def + enerRech_",
@@ -3522,7 +5154,7 @@
     "description": "BEST SET IF YOU USE A HIGH-DMG CHRACTER WITH OTHER ELEMENT",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
-    "weapons": ["FavoniusWarbow","FadingTwilight","EndOfTheLine"]
+    "weapons": ["FavoniusWarbow", "FadingTwilight", "EndOfTheLine"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3535,7 +5167,12 @@
     "description": "GOOD SECONDARY WITH Gladiator's Finale / Shimenawa's Reminiscence",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
-    "weapons": ["Verdict","EarthShaker","TalkingStick","UltimateOverlordsMegaMagicSword"]
+    "weapons": [
+      "Verdict",
+      "EarthShaker",
+      "TalkingStick",
+      "UltimateOverlordsMegaMagicSword"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critRate_ + critDMG_",
@@ -3548,7 +5185,7 @@
     "description": "SECOND BEST SET FOR SUPPORT",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
-    "weapons": ["StaffOfHoma","FavoniusLance","SkywardSpine","Deathmatch"]
+    "weapons": ["StaffOfHoma", "FavoniusLance", "SkywardSpine", "Deathmatch"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -3561,8 +5198,13 @@
     "description": "GOOD SET IF YOU HAVE SOMEONE WITH Nobless Oblige COMBINE IT WITH Gladiator's Finale",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
-    "weapons": ["PrimordialJadeCutter","WolfFang","AmenomaKageuchi","FleuveCendreFerryman","SwordOfDescension"]
-
+    "weapons": [
+      "PrimordialJadeCutter",
+      "WolfFang",
+      "AmenomaKageuchi",
+      "FleuveCendreFerryman",
+      "SwordOfDescension"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -3575,7 +5217,13 @@
     "description": "GOOD SECONDARY COMBINED WITH Gladiator's Finale",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
-    "weapons": ["LostPrayerToTheSacredWinds","CashflowSupervision","TomeOfTheEternalFlow","PrototypeAmber","SolarPearl"]
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "PrototypeAmber",
+      "SolarPearl"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
@@ -3588,7 +5236,13 @@
     "description": "BiS",
     "setKey": "PaleFlame",
     "set_image": "seii_155.png",
-    "weapons": ["SongOfBrokenPines","StaffOfTheScarletSands","UltimateOverlordsMegaMagicSword","TidalShadow","LuxuriousSeaLord"]
+    "weapons": [
+      "SongOfBrokenPines",
+      "StaffOfTheScarletSands",
+      "UltimateOverlordsMegaMagicSword",
+      "TidalShadow",
+      "LuxuriousSeaLord"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3601,7 +5255,13 @@
     "description": "BiS - ESPECIALLY FOR physical_dmg_ ATTACK COMP",
     "setKey": "PaleFlame",
     "set_image": "seii_155.png",
-    "weapons": ["StaffOfTheScarletSands","SongOfBrokenPines","WolfsGravestone","TidalShadow","SnowTombedStarsilver"]
+    "weapons": [
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "WolfsGravestone",
+      "TidalShadow",
+      "SnowTombedStarsilver"
+    ]
   },
   {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3614,7 +5274,15 @@
     "description": "GOOD SECONDARY COMBINED WITH Bloodstained Chivalry",
     "setKey": "PaleFlame",
     "set_image": "seii_155.png",
-    "weapons": ["AThousandBlazingSuns","StaffOfTheScarletSands","SongOfBrokenPines","TidalShadow","MailedFlower","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "TidalShadow",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3627,7 +5295,14 @@
     "description": "GOOD SECONDARY COMBINED WITH Pale Flame",
     "setKey": "BloodstainedChivalry",
     "set_image": "seii_83.png",
-    "weapons": ["AThousandBlazingSuns","StaffOfTheScarletSands","SongOfBrokenPines","TidalShadow","UltimateOverlordsMegaMagicSword","FlameForgedInsight"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -3640,7 +5315,17 @@
     "description": "BiS - Works well with Xianyun",
     "setKey": "LongNightsOath",
     "set_image": "seii_83.png",
-    "weapons": ["VividNotions","CranesEchoingCall","SkywardAtlas","KagurasVerity","TheWidsith","CashflowSupervision","WolfFang","MistsplitterReforged","HaranGeppakuFutsu"]
+    "weapons": [
+      "VividNotions",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "KagurasVerity",
+      "TheWidsith",
+      "CashflowSupervision",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3653,7 +5338,15 @@
     "description": "NEW SETT",
     "setKey": "LongNightsOath",
     "set_image": "seii_83.png",
-    "weapons": ["PrimordialJadeWingedSpear","StaffOfHoma","SkywardSpine","Deathmatch","BlackcliffPole","MissiveWindspear","TamayurateiNoOhanashi"]
+    "weapons": [
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "SkywardSpine",
+      "Deathmatch",
+      "BlackcliffPole",
+      "MissiveWindspear",
+      "TamayurateiNoOhanashi"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
@@ -3666,7 +5359,40 @@
     "description": "BiS",
     "setKey": "FinaleOfTheDeepGalleries",
     "set_image": "seii_265.png",
-    "weapons": ["Azurelight","UrakuMisugiri","Absolution","SummitShaper","FinaleOfTheDeep","TheBlackSword","WolfFang","MistsplitterReforged","HaranGeppakuFutsu","KagotsurubeIsshin","SwordOfNarzissenkreuz","CalamityOfEshu"]
+    "weapons": [
+      "Azurelight",
+      "UrakuMisugiri",
+      "Absolution",
+      "SummitShaper",
+      "FinaleOfTheDeep",
+      "TheBlackSword",
+      "WolfFang",
+      "MistsplitterReforged",
+      "HaranGeppakuFutsu",
+      "KagotsurubeIsshin",
+      "SwordOfNarzissenkreuz",
+      "CalamityOfEshu"
+    ]
+  },
+  {
+    "flower": "hp_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas +",
+    "plume": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "sands": "enerRech_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "goblet": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
+    "circlet": "atk_/heal_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
+    "character": "Jahoda",
+    "critUser": false,
+    "description": "Recc with dendro/geo/anemo + BiS with Nefer",
+    "setKey": "SilkenMoonsSerenade",
+    "set_image": "seii_275.png",
+    "weapons": [
+      "ElegyForTheEnd",
+      "FavoniusWarbow",
+      "SnareHook",
+      "ChainBreaker",
+      "SacrificialBow",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -3679,7 +5405,13 @@
     "description": "BiS ESPECIALLY FOR MOONLIGHT",
     "setKey": "SilkenMoonsSerenade",
     "set_image": "seii_275.png",
-    "weapons": ["NightweaversLookingGlass","SacrificialFragments","BlackmarrowLantern","WanderingEvenstar","EtherlightSpindlelute"]
+    "weapons": [
+      "NightweaversLookingGlass",
+      "SacrificialFragments",
+      "BlackmarrowLantern",
+      "WanderingEvenstar",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -3692,7 +5424,12 @@
     "description": "BiS FOR SUPPORT WITH NOD-KAI",
     "setKey": "SilkenMoonsSerenade",
     "set_image": "seii_275.png",
-    "weapons": ["FlameForgedInsight","FavoniusGreatsword","MailedFlower","Rainslasher"]
+    "weapons": [
+      "FlameForgedInsight",
+      "FavoniusGreatsword",
+      "MailedFlower",
+      "Rainslasher"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -3705,7 +5442,13 @@
     "description": "BiS FOR ON-FIELD DPS (IF C6)",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
-    "weapons": ["NightweaversLookingGlass","SacrificialFragments","BlackmarrowLantern","WanderingEvenstar","EtherlightSpindlelute"]
+    "weapons": [
+      "NightweaversLookingGlass",
+      "SacrificialFragments",
+      "BlackmarrowLantern",
+      "WanderingEvenstar",
+      "EtherlightSpindlelute"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -3718,7 +5461,14 @@
     "description": "BiS ESPECIALLY WITH Silken Moon's Serenade in team",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
-    "weapons": ["BloodsoakedRuins","VortexVanquisher","TamayurateiNoOhanashi","ProspectorsDrill","BalladOfTheFjords","MissiveWindspear"]
+    "weapons": [
+      "BloodsoakedRuins",
+      "VortexVanquisher",
+      "TamayurateiNoOhanashi",
+      "ProspectorsDrill",
+      "BalladOfTheFjords",
+      "MissiveWindspear"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -3731,6 +5481,14 @@
     "description": "BiS",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
-    "weapons": ["ReliquaryOfTruth","SunnyMorningSleepIn","StarcallersWatch","AThousandBlazingSuns","BlackmarrowLantern","TheWidsith","SacrificialJade"]
+    "weapons": [
+      "ReliquaryOfTruth",
+      "SunnyMorningSleepIn",
+      "StarcallersWatch",
+      "AThousandBlazingSuns",
+      "BlackmarrowLantern",
+      "TheWidsith",
+      "SacrificialJade"
+    ]
   }
 ]
