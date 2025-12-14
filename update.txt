@@ -3,18 +3,20 @@ assets-data +
 assets +
 char-cards +
 consts +
-db-ui
-db
-dm-localization
-dm
-stats
-util
+dm-localization +
+dm +
+stats +
+util +
+db-ui -
+db -
++ - Must update
+- - No need
+Don't Drag them when coppying files. Use CTRL + C -> CTRL + V
+
 Push with npm run deploy
 Test with yarn test
 
-
 1.Images for Perfect Artifacts don't matter anymore but can find them on genshin.jp website
 2. Gi > const > src > artifacts to find new keywords
-
 
 To update:
