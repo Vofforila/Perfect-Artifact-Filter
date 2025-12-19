@@ -84,6 +84,9 @@ export default function PerfectartifactCard({
           >
             <strong>
               {perfect_set.setKey.replace(/([a-z])([A-Z])/g, '$1 $2')}
+              <Typography variant="body2" color="text.secondary">
+                {perfect_set.description}
+              </Typography>
             </strong>
           </Typography>
         </Box>

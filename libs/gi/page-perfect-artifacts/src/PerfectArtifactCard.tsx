@@ -89,7 +89,6 @@ export default function PerfectartifactCard({
           </Box>
         </Box>
       </Box>
-      {/* Set Info with Image */}
       <Box
         sx={{
           display: 'flex',
@@ -105,7 +104,8 @@ export default function PerfectartifactCard({
           alt="Set Image"
           src={setImagePath}
           sx={{ width: 48, height: 48, mr: 2 }}
-        />
+          />
+
         <Box>
           <Typography
             color="text.secondary"
@@ -119,8 +119,7 @@ export default function PerfectartifactCard({
           </Typography>
         </Box>
       </Box>
-      {/* test_artifact Stats with styled boxes */}
-
+        
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
         {['flower', 'plume', 'sands', 'goblet', 'circlet'].map((piece) => (
           <Box
