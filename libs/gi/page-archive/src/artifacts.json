@@ -654,7 +654,7 @@
     "set_image": "seii_77.png",
     "weapons": [
       "SunnyMorningSleepIn",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "HakushinRing",
       "FavoniusCodex",
       "PrototypeAmber",
@@ -804,7 +804,7 @@
       "ReliquaryOfTruth",
       "SunnyMorningSleepIn",
       "StarcallersWatch",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
       "SacrificialJade"
@@ -921,7 +921,7 @@
     "set_image": "seii_195.png",
     "weapons": [
       "SurfsUp",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TomeOfTheEternalFlow",
       "LostPrayerToTheSacredWinds",
       "TheWidsith",
@@ -1013,7 +1013,7 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["KagurasVerity", "AThousandBlazingSuns", "SacrificialFragments"]
+    "weapons": ["KagurasVerity", "AThousandFloatingDreams", "SacrificialFragments"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -1027,7 +1027,7 @@
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
     "weapons": [
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TheWidsith",
       "PrototypeAmber",
       "EtherlightSpindlelute"
@@ -1926,7 +1926,7 @@
     "weapons": [
       "WolfsGravestone",
       "RedhornStonethresher",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "SerpentSpine",
       "SkyriderGreatsword",
       "MailedFlower",
@@ -3015,7 +3015,7 @@
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
     "weapons": [
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TheWidsith",
       "PrototypeAmber",
       "EtherlightSpindlelute"
@@ -3604,7 +3604,7 @@
     "set_image": "seii_245.png",
     "weapons": [
       "SurfsUp",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TomeOfTheEternalFlow",
       "LostPrayerToTheSacredWinds",
       "TheWidsith",
@@ -4101,7 +4101,7 @@
     "description": "BEST SET IF YOU WANT TO REDUCE electro_dmg_ DMG AND GOOD FOR ATTACKING",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["KagurasVerity", "AThousandBlazingSuns", "SacrificialFragments"]
+    "weapons": ["KagurasVerity", "AThousandFloatingDreams", "SacrificialFragments"]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -4277,7 +4277,7 @@
     "set_image": "seii_256.png",
     "weapons": [
       "SurfsUp",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TomeOfTheEternalFlow",
       "LostPrayerToTheSacredWinds",
       "TheWidsith",
@@ -4644,7 +4644,7 @@
       "ReliquaryOfTruth",
       "SunnyMorningSleepIn",
       "StarcallersWatch",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
       "SacrificialJade"
@@ -5073,7 +5073,7 @@
     "set_image": "seii_145.png",
     "weapons": [
       "SurfsUp",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "TomeOfTheEternalFlow",
       "LostPrayerToTheSacredWinds",
       "TheWidsith",
@@ -5485,7 +5485,7 @@
       "ReliquaryOfTruth",
       "SunnyMorningSleepIn",
       "StarcallersWatch",
-      "AThousandBlazingSuns",
+      "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
       "SacrificialJade"
