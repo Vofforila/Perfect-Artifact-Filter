@@ -4,7 +4,7 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Durin",
     "critUser": true,
     "description": "GOOD CAN COMBINE WITH 2 PIECE Noblesse Oblige / Crimson Witch of Flames",
@@ -516,10 +516,10 @@
     "plume": "atk_ + eleMas + enerRech_",
     "sands": "eleMas + enerRech_",
     "goblet": "eleMas + enerRech_",
-    "circlet": "eleMas +ER",
+    "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "description": "BiS ",
+    "description": "GOOD SECOND OPTION",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
     "weapons": [
@@ -593,7 +593,7 @@
     "plume": "atk_ + eleMas + enerRech_ +ATK",
     "sands": "eleMas + enerRech_ + atk_ + atk",
     "goblet": "eleMas + enerRech_ + atk_ + atk",
-    "circlet": "eleMas +ER + atk_ + atk",
+    "circlet": "eleMas + enerRech_ + atk_ + atk",
     "character": "TravelerAnemo",
     "critUser": false,
     "description": "BiS",
@@ -646,7 +646,7 @@
     "plume": "atk_ + enerRech_ + eleMas",
     "sands": "eleMas + enerRech_",
     "goblet": "eleMas + enerRech_",
-    "circlet": "eleMas/enerRech_ + EM/enerRech_",
+    "circlet": "eleMas/enerRech_ +  eleMas/enerRech_",
     "character": "Sucrose",
     "critUser": false,
     "description": "BiS",
@@ -916,7 +916,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
     "critUser": true,
-    "description": "GOOD SECOND SET IF YOU DON'T HAVE ANY hydro_dmg_ CHARACTERS IN YOUR COMP AND YOU HAVE EM GAINS",
+    "description": "GOOD SECOND SET IF YOU DON'T HAVE ANY hydro_dmg_ CHARACTERS IN YOUR COMP AND YOU HAVE  eleMas GAINS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
     "weapons": [
@@ -1041,7 +1041,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
+    "description": "GOOD SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
     "weapons": [
@@ -1107,7 +1107,7 @@
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
     "plume": "atk_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
-    "sands": "hp_/enerRech_+ ER + eleMas + atk_ + atk",
+    "sands": "hp_/enerRech_+ enerRech_ + eleMas + atk_ + atk",
     "goblet": "hydro_dmg_ + hp_ + hp + enerRech_ + eleMas",
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "Barbara",
@@ -1679,10 +1679,10 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Durin",
     "critUser": true,
-    "description": "BEST IF NO NOBLESS CAN ALSO COMBINE WITH 2 PIECE Crimson Witch of Flames / Gladiator's Finale",
+    "description": "GOOD IF NO NOBLESS CAN ALSO COMBINE WITH 2 PIECE Crimson Witch of Flames / Gladiator's Finale",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
     "weapons": [
@@ -2309,7 +2309,7 @@
     ]
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2932,7 +2932,7 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "enerRech_/eleMas/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Xiangling",
     "critUser": true,
     "description": "GOOD WITH EMBLEM IF USING NATLAN CHARACTERS",
@@ -3044,7 +3044,7 @@
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
-    "goblet": "dendro_dmg_ + critDMG_ + critRate_ + atk_ + atk +ER",
+    "goblet": "dendro_dmg_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Emilie",
     "critUser": true,
@@ -3158,10 +3158,10 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Durin",
     "critUser": true,
-    "description": "BiS IF NOBLESS IN TEAM",
+    "description": "GOOD IF NOBLESS IN TEAM",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
     "weapons": [
@@ -3178,7 +3178,7 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "enerRech_/eleMas/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Xiangling",
     "critUser": true,
     "description": "BiS FOR ROTATION RATE AND pyro_dmg_ APPLICATION",
@@ -3577,7 +3577,7 @@
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
-    "goblet": "dendro_dmg_ + critDMG_ + critRate_ + atk_ + atk +ER",
+    "goblet": "dendro_dmg_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Emilie",
     "critUser": true,
@@ -4306,7 +4306,7 @@
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +EM + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Durin",
     "critUser": true,
     "description": "GOOD CAN COMBINE WITH 2 PIECE Noblesse Oblige / Gladiator's Finale",
@@ -4363,7 +4363,7 @@
     ]
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -4402,7 +4402,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Klee",
     "critUser": true,
-    "description": "BiS - GOOD WITHOUT FURINA",
+    "description": "GOOD SECOND OPTION",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
     "weapons": [
@@ -4671,7 +4671,7 @@
     ]
   },
   {
-    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ +EM",
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -4710,7 +4710,7 @@
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
     "plume": "atk_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
-    "sands": "hp_/enerRech_+ ER + eleMas + atk_ + atk",
+    "sands": "hp_/enerRech_+ enerRech_ + eleMas + atk_ + atk",
     "goblet": "hydro_dmg_ + hp_ + hp + enerRech_ + eleMas",
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "Barbara",
@@ -5031,7 +5031,7 @@
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
     "plume": "atk_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
-    "sands": "hp_/enerRech_+ ER + eleMas + atk_ + atk",
+    "sands": "hp_/enerRech_+ enerRech_ + eleMas + atk_ + atk",
     "goblet": "hydro_dmg_ + hp_ + hp + enerRech_ + eleMas",
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "Barbara",
@@ -5415,6 +5415,28 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "sands": "enerRech_/hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "goblet": "hp_ + critDMG_ + critRate_ + enerRech_ + hp + eleMas",
+    "circlet": "critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "character": "Columbina",
+    "critUser": true,
+    "description": "BEST WHEN USED WITH INEFFA",
+    "setKey": "SilkenMoonsSerenade",
+    "set_image": "seii_275.png",
+    "weapons": [
+      "NocturnesCurtainCall",
+      "SurfsUp",
+      "TomeOfTheEternalFlow",
+      "ReliquaryOfTruth",
+      "AshGravenDrinkingHorn",
+      "FavoniusCodex",
+      "SacrificialJade",
+      "PrototypeAmber"
+    ]
+  },
+  {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
     "plume": "atk_ + enerRech_ + eleMas + critDMG_ + critRate_",
     "sands": "enerRech_/eleMas + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -5490,6 +5512,167 @@
       "BlackmarrowLantern",
       "TheWidsith",
       "SacrificialJade"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "sands": "enerRech_/hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "goblet": "hp_ + critDMG_ + critRate_ + enerRech_ + hp + eleMas",
+    "circlet": "critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
+    "character": "Columbina",
+    "critUser": true,
+    "description": "BEST WHEN USED OFF-FIELD",
+    "setKey": "AubadeOfMorningstarAndMoon",
+    "set_image": "seii_280.png",
+    "weapons": [
+      "NocturnesCurtainCall",
+      "SurfsUp",
+      "TomeOfTheEternalFlow",
+      "ReliquaryOfTruth",
+      "AshGravenDrinkingHorn",
+      "FavoniusCodex",
+      "SacrificialJade",
+      "PrototypeAmber"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Ineffa",
+    "critUser": true,
+    "description": "BiS with Lunar Reaction Teams",
+    "setKey": "AubadeOfMorningstarAndMoon",
+    "set_image": "seii_76.png",
+    "weapons": [
+      "FracturedHalo",
+      "MissiveWindspear",
+      "ProspectorsDrill",
+      "TamayurateiNoOhanashi",
+      "FavoniusLance"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ +  eleMas + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "BiS with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
+  },
+  {
+    "flower": "hp_ + eleMas + enerRech_",
+    "plume": "atk_ + eleMas + enerRech_",
+    "sands": "eleMas + enerRech_",
+    "goblet": "eleMas + enerRech_",
+    "circlet": "eleMas + enerRech_",
+    "character": "Venti",
+    "critUser": false,
+    "description": "BiS with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "PolarStar",
+      "SongOfStillness",
+      "ChainBreaker",
+      "EndOfTheLine",
+      "RainbowSerpentsRainBow"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
+    "goblet": "pyro_dmg_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
+    "character": "Klee",
+    "critUser": true,
+    "description": "BiS with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "LostPrayerToTheSacredWinds",
+      "CashflowSupervision",
+      "TomeOfTheEternalFlow",
+      "FlowingPurity",
+      "DodocoTales",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
+  },
+  {
+    "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "plume": "atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "sands": "eleMas/atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "goblet": "eleMas/physical_dmg_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
+    "character": "Razor",
+    "critUser": true,
+    "description": "BiS with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "AThousandBlazingSuns",
+      "StaffOfTheScarletSands",
+      "SongOfBrokenPines",
+      "TidalShadow",
+      "MailedFlower",
+      "UltimateOverlordsMegaMagicSword",
+      "FlameForgedInsight"
+    ]
+  },
+  {
+    "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk",
+    "goblet": "atk_/hydro_dmg_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Mona",
+    "critUser": true,
+    "description": "GOOD with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "FavoniusCodex",
+      "TheWidsith",
+      "OathswornEye",
+      "BalladOfTheBoundlessBlue"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "goblet": "electro_dmg_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "character": "Fischl",
+    "critUser": true,
+    "description": "GOOD with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "ElegyForTheEnd",
+      "TheStringless",
+      "AlleyHunter"
     ]
   }
 ]
