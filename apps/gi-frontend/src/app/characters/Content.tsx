@@ -1,6 +1,5 @@
 'use client'
 import type { Tables } from '@genshin-optimizer/gi/supabase'
-import { randomizeCharacter } from '@genshin-optimizer/gi/util'
 import { Button, Container, Grid, Skeleton, Typography } from '@mui/material'
 import { Suspense, useEffect, useState } from 'react'
 import { useSupabase } from '../../utils/supabase/client'
@@ -19,24 +18,7 @@ export default function Content({
   const supabase = useSupabase()
   const [characters, setCharacters] = useState(serverCharacters)
   const addChar = async () => {
-    try {
-      const ranChar: any = randomizeCharacter()
-      if (characters.find((c) => c.key === ranChar.key))
-        return console.warn('Created a character with the same key')
-      const { auto, skill, burst } = ranChar.talent
-      delete ranChar.talent
-      ranChar.talent_auto = auto
-      ranChar.talent_skill = skill
-      ranChar.talent_burst = burst
-
-      const { error } = await supabase.from('characters').insert({
-        ...ranChar,
-        account_id: accountId,
-      } as any)
-      if (error) console.error(error)
-    } catch (error) {
-      console.error(error)
-    }
+    // TODO: Implement character creation
   }
   useEffect(() => {
     const channel = supabase
