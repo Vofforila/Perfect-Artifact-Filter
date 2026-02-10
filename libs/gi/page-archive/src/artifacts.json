@@ -1013,7 +1013,11 @@
     "description": "BEST SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["KagurasVerity", "AThousandFloatingDreams", "SacrificialFragments"]
+    "weapons": [
+      "KagurasVerity",
+      "AThousandFloatingDreams",
+      "SacrificialFragments"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
@@ -2320,7 +2324,7 @@
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
     "weapons": [
-      "StaffOfTheScarletSands",
+      "LostPrayerToTheSacredWinds",
       "CashflowSupervision",
       "TomeOfTheEternalFlow",
       "OathswornEye",
@@ -4102,7 +4106,11 @@
     "description": "BEST SET IF YOU WANT TO REDUCE electro_dmg_ DMG AND GOOD FOR ATTACKING",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["KagurasVerity", "AThousandFloatingDreams", "SacrificialFragments"]
+    "weapons": [
+      "KagurasVerity",
+      "AThousandFloatingDreams",
+      "SacrificialFragments"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -4374,7 +4382,7 @@
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
     "weapons": [
-      "StaffOfTheScarletSands",
+      "LostPrayerToTheSacredWinds",
       "CashflowSupervision",
       "TomeOfTheEternalFlow",
       "OathswornEye",
@@ -4682,7 +4690,7 @@
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
     "weapons": [
-      "StaffOfTheScarletSands",
+      "LostPrayerToTheSacredWinds",
       "CashflowSupervision",
       "TomeOfTheEternalFlow",
       "OathswornEye",
