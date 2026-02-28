@@ -662,6 +662,25 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
+    "sands": "def_ + critDMG_ + critRate_ + def + eleMas + enerRech_",
+    "goblet": "def_ + critDMG_ + critRate_ + def + eleMas + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
+    "character": "Zibai",
+    "critUser": true,
+    "description": "GOOD SECONDARY",
+    "setKey": "HuskOfOpulentDreams",
+    "set_image": "seii_175.png",
+    "weapons": [
+      "LightbearingMoonshard",
+      "FluteOfEzpitzal",
+      "UrakuMisugiri",
+      "LightOfFoliarIncision",
+      "PeakPatrolSong"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + def_ + def",
@@ -2077,6 +2096,27 @@
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk",
+    "goblet": "anemo_dmg_/eleMas + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Varka",
+    "critUser": true,
+    "description": "GOOD SECODARY WITH FURINA",
+    "setKey": "MarechausseeHunter",
+    "set_image": "seii_220.png",
+    "weapons": [
+      "GestOfTheMightyWolf",
+      "WolfsGravestone",
+      "TalkingStick",
+      "BeaconOfTheReedSea",
+      "Verdict",
+      "RedhornStonethresher",
+      "SerpentSpine"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk",
     "goblet": "cryo_dmg_ + critDMG_ + critRate_ + atk_ + atk",
     "circlet": "critDMG_ + critDMG_ + critRate_ + atk_ + atk",
@@ -2277,7 +2317,8 @@
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
       "MailedFlower",
-      "SkyriderGreatsword"
+      "SkyriderGreatsword",
+      "TalkingStick"
     ]
   },
   {
@@ -2858,7 +2899,12 @@
     "description": "BEST SECONDARY SET",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
-    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "WolfFang",
+      "MailedFlower",
+      "TalkingStick"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + critDMG_ + critRate_ + enerRech_",
@@ -2951,7 +2997,8 @@
       "KitainCrossSpear",
       "Deathmatch",
       "TamayurateiNoOhanashi",
-      "TheCatch"
+      "TheCatch",
+      "PrototypeStarglitter"
     ]
   },
   {
@@ -2986,7 +3033,12 @@
     "description": "GOOD ONLY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "WolfFang",
+      "MailedFlower",
+      "TalkingStick"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + eleMas",
@@ -3196,7 +3248,8 @@
       "FavoniusSword",
       "KitainCrossSpear",
       "Deathmatch",
-      "TamayurateiNoOhanashi"
+      "TamayurateiNoOhanashi",
+      "PrototypeStarglitter"
     ]
   },
   {
@@ -4307,7 +4360,12 @@
     "description": "BiS - INCREASES DMG BASED ON Nightsoul points",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
-    "weapons": ["AThousandBlazingSuns", "WolfFang", "MailedFlower"]
+    "weapons": [
+      "AThousandBlazingSuns",
+      "WolfFang",
+      "MailedFlower",
+      "TalkingStick"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -4367,7 +4425,8 @@
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
       "MailedFlower",
-      "SkyriderGreatsword"
+      "SkyriderGreatsword",
+      "TalkingStick"
     ]
   },
   {
@@ -4435,6 +4494,27 @@
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
     "weapons": ["StaffOfHoma", "LithicBlade"]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk",
+    "goblet": "anemo_dmg_/eleMas + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Varka",
+    "critUser": true,
+    "description": "GOOD SECONDARY OR COMBINED WITH A Day Carved From Rising Winds",
+    "setKey": "ShimenawasReminiscence",
+    "set_image": "seii_165.png",
+    "weapons": [
+      "GestOfTheMightyWolf",
+      "WolfsGravestone",
+      "TalkingStick",
+      "BeaconOfTheReedSea",
+      "Verdict",
+      "RedhornStonethresher",
+      "SerpentSpine"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -4637,6 +4717,24 @@
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
     "weapons": ["ThunderingPulse", "SkywardHarp"]
+  },
+  {
+    "flower": "hp_ + eleMas + enerRech_",
+    "plume": "atk_ + eleMas + enerRech_",
+    "sands": "enerRech/eleMas + eleMas + enerRech_",
+    "goblet": "geo_dmg_ + eleMas + enerRech_",
+    "circlet": "eleMas + enerRech_",
+    "character": "Illuga",
+    "critUser": false,
+    "description": "GOOD COMBINED WITH Night of the Sky's Unveiling",
+    "setKey": "WanderersTroupe",
+    "set_image": "seii_78.png",
+    "weapons": [
+      "FavoniusLance",
+      "EngulfingLightning",
+      "PrototypeStarglitter",
+      "TheCatch"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -5384,6 +5482,24 @@
     ]
   },
   {
+    "flower": "hp_ + eleMas + enerRech_",
+    "plume": "atk_ + eleMas + enerRech_",
+    "sands": "enerRech/eleMas + eleMas + enerRech_",
+    "goblet": "geo_dmg_ + eleMas + enerRech_",
+    "circlet": "eleMas + enerRech_",
+    "character": "Illuga",
+    "critUser": false,
+    "description": "BiS",
+    "setKey": "SilkenMoonsSerenade",
+    "set_image": "seii_275.png",
+    "weapons": [
+      "FavoniusLance",
+      "EngulfingLightning",
+      "PrototypeStarglitter",
+      "TheCatch"
+    ]
+  },
+  {
     "flower": "hp_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas +",
     "plume": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
     "sands": "enerRech_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
@@ -5460,6 +5576,43 @@
       "FavoniusGreatsword",
       "MailedFlower",
       "Rainslasher"
+    ]
+  },
+  {
+    "flower": "hp_ + eleMas + enerRech_",
+    "plume": "atk_ + eleMas + enerRech_",
+    "sands": "enerRech/eleMas + eleMas + enerRech_",
+    "goblet": "geo_dmg_ + eleMas + enerRech_",
+    "circlet": "eleMas + enerRech_",
+    "character": "Illuga",
+    "critUser": false,
+    "description": "GOOD COMBINED WITH Wanderer's Troupe",
+    "setKey": "NightOfTheSkysUnveiling",
+    "set_image": "seii_270.png",
+    "weapons": [
+      "FavoniusLance",
+      "EngulfingLightning",
+      "PrototypeStarglitter",
+      "TheCatch"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
+    "sands": "def_ + critDMG_ + critRate_ + def + eleMas + enerRech_",
+    "goblet": "def_ + critDMG_ + critRate_ + def + eleMas + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ +def + eleMas + enerRech_",
+    "character": "Zibai",
+    "critUser": true,
+    "description": "BiS",
+    "setKey": "NightOfTheSkysUnveiling",
+    "set_image": "seii_270.png",
+    "weapons": [
+      "LightbearingMoonshard",
+      "FluteOfEzpitzal",
+      "UrakuMisugiri",
+      "LightOfFoliarIncision",
+      "PeakPatrolSong"
     ]
   },
   {
@@ -5681,6 +5834,27 @@
       "ElegyForTheEnd",
       "TheStringless",
       "AlleyHunter"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
+    "sands": "atk_ + critDMG_ + critRate_ + atk",
+    "goblet": "anemo_dmg_/eleMas + critDMG_ + critRate_ + atk_ + atk",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk",
+    "character": "Varka",
+    "critUser": true,
+    "description": "BiS with HomeworkDone",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "GestOfTheMightyWolf",
+      "WolfsGravestone",
+      "TalkingStick",
+      "BeaconOfTheReedSea",
+      "Verdict",
+      "RedhornStonethresher",
+      "SerpentSpine"
     ]
   }
 ]
