@@ -231,7 +231,7 @@
     "set_image": "seii_76.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "StaffOfTheScarletSands",
+      "BeaconOfTheReedSea",
       "SongOfBrokenPines",
       "TidalShadow",
       "MailedFlower",
@@ -1069,7 +1069,7 @@
     "set_image": "seii_195.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "StaffOfTheScarletSands",
+      "BeaconOfTheReedSea",
       "SongOfBrokenPines",
       "TidalShadow",
       "MailedFlower",
@@ -2901,8 +2901,15 @@
     "set_image": "seii_250.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "WolfFang",
+      "WolfsGravestone",
       "MailedFlower",
+      "Song of Broken Pines",
+      "TidalShadow",
+      "GestOfTheMightyWolf",
+      "BeaconOfTheReedSea",
+      "RedhornStonethresher",
+      "Verdict",
+      "SerpentSpineg",
       "TalkingStick"
     ]
   },
@@ -3035,8 +3042,15 @@
     "set_image": "seii_220.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "WolfFang",
+      "WolfsGravestone",
       "MailedFlower",
+      "Song of Broken Pines",
+      "TidalShadow",
+      "GestOfTheMightyWolf",
+      "BeaconOfTheReedSea",
+      "RedhornStonethresher",
+      "Verdict",
+      "SerpentSpineg",
       "TalkingStick"
     ]
   },
@@ -4362,8 +4376,15 @@
     "set_image": "seii_256.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "WolfFang",
+      "WolfsGravestone",
       "MailedFlower",
+      "Song of Broken Pines",
+      "TidalShadow",
+      "GestOfTheMightyWolf",
+      "BeaconOfTheReedSea",
+      "RedhornStonethresher",
+      "Verdict",
+      "SerpentSpineg",
       "TalkingStick"
     ]
   },
@@ -5383,7 +5404,7 @@
     "set_image": "seii_155.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "StaffOfTheScarletSands",
+      "BeaconOfTheReedSea",
       "SongOfBrokenPines",
       "TidalShadow",
       "MailedFlower",
@@ -5404,7 +5425,7 @@
     "set_image": "seii_83.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "StaffOfTheScarletSands",
+      "BeaconOfTheReedSea",
       "SongOfBrokenPines",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
@@ -5791,7 +5812,7 @@
     "set_image": "seii_285.png",
     "weapons": [
       "AThousandBlazingSuns",
-      "StaffOfTheScarletSands",
+      "BeaconOfTheReedSea",
       "SongOfBrokenPines",
       "TidalShadow",
       "MailedFlower",
