@@ -15,7 +15,7 @@ interface PerfectArtifactCardProps {
 export default function PerfectartifactCard({
   perfect_set,
 }: PerfectArtifactCardProps) {
-  // console.log(perfect_set.character)
+  console.log(perfect_set.character)
   const setImagePath = artifactAsset(perfect_set.setKey, 'flower')
 
   return (
