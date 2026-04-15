@@ -662,6 +662,26 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "goblet": "def_ + critDMG_ + critRate_ + def + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "character": "Linnea",
+    "critUser": true,
+    "description": "BiS if C1^",
+    "setKey": "HuskOfOpulentDreams",
+    "set_image": "seii_175.png",
+    "weapons": [
+      "GoldenFrostboundOath",
+      "SkywardHarp",
+      "FavoniusWarbow",
+      "AquaSimulacra",
+      "HuntersPath",
+      "PolarStar"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
     "sands": "def_ + critDMG_ + critRate_ + def + eleMas + enerRech_",
@@ -5560,6 +5580,26 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "goblet": "def_ + critDMG_ + critRate_ + def + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "character": "Linnea",
+    "critUser": true,
+    "description": "BiS if C1^",
+    "setKey": "SilkenMoonsSerenade",
+    "set_image": "seii_275.png",
+    "weapons": [
+      "GoldenFrostboundOath",
+      "SkywardHarp",
+      "FavoniusWarbow",
+      "AquaSimulacra",
+      "HuntersPath",
+      "PolarStar"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
     "sands": "enerRech_/hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
@@ -5697,6 +5737,26 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "sands": "def_/enerRech_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "goblet": "def_ + critDMG_ + critRate_ + def + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + enerRech_ + eleMas",
+    "character": "Linnea",
+    "critUser": true,
+    "description": "BiS for own dmg improvement",
+    "setKey": "AubadeOfMorningstarAndMoon",
+    "set_image": "seii_280.png",
+    "weapons": [
+      "GoldenFrostboundOath",
+      "SkywardHarp",
+      "FavoniusWarbow",
+      "AquaSimulacra",
+      "HuntersPath",
+      "PolarStar"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
     "sands": "enerRech_/hp_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp + eleMas",
@@ -5720,15 +5780,15 @@
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
-    "plume": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
-    "sands": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
-    "goblet": "atk_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "circlet": "critDMG_/critRate_ +  critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Ineffa",
     "critUser": true,
     "description": "BiS with Lunar Reaction Teams",
     "setKey": "AubadeOfMorningstarAndMoon",
-    "set_image": "seii_76.png",
+    "set_image": "seii_280.png",
     "weapons": [
       "FracturedHalo",
       "MissiveWindspear",
