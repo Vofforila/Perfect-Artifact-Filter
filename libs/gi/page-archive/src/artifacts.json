@@ -417,6 +417,29 @@
     ]
   },
   {
+    "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "plume": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "goblet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "circlet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "character": "Prune",
+    "critUser": false,
+    "description": "BiS with elemental reactions and no Celestial Gift",
+    "setKey": "ViridescentVenerer",
+    "set_image": "seii_77.png",
+    "weapons": [
+      "SkywardAtlas",
+      "OathswornEye",
+      "AngelosHeptades",
+      "CranesEchoingCall",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "FlowingPurity",
+      "Frostbearer",
+      "PrototypeAmber"
+    ]
+  },
+  {
     "flower": "hp_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas +",
     "plume": "atk_ + enerRech_ + atk + critDMG_ + critRate_ + eleMas",
     "sands": "enerRech_ + enerRech_ + atk + atk_ + critDMG_ + critRate_ + eleMas",
@@ -1694,6 +1717,53 @@
       "FluteOfEzpitzal"
     ]
   },
+    {
+    "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "plume": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "goblet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "circlet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "character": "Prune",
+    "critUser": false,
+    "description": "",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png",
+    "weapons": [
+      "SkywardAtlas",
+      "OathswornEye",
+      "AngelosHeptades",
+      "CranesEchoingCall",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "FlowingPurity",
+      "Frostbearer",
+      "PrototypeAmber"
+    ]
+  },
+  {
+    "flower": "hp_ + atk_ + atk + enerRech_",
+    "plume": "atk_ + atk_ + atk + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_",
+    "goblet": "atk_ + atk_ + atk + enerRech_",
+    "circlet": "atk_ + atk_ + atk + enerRech_",
+    "character": "Nicole",
+    "critUser": false,
+    "description": "",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png",
+    "weapons": [
+      "AngelosHeptades",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "Frostbearer",
+      "FlowingPurity",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "StarcallersWatch",
+      "OathswornEye"
+    ]
+  },
   {
     "flower": "hp_ + enerRech_ + atk_ + critDMG_ + critRate_",
     "plume": "atk_ + enerRech_ + atk_ + critDMG_ + critRate_",
@@ -2572,7 +2642,8 @@
       "EtherlightSpindlelute",
       "WanderingEvenstar",
       "PrototypeAmber",
-      "FavoniusCodex"
+      "FavoniusCodex",
+      "AngelosHeptades"
     ]
   },
   {
@@ -2868,7 +2939,8 @@
       "EtherlightSpindlelute",
       "WanderingEvenstar",
       "PrototypeAmber",
-      "FavoniusCodex"
+      "FavoniusCodex",
+      "AngelosHeptades"
     ]
   },
   {
@@ -5798,6 +5870,30 @@
     ]
   },
   {
+    "flower": "hp_ + atk_ + atk + enerRech_",
+    "plume": "atk_ + atk_ + atk + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_",
+    "goblet": "atk_ + atk_ + atk + enerRech_",
+    "circlet": "atk_ + atk_ + atk + enerRech_",
+    "character": "Nicole",
+    "critUser": false,
+    "description": "",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "AngelosHeptades",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "Frostbearer",
+      "FlowingPurity",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "StarcallersWatch",
+      "OathswornEye"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -5937,5 +6033,114 @@
       "RedhornStonethresher",
       "SerpentSpine"
     ]
+  },
+  {
+    "flower": "hp_ + atk_ + atk + enerRech_",
+    "plume": "atk_ + atk_ + atk + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_",
+    "goblet": "atk_ + atk_ + atk + enerRech_",
+    "circlet": "atk_ + atk_ + atk + enerRech_",
+    "character": "Nicole",
+    "critUser": false,
+    "description": "BiS with HomeworkDone",
+    "setKey": "CelestialGift",
+    "set_image": "seii_290.png",
+    "weapons": [
+      "AngelosHeptades",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "Frostbearer",
+      "FlowingPurity",
+      "CranesEchoingCall",
+      "SkywardAtlas",
+      "StarcallersWatch",
+      "OathswornEye"
+    ]
+  },
+  {
+    "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "plume": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "sands": "atk_/enerRech_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "goblet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "circlet": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
+    "character": "Prune",
+    "critUser": false,
+    "description": "BiS with HomeworkDone and if no one has Celestial Gift in party",
+    "setKey": "CelestialGift",
+    "set_image": "seii_290.png",
+    "weapons": [
+      "SkywardAtlas",
+      "OathswornEye",
+      "AngelosHeptades",
+      "CranesEchoingCall",
+      "MemoryOfDust",
+      "FavoniusCodex",
+      "FlowingPurity",
+      "Frostbearer",
+      "PrototypeAmber"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "goblet": "pyro_dmg_/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
+    "character": "Durin",
+    "critUser": true,
+    "description": "Good with HomeworkDone and if no one has Celestial Gift in party",
+    "setKey": "CelestialGift",
+    "set_image": "seii_290.png",
+    "weapons": [
+      "AthameArtis",
+      "PrimordialJadeCutter",
+      "FreedomSworn",
+      "MoonweaversDawn",
+      "LionsRoar",
+      "FinaleOfTheDeep"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "goblet": "electro_dmg_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
+    "character": "Fischl",
+    "critUser": true,
+    "description": "Good with HomeworkDone and if no one has Celestial Gift in party",
+    "setKey": "CelestialGift",
+    "set_image": "seii_290.png",
+    "weapons": [
+      "TheDaybreakChronicles",
+      "ThunderingPulse",
+      "ElegyForTheEnd",
+      "TheStringless",
+      "AlleyHunter"
+    ]
+  },
+  {
+    "flower": "hp_ + enerRech_ + eleMas",
+    "plume": "atk_ + enerRech_ + eleMas",
+    "sands": "eleMas + enerRech_",
+    "goblet": "eleMas + enerRech_",
+    "circlet": "eleMas/enerRech_ +  eleMas/enerRech_",
+    "character": "Sucrose",
+    "critUser": false,
+    "description": "BiS",
+    "setKey": "CelestialGift",
+    "set_image": "seii_290.png",
+    "weapons": [
+      "SunnyMorningSleepIn",
+      "AThousandFloatingDreams",
+      "HakushinRing",
+      "FavoniusCodex",
+      "PrototypeAmber",
+      "EtherlightSpindlelute"
+    ]
   }
 ]
+
+
+angelo's heptades
