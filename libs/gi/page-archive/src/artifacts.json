@@ -1717,7 +1717,7 @@
       "FluteOfEzpitzal"
     ]
   },
-    {
+  {
     "flower": "hp_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
     "plume": "atk_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
     "sands": "atk_/enerRech_ + atk_ + atk + enerRech_ + critRate_ + critDMG_",
@@ -2798,7 +2798,7 @@
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "plume": "atk_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
-    "sands": "enerRech_/hp_ + hp + hp_ + hp + critDMG_ + critRate_ + eleMas",
+    "sands": "enerRech_/hp_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "goblet": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "circlet": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
@@ -3402,7 +3402,7 @@
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "plume": "atk_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
-    "sands": "enerRech_/hp_ + hp + hp_ + hp + critDMG_ + critRate_ + eleMas",
+    "sands": "enerRech_/hp_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "goblet": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "circlet": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
