@@ -32,11 +32,18 @@
     "set_image": "seii_76.png",
     "weapons": [
       "BloodsoakedRuins",
-      "VortexVanquisher",
-      "TamayurateiNoOhanashi",
-      "ProspectorsDrill",
       "BalladOfTheFjords",
-      "MissiveWindspear"
+      "SkywardSpine",
+      "ProspectorsShovel",
+      "MissiveWindspear",
+      "StaffOfTheScarletSands",
+      "FracturedHalo",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "LumidouceElegy",
+      "Deathmatch",
+      "VortexVanquisher",
+      "SacrificersStaff"
     ]
   },
   {
@@ -52,10 +59,17 @@
     "set_image": "seii_76.png",
     "weapons": [
       "FracturedHalo",
-      "MissiveWindspear",
+      "PrimordialJadeWingedSpear",
+      "BalladOfTheFjords",
       "ProspectorsDrill",
-      "TamayurateiNoOhanashi",
-      "FavoniusLance"
+      "FavoniusLance",
+      "StaffOfTheScarletSands",
+      "SymphonistOfScents",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "Deathmatch",
+      "CalamityQueller"
     ]
   },
   {
@@ -885,11 +899,18 @@
     "set_image": "seii_195.png",
     "weapons": [
       "BloodsoakedRuins",
-      "VortexVanquisher",
-      "TamayurateiNoOhanashi",
-      "ProspectorsDrill",
       "BalladOfTheFjords",
-      "MissiveWindspear"
+      "SkywardSpine",
+      "ProspectorsShovel",
+      "MissiveWindspear",
+      "StaffOfTheScarletSands",
+      "FracturedHalo",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "LumidouceElegy",
+      "Deathmatch",
+      "VortexVanquisher",
+      "SacrificersStaff"
     ]
   },
   {
@@ -924,10 +945,17 @@
     "set_image": "seii_195.png",
     "weapons": [
       "FracturedHalo",
-      "MissiveWindspear",
+      "PrimordialJadeWingedSpear",
+      "BalladOfTheFjords",
       "ProspectorsDrill",
-      "TamayurateiNoOhanashi",
-      "FavoniusLance"
+      "FavoniusLance",
+      "StaffOfTheScarletSands",
+      "SymphonistOfScents",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "Deathmatch",
+      "CalamityQueller"
     ]
   },
   {
@@ -1005,9 +1033,13 @@
     "set_image": "seii_195.png",
     "weapons": [
       "EngulfingLightning",
-      "FavoniusLance",
-      "TamayurateiNoOhanashi",
-      "TheCatch"
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "SkywardSpine",
+      "TheCatch",
+      "DragonsBane",
+      "BalladOfTheFjords",
+      "FavoniusLance"
     ]
   },
   {
@@ -1197,8 +1229,9 @@
     "weapons": [
       "StaffOfTheScarletSands",
       "StaffOfHoma",
-      "MissiveWindspear",
-      "TamayurateiNoOhanashi"
+      "PrimordialJadeWingedSpear",
+      "Deathmatch",
+      "BalladOfTheFjords"
     ]
   },
   {
@@ -1315,14 +1348,17 @@
     "set_image": "seii_140.png",
     "weapons": [
       "SymphonistOfScents",
-      "EngulfingLightning",
-      "SkywardSpine",
+      "ProspectorsDrill",
       "FavoniusLance",
       "MountainBracingBolt",
+      "SkywardSpine",
       "CalamityQueller",
       "StaffOfHoma",
+      "FracturedHalo",
       "LumidouceElegy",
-      "TamayurateiNoOhanashi"
+      "Deathmatch",
+      "EngulfingLightning",
+      "SacrificersStaff"
     ]
   },
   {
@@ -1546,14 +1582,17 @@
     "set_image": "seii_225.png",
     "weapons": [
       "SymphonistOfScents",
-      "EngulfingLightning",
-      "SkywardSpine",
+      "ProspectorsDrill",
       "FavoniusLance",
       "MountainBracingBolt",
+      "SkywardSpine",
       "CalamityQueller",
       "StaffOfHoma",
+      "FracturedHalo",
       "LumidouceElegy",
-      "TamayurateiNoOhanashi"
+      "Deathmatch",
+      "EngulfingLightning",
+      "SacrificersStaff"
     ]
   },
   {
@@ -1777,14 +1816,17 @@
     "set_image": "seii_82.png",
     "weapons": [
       "SymphonistOfScents",
-      "EngulfingLightning",
-      "SkywardSpine",
+      "ProspectorsDrill",
       "FavoniusLance",
       "MountainBracingBolt",
+      "SkywardSpine",
       "CalamityQueller",
       "StaffOfHoma",
+      "FracturedHalo",
       "LumidouceElegy",
-      "TamayurateiNoOhanashi"
+      "Deathmatch",
+      "EngulfingLightning",
+      "SacrificersStaff"
     ]
   },
   {
@@ -2365,9 +2407,13 @@
     "set_image": "seii_220.png",
     "weapons": [
       "EngulfingLightning",
-      "FavoniusLance",
-      "TamayurateiNoOhanashi",
-      "TheCatch"
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "SkywardSpine",
+      "TheCatch",
+      "DragonsBane",
+      "BalladOfTheFjords",
+      "FavoniusLance"
     ]
   },
   {
@@ -2568,14 +2614,17 @@
     "set_image": "seii_150.png",
     "weapons": [
       "SymphonistOfScents",
-      "EngulfingLightning",
-      "SkywardSpine",
+      "ProspectorsDrill",
       "FavoniusLance",
       "MountainBracingBolt",
+      "SkywardSpine",
       "CalamityQueller",
       "StaffOfHoma",
+      "FracturedHalo",
       "LumidouceElegy",
-      "TamayurateiNoOhanashi"
+      "Deathmatch",
+      "EngulfingLightning",
+      "SacrificersStaff"
     ]
   },
   {
@@ -3218,7 +3267,12 @@
       "TamayurateiNoOhanashi",
       "FavoniusLance",
       "ProspectorsDrill",
-      "MissiveWindspear"
+      "SymphonistOfScents",
+      "CalamityQueller",
+      "StaffOfTheScarletSands",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "Deathmatch"
     ]
   },
   {
@@ -3711,9 +3765,13 @@
     "set_image": "seii_160.png",
     "weapons": [
       "EngulfingLightning",
-      "FavoniusLance",
-      "TamayurateiNoOhanashi",
-      "TheCatch"
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "SkywardSpine",
+      "TheCatch",
+      "DragonsBane",
+      "BalladOfTheFjords",
+      "FavoniusLance"
     ]
   },
   {
@@ -3737,6 +3795,29 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "cryo_dmg_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Lohen",
+    "critUser": true,
+    "description": "GOOD WITH MELT TEAMS",
+    "setKey": "UnfinishedReverie",
+    "set_image": "seii_245.png",
+    "weapons": [
+      "DisasterAndRemorse",
+      "SacrificersStaff",
+      "VortexVanquisher",
+      "BalladOfTheFjords",
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "FracturedHalo",
+      "LumidouceElegy",
+      "Deathmatch"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3752,7 +3833,12 @@
       "TamayurateiNoOhanashi",
       "FavoniusLance",
       "ProspectorsDrill",
-      "MissiveWindspear"
+      "SymphonistOfScents",
+      "CalamityQueller",
+      "StaffOfTheScarletSands",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "Deathmatch"
     ]
   },
   {
@@ -4051,9 +4137,13 @@
     "set_image": "seii_205.png",
     "weapons": [
       "EngulfingLightning",
-      "FavoniusLance",
-      "TamayurateiNoOhanashi",
-      "TheCatch"
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "SkywardSpine",
+      "TheCatch",
+      "DragonsBane",
+      "BalladOfTheFjords",
+      "FavoniusLance"
     ]
   },
   {
@@ -4159,10 +4249,17 @@
     "set_image": "seii_80.png",
     "weapons": [
       "FracturedHalo",
-      "MissiveWindspear",
+      "PrimordialJadeWingedSpear",
+      "BalladOfTheFjords",
       "ProspectorsDrill",
-      "TamayurateiNoOhanashi",
-      "FavoniusLance"
+      "FavoniusLance",
+      "StaffOfTheScarletSands",
+      "SymphonistOfScents",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "Deathmatch",
+      "CalamityQueller"
     ]
   },
   {
@@ -4250,8 +4347,9 @@
     "weapons": [
       "StaffOfTheScarletSands",
       "StaffOfHoma",
-      "MissiveWindspear",
-      "TamayurateiNoOhanashi"
+      "PrimordialJadeWingedSpear",
+      "Deathmatch",
+      "BalladOfTheFjords"
     ]
   },
   {
@@ -4609,6 +4707,29 @@
     "weapons": ["StaffOfHoma", "LithicBlade"]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "cryo_dmg_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Lohen",
+    "critUser": true,
+    "description": "GOOD SECONDARY SET",
+    "setKey": "ShimenawasReminiscence",
+    "set_image": "seii_165.png",
+    "weapons": [
+      "DisasterAndRemorse",
+      "SacrificersStaff",
+      "VortexVanquisher",
+      "BalladOfTheFjords",
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "FracturedHalo",
+      "LumidouceElegy",
+      "Deathmatch"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk",
     "sands": "atk_ + critDMG_ + critRate_ + atk",
@@ -4642,11 +4763,18 @@
     "set_image": "seii_165.png",
     "weapons": [
       "BloodsoakedRuins",
-      "VortexVanquisher",
-      "TamayurateiNoOhanashi",
-      "ProspectorsDrill",
       "BalladOfTheFjords",
-      "MissiveWindspear"
+      "SkywardSpine",
+      "ProspectorsShovel",
+      "MissiveWindspear",
+      "StaffOfTheScarletSands",
+      "FracturedHalo",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "LumidouceElegy",
+      "Deathmatch",
+      "VortexVanquisher",
+      "SacrificersStaff"
     ]
   },
   {
@@ -5780,11 +5908,18 @@
     "set_image": "seii_270.png",
     "weapons": [
       "BloodsoakedRuins",
-      "VortexVanquisher",
-      "TamayurateiNoOhanashi",
-      "ProspectorsDrill",
       "BalladOfTheFjords",
-      "MissiveWindspear"
+      "SkywardSpine",
+      "ProspectorsShovel",
+      "MissiveWindspear",
+      "StaffOfTheScarletSands",
+      "FracturedHalo",
+      "StaffOfHoma",
+      "PrimordialJadeWingedSpear",
+      "LumidouceElegy",
+      "Deathmatch",
+      "VortexVanquisher",
+      "SacrificersStaff"
     ]
   },
   {
@@ -5863,10 +5998,40 @@
     "set_image": "seii_280.png",
     "weapons": [
       "FracturedHalo",
-      "MissiveWindspear",
+      "PrimordialJadeWingedSpear",
+      "BalladOfTheFjords",
       "ProspectorsDrill",
-      "TamayurateiNoOhanashi",
-      "FavoniusLance"
+      "FavoniusLance",
+      "StaffOfTheScarletSands",
+      "SymphonistOfScents",
+      "StaffOfHoma",
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "Deathmatch",
+      "CalamityQueller"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "sands": "atk_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "goblet": "cryo_dmg_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "circlet": "critDMG_/critRate_  + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
+    "character": "Lohen",
+    "critUser": true,
+    "description": "GOOD WITH MELT TEAMS",
+    "setKey": "ADayCarvedFromRisingWinds",
+    "set_image": "seii_285.png",
+    "weapons": [
+      "DisasterAndRemorse",
+      "SacrificersStaff",
+      "VortexVanquisher",
+      "BalladOfTheFjords",
+      "PrimordialJadeWingedSpear",
+      "StaffOfHoma",
+      "FracturedHalo",
+      "LumidouceElegy",
+      "Deathmatch"
     ]
   },
   {
