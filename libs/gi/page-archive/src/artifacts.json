@@ -1,5 +1,28 @@
 [
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Sandrone",
+    "critUser": true,
+    "description": "SECOND BEST",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png",
+    "weapons": [
+      "ATeaspoonOfTranscendence",
+      "WolfsGravestone",
+      "MailedFlower",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "AThousandBlazingSuns",
+      "RedhornStonethresher",
+      "Verdict",
+      "BeaconOfTheReedSea"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -866,6 +889,29 @@
     "weapons": ["FavoniusLance", "KitainCrossSpear", "PrototypeStarglitter"]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Sandrone",
+    "critUser": true,
+    "description": "SECOND BEST",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png",
+    "weapons": [
+      "ATeaspoonOfTranscendence",
+      "WolfsGravestone",
+      "MailedFlower",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "AThousandBlazingSuns",
+      "RedhornStonethresher",
+      "Verdict",
+      "BeaconOfTheReedSea"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + eleMas",
     "sands": "eleMas + critDMG_ + critRate_ + enerRech_ + eleMas",
@@ -991,6 +1037,7 @@
     "set_image": "seii_195.png",
     "weapons": [
       "WolfsGravestone",
+      "FruitfulHook",
       "BeaconOfTheReedSea",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
@@ -2555,6 +2602,7 @@
     "set_image": "seii_220.png",
     "weapons": [
       "WolfsGravestone",
+      "FruitfulHook",
       "BeaconOfTheReedSea",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
@@ -4611,6 +4659,7 @@
     "set_image": "seii_81.png",
     "weapons": [
       "WolfsGravestone",
+      "FruitfulHook",
       "BeaconOfTheReedSea",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
@@ -6303,6 +6352,29 @@
       "FavoniusCodex",
       "PrototypeAmber",
       "EtherlightSpindlelute"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Sandrone",
+    "critUser": true,
+    "description": "BiS",
+    "setKey": "DisenchantmentInDeepShadow",
+    "set_image": "seii_295.png",
+    "weapons": [
+      "ATeaspoonOfTranscendence",
+      "WolfsGravestone",
+      "MailedFlower",
+      "TidalShadow",
+      "UltimateOverlordsMegaMagicSword",
+      "AThousandBlazingSuns",
+      "RedhornStonethresher",
+      "Verdict",
+      "BeaconOfTheReedSea"
     ]
   }
 ]
