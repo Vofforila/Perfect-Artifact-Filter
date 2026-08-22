@@ -144,7 +144,6 @@
       "PrimordialJadeCutter",
       "MistsplitterReforged",
       "CalamityOfEshu",
-      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
@@ -1475,7 +1474,6 @@
       "PrimordialJadeCutter",
       "MistsplitterReforged",
       "CalamityOfEshu",
-      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
@@ -2454,7 +2452,6 @@
       "PrimordialJadeCutter",
       "MistsplitterReforged",
       "CalamityOfEshu",
-      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
@@ -5609,7 +5606,7 @@
     "set_image": "seii_170.png",
     "weapons": [
       "SacrificialSword",
-      "Freedom-Sworn",
+      "FreedomSworn",
       "AquilaFavonia",
       "FleuveCendreFerryman",
       "Emberwell",
@@ -6025,7 +6022,6 @@
       "PrimordialJadeCutter",
       "MistsplitterReforged",
       "CalamityOfEshu",
-      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
