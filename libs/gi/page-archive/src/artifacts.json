@@ -5,6 +5,28 @@
     "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Odette",
+    "critUser": true,
+    "description": "Combine with Disenchantment in Deep Shadow",
+    "setKey": "GladiatorsFinale",
+    "set_image": "seii_76.png",
+    "weapons": [
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "LightOfFoliarIncision",
+      "Emberwell",
+      "PrimordialJadeCutter",
+      "Absolution",
+      "Azurelight"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "character": "Sandrone",
     "critUser": true,
     "description": "SECOND BEST",
@@ -13,9 +35,11 @@
     "weapons": [
       "ATeaspoonOfTranscendence",
       "WolfsGravestone",
+      "ForgedByTheGoldenMelody",
       "MailedFlower",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
+      "BladeOfAtonement",
       "AThousandBlazingSuns",
       "RedhornStonethresher",
       "Verdict",
@@ -84,8 +108,9 @@
       "FracturedHalo",
       "PrimordialJadeWingedSpear",
       "BalladOfTheFjords",
-      "ProspectorsDrill",
+      "ProspectorsShovel",
       "FavoniusLance",
+      "Frostbreath",
       "StaffOfTheScarletSands",
       "SymphonistOfScents",
       "StaffOfHoma",
@@ -114,8 +139,12 @@
       "FinaleOfTheDeep",
       "TheBlackSword",
       "WolfFang",
-      "MistsplitterReforged",
+      "HereticsMoltenBlade",
       "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "MistsplitterReforged",
+      "CalamityOfEshu",
+      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
@@ -177,7 +206,8 @@
       "Verdict",
       "EarthShaker",
       "TalkingStick",
-      "UltimateOverlordsMegaMagicSword"
+      "UltimateOverlordsMegaMagicSword",
+      "ATeaspoonOfTranscendence"
     ]
   },
   {
@@ -213,8 +243,12 @@
     "set_image": "seii_76.png",
     "weapons": [
       "KagurasVerity",
+      "LostPrayerToTheSacredWinds",
+      "DawningFrost",
+      "WanderingEvenstar",
+      "EchoesOfTheHeart",
+      "TheWidsith",
       "SkywardAtlas",
-      "SacrificialJade",
       "OathswornEye"
     ]
   },
@@ -325,6 +359,7 @@
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
     "weapons": [
+      "ExaiphanesBlade",
       "PrimordialJadeCutter",
       "WolfFang",
       "AmenomaKageuchi",
@@ -344,6 +379,7 @@
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
     "weapons": [
+      "ExaiphanesBlade",
       "PrimordialJadeCutter",
       "KeyOfKhajNisut",
       "XiphosMoonlight",
@@ -547,10 +583,16 @@
     "set_image": "seii_77.png",
     "weapons": [
       "SunnyMorningSleepIn",
+      "EtherlightSpindlelute",
+      "ClashOfKings",
+      "DawningFrost",
       "SacrificialFragments",
       "HakushinRing",
       "FavoniusCodex",
-      "EtherlightSpindlelute"
+      "ReliquaryOfTruth",
+      "StarcallersWatch",
+      "AThousandFloatingDreams",
+      "WanderingEvenstar"
     ]
   },
   {
@@ -659,7 +701,12 @@
     "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
-    "weapons": ["FreedomSworn", "SacrificialSword", "TheAlleyFlash"]
+    "weapons": [
+      "ExaiphanesBlade",
+      "FreedomSworn",
+      "SacrificialSword",
+      "TheAlleyFlash"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -736,9 +783,8 @@
       "GoldenFrostboundOath",
       "SkywardHarp",
       "FavoniusWarbow",
-      "AquaSimulacra",
-      "HuntersPath",
-      "PolarStar"
+      "CovenantOfFrostAndSnow",
+      "JadeVista"
     ]
   },
   {
@@ -889,6 +935,31 @@
     "weapons": ["FavoniusLance", "KitainCrossSpear", "PrototypeStarglitter"]
   },
   {
+    "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + atk + eleMas + enerRech_",
+    "sands": "eleMas + atk_ + atk + enerRech_",
+    "goblet": "eleMas + atk_ + atk + enerRech_",
+    "circlet": "eleMas + atk_ + atk + enerRech_",
+    "character": "YumemizukiMizuki",
+    "critUser": false,
+    "description": "GOOD FOR Star-spreading",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png",
+    "weapons": [
+      "SunnyMorningSleepIn",
+      "EtherlightSpindlelute",
+      "ClashOfKings",
+      "DawningFrost",
+      "SacrificialFragments",
+      "HakushinRing",
+      "FavoniusCodex",
+      "ReliquaryOfTruth",
+      "StarcallersWatch",
+      "AThousandFloatingDreams",
+      "WanderingEvenstar"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
@@ -902,9 +973,11 @@
     "weapons": [
       "ATeaspoonOfTranscendence",
       "WolfsGravestone",
+      "ForgedByTheGoldenMelody",
       "MailedFlower",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
+      "BladeOfAtonement",
       "AThousandBlazingSuns",
       "RedhornStonethresher",
       "Verdict",
@@ -929,7 +1002,10 @@
       "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
-      "SacrificialJade"
+      "SacrificialJade",
+      "ClashOfKings",
+      "DawningFrost",
+      "NightweaversLookingGlass"
     ]
   },
   {
@@ -993,8 +1069,9 @@
       "FracturedHalo",
       "PrimordialJadeWingedSpear",
       "BalladOfTheFjords",
-      "ProspectorsDrill",
+      "ProspectorsShovel",
       "FavoniusLance",
+      "Frostbreath",
       "StaffOfTheScarletSands",
       "SymphonistOfScents",
       "StaffOfHoma",
@@ -1247,7 +1324,14 @@
     "description": "BEST SET WITH 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
+    "weapons": [
+      "HuntersPath",
+      "AmosBow",
+      "ScionOfTheBlazingSun",
+      "JadeVista",
+      "Cloudforged",
+      "SkywardHarp"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas + atk_ + atk",
@@ -1276,9 +1360,13 @@
     "weapons": [
       "StaffOfTheScarletSands",
       "StaffOfHoma",
+      "FracturedHalo",
       "PrimordialJadeWingedSpear",
-      "Deathmatch",
-      "BalladOfTheFjords"
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "SongOfTheVigil",
+      "BalladOfTheFjords",
+      "Deathmatch"
     ]
   },
   {
@@ -1315,8 +1403,12 @@
     "set_image": "seii_195.png",
     "weapons": [
       "KagurasVerity",
+      "LostPrayerToTheSacredWinds",
+      "DawningFrost",
+      "WanderingEvenstar",
+      "EchoesOfTheHeart",
+      "TheWidsith",
       "SkywardAtlas",
-      "SacrificialJade",
       "OathswornEye"
     ]
   },
@@ -1336,6 +1428,7 @@
       "ScionOfTheBlazingSun",
       "TheViridescentHunt",
       "Cloudforged",
+      "JadeVista",
       "IbisPiercer"
     ]
   },
@@ -1377,8 +1470,12 @@
       "FinaleOfTheDeep",
       "TheBlackSword",
       "WolfFang",
-      "MistsplitterReforged",
+      "HereticsMoltenBlade",
       "HaranGeppakuFutsu",
+      "PrimordialJadeCutter",
+      "MistsplitterReforged",
+      "CalamityOfEshu",
+      "HereticsMoltenBlade",
       "KagotsurubeIsshin"
     ]
   },
@@ -1396,9 +1493,10 @@
     "weapons": [
       "SymphonistOfScents",
       "ProspectorsDrill",
+      "SkywardSpine",
       "FavoniusLance",
       "MountainBracingBolt",
-      "SkywardSpine",
+      "HereticsMoltenBlade",
       "CalamityQueller",
       "StaffOfHoma",
       "FracturedHalo",
@@ -1548,10 +1646,16 @@
     "set_image": "seii_140.png",
     "weapons": [
       "CashflowSupervision",
+      "LostPrayerToTheSacredWinds",
       "SkywardAtlas",
       "BalladOfTheBoundlessBlue",
       "FlowingPurity",
-      "DodocoTales"
+      "ClashOfKings",
+      "EchoesOfTheHeart",
+      "DodocoTales",
+      "ReliquaryOfTruth",
+      "VividNotions",
+      "TulaytullahsRemembrance"
     ]
   },
   {
@@ -1630,9 +1734,10 @@
     "weapons": [
       "SymphonistOfScents",
       "ProspectorsDrill",
+      "SkywardSpine",
       "FavoniusLance",
       "MountainBracingBolt",
-      "SkywardSpine",
+      "HereticsMoltenBlade",
       "CalamityQueller",
       "StaffOfHoma",
       "FracturedHalo",
@@ -1670,7 +1775,8 @@
       "Verdict",
       "EarthShaker",
       "TalkingStick",
-      "UltimateOverlordsMegaMagicSword"
+      "UltimateOverlordsMegaMagicSword",
+      "ATeaspoonOfTranscendence"
     ]
   },
   {
@@ -1760,8 +1866,12 @@
     "set_image": "seii_225.png",
     "weapons": [
       "KagurasVerity",
+      "LostPrayerToTheSacredWinds",
+      "DawningFrost",
+      "WanderingEvenstar",
+      "EchoesOfTheHeart",
+      "TheWidsith",
       "SkywardAtlas",
-      "SacrificialJade",
       "OathswornEye"
     ]
   },
@@ -1778,10 +1888,13 @@
     "set_image": "seii_225.png",
     "weapons": [
       "TheDaybreakChronicles",
-      "ThunderingPulse",
       "ElegyForTheEnd",
       "TheStringless",
-      "AlleyHunter"
+      "AlleyHunter",
+      "JadeVista",
+      "PolarStar",
+      "SkywardHarp",
+      "HuntersPath"
     ]
   },
   {
@@ -1801,6 +1914,26 @@
       "MistsplitterReforged",
       "CinnabarSpindle",
       "FluteOfEzpitzal"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
+    "sands": "enerRech_ + critDMG_ + critRate_ + atk + enerRech_",
+    "goblet": "atk_/electro_dmg_ + critDMG_ + critRate_ + atk + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + enerRech_",
+    "character": "Alyosha",
+    "critUser": true,
+    "description": "BEST for Support",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png",
+    "weapons": [
+      "SymphonistOfScents",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch",
+      "Frostbreath",
+      "SongOfTheVigil"
     ]
   },
   {
@@ -1864,9 +1997,10 @@
     "weapons": [
       "SymphonistOfScents",
       "ProspectorsDrill",
+      "SkywardSpine",
       "FavoniusLance",
       "MountainBracingBolt",
-      "SkywardSpine",
+      "HereticsMoltenBlade",
       "CalamityQueller",
       "StaffOfHoma",
       "FracturedHalo",
@@ -2147,6 +2281,7 @@
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
     "weapons": [
+      "ExaiphanesBlade",
       "PrimordialJadeCutter",
       "WolfFang",
       "AmenomaKageuchi",
@@ -2287,6 +2422,8 @@
       "GestOfTheMightyWolf",
       "WolfsGravestone",
       "TalkingStick",
+      "BladeOfAtonement",
+      "ATeaspoonOfTranscendence",
       "BeaconOfTheReedSea",
       "Verdict",
       "RedhornStonethresher",
@@ -2312,10 +2449,13 @@
       "FinaleOfTheDeep",
       "TheBlackSword",
       "WolfFang",
-      "MistsplitterReforged",
+      "HereticsMoltenBlade",
       "HaranGeppakuFutsu",
-      "KagotsurubeIsshin",
-      "SwordOfNarzissenkreuz"
+      "PrimordialJadeCutter",
+      "MistsplitterReforged",
+      "CalamityOfEshu",
+      "HereticsMoltenBlade",
+      "KagotsurubeIsshin"
     ]
   },
   {
@@ -2333,6 +2473,7 @@
       "VividNotions",
       "CranesEchoingCall",
       "SkywardAtlas",
+      "ClashOfKings",
       "KagurasVerity",
       "TheWidsith",
       "CashflowSupervision",
@@ -2394,10 +2535,13 @@
       "AstralVulturesCrimsonPlumage",
       "SkywardHarp",
       "ScionOfTheBlazingSun",
+      "RangeGauge",
       "WindblumeOde",
       "SongOfStillness",
       "ChainBreaker",
-      "AmosBow"
+      "AmosBow",
+      "JadeVista",
+      "FlowerWreathedFeathers"
     ]
   },
   {
@@ -2479,7 +2623,8 @@
       "SkywardHarp",
       "PolarStar",
       "ScionOfTheBlazingSun",
-      "SongOfStillness"
+      "SongOfStillness",
+      "JadeVista"
     ]
   },
   {
@@ -2586,7 +2731,10 @@
       "FlowingPurity",
       "DodocoTales",
       "OathswornEye",
-      "BalladOfTheBoundlessBlue"
+      "VividNotions",
+      "ReliquaryOfTruth",
+      "TheWidsith",
+      "SkywardAtlas"
     ]
   },
   {
@@ -2623,10 +2771,35 @@
     "set_image": "seii_220.png",
     "weapons": [
       "CashflowSupervision",
+      "LostPrayerToTheSacredWinds",
       "SkywardAtlas",
       "BalladOfTheBoundlessBlue",
       "FlowingPurity",
-      "DodocoTales"
+      "ClashOfKings",
+      "DodocoTales",
+      "ReliquaryOfTruth",
+      "VividNotions",
+      "TulaytullahsRemembrance"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "TravelerCryo",
+    "critUser": true,
+    "description": "BiS",
+    "setKey": "TenacityOfTheMillelith",
+    "set_image": "seii_150.png",
+    "weapons": [
+      "ExaiphanesBlade",
+      "WhitelakeFrostfeather",
+      "Absolution",
+      "Azurelight",
+      "LightOfFoliarIncision",
+      "PrimordialJadeCutter"
     ]
   },
   {
@@ -2663,9 +2836,10 @@
     "weapons": [
       "SymphonistOfScents",
       "ProspectorsDrill",
+      "SkywardSpine",
       "FavoniusLance",
       "MountainBracingBolt",
-      "SkywardSpine",
+      "HereticsMoltenBlade",
       "CalamityQueller",
       "StaffOfHoma",
       "FracturedHalo",
@@ -3052,6 +3226,7 @@
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
     "weapons": [
+      "ExaiphanesBlade",
       "FavoniusSword",
       "FreedomSworn",
       "WolfFang",
@@ -3094,6 +3269,7 @@
       "MailedFlower",
       "SongOfBrokenPines",
       "TidalShadow",
+      "ATeaspoonOfTranscendence",
       "GestOfTheMightyWolf",
       "BeaconOfTheReedSea",
       "RedhornStonethresher",
@@ -3156,6 +3332,7 @@
       "FadingTwilight",
       "SacrificialBow",
       "ChainBreaker",
+      "JadeVista",
       "TheDaybreakChronicles",
       "RainbowSerpentsRainBow"
     ]
@@ -3212,10 +3389,13 @@
       "AstralVulturesCrimsonPlumage",
       "SkywardHarp",
       "ScionOfTheBlazingSun",
+      "RangeGauge",
       "WindblumeOde",
       "SongOfStillness",
       "ChainBreaker",
-      "AmosBow"
+      "AmosBow",
+      "JadeVista",
+      "FlowerWreathedFeathers"
     ]
   },
   {
@@ -3235,6 +3415,7 @@
       "MailedFlower",
       "SongOfBrokenPines",
       "TidalShadow",
+      "ATeaspoonOfTranscendence",
       "GestOfTheMightyWolf",
       "BeaconOfTheReedSea",
       "RedhornStonethresher",
@@ -3296,6 +3477,7 @@
       "ScionOfTheBlazingSun",
       "TheViridescentHunt",
       "Cloudforged",
+      "JadeVista",
       "IbisPiercer"
     ]
   },
@@ -3397,7 +3579,13 @@
     "description": "BiS",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
-    "weapons": ["FreedomSworn", "FavoniusSword", "IronSting", "ToukabouShigure"]
+    "weapons": [
+      "ExaiphanesBlade",
+      "FreedomSworn",
+      "FavoniusSword",
+      "IronSting",
+      "ToukabouShigure"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + hp_ + hp + eleMas",
@@ -3652,6 +3840,7 @@
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
     "weapons": [
+      "ExaiphanesBlade",
       "FavoniusSword",
       "FleuveCendreFerryman",
       "AmenomaKageuchi",
@@ -3947,7 +4136,8 @@
       "FangOfTheMountainKing",
       "WolfsGravestone",
       "EarthShaker",
-      "UltimateOverlordsMegaMagicSword"
+      "ATeaspoonOfTranscendence",
+      "SerpentSpine"
     ]
   },
   {
@@ -4026,7 +4216,8 @@
       "Rust",
       "AmosBow",
       "IbisPiercer",
-      "TheDaybreakChronicles"
+      "TheDaybreakChronicles",
+      "JadeVista"
     ]
   },
   {
@@ -4301,6 +4492,7 @@
       "BalladOfTheFjords",
       "ProspectorsDrill",
       "FavoniusLance",
+      "Frostbreath",
       "StaffOfTheScarletSands",
       "SymphonistOfScents",
       "StaffOfHoma",
@@ -4344,8 +4536,12 @@
     "set_image": "seii_76.png",
     "weapons": [
       "KagurasVerity",
+      "LostPrayerToTheSacredWinds",
+      "DawningFrost",
+      "WanderingEvenstar",
+      "EchoesOfTheHeart",
+      "TheWidsith",
       "SkywardAtlas",
-      "SacrificialJade",
       "OathswornEye"
     ]
   },
@@ -4360,7 +4556,14 @@
     "description": "GOOD SECONDARY SET WITH electro_dmg_ COMP",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
-    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
+    "weapons": [
+      "HuntersPath",
+      "AmosBow",
+      "ScionOfTheBlazingSun",
+      "JadeVista",
+      "Cloudforged",
+      "SkywardHarp"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -4375,10 +4578,13 @@
     "set_image": "seii_80.png",
     "weapons": [
       "TheDaybreakChronicles",
-      "ThunderingPulse",
       "ElegyForTheEnd",
       "TheStringless",
-      "AlleyHunter"
+      "AlleyHunter",
+      "JadeVista",
+      "PolarStar",
+      "SkywardHarp",
+      "HuntersPath"
     ]
   },
   {
@@ -4395,9 +4601,13 @@
     "weapons": [
       "StaffOfTheScarletSands",
       "StaffOfHoma",
+      "FracturedHalo",
       "PrimordialJadeWingedSpear",
-      "Deathmatch",
-      "BalladOfTheFjords"
+      "LumidouceElegy",
+      "SacrificersStaff",
+      "SongOfTheVigil",
+      "BalladOfTheFjords",
+      "Deathmatch"
     ]
   },
   {
@@ -4494,7 +4704,8 @@
       "Verdict",
       "EarthShaker",
       "TalkingStick",
-      "UltimateOverlordsMegaMagicSword"
+      "UltimateOverlordsMegaMagicSword",
+      "ATeaspoonOfTranscendence"
     ]
   },
   {
@@ -4531,6 +4742,7 @@
       "VividNotions",
       "CranesEchoingCall",
       "SkywardAtlas",
+      "ClashOfKings",
       "KagurasVerity",
       "TheWidsith",
       "CashflowSupervision",
@@ -4554,10 +4766,13 @@
       "AstralVulturesCrimsonPlumage",
       "SkywardHarp",
       "ScionOfTheBlazingSun",
+      "RangeGauge",
       "WindblumeOde",
       "SongOfStillness",
       "ChainBreaker",
-      "AmosBow"
+      "AmosBow",
+      "JadeVista",
+      "FlowerWreathedFeathers"
     ]
   },
   {
@@ -4575,7 +4790,8 @@
       "FangOfTheMountainKing",
       "WolfsGravestone",
       "EarthShaker",
-      "UltimateOverlordsMegaMagicSword"
+      "ATeaspoonOfTranscendence",
+      "SerpentSpine"
     ]
   },
   {
@@ -4618,6 +4834,7 @@
       "MailedFlower",
       "SongOfBrokenPines",
       "TidalShadow",
+      "ATeaspoonOfTranscendence",
       "GestOfTheMightyWolf",
       "BeaconOfTheReedSea",
       "RedhornStonethresher",
@@ -4739,7 +4956,10 @@
       "FlowingPurity",
       "DodocoTales",
       "OathswornEye",
-      "BalladOfTheBoundlessBlue"
+      "VividNotions",
+      "ReliquaryOfTruth",
+      "TheWidsith",
+      "SkywardAtlas"
     ]
   },
   {
@@ -4793,6 +5013,8 @@
       "GestOfTheMightyWolf",
       "WolfsGravestone",
       "TalkingStick",
+      "BladeOfAtonement",
+      "ATeaspoonOfTranscendence",
       "BeaconOfTheReedSea",
       "Verdict",
       "RedhornStonethresher",
@@ -4844,6 +5066,7 @@
       "StaffOfHoma",
       "PrimordialJadeWingedSpear",
       "WavebreakersFin",
+      "HereticsMoltenBlade",
       "MissiveWindspear",
       "TamayurateiNoOhanashi"
     ]
@@ -4882,8 +5105,12 @@
     "set_image": "seii_165.png",
     "weapons": [
       "KagurasVerity",
+      "LostPrayerToTheSacredWinds",
+      "DawningFrost",
+      "WanderingEvenstar",
+      "EchoesOfTheHeart",
+      "TheWidsith",
       "SkywardAtlas",
-      "SacrificialJade",
       "OathswornEye"
     ]
   },
@@ -4935,7 +5162,8 @@
       "Verdict",
       "EarthShaker",
       "TalkingStick",
-      "UltimateOverlordsMegaMagicSword"
+      "UltimateOverlordsMegaMagicSword",
+      "ATeaspoonOfTranscendence"
     ]
   },
   {
@@ -5044,7 +5272,10 @@
       "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
-      "SacrificialJade"
+      "SacrificialJade",
+      "ClashOfKings",
+      "DawningFrost",
+      "NightweaversLookingGlass"
     ]
   },
   {
@@ -5063,6 +5294,7 @@
       "ScionOfTheBlazingSun",
       "TheViridescentHunt",
       "Cloudforged",
+      "JadeVista",
       "IbisPiercer"
     ]
   },
@@ -5097,6 +5329,7 @@
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
     "weapons": [
+      "ExaiphanesBlade",
       "FavoniusSword",
       "FleuveCendreFerryman",
       "AmenomaKageuchi",
@@ -5127,7 +5360,14 @@
     "description": "BEST SET WORKS WITH ANYTHING",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
-    "weapons": ["HuntersPath", "AmosBow", "ScionOfTheBlazingSun", "Cloudforged"]
+    "weapons": [
+      "HuntersPath",
+      "AmosBow",
+      "ScionOfTheBlazingSun",
+      "JadeVista",
+      "Cloudforged",
+      "SkywardHarp"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -5264,7 +5504,8 @@
       "Rust",
       "AmosBow",
       "IbisPiercer",
-      "TheDaybreakChronicles"
+      "TheDaybreakChronicles",
+      "JadeVista"
     ]
   },
   {
@@ -5366,7 +5607,17 @@
     "description": "BiS",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
-    "weapons": ["SacrificialSword", "KagotsurubeIsshin"]
+    "weapons": [
+      "SacrificialSword",
+      "Freedom-Sworn",
+      "AquilaFavonia",
+      "FleuveCendreFerryman",
+      "Emberwell",
+      "FinaleOfTheDeep",
+      "SummitShaper",
+      "PeakPatrolSong",
+      "SkywardBlade"
+    ]
   },
   {
     "flower": "hp_ + hp_ + hp + enerRech_",
@@ -5498,7 +5749,8 @@
       "Rust",
       "AmosBow",
       "IbisPiercer",
-      "TheDaybreakChronicles"
+      "TheDaybreakChronicles",
+      "JadeVista"
     ]
   },
   {
@@ -5513,6 +5765,7 @@
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
     "weapons": [
+      "ExaiphanesBlade",
       "PrimordialJadeCutter",
       "KeyOfKhajNisut",
       "XiphosMoonlight",
@@ -5568,7 +5821,8 @@
       "Verdict",
       "EarthShaker",
       "TalkingStick",
-      "UltimateOverlordsMegaMagicSword"
+      "UltimateOverlordsMegaMagicSword",
+      "ATeaspoonOfTranscendence"
     ]
   },
   {
@@ -5596,6 +5850,7 @@
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
     "weapons": [
+      "ExaiphanesBlade",
       "PrimordialJadeCutter",
       "WolfFang",
       "AmenomaKageuchi",
@@ -5716,6 +5971,7 @@
       "VividNotions",
       "CranesEchoingCall",
       "SkywardAtlas",
+      "ClashOfKings",
       "KagurasVerity",
       "TheWidsith",
       "CashflowSupervision",
@@ -5764,11 +6020,13 @@
       "FinaleOfTheDeep",
       "TheBlackSword",
       "WolfFang",
-      "MistsplitterReforged",
+      "HereticsMoltenBlade",
       "HaranGeppakuFutsu",
-      "KagotsurubeIsshin",
-      "SwordOfNarzissenkreuz",
-      "CalamityOfEshu"
+      "PrimordialJadeCutter",
+      "MistsplitterReforged",
+      "CalamityOfEshu",
+      "HereticsMoltenBlade",
+      "KagotsurubeIsshin"
     ]
   },
   {
@@ -5843,9 +6101,8 @@
       "GoldenFrostboundOath",
       "SkywardHarp",
       "FavoniusWarbow",
-      "AquaSimulacra",
-      "HuntersPath",
-      "PolarStar"
+      "CovenantOfFrostAndSnow",
+      "JadeVista"
     ]
   },
   {
@@ -5989,7 +6246,10 @@
       "AThousandFloatingDreams",
       "BlackmarrowLantern",
       "TheWidsith",
-      "SacrificialJade"
+      "SacrificialJade",
+      "ClashOfKings",
+      "DawningFrost",
+      "NightweaversLookingGlass"
     ]
   },
   {
@@ -6007,9 +6267,8 @@
       "GoldenFrostboundOath",
       "SkywardHarp",
       "FavoniusWarbow",
-      "AquaSimulacra",
-      "HuntersPath",
-      "PolarStar"
+      "CovenantOfFrostAndSnow",
+      "JadeVista"
     ]
   },
   {
@@ -6049,8 +6308,9 @@
       "FracturedHalo",
       "PrimordialJadeWingedSpear",
       "BalladOfTheFjords",
-      "ProspectorsDrill",
+      "ProspectorsShovel",
       "FavoniusLance",
+      "Frostbreath",
       "StaffOfTheScarletSands",
       "SymphonistOfScents",
       "StaffOfHoma",
@@ -6144,6 +6404,7 @@
       "PolarStar",
       "SongOfStillness",
       "ChainBreaker",
+      "JadeVista",
       "EndOfTheLine",
       "RainbowSerpentsRainBow"
     ]
@@ -6166,7 +6427,10 @@
       "FlowingPurity",
       "DodocoTales",
       "OathswornEye",
-      "BalladOfTheBoundlessBlue"
+      "VividNotions",
+      "ReliquaryOfTruth",
+      "TheWidsith",
+      "SkywardAtlas"
     ]
   },
   {
@@ -6221,10 +6485,13 @@
     "set_image": "seii_285.png",
     "weapons": [
       "TheDaybreakChronicles",
-      "ThunderingPulse",
       "ElegyForTheEnd",
       "TheStringless",
-      "AlleyHunter"
+      "AlleyHunter",
+      "JadeVista",
+      "PolarStar",
+      "SkywardHarp",
+      "HuntersPath"
     ]
   },
   {
@@ -6242,6 +6509,8 @@
       "GestOfTheMightyWolf",
       "WolfsGravestone",
       "TalkingStick",
+      "BladeOfAtonement",
+      "ATeaspoonOfTranscendence",
       "BeaconOfTheReedSea",
       "Verdict",
       "RedhornStonethresher",
@@ -6328,10 +6597,13 @@
     "set_image": "seii_290.png",
     "weapons": [
       "TheDaybreakChronicles",
-      "ThunderingPulse",
       "ElegyForTheEnd",
       "TheStringless",
-      "AlleyHunter"
+      "AlleyHunter",
+      "JadeVista",
+      "PolarStar",
+      "SkywardHarp",
+      "HuntersPath"
     ]
   },
   {
@@ -6368,13 +6640,144 @@
     "weapons": [
       "ATeaspoonOfTranscendence",
       "WolfsGravestone",
+      "ForgedByTheGoldenMelody",
       "MailedFlower",
       "TidalShadow",
       "UltimateOverlordsMegaMagicSword",
+      "BladeOfAtonement",
       "AThousandBlazingSuns",
       "RedhornStonethresher",
       "Verdict",
       "BeaconOfTheReedSea"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Odette",
+    "critUser": true,
+    "description": "BiS DPS Support can combine with Gladiator's Finale",
+    "setKey": "DisenchantmentInDeepShadow",
+    "set_image": "seii_295.png",
+    "weapons": [
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "LightOfFoliarIncision",
+      "Emberwell",
+      "PrimordialJadeCutter",
+      "Absolution",
+      "Azurelight"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "TravelerCryo",
+    "critUser": true,
+    "description": "BiS",
+    "setKey": "DisenchantmentInDeepShadow",
+    "set_image": "seii_295.png",
+    "weapons": [
+      "ExaiphanesBlade",
+      "WhitelakeFrostfeather",
+      "Absolution",
+      "Azurelight",
+      "LightOfFoliarIncision",
+      "PrimordialJadeCutter"
+    ]
+  },
+  {
+    "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
+    "plume": "atk_ + atk + eleMas + enerRech_",
+    "sands": "eleMas + atk_ + atk + enerRech_",
+    "goblet": "eleMas + atk_ + atk + enerRech_",
+    "circlet": "eleMas + atk_ + atk + enerRech_",
+    "character": "YumemizukiMizuki",
+    "critUser": false,
+    "description": "BEST FOR Star-spreading",
+    "setKey": "ScarletProof",
+    "set_image": "seii_300.png",
+    "weapons": [
+      "SunnyMorningSleepIn",
+      "EtherlightSpindlelute",
+      "ClashOfKings",
+      "DawningFrost",
+      "SacrificialFragments",
+      "HakushinRing",
+      "FavoniusCodex",
+      "ReliquaryOfTruth",
+      "StarcallersWatch",
+      "AThousandFloatingDreams",
+      "WanderingEvenstar"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "Odette",
+    "critUser": true,
+    "description": "BiS Support",
+    "setKey": "HeartOfTheFurnace",
+    "set_image": "seii_305.png",
+    "weapons": [
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "LightOfFoliarIncision",
+      "Emberwell",
+      "PrimordialJadeCutter",
+      "Absolution",
+      "Azurelight"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "character": "TravelerCryo",
+    "critUser": true,
+    "description": "GOOD with Start Diffusion",
+    "setKey": "HeartOfTheFurnace",
+    "set_image": "seii_305.png",
+    "weapons": [
+      "ExaiphanesBlade",
+      "WhitelakeFrostfeather",
+      "Absolution",
+      "Azurelight",
+      "LightOfFoliarIncision",
+      "PrimordialJadeCutter"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
+    "sands": "enerRech_ + critDMG_ + critRate_ + atk + enerRech_",
+    "goblet": "atk_/electro_dmg_ + critDMG_ + critRate_ + atk + enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + enerRech_",
+    "character": "Alyosha",
+    "critUser": true,
+    "description": "GOOD with Start Diffusion",
+    "setKey": "HeartOfTheFurnace",
+    "set_image": "seii_305.png",
+    "weapons": [
+      "SymphonistOfScents",
+      "FavoniusLance",
+      "TamayurateiNoOhanashi",
+      "TheCatch",
+      "Frostbreath",
+      "SongOfTheVigil"
     ]
   }
 ]
