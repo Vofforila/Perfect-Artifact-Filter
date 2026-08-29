@@ -879,27 +879,6 @@
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "goblet": "geo_dmg_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
-    "character": "Keqing",
-    "critUser": true,
-    "description": "BiS",
-    "setKey": "HuskOfOpulentDreams",
-    "set_image": "seii_175.png",
-    "weapons": [
-      "MistsplitterReforged",
-      "LionsRoar",
-      "IronSting",
-      "TheBlackSword",
-      "KagotsurubeIsshin",
-      "SwordOfNarzissenkreuz",
-      "ToukabouShigure"
-    ]
-  },
-  {
-    "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
-    "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
-    "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
-    "goblet": "geo_dmg_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
-    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
     "description": "BEST SET OVERALL",
