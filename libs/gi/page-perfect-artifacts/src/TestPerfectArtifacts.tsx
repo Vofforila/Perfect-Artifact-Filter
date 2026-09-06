@@ -268,6 +268,7 @@ function CheckSubStats(
       }
     }
   })
+
   // console.log(_perfect_artifact.character)
   // console.log(_perfect_stats)
   // console.log(_test_artifact)
