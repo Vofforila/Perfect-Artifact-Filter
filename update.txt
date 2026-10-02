@@ -27,3 +27,4 @@ NewBough
 HymnoftheMaelstrom
 BreezeborneRefrain
 WintersHeavyHeart
+Add Stars to Equipment
