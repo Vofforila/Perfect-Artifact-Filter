@@ -1,5 +1,27 @@
 [
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "character": "Vesna",
+    "critUser": true,
+    "description": "Combine with Scarlet Proof",
+    "setKey": "ScarletProof",
+    "set_image": "seii_300.png",
+    "weapons": [
+      "BeyondtheChrysalis",
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "Emberwell",
+      "SilverLight",
+      "NewBough",
+      "HereticsMoltenBlade"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
@@ -15,10 +37,13 @@
       "ExaiphanesBlade",
       "MistsplitterReforged",
       "LightOfFoliarIncision",
+      "SilverLight",
       "Emberwell",
       "PrimordialJadeCutter",
       "Absolution",
-      "Azurelight"
+      "Azurelight",
+      "NewBough",
+      "BeyondtheChrysalis"
     ]
   },
   {
@@ -242,12 +267,13 @@
     "set_image": "seii_76.png",
     "weapons": [
       "KagurasVerity",
+      "SkywardAtlas",
       "LostPrayerToTheSacredWinds",
       "DawningFrost",
       "WanderingEvenstar",
+      "WintersHeavyHeart",
       "EchoesOfTheHeart",
       "TheWidsith",
-      "SkywardAtlas",
       "OathswornEye"
     ]
   },
@@ -585,12 +611,10 @@
       "EtherlightSpindlelute",
       "ClashOfKings",
       "DawningFrost",
-      "SacrificialFragments",
+      "TheWidsith",
       "HakushinRing",
-      "FavoniusCodex",
-      "ReliquaryOfTruth",
-      "StarcallersWatch",
-      "AThousandFloatingDreams",
+      "SacrificialFragments",
+      "WintersHeavyHeart",
       "WanderingEvenstar"
     ]
   },
@@ -802,7 +826,8 @@
       "FluteOfEzpitzal",
       "UrakuMisugiri",
       "LightOfFoliarIncision",
-      "PeakPatrolSong"
+      "PeakPatrolSong",
+      "BeyondtheChrysalis"
     ]
   },
   {
@@ -913,6 +938,28 @@
     "weapons": ["FavoniusLance", "KitainCrossSpear", "PrototypeStarglitter"]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "character": "Vesna",
+    "critUser": true,
+    "description": "GOOD SECOND OPTION",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png",
+    "weapons": [
+      "BeyondtheChrysalis",
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "Emberwell",
+      "SilverLight",
+      "NewBough",
+      "HereticsMoltenBlade"
+    ]
+  },
+  {
     "flower": "hp_ + atk_ + atk + eleMas + enerRech_",
     "plume": "atk_ + atk + eleMas + enerRech_",
     "sands": "eleMas + atk_ + atk + enerRech_",
@@ -928,12 +975,10 @@
       "EtherlightSpindlelute",
       "ClashOfKings",
       "DawningFrost",
-      "SacrificialFragments",
+      "TheWidsith",
       "HakushinRing",
-      "FavoniusCodex",
-      "ReliquaryOfTruth",
-      "StarcallersWatch",
-      "AThousandFloatingDreams",
+      "SacrificialFragments",
+      "WintersHeavyHeart",
       "WanderingEvenstar"
     ]
   },
@@ -1381,12 +1426,13 @@
     "set_image": "seii_195.png",
     "weapons": [
       "KagurasVerity",
+      "SkywardAtlas",
       "LostPrayerToTheSacredWinds",
       "DawningFrost",
       "WanderingEvenstar",
+      "WintersHeavyHeart",
       "EchoesOfTheHeart",
       "TheWidsith",
-      "SkywardAtlas",
       "OathswornEye"
     ]
   },
@@ -1627,6 +1673,7 @@
       "SkywardAtlas",
       "BalladOfTheBoundlessBlue",
       "FlowingPurity",
+      "WintersHeavyHeart",
       "ClashOfKings",
       "EchoesOfTheHeart",
       "DodocoTales",
@@ -1770,6 +1817,7 @@
     "weapons": [
       "ElegyForTheEnd",
       "FavoniusWarbow",
+      "BreezeborneRefrain",
       "PolarStar",
       "EndOfTheLine",
       "FadingTwilight",
@@ -1843,12 +1891,13 @@
     "set_image": "seii_225.png",
     "weapons": [
       "KagurasVerity",
+      "SkywardAtlas",
       "LostPrayerToTheSacredWinds",
       "DawningFrost",
       "WanderingEvenstar",
+      "WintersHeavyHeart",
       "EchoesOfTheHeart",
       "TheWidsith",
-      "SkywardAtlas",
       "OathswornEye"
     ]
   },
@@ -2378,6 +2427,7 @@
     "weapons": [
       "ElegyForTheEnd",
       "FavoniusWarbow",
+      "BreezeborneRefrain",
       "PolarStar",
       "EndOfTheLine",
       "FadingTwilight",
@@ -2534,6 +2584,7 @@
     "weapons": [
       "ElegyForTheEnd",
       "FavoniusWarbow",
+      "BreezeborneRefrain",
       "PolarStar",
       "EndOfTheLine",
       "FadingTwilight",
@@ -2751,11 +2802,30 @@
       "SkywardAtlas",
       "BalladOfTheBoundlessBlue",
       "FlowingPurity",
+      "WintersHeavyHeart",
       "ClashOfKings",
+      "EchoesOfTheHeart",
       "DodocoTales",
       "ReliquaryOfTruth",
       "VividNotions",
       "TulaytullahsRemembrance"
+    ]
+  },
+  {
+    "flower": "hp_ + hp",
+    "plume": "atk_ + hp_ + hp",
+    "sands": "hp_ + hp",
+    "goblet": "hp_ + hp",
+    "circlet": "hp_ + hp",
+    "character": "Vodyanitsa",
+    "critUser": false,
+    "description": "BiS SUPPORT BUILD - CAN COMBINE WITH Vourukasha's Glow",
+    "setKey": "TenacityOfTheMillelith",
+    "set_image": "seii_150.png",
+    "weapons": [
+      "HymnoftheMaelstrom",
+      "SacrificialJade",
+      "ThrillingTalesOfDragonSlayers"
     ]
   },
   {
@@ -3108,6 +3178,7 @@
     "weapons": [
       "ElegyForTheEnd",
       "FavoniusWarbow",
+      "BreezeborneRefrain",
       "PolarStar",
       "EndOfTheLine",
       "FadingTwilight",
@@ -3288,6 +3359,23 @@
       "RightfulReward",
       "LithicSpear",
       "KitainCrossSpear"
+    ]
+  },
+  {
+    "flower": "hp_ + hp",
+    "plume": "atk_ + hp_ + hp",
+    "sands": "hp_ + hp",
+    "goblet": "hp_ + hp",
+    "circlet": "hp_ + hp",
+    "character": "Vodyanitsa",
+    "critUser": false,
+    "description": "GOOD SECONDARY WITH NATLAN CHARACTERS",
+    "setKey": "ScrollOfTheHeroOfCinderCity",
+    "set_image": "seii_250.png",
+    "weapons": [
+      "HymnoftheMaelstrom",
+      "SacrificialJade",
+      "ThrillingTalesOfDragonSlayers"
     ]
   },
   {
@@ -4237,6 +4325,23 @@
     ]
   },
   {
+    "flower": "hp_ + hp",
+    "plume": "atk_ + hp_ + hp",
+    "sands": "hp_ + hp",
+    "goblet": "hp_ + hp",
+    "circlet": "hp_ + hp",
+    "character": "Vodyanitsa",
+    "critUser": false,
+    "description": "Combine with Tenacity of the Millelith",
+    "setKey": "VourukashasGlow",
+    "set_image": "seii_215.png",
+    "weapons": [
+      "HymnoftheMaelstrom",
+      "SacrificialJade",
+      "ThrillingTalesOfDragonSlayers"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "sands": "hp_/enerRech_ + critDMG_ + critRate_ + enerRech_ + hp_ + hp",
@@ -4512,12 +4617,13 @@
     "set_image": "seii_76.png",
     "weapons": [
       "KagurasVerity",
+      "SkywardAtlas",
       "LostPrayerToTheSacredWinds",
       "DawningFrost",
       "WanderingEvenstar",
+      "WintersHeavyHeart",
       "EchoesOfTheHeart",
       "TheWidsith",
-      "SkywardAtlas",
       "OathswornEye"
     ]
   },
@@ -5081,12 +5187,13 @@
     "set_image": "seii_165.png",
     "weapons": [
       "KagurasVerity",
+      "SkywardAtlas",
       "LostPrayerToTheSacredWinds",
       "DawningFrost",
       "WanderingEvenstar",
+      "WintersHeavyHeart",
       "EchoesOfTheHeart",
       "TheWidsith",
-      "SkywardAtlas",
       "OathswornEye"
     ]
   },
@@ -6154,7 +6261,8 @@
       "FluteOfEzpitzal",
       "UrakuMisugiri",
       "LightOfFoliarIncision",
-      "PeakPatrolSong"
+      "PeakPatrolSong",
+      "BeyondtheChrysalis"
     ]
   },
   {
@@ -6642,10 +6750,13 @@
       "ExaiphanesBlade",
       "MistsplitterReforged",
       "LightOfFoliarIncision",
+      "SilverLight",
       "Emberwell",
       "PrimordialJadeCutter",
       "Absolution",
-      "Azurelight"
+      "Azurelight",
+      "NewBough",
+      "BeyondtheChrysalis"
     ]
   },
   {
@@ -6684,12 +6795,10 @@
       "EtherlightSpindlelute",
       "ClashOfKings",
       "DawningFrost",
-      "SacrificialFragments",
+      "TheWidsith",
       "HakushinRing",
-      "FavoniusCodex",
-      "ReliquaryOfTruth",
-      "StarcallersWatch",
-      "AThousandFloatingDreams",
+      "SacrificialFragments",
+      "WintersHeavyHeart",
       "WanderingEvenstar"
     ]
   },
@@ -6709,10 +6818,13 @@
       "ExaiphanesBlade",
       "MistsplitterReforged",
       "LightOfFoliarIncision",
+      "SilverLight",
       "Emberwell",
       "PrimordialJadeCutter",
       "Absolution",
-      "Azurelight"
+      "Azurelight",
+      "NewBough",
+      "BeyondtheChrysalis"
     ]
   },
   {
@@ -6753,6 +6865,28 @@
       "TheCatch",
       "Frostbreath",
       "SongOfTheVigil"
+    ]
+  },
+  {
+    "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_ + eleMas",
+    "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "sands": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "goblet": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
+    "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
+    "character": "Vesna",
+    "critUser": true,
+    "description": "BiS - Stellar DMG or Combine wit Gladiator's Finale",
+    "setKey": "ScarletProof",
+    "set_image": "seii_300.png",
+    "weapons": [
+      "BeyondtheChrysalis",
+      "WhitelakeFrostfeather",
+      "ExaiphanesBlade",
+      "MistsplitterReforged",
+      "Emberwell",
+      "SilverLight",
+      "NewBough",
+      "HereticsMoltenBlade"
     ]
   }
 ]
