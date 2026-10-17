@@ -1943,6 +1943,29 @@
     ]
   },
   {
+    "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "plume": "atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "goblet": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "circlet": "critDMG_/atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "character": "Qiqi",
+    "critUser": false,
+    "description": "BiS DPS",
+    "setKey": "NoblesseOblige",
+    "set_image": "seii_82.png",
+    "weapons": [
+      "FavoniusSword",
+      "FreedomSworn",
+      "AquilaFavonia",
+      "FleuveCendreFerryman",
+      "Emberwell",
+      "FinaleOfTheDeep",
+      "SummitShaper",
+      "PeakPatrolSong",
+      "SkywardBlade"
+    ]
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk + atk_ + enerRech_",
     "sands": "enerRech_ + critDMG_ + critRate_ + atk + enerRech_",
@@ -2812,6 +2835,29 @@
     ]
   },
   {
+    "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "plume": "atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "goblet": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "circlet": "critDMG_/atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "character": "Qiqi",
+    "critUser": false,
+    "description": "BiS Support",
+    "setKey": "TenacityOfTheMillelith",
+    "set_image": "seii_150.png",
+    "weapons": [
+      "FavoniusSword",
+      "FreedomSworn",
+      "AquilaFavonia",
+      "FleuveCendreFerryman",
+      "Emberwell",
+      "FinaleOfTheDeep",
+      "SummitShaper",
+      "PeakPatrolSong",
+      "SkywardBlade"
+    ]
+  },
+  {
     "flower": "hp_ + hp",
     "plume": "atk_ + hp_ + hp",
     "sands": "hp_ + hp",
@@ -3159,10 +3205,16 @@
     "circlet": "hp_ + hp_ + hp + eleMas",
     "character": "Nilou",
     "critUser": false,
-    "description": "BiS - FOR BLOOMING",
+    "description": "COMBINE WITH THE FOLLOWING 3 SETS - Heart of Depth / Wanderer's Troupe / Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
-    "weapons": ["KeyOfKhajNisut", "PrimordialJadeCutter", "SacrificialSword"]
+    "weapons": [
+      "KeyOfKhajNisut",
+      "PrimordialJadeCutter",
+      "SacrificialSword",
+      "TheDockhandsAssistant",
+      "SerenitysCall"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -4325,6 +4377,25 @@
     ]
   },
   {
+    "flower": "hp_ + hp_ + hp + eleMas",
+    "plume": "atk_ + hp_ + hp + eleMas",
+    "sands": "hp_ + hp_ + hp + eleMas",
+    "goblet": "hp_ + hp_ + hp + eleMas",
+    "circlet": "hp_ + hp_ + hp + eleMas",
+    "character": "Nilou",
+    "critUser": false,
+    "description": "BiS BLOOM combined with Tenacity of the Millelith",
+    "setKey": "VourukashasGlow",
+    "set_image": "seii_215.png",
+    "weapons": [
+      "KeyOfKhajNisut",
+      "PrimordialJadeCutter",
+      "SacrificialSword",
+      "TheDockhandsAssistant",
+      "SerenitysCall"
+    ]
+  },
+  {
     "flower": "hp_ + hp",
     "plume": "atk_ + hp_ + hp",
     "sands": "hp_ + hp",
@@ -5320,6 +5391,25 @@
     "weapons": ["ThunderingPulse", "SkywardHarp"]
   },
   {
+    "flower": "hp_ + hp_ + hp + eleMas",
+    "plume": "atk_ + hp_ + hp + eleMas",
+    "sands": "hp_ + hp_ + hp + eleMas",
+    "goblet": "hp_ + hp_ + hp + eleMas",
+    "circlet": "hp_ + hp_ + hp + eleMas",
+    "character": "Nilou",
+    "critUser": false,
+    "description": "2nd Option combined with Tenacity of the Millelith",
+    "setKey": "WanderersTroupe",
+    "set_image": "seii_78.png",
+    "weapons": [
+      "KeyOfKhajNisut",
+      "PrimordialJadeCutter",
+      "SacrificialSword",
+      "TheDockhandsAssistant",
+      "SerenitysCall"
+    ]
+  },
+  {
     "flower": "hp_ + eleMas + enerRech_",
     "plume": "atk_ + eleMas + enerRech_",
     "sands": "enerRech/eleMas + eleMas + enerRech_",
@@ -5681,17 +5771,17 @@
   },
   {
     "flower": "hp_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
-    "plume": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
-    "sands": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "plume": "atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "sands": "atk_/enerRech_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
     "goblet": "atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
-    "circlet": "heal_/atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
+    "circlet": "critDMG_/atk_ + atk_ + atk + critDMG_ + critRate_ + enerRech_",
     "character": "Qiqi",
     "critUser": false,
-    "description": "BiS",
+    "description": "BiS DPS",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
     "weapons": [
-      "SacrificialSword",
+      "FavoniusSword",
       "FreedomSworn",
       "AquilaFavonia",
       "FleuveCendreFerryman",
@@ -5770,6 +5860,25 @@
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
     "weapons": ["PrototypeAmber", "TheWidsith", "EverlastingMoonglow"]
+  },
+  {
+    "flower": "hp_ + hp_ + hp + eleMas",
+    "plume": "atk_ + hp_ + hp + eleMas",
+    "sands": "hp_ + hp_ + hp + eleMas",
+    "goblet": "hp_ + hp_ + hp + eleMas",
+    "circlet": "hp_ + hp_ + hp + eleMas",
+    "character": "Nilou",
+    "critUser": false,
+    "description": "3rd Option BLOOMING combined with Tenacity of the Millelith",
+    "setKey": "HeartOfDepth",
+    "set_image": "seii_145.png",
+    "weapons": [
+      "KeyOfKhajNisut",
+      "PrimordialJadeCutter",
+      "SacrificialSword",
+      "TheDockhandsAssistant",
+      "SerenitysCall"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
