@@ -39,6 +39,7 @@ export class PerfectArtifactSet {
   setKey: string
   set_image: string
   matches: number
+  stars: string = '★'
   constructor(
     flower: string,
     plume: string,
@@ -50,7 +51,8 @@ export class PerfectArtifactSet {
     description: string,
     setKey: string,
     set_image: string,
-    matches: number
+    matches: number,
+    stars: string
   ) {
     this.flower = flower
     this.plume = plume
@@ -63,6 +65,7 @@ export class PerfectArtifactSet {
     this.setKey = setKey
     this.set_image = set_image
     this.matches = matches
+    this.stars = stars
   }
 }
 

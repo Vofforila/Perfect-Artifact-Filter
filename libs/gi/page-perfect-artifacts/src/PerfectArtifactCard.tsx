@@ -112,14 +112,14 @@ export default function PerfectartifactCard({
             variant="body2"
             sx={{ display: 'flex', gap: 0.5, alignItems: 'center' }}
           >
-            <strong> {slotName}</strong>
+            <strong> {slotName} {currentPerfectMatch.stars}</strong>
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {currentPerfectMatch.description}
           </Typography>
         </Box>
       </Box>
-        
+
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
         {['flower', 'plume', 'sands', 'goblet', 'circlet'].map((piece) => (
           <Box
