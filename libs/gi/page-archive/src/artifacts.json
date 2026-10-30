@@ -7,7 +7,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "character": "Tartaglia",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND SET WITH WEAPONS: Polar Star / Thundering Pulse CAN COMBINE WITH Heart of Depth",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -22,7 +22,7 @@
       "JadeVista"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -30,7 +30,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "Dehya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CAN COMBINE WITH Emblem of Severed Fate OR Crimson Witch of Flames",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -43,7 +43,7 @@
       "KatsuragikiriNagamasa"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
     "sands": "atk_/eleMas + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
@@ -52,7 +52,7 @@
     "character": "Diluc",
     "critUser": true,
     "description": "GOOD CAN COMBINE WITH Crimson Witch of Flames",
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
     "weapons": [
@@ -65,7 +65,7 @@
       "MailedFlower"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -73,13 +73,13 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD 2ND OPTION",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
     "weapons": ["RedhornStonethresher", "Whiteblind"]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk  + eleMas +  enerRech_",
@@ -87,7 +87,7 @@
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "character": "LanYan",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD 3rd OPTION COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -99,7 +99,7 @@
       "OathswornEye"
     ]
   },
-   {
+  {
     "flower": "hp_ + eleMas + enerRech_",
     "plume": "atk_ + eleMas + enerRech_",
     "sands": "eleMas + enerRech_",
@@ -107,7 +107,7 @@
     "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND OPTION SIMPLE OR COMBINED WITH GLADIATOR",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -121,7 +121,7 @@
       "RainbowSerpentsRainBow"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -129,7 +129,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Ororon",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECONDARY COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -145,7 +145,7 @@
       "RainbowSerpentsRainBow"
     ]
   },
-    {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -165,7 +165,7 @@
       "FlameForgedInsight"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -173,7 +173,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Xingqiu",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD 3RD OPTION COMBINED WITH Heart of Depth",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -185,8 +185,8 @@
       "FleuveCendreFerryman",
       "FesteringDesire"
     ]
-   },
-   {
+  },
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -489,7 +489,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "critUser": true,
     "character": "KamisatoAyato",
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP CAN COMBINE WITH Heart of Depth",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -510,7 +510,7 @@
     "circlet": "critDMG_/critRate_/eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Jean",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH Viridescent Venerer FOR SUBDPS",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -553,7 +553,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Clorinde",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD AS SECONDARY SET",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -593,7 +593,7 @@
     "circlet": "atk_ + enerRech_ + atk_ + atk",
     "character": "Xianyun",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS DPS SET COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -612,7 +612,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY COMBINED WITH Shimenawa's Reminiscence",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -752,7 +752,7 @@
     "circlet": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
     "character": "Shenhe",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUB DPS COMBINED WITH Shimenawa's Reminiscence / Emblem of Severed Fate",
     "setKey": "GladiatorsFinale",
     "set_image": "seii_76.png",
@@ -831,7 +831,7 @@
       "RainbowSerpentsRainBow"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -839,7 +839,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Chasca",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD 3RD OPTION",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
@@ -908,8 +908,8 @@
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "character": "LanYan",
     "critUser": false,
-    "stars":"★★★★★",
-    "description":"BiS",
+    "stars": "★★★★★",
+    "description": "BiS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
     "weapons": [
@@ -928,7 +928,7 @@
     "circlet": "critDMG_/critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Ifa",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS IF NO Viridescent Venerer",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
@@ -991,7 +991,7 @@
     "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND OPTION SIMPLE OR COMBINED WITH GLADIATOR",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
@@ -1013,7 +1013,7 @@
     "circlet": "atk_ + enerRech_ + atk_ + atk",
     "character": "Xianyun",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUPP - FOR pyro_dmg_/hydro_dmg_/electro_dmg_/cryo_dmg_ FORMATIONS",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
@@ -1088,7 +1088,7 @@
     "circlet": "critDMG_/critRate_/eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Jean",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - CAN COMBINE WITH Gladiator's Finale",
     "setKey": "ViridescentVenerer",
     "set_image": "seii_77.png",
@@ -1171,7 +1171,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + eleMas + enerRech_",
     "character": "Zibai",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECONDARY",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
@@ -1211,7 +1211,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "AratakiItto",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET FOR TEAMS THAT INCREASE DEFENCE",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
@@ -1230,7 +1230,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
     "character": "Chiori",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET IF YOU HAVE MAXED OUT CHIORI OR COMBINE WITH Golden Troupe",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
@@ -1263,7 +1263,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET OVERALL",
     "setKey": "HuskOfOpulentDreams",
     "set_image": "seii_175.png",
@@ -1282,7 +1282,7 @@
     "set_image": "seii_175.png",
     "weapons": ["FavoniusLance", "KitainCrossSpear", "PrototypeStarglitter"]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1290,7 +1290,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Yanfei",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION WITH 4 ELEMENTS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1302,7 +1302,7 @@
       "BalladOfTheBoundlessBlue"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "plume": "atk_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "sands": "hp_/eleMas + critDMG_ + critRate_ + eleMas + hp_ + hp",
@@ -1310,11 +1310,17 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "character": "HuTao",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION WITH 4 ELEMENTS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
-    "weapons": ["StaffOfHoma", "LithicSpear","BalladOfTheFjords","Deathmatch","DragonsBane"]
+    "weapons": [
+      "StaffOfHoma",
+      "LithicSpear",
+      "BalladOfTheFjords",
+      "Deathmatch",
+      "DragonsBane"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -1324,7 +1330,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Gaming",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD FOR EVAPORATION / BURGEON TEAMS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1418,7 +1424,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "character": "Vesna",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1592,7 +1598,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "character": "Alhaitham",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - USE THIS SET WITH FEWER CHRACTERS SO YOU GET MORE ELEMENTAL MASTERY / CAN COMBINE WITH Wanderer's Troupe OR Deepwood Memories",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1613,7 +1619,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
     "character": "Diluc",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY OPTION RAISES ELEMETAL MASTER TO +230",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1680,7 +1686,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Rosaria",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD IN COMPS WITH 4 DIFFRENT ELEMENTS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1771,7 +1777,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SET IF YOU HAVE 4 DIFFRENT ELEMENT CHARACTERS",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1887,7 +1893,7 @@
     "circlet": "eleMas + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SET IF YOU HAVE 4 DIFFRENT ELEMENTS IN COMP",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -1953,7 +1959,7 @@
     "circlet": "eleMas + enerRech_ + atk_ + atk",
     "character": "KukiShinobu",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS FOR NON-BLOOM WITH 4 DIFFRENT ELEMENTS IN TEAN / CAN COMBINE WITH Flower of Paradise Lost",
     "setKey": "GildedDreams",
     "set_image": "seii_195.png",
@@ -2050,7 +2056,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Rosaria",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "MAIN DPS SET",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
@@ -2071,7 +2077,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Kaeya",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SET FOR cryo_dmg_ TEAMS",
     "setKey": "BlizzardStrayer",
     "set_image": "seii_140.png",
@@ -2228,7 +2234,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Clorinde",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - BEST SET BECAUSE Bond of Life",
     "setKey": "FragmentOfHarmonicWhimsy",
     "set_image": "seii_240.png",
@@ -2249,7 +2255,7 @@
     "circlet": "critDMG_/critRate_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "character": "TravelerPyro",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
@@ -2262,7 +2268,7 @@
       "FleuveCendreFerryman"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_ + critDMG_ + critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -2500,7 +2506,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ + def + atk_ + atk + enerRech_",
     "character": "Chiori",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SUB DPS SET FOR OFFFIELD DMG or COMBINE WITH Husk of Opulent Dreams",
     "setKey": "GoldenTroupe",
     "set_image": "seii_225.png",
@@ -2520,7 +2526,7 @@
     "circlet": "critDMG_/critRate_/eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Jean",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -2535,7 +2541,7 @@
       "FleuveCendreFerryman"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -2543,7 +2549,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Beidou",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - SUPPORT",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -2564,7 +2570,7 @@
     "circlet": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
     "character": "Shenhe",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUPPORT",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png.png",
@@ -2592,7 +2598,13 @@
     "description": "BEST SUB DPS BUILD combined with Emblem of Severed Fate",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
-    "weapons": ["FavoniusWarbow","SnareHook","FadingTwilight", "EndOfTheLine","RainbowSerpentsRainBow"]
+    "weapons": [
+      "FavoniusWarbow",
+      "SnareHook",
+      "FadingTwilight",
+      "EndOfTheLine",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -2791,7 +2803,7 @@
     "circlet": "critDMG_ + eleMas + enerRech_ + critDMG_ + critRate_",
     "character": "Aino",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS IF NONOBLESS",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82 .png",
@@ -2846,7 +2858,7 @@
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "character": "LanYan",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -2944,7 +2956,7 @@
     "circlet": "atk_ + enerRech_ + atk_ + atk",
     "character": "Xianyun",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH XIAO OR physical_dmg_ CHARACTER",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -3094,7 +3106,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Rosaria",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SET IF YOU NEED Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -3115,7 +3127,7 @@
     "circlet": "eleMas + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD OPTION IF NO Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -3137,7 +3149,7 @@
     "circlet": "hp_/critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
     "character": "Chevreuse",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS IF YOU NEED Noblesse Oblige",
     "setKey": "NoblesseOblige",
     "set_image": "seii_82.png",
@@ -3179,7 +3191,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "character": "Alhaitham",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH LUNAR BLOOM",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
@@ -3192,7 +3204,7 @@
       "FesteringDesire"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -3200,7 +3212,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "AratakiItto",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH FURINA",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
@@ -3211,7 +3223,7 @@
       "Whiteblind"
     ]
   },
-    {
+  {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "eleMas/atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -3219,7 +3231,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3362,7 +3374,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Neuvillette",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3402,7 +3414,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Chasca",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3492,7 +3504,7 @@
     "character": "Gaming",
     "critUser": true,
     "description": "BiS",
-    "stars":"★★★★",
+    "stars": "★★★★",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
     "weapons": [
@@ -3514,7 +3526,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3547,7 +3559,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Yanfei",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SET WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3567,11 +3579,17 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "character": "HuTao",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - BEST WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
-    "weapons": ["StaffOfHoma", "LithicSpear","BalladOfTheFjords","Deathmatch","DragonsBane"]
+    "weapons": [
+      "StaffOfHoma",
+      "LithicSpear",
+      "BalladOfTheFjords",
+      "Deathmatch",
+      "DragonsBane"
+    ]
   },
   {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
@@ -3606,7 +3624,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + enerRech_",
     "character": "Diluc",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY WITH FURINA",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -3647,7 +3665,7 @@
       "TulaytullahsRemembrance"
     ]
   },
-   {
+  {
     "flower": "hp_ + eleMas + hp_ + hp + atk_ + atk",
     "plume": "atk_ + eleMas + hp_ + hp + atk_ + atk",
     "sands": "eleMas + hp_ + hp + atk_ + atk",
@@ -3655,7 +3673,7 @@
     "circlet": "eleMas + enerRech_ + atk_ + atk",
     "character": "KukiShinobu",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -3675,7 +3693,7 @@
     "circlet": "critDMG_/critRate_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "character": "TravelerPyro",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD 3rd OPTION",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -3718,7 +3736,7 @@
     "circlet": "hp_/critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
     "character": "Chevreuse",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY combine with Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -3849,7 +3867,7 @@
     "circlet": "hp_ + critRate_ + critDMG_",
     "character": "Zhongli",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUPP SET - CAN COMBINE WITH Vourukasha's Glow FOR BEST SHIELD VALUE",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -3863,7 +3881,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "Dehya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST BUILD FOR SUPPORT",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -3884,7 +3902,7 @@
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "SangonomiyaKokomi",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD FOR CRYO/ELECTRO PARTY",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -4053,7 +4071,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Sigewinne",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SUB DPS SET WHEN USED WITH APPLICATORS LIKE FISCHL/YaeMiko CAN ALSO COMBINE WITH Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -4073,7 +4091,7 @@
     "circlet": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET WITH OVERLOAD / BURNING COMBINED WITH Emblem of Severed Fate",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -4113,7 +4131,7 @@
     "circlet": "hp_ + hp_ + hp + eleMas",
     "character": "Nilou",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "COMBINE WITH THE FOLLOWING 3 SETS - Heart of Depth / Wanderer's Troupe / Vourukasha's Glow",
     "setKey": "TenacityOfTheMillelith",
     "set_image": "seii_150.png",
@@ -4147,7 +4165,7 @@
       "TheDaybreakChronicles"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -4155,7 +4173,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Chasca",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
@@ -4180,7 +4198,7 @@
     "circlet": "critDMG_/critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Ifa",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS IF USING WITH electro_dmg_ CHARACTER",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
@@ -4259,7 +4277,7 @@
     "circlet": "critDMG_/critRate_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "character": "TravelerPyro",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS FOR SUPPORT",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
@@ -4380,7 +4398,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Ororon",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS BECAUSE Nightsoul's Blessing STATE",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
@@ -4417,7 +4435,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + atk_ + atk + eleMas",
     "character": "Xiangling",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH Emblem of Severed Fate IF USING NATLAN CHARACTERS",
     "setKey": "ScrollOfTheHeroOfCinderCity",
     "set_image": "seii_250.png",
@@ -4461,7 +4479,7 @@
       "TalkingStick"
     ]
   },
-   {
+  {
     "flower": "hp_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "plume": "atk_ + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "sands": "enerRech_/hp_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
@@ -4482,7 +4500,7 @@
       "RightfulReward"
     ]
   },
-    {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "sands": "eleMas + critDMG_ + critRate_ + enerRech_",
@@ -4490,7 +4508,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "character": "Alhaitham",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "USE SIMPLE OR COMBINE WITH Wanderer's Troupe OR Gilded Dreams",
     "setKey": "DeepwoodMemories",
     "set_image": "seii_190.png",
@@ -4503,7 +4521,7 @@
       "FesteringDesire"
     ]
   },
- {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -4523,7 +4541,7 @@
       "SerpentSpine"
     ]
   },
-    {
+  {
     "flower": "hp_ + enerRech_ + eleMas + critDMG_ + critRate_",
     "plume": "atk_ + enerRech_ + eleMas + critDMG_ + critRate_",
     "sands": "enerRech_/eleMas + enerRech_ + eleMas + critDMG_ + critRate_",
@@ -4755,7 +4773,7 @@
     "circlet": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
     "character": "Shenhe",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUB DPS COMBINED WITH Gladiator's Finale",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -4823,7 +4841,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Yelan",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - FOR ROTATION AND hydro_dmg_ APPLICATION",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -4845,7 +4863,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Xingqiu",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS FOR ROTATION AND HYDRO APPLICATION",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -4910,7 +4928,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Rosaria",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET FOR SUB DPS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -5061,7 +5079,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Kaeya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET FOR SUB DPS",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -5090,7 +5108,13 @@
     "description": "BEST SUB DPS BUILD combined with Silken Moon's Serenade",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
-    "weapons": ["FavoniusWarbow","SnareHook","FadingTwilight", "EndOfTheLine","RainbowSerpentsRainBow"]
+    "weapons": [
+      "FavoniusWarbow",
+      "SnareHook",
+      "FadingTwilight",
+      "EndOfTheLine",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
@@ -5119,7 +5143,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "Dehya",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SUB DPS SET CAN COMBINE WITH Crimson Witch of Flames OR Gladiator's Finale",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -5180,7 +5204,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Beidou",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS - GOOD FOR ROTATION AND FIREPOWER",
     "setKey": "EmblemOfSeveredFate",
     "set_image": "seii_160.png",
@@ -5314,7 +5338,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Rosaria",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SET WITH MELTING",
     "setKey": "UnfinishedReverie",
     "set_image": "seii_245.png",
@@ -5327,7 +5351,7 @@
       "TheCatch"
     ]
   },
-   {
+  {
     "flower": "hp_ + enerRech_ + atk_ + atk",
     "plume": "atk_ + enerRech_ + atk_ + atk",
     "sands": "atk_/enerRech_ + enerRech_ + atk_ + atk",
@@ -5335,7 +5359,7 @@
     "circlet": "atk_ + enerRech_ + atk_ + atk",
     "character": "Xianyun",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CONVERT RECOVERY TO BUFF",
     "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png",
@@ -5368,7 +5392,7 @@
     "circlet": "hp_/critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
     "character": "Chevreuse",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS IF YOU DON'T NEED Noblesse Oblige",
     "setKey": "SongOfDaysPast",
     "set_image": "seii_230.png",
@@ -5407,7 +5431,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "character": "Tartaglia",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - BUFFS hydro_dmg_ DMG AND COMPATIBLE WITH ALL WEAPONS",
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
@@ -5430,8 +5454,8 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Yelan",
     "critUser": true,
-    "stars":"★★★★",
-    "description":"GOOD SECONDARY COMBINE WITH Vourukasha's Glow",
+    "stars": "★★★★",
+    "description": "GOOD SECONDARY COMBINE WITH Vourukasha's Glow",
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
     "weapons": [
@@ -5452,7 +5476,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "KamisatoAyato",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "NymphsDream",
     "set_image": "seii_210.png",
@@ -5473,7 +5497,7 @@
     "circlet": "hp_/critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + eleMas",
     "character": "Chevreuse",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY combine with Tenacity of the Millelith",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
@@ -5493,7 +5517,7 @@
     "circlet": "hp_ + hp_ + hp + eleMas",
     "character": "Nilou",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS BLOOM combined with Tenacity of the Millelith",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
@@ -5566,7 +5590,7 @@
     "circlet": "hp_ + critRate_ + critDMG_",
     "character": "Zhongli",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST DPS SET - CAN COMBINE WITH Tenacity of the Millelith FOR BEST SHIELD VALUE ",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
@@ -5580,7 +5604,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "Dehya",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST DPS BUILD",
     "setKey": "VourukashasGlow",
     "set_image": "seii_215.png",
@@ -5612,7 +5636,7 @@
       "SequenceOfSolitude"
     ]
   },
-   {
+  {
     "flower": "hp_ + hp_ + hp + enerRech_ + eleMas",
     "plume": "atk_ + hp_ + hp + enerRech_ + eleMas",
     "sands": "hp_/enerRech_ + hp_ + hp + enerRech_ + eleMas",
@@ -5620,13 +5644,13 @@
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "SangonomiyaKokomi",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS FOR BLOOMING TEAM",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
     "weapons": ["PrototypeAmber", "SacrificialFragments", "EverlastingMoonglow"]
   },
-    {
+  {
     "flower": "hp_ + eleMas + hp_ + hp + atk_ + atk",
     "plume": "atk_ + eleMas + hp_ + hp + atk_ + atk",
     "sands": "eleMas + hp_ + hp + atk_ + atk",
@@ -5634,7 +5658,7 @@
     "circlet": "eleMas + enerRech_ + atk_ + atk",
     "character": "KukiShinobu",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS FOR NON-BLOOM WITH 4 DIFFRENT ELEMENTS IN TEAN / CAN COMBINE WITH Gilded Dreams",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
@@ -5654,7 +5678,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Xingqiu",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH BLOOMING TEAM",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
@@ -5747,7 +5771,7 @@
     "circlet": "eleMas + enerRech_ + atk_ + atk",
     "character": "KukiShinobu",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS FOR BLOOM",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
@@ -5767,7 +5791,7 @@
     "circlet": "eleMas + enerRech_ + hp_ + hp + critDMG_ + critRate_ + eleMas",
     "character": "Thoma",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SET WITH BLOOM/HYPERBLOOM/BURgeo_dmg_N",
     "setKey": "FlowerOfParadiseLost",
     "set_image": "seii_205.png",
@@ -5817,7 +5841,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Clorinde",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD FOR SECONDARY ESPECIALLY IF LOTS OF INTENSIFIED REACTIONS",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
@@ -5947,7 +5971,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Beidou",
     "critUser": true,
-    "stars":"★★★",
+    "stars": "★★★",
     "description": "GOOD SECONDARY COMBINED WITH Gladiator's Finale",
     "setKey": "ThunderingFury",
     "set_image": "seii_80.png",
@@ -6042,7 +6066,7 @@
       "SolarPearl"
     ]
   },
-   {
+  {
     "flower": "hp_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "plume": "atk_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "sands": "atk_/enerRech_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
@@ -6050,7 +6074,7 @@
     "circlet": "critDMG_/critRate_ + critRate_ + critDMG_ + enerRech_ + atk + atk_",
     "character": "TravelerPyro",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS FOR DPS",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
@@ -6096,7 +6120,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Chasca",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - EASY TO ACTIVATE USING NIGHTSOUL POINT",
     "setKey": "ObsidianCodex",
     "set_image": "seii_256.png",
@@ -6184,7 +6208,7 @@
       "TalkingStick"
     ]
   },
-    {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
@@ -6192,7 +6216,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "Dehya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD FOR EVAPORATION CAN COMBINE WITH Emblem of Severed Fate OR Gladiator's Finale",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
@@ -6205,7 +6229,7 @@
       "KatsuragikiriNagamasa"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -6226,7 +6250,7 @@
       "JadeVista"
     ]
   },
- {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
     "sands": "enerRech_/eleMas/atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk + eleMas",
@@ -6299,7 +6323,7 @@
     "character": "Diluc",
     "critUser": true,
     "description": "BiS CAN COMBINE WITH Gladiator's Finale",
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
     "weapons": [
@@ -6320,7 +6344,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Gaming",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECONDARY RECOMMENDED EQUIP WITH CRIT WEAPON",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
@@ -6343,7 +6367,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Yanfei",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST BUILD FOR OVERALL DMG",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
@@ -6363,7 +6387,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Yoimiya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET WITH DOUBLE electro_dmg_ APPLICATORS",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
@@ -6402,13 +6426,19 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "character": "HuTao",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS WITH XINGQUI/YELAN",
     "setKey": "CrimsonWitchOfFlames",
     "set_image": "seii_81.png",
-    "weapons": ["StaffOfHoma", "LithicSpear","BalladOfTheFjords","Deathmatch","DragonsBane"]
+    "weapons": [
+      "StaffOfHoma",
+      "LithicSpear",
+      "BalladOfTheFjords",
+      "Deathmatch",
+      "DragonsBane"
+    ]
   },
-     {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk + eleMas +  enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk  + eleMas +  enerRech_",
@@ -6416,7 +6446,7 @@
     "circlet": "atk_/critDMG_ + critDMG_ + critRate_ + atk + atk_ + eleMas +  enerRech_",
     "character": "LanYan",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD 3rd OPTION COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6436,7 +6466,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Chasca",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SETT FOR HEAVY HIT",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6453,7 +6483,7 @@
       "FlowerWreathedFeathers"
     ]
   },
-    {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk + enerRech_ + eleMas",
     "sands": "atk_/enerRech_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -6461,7 +6491,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Ororon",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECONDARY COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165 .png",
@@ -6477,7 +6507,7 @@
       "RainbowSerpentsRainBow"
     ]
   },
-    {
+  {
     "flower": "hp_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "eleMas/atk_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -6485,7 +6515,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6499,7 +6529,7 @@
       "FlameForgedInsight"
     ]
   },
- {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "sands": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
@@ -6605,7 +6635,7 @@
     "circlet": "critDMG_/critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Flins",
     "critUser": true,
-"stars": "★★★★",
+    "stars": "★★★★",
     "description": "SECOND BEST WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6633,7 +6663,7 @@
     "circlet": "atk_ + critDMG_ + critRate_ + enerRech_ + atk_ + atk",
     "character": "Shenhe",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS SUB DPS COMBINE WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6698,11 +6728,17 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + hp_ + hp",
     "character": "HuTao",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BEST SET FOR HEAVY ATTACK",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
-    "weapons": ["StaffOfHoma", "LithicSpear","BalladOfTheFjords","Deathmatch","DragonsBane"]
+    "weapons": [
+      "StaffOfHoma",
+      "LithicSpear",
+      "BalladOfTheFjords",
+      "Deathmatch",
+      "DragonsBane"
+    ]
   },
   {
     "flower": "hp_ + enerRech_ + atk_ + atk",
@@ -6712,7 +6748,7 @@
     "circlet": "atk_ + enerRech_ + atk_ + atk",
     "character": "Xianyun",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS DPS SET COMBINED WITH Gladiator's Finale",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
@@ -6750,13 +6786,13 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Yoimiya",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - FOR NON-electro_dmg_ COMPS",
     "setKey": "ShimenawasReminiscence",
     "set_image": "seii_165.png",
     "weapons": ["ThunderingPulse", "SkywardHarp"]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "plume": "atk_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "sands": "eleMas + critDMG_ + critRate_ + enerRech_",
@@ -6764,7 +6800,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + eleMas + enerRech_",
     "character": "Alhaitham",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "COMBINE WITH Deepwood Memories OR Gilded Dreams",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
@@ -6809,7 +6845,7 @@
     "circlet": "hp_ + hp_ + hp + eleMas",
     "character": "Nilou",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "2nd Option combined with Tenacity of the Millelith",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
@@ -6893,7 +6929,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Yanfei",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BEST SET FOR HEAVY ATTACK DMG",
     "setKey": "WanderersTroupe",
     "set_image": "seii_78.png",
@@ -7001,7 +7037,7 @@
       "RainbowSerpentsRainBow"
     ]
   },
-   {
+  {
     "flower": "hp_ + eleMas + enerRech_",
     "plume": "atk_ + eleMas + enerRech_",
     "sands": "eleMas + enerRech_",
@@ -7009,7 +7045,7 @@
     "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND OPTION ( USE HEAVY HIT )",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
@@ -7031,7 +7067,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas + enerRech_",
     "character": "Yoimiya",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "BiS - FOR NON-electro_dmg_ COMPS",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
@@ -7086,7 +7122,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Clorinde",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY SET WITH DMG BUFFERS LIKE FURINA/KaedeharaKazuha",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
@@ -7107,7 +7143,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "character": "Tartaglia",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD FOR SECOND SLOT - BUFFS ATTACKS",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
@@ -7130,7 +7166,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "KamisatoAyato",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP",
     "setKey": "EchoesOfAnOffering",
     "set_image": "seii_180.png",
@@ -7170,7 +7206,7 @@
     "circlet": "heal_ + hp_ + hp + enerRech_ + eleMas",
     "character": "SangonomiyaKokomi",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECONDARY",
     "setKey": "OceanHuedClam",
     "set_image": "seii_170.png",
@@ -7314,7 +7350,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + enerRech_",
     "character": "Neuvillette",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD SECOND OPTION",
     "setKey": "MarechausseeHunter",
     "set_image": "seii_220.png",
@@ -7335,7 +7371,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Xingqiu",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD 3RD OPTION COMBINED WITH Gladiator's Finale",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
@@ -7356,7 +7392,7 @@
     "circlet": "hp_ + hp_ + hp + eleMas",
     "character": "Nilou",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "3rd Option BLOOMING combined with Tenacity of the Millelith",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
@@ -7376,7 +7412,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + hp_ + hp + enerRech_",
     "character": "KamisatoAyato",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "CHOOSE THIS ONE IF ITS GOOD FOR COMP CAN COMBINE WITH Gladiator's Finale",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
@@ -7397,7 +7433,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + hp_ + hp + eleMas + enerRech_",
     "character": "Mualani",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND SET",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
@@ -7421,7 +7457,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + eleMas",
     "character": "Tartaglia",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD SECOND SET WITH WEAPONS: Polar Star / Thundering Pulse CAN COMBINE WITH Gladiator's Finale",
     "setKey": "HeartOfDepth",
     "set_image": "seii_145.png",
@@ -7456,7 +7492,7 @@
       "IronSting"
     ]
   },
-   {
+  {
     "flower": "hp_ + eleMas + enerRech_",
     "plume": "atk_ + eleMas + enerRech_",
     "sands": "eleMas + enerRech_",
@@ -7464,7 +7500,7 @@
     "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "DPS SET ( USE HEAVY HIT )",
     "setKey": "DesertPavilionChronicle",
     "set_image": "seii_200.png",
@@ -7517,7 +7553,7 @@
       "BalladOfTheBoundlessBlue"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -7525,7 +7561,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD 3RD OPTION",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
@@ -7573,7 +7609,7 @@
     "circlet": "hp_ + critRate_ + critDMG_",
     "character": "Zhongli",
     "critUser": false,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "SECOND BEST SET FOR SUPPORT",
     "setKey": "ArchaicPetra",
     "set_image": "seii_84.png",
@@ -7656,7 +7692,7 @@
       "SnowTombedStarsilver"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "plume": "atk_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "sands": "atk_/eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
@@ -7664,7 +7700,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_ + eleMas",
     "character": "Gaming",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "3RD OPTION",
     "setKey": "LongNightsOath",
     "set_image": "seii_83.png",
@@ -7761,7 +7797,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Xingqiu",
     "critUser": true,
-    "stars":"★★★★",
+    "stars": "★★★★",
     "description": "GOOD WITH LUNAR BLOOM",
     "setKey": "SilkenMoonsSerenade",
     "set_image": "seii_275.png",
@@ -7786,7 +7822,13 @@
     "description": "BEST SUB DPS BUILD combined with Emblem of Severed Fate",
     "setKey": "SilkenMoonsSerenade",
     "set_image": "seii_275.png",
-    "weapons": ["FavoniusWarbow","SnareHook","FadingTwilight", "EndOfTheLine","RainbowSerpentsRainBow"]
+    "weapons": [
+      "FavoniusWarbow",
+      "SnareHook",
+      "FadingTwilight",
+      "EndOfTheLine",
+      "RainbowSerpentsRainBow"
+    ]
   },
   {
     "flower": "hp_ + eleMas + enerRech_",
@@ -7899,7 +7941,7 @@
     "circlet": "critDMG_ + eleMas + enerRech_ + critDMG_ + critRate_",
     "character": "Aino",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS FOR SUPPORT WITH NOD-KAI",
     "setKey": "SilkenMoonsSerenade",
     "set_image": "seii_275.png",
@@ -7918,13 +7960,13 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD WITH LUNAR CRYSTALLIZE",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
     "weapons": ["RedhornStonethresher", "Whiteblind"]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -7932,7 +7974,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "AratakiItto",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS - LUNAR CRYSTALLIZE",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
@@ -8014,7 +8056,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + def_ +def + eleMas + enerRech_",
     "character": "Zibai",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS",
     "setKey": "NightOfTheSkysUnveiling",
     "set_image": "seii_270.png",
@@ -8249,7 +8291,7 @@
     "circlet": "eleMas + enerRech_",
     "character": "Venti",
     "critUser": false,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS with HomeworkDone",
     "setKey": "ADayCarvedFromRisingWinds",
     "set_image": "seii_285.png",
@@ -8297,7 +8339,7 @@
     "circlet": "eleMas/critDMG_/critRate_ + eleMas + critDMG_ + critRate_ + atk_ + atk + enerRech_",
     "character": "Razor",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "BiS with HomeworkDone",
     "setKey": "ADayCarvedFromRisingWinds",
     "set_image": "seii_285.png",
@@ -8783,7 +8825,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "AratakiItto",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD WITH SHIELD USERS",
     "setKey": "RetracingBolide",
     "set_image": "seii_85.png",
@@ -8794,7 +8836,7 @@
       "Whiteblind"
     ]
   },
-   {
+  {
     "flower": "hp_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "plume": "atk_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "sands": "def_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
@@ -8802,7 +8844,7 @@
     "circlet": "critDMG_/critRate_ + critDMG_ + critRate_ + enerRech_ + def_ + def",
     "character": "Noelle",
     "critUser": true,
-    "stars":"★★★★★",
+    "stars": "★★★★★",
     "description": "GOOD WITH SHIELD USERS",
     "setKey": "RetracingBolide",
     "set_image": "seii_85.png",
