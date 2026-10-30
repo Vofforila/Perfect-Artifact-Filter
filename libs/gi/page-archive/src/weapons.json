@@ -32,6 +32,8 @@
     "SilverLight"
   ],
   "battlepass": [
+    "HereticsMoltenBlade",
+    "ForgedByTheGoldenMelody",
     "ScionOfTheBlazingSun",
     "TheViridescentHunt",
     "TheBlackSword",
@@ -41,7 +43,10 @@
     "SerpentSpine",
     "TalkingStick",
     "SacrificialJade",
-    "SolarPearl"
+    "SolarPearl",
+    "JadeVista",
+    "Frostbreath",
+    "ClashOfKings"
   ],
   "starlight": [
     "BlackcliffWarbow",
@@ -56,6 +61,8 @@
     "BlackcliffAgate"
   ],
   "craftable": [
+    "EchoesOfTheHeart",
+    "ChainBreaker",
     "CompoundBow",
     "KingsSquire",
     "PrototypeCrescent",
