@@ -19,8 +19,7 @@ import {
 } from '@mui/material'
 import { useContext, useDeferredValue, useMemo, useState } from 'react'
 import perfect_sets from './artifacts.json'
-import PerfectartifactCard from './PerfectArtifactCard'
-import type { PerfectArtifactSet } from './TestPerfectArtifacts'
+import PerfectArtifactCard from './PerfectArtifactCard'
 
 const rarties = [5, 4] as const
 export default function PageArchive() {
@@ -98,24 +97,27 @@ export default function PageArchive() {
         </FormControl>
 
         <Grid container spacing={2}>
-          {(perfect_sets as PerfectArtifactSet[])
-            .filter((perfect_set) => {
-              if (characterFilter === '') return true
-              return perfect_set.character === characterFilter
-            })
-            .map((perfect_set, index) => {
-              return (
-                <Grid item xs={6} key={index}>
-                  <CardThemed>
-                    <CardContent>
-                      <Box sx={{ position: 'relative' }}>
-                        <PerfectartifactCard perfect_set={perfect_set} />
-                      </Box>
-                    </CardContent>
-                  </CardThemed>
-                </Grid>
-              )
-            })}
+          {perfect_sets
+            .filter(
+              (perfect_set) =>
+                characterFilter === '' ||
+                perfect_set.character === characterFilter
+            )
+            .map((perfect_set, index) => (
+              <Grid
+                item
+                xs={6}
+                key={`${perfect_set.character}-${perfect_set.setKey}-${index}`}
+              >
+                <CardThemed>
+                  <CardContent>
+                    <Box sx={{ position: 'relative' }}>
+                      <PerfectArtifactCard perfect_set={perfect_set} />
+                    </Box>
+                  </CardContent>
+                </CardThemed>
+              </Grid>
+            ))}
         </Grid>
       </CardContent>
     </CardThemed>
