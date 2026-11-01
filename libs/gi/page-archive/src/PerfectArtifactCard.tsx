@@ -1,7 +1,7 @@
 import { NextImage } from '@genshin-optimizer/common/ui'
 import { artifactAsset } from '@genshin-optimizer/gi/assets'
 import { SlotIcon } from '@genshin-optimizer/gi/svgicons'
-import { ArtifactSetSlotName, LocationName } from '@genshin-optimizer/gi/ui'
+import { LocationName } from '@genshin-optimizer/gi/ui'
 import { Box, Chip, Typography } from '@mui/material'
 
 export interface PerfectArtifactSet {
@@ -79,13 +79,17 @@ export default function PerfectArtifactCard({
               sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
             >
               <SlotIcon iconProps={{ fontSize: 'inherit' }} slotKey={slot} />
-              <strong>
-                <ArtifactSetSlotName
-                  setKey={perfect_set.setKey}
-                  slotKey={slot}
-                />
-                :
-              </strong>
+              <Box sx={{ display: 'flex', gap: 1 }}>
+                <span
+                  style={{
+                    textTransform: 'capitalize',
+                    fontWeight: 'bold',
+                    minWidth: '60px',
+                  }}
+                >
+                  {slot}:
+                </span>
+              </Box>
               {perfect_set[slot]}
             </Typography>
           </Box>
