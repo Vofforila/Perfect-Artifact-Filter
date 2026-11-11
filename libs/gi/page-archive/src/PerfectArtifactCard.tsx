@@ -146,6 +146,7 @@ export default function PerfectArtifactCard({
             }}
           >
             <Typography
+              component="div"
               variant="body2"
               sx={{ display: 'flex', alignItems: 'center', gap: 1 }}
             >
