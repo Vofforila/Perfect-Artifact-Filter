@@ -1395,6 +1395,33 @@
     ]
   },
   {
+    "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
+    "plume": "atk_ + critDMG_ + critRate_ + eleMas + enerRech_",
+    "sands": "eleMas + critDMG_ + critRate_ + enerRech_",
+    "goblet": "eleMas + critDMG_ + critRate_ + enerRech_",
+    "circlet": "critDMG_/critRate_/eleMas + critDMG_ + critRate_ + eleMas + enerRech_",
+    "character": "Mitya",
+    "critUser": true,
+    "description": "GOOD SECONDARY IF AT MAX CAPACITY",
+    "stars": "★★★★",
+    "setKey": "GildedDreams",
+    "set_image": "seii_195.png",
+    "weapons": [
+      "StarsealedEdict",
+      "ClashOfKings",
+      "EtherlightSpindlelute",
+      "TheWidsith",
+      "SacrificialJade",
+      "SacrificialFragments",
+      "ReliquaryOfTruth",
+      "WintersHeavyHeart",
+      "DawningFrost",
+      "SunnyMorningSleepIn",
+      "StarcallersWatch",
+      "AThousandFloatingDreams"
+    ]
+  },
+  {
     "flower": "hp_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
     "plume": "atk_ + enerRech_ + critDMG_ + critRate_ + atk_ + atk",
     "sands": "enerRech_/atk_/eleMas + critDMG_ + critRate_ + atk_ + atk + eleMas",
@@ -2447,33 +2474,6 @@
       "PrimordialJadeCutter",
       "FinaleOfTheDeep",
       "KagotsurubeIsshin"
-    ]
-  },
-  {
-    "flower": "hp_ + critDMG_ + critRate_ + eleMas + enerRech_",
-    "plume": "atk_ + critDMG_ + critRate_ + eleMas + enerRech_",
-    "sands": "eleMas + critDMG_ + critRate_ + enerRech_",
-    "goblet": "eleMas + critDMG_ + critRate_ + enerRech_",
-    "circlet": "critDMG_/critRate_/eleMas + critDMG_ + critRate_ + eleMas + enerRech_",
-    "character": "Mitya",
-    "critUser": true,
-    "description": "GOOD SECONDARY IF AT MAX CAPACITY",
-    "stars": "★★★★",
-    "setKey": "GoldenTroupe",
-    "set_image": "seii_225.png",
-    "weapons": [
-      "StarsealedEdict",
-      "ClashOfKings",
-      "EtherlightSpindlelute",
-      "TheWidsith",
-      "SacrificialJade",
-      "SacrificialFragments",
-      "ReliquaryOfTruth",
-      "WintersHeavyHeart",
-      "DawningFrost",
-      "SunnyMorningSleepIn",
-      "StarcallersWatch",
-      "AThousandFloatingDreams"
     ]
   },
   {
