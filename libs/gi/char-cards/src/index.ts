@@ -69,6 +69,7 @@ import Lynette from './Character_Lynette_Card.jpg'
 import Lyney from './Character_Lyney_Card.jpg'
 import Mavuika from './Character_Mavuika_Card.jpg'
 import Mika from './Character_Mika_Card.jpg'
+import Mitya from './Character_Mitya_Card.webp'
 import Mona from './Character_Mona_Card.jpg'
 import Mualani from './Character_Mualani_Card.jpg'
 import Nahida from './Character_Nahida_Card.jpeg'
@@ -99,8 +100,11 @@ import Sucrose from './Character_Sucrose_Card.jpg'
 import Tartaglia from './Character_Tartaglia_Card.png'
 import Thoma from './Character_Thoma_Card.jpg'
 import Tighnari from './Character_Tighnari_Card.jpg'
+import Valeriy from './Character_Valeriy_Card.webp'
 import Varesa from './Character_Varesa_Card.jpg'
 import Venti from './Character_Venti_Card.jpg'
+import Vesna from './Character_Vesna_Card.webp'
+import Vodyanitsa from './Character_Vodyanitsa_Card.webp'
 import Wanderer from './Character_Wanderer_Card.jpg'
 import Wriothesley from './Character_Wriothesley_Card.jpg'
 import Xiangling from './Character_Xiangling_Card.jpg'
@@ -191,6 +195,7 @@ const charCards = {
   Lynette,
   Mavuika,
   Mika,
+  Mitya,
   Mona,
   Mualani,
   Nahida,
@@ -223,9 +228,12 @@ const charCards = {
   Tighnari,
   TravelerF,
   TravelerM,
+  Valeriy,
   Varesa,
   Varka,
   Venti,
+  Vesna,
+  Vodyanitsa,
   Wanderer,
   Wriothesley,
   Xiangling,
